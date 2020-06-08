@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+  <style>
+    .container {
+      /* display: none;   */
+      border: 2px solid red;
+      background-color: green;
+      width: 1000px;
+      height: 500px;
+      color: white;
+      /* display: flex; */
+
+    }
+
+    .box {
+      text-align: center;
+      /* display: none; */
+      width: 200px;
+      height: 200px;
+      margin: auto;
+      top: 0px;
+
+      background-color: blue;
+
+
+    }
+
+    .animate {
+
+      animation-name: sarbjot;
+      animation-duration: .5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: inherit;
+      /* animation-timing-function:ease-in; */
+      animation-direction: normal;
+    }
+    
+    .animate1 {
+
+      animation-name: sarbjot1;
+      animation-duration: .5s;
+      animation-iteration-count: inherit;
+      /* animation-timing-function:ease-in; */
+      animation-direction: normal;
+    }
+
+    @keyframes sarbjot {
+      from {}
+      
+      to {
+        /* display: block; */
+        transform: translate(200px, 0px);
+      }
+    }
+    @keyframes sarbjot1 {
+      from {
+        transform: translate(200px, 0px);
+      }
+
+      to {
+        /* display: block; */
+        transform: translate(0px, 0px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box" id="box1">
+
+    </div>
+  </div>
+  <button class="btn" id='button' onclick="ani()">Click here</button>
+</body>
+<script>
+
+  function ani() {
+  var a = document.getElementById('box1').className;
+  if(a == "animate box"){
+      document.getElementById('box1').className ="animate1 box";
+  }
+  else
+      document.getElementById('box1').className ="animate box";
+  }
+
+</script>
+
+</html>

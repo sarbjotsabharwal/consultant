@@ -13,22 +13,31 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
     rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- V CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 
+
 </head>
 
 <body>
+ <?php 
+ include('homecover.html');
+ ?>
+<?php 
 
+include('chatbotpopup.html');
+?>
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container-fluid">
@@ -36,7 +45,7 @@
       <div id="logo" class="pull-left">
         <!-- <h1><a href="#intro" class="scrollto">BizPage</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#intro"><img src="assets/img/logo.jpg" alt="" style="border-radius:20px; opacity:90%;"></a>
+        <a href="index.php"><img src="assets/img/logo.jpg" alt="" style="border-radius:20px; opacity:90%;"></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -44,7 +53,7 @@
           <!-- <li class="menu-active"><a href="#intro">Home</a></li> -->
           <li><a href="#discover">Discover Charthill</a>
             <ul>
-              <li><a href="#"></a></li>
+              <li><a href="#">About Us</a></li>
               <li><a href="#">Our Business Alliance</a></li>
               <li><a href="#">Social Impact</a></li>
 
@@ -98,7 +107,7 @@
                 <h2>Discover Charthill Consulting</h2>
                 <p>Learn how Charthill Consultant can help you to with amazing business opportunities. Let's make a
                   difference together.</p>
-                  <a href="aboutus.html"><button type="button" class="btn btn-outline-light">More About Us</button></a>
+                  <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a>
                   <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -111,7 +120,7 @@
                 <h2>Right People Right Investments</h2>
                 <p>We offer a list of Licensing, Franchising, Business Development, Marketing & Sales services help our
                   clients to build global brands and businesses. </p>
-                  <a href="aboutus.html"><button type="button" class="btn btn-outline-light">More About Us</button></a>
+                  <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a>
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -137,8 +146,8 @@
   <!--card section-->
   <div class="cardcontainer" id="allservices">
     <div id="servicebox">
-      <h1 align="center" style="color:white;">Our Services</h1>
-      <p align="center" style="color: white;">At CHARTHILL we offer a list of licensing, franchising, business
+      <h1 align="center" style="color:white;z-index:5;">Our Services</h1>
+      <p align="center" style="color: white;z-index:5;">At CHARTHILL we offer a list of licensing, franchising, business
         development, Marketing & Sales services help our clients to build global brands and businesses.</p>
       <div class="cardcollection">
         <div class="card">
@@ -203,68 +212,18 @@
   <!--card section-->
 
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="position: absolute; width:100%;">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5 col-md-6 footer-info">
-            <h3>Charthill Consulting</h3>
-            <p style="text-align:justify;">Charthill Consultants is committed to delivering the highest level of client
-              satisfaction in the consulting market. At Charthill Consultants we try our utmost to provide our clients
-              the best hidden opportunities they may never have thought about and heard about. To support and achieve
-              this goal, the firm has implemented a quality policy that is systematically applied to all its
-              assignments.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links" style="margin-left: 40px;">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Elitepool Cover</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Our Team</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Business Opportunities</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact" style="margin-left: 0px;">
-            <h4>Contact Us</h4>
-            <p>
-              500 North Rainbow Blvd,<br>
-              Suite 300, LAS VEGAS<br>
-              Nevada, 89107<br>
-              UNITED STATES <br>
-              <strong>Phone:</strong> [+61] 439 971 455<br>
-              <strong>Email:</strong> info@charthillconsultants.com <br>
-            </p>
-
-            <div class="social-links" style="display: block; width: 2rem; margin: auto;">
-              <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3" style="background-color: rgb(53, 53, 53);">© 2020 Copyright:
-      <a href="index.html">CharthillConsultants.com/</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer><!-- End Footer -->
 
 
 
+<!-- footer start -->
 
+<?php 
+
+include('footer.html');
+
+?>
+
+<!-- footer end -->
 
 
   <!-- Vendor JS Files -->

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cover1 {
+            position: absolute;
+            top:0;
+            right: 0;
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            background: url('assets/img/cover1.jpg') center no-repeat fixed;
+            animation-name: flipcover;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+            animation-delay: 2000ms;
+            z-index: 1000;
+
+        }
+        @keyframes flipcover{
+            from{
+                
+            }
+            to{
+                height: 0px;
+            }
+        }
+
+        /* .cover2 {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            background: url('assets/img/cover1.jpg') center no-repeat fixed;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div class="cover1" id="cover1">
+
+
+    </div>
+</body>
+<script>
+    
+    // function flipcover() {
+    //     document.getElementById('cover1').className = "cover2";
+    // }
+    // console.log("This is tutuorial")
+    // // setimeout allows us to run the funtion once after the interval of time
+    // setTimeout(flipcover, 3000, "");
+
+</script>
+
+</html>

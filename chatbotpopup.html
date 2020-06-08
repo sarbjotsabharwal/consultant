@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Button used to open the chat form - fixed at the bottom of the page */
+        .open-button {
+            background-color: #white;
+            color: black;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: auto;
+            z-index: 5;
+            border-radius: 10px;
+        }
+
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            /* background: ; */
+            /* top: 5rem; */
+            bottom: 50px;
+            width: 200px;
+            right: 0;
+            /* border: 3px solid #f1f1f1; */
+            z-index: 9;
+            border-radius: 50px;
+
+            /* annimation syntax */
+
+            animation-name: sarbjot;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            /* animation-delay: 3s; */
+            animation-iteration-count: 1;
+            /* animation-timing-function:ease-in; */
+            animation-direction: normal;
+
+        }
+
+        .chat-popup1 {
+            display: none;
+            position: fixed;
+            background: none;
+            /* top: 5rem; */
+            bottom: 50px;
+            width: 200px;
+            right: 0;
+            /* border: 3px solid #f1f1f1; */
+            z-index: 9;
+            border-radius: 50px;
+
+            /* annimation syntax */
+
+            animation-name: sarbjot1;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            /* animation-delay: 3s; */
+            animation-iteration-count: 1;
+            /* animation-timing-function:ease-in; */
+            animation-direction: normal;
+
+        }
+
+
+        @keyframes sarbjot {
+            from {
+
+                transform: translate(-30px, 200px);
+            }
+
+            to {
+                /* display: block; */
+                transform: translate(-30px, 0px);
+            }
+        }
+
+        @keyframes sarbjot1 {
+            from {
+                transform: translate(-30px, 0px);
+            }
+
+            to {
+                /* display: block; */
+                transform: translate(350px, 0px);
+            }
+        }
+
+        /* Add styles to the form container */
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: white;
+            border: 50px;
+        }
+
+        /* Full-width textarea */
+        .form-container textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+            resize: none;
+            min-height: 200px;
+        }
+
+        /* When the textarea gets focus, do something */
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit/send button */
+        .form-container .btn {
+            background-color: rgb(45, 143, 48);
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+
+        /* Add a red background color to the cancel button */
+        .form-container .cancel {
+            background-color: red;
+
+        }
+
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+        }
+
+        #myBtn {
+            display: block;
+            /* Hidden by default */
+            position: fixed;
+            /* Fixed/sticky position */
+            bottom: 0px;
+            /* Place the button at the bottom of the page */
+            right: 70px;
+            /* Place the button 30px from the right */
+            z-index: 99;
+            /* Make sure it does not overlap */
+            border: none;
+            /* Remove borders */
+            outline: none;
+            /* Remove outline */
+            background-color: rgb(54, 54, 54);
+            /* Set a background color */
+            color: white;
+            /* Text color */
+            cursor: pointer;
+            /* Add a mouse pointer on hover */
+            padding: 15px;
+            /* Some padding */
+            border-radius: 10px;
+            /* Rounded corners */
+            /* font-size: 18px; */
+            /* Increase font size */
+            width: 50px;
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+            /* Add a dark-grey background on hover */
+        }
+
+        .clickhere {
+            display: none;
+            position: fixed;
+            right: 30px;
+            bottom: 60px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 10px;
+            z-index: 8;
+            opacity: .8;
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 250, 1), 0 0px 10px 0 rgba(255, 255, 255, 1);
+
+            animation-name: clickhere;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            /* animation-delay: 3s; */
+            animation-iteration-count: 1;
+            /* animation-timing-function:ease-in; */
+            animation-direction: normal;
+        }
+
+        @keyframes clickhere {
+            from {
+
+                transform: translate(200px, 0px);
+            }
+
+            to {
+                /* display: block; */
+                transform: translate(-10px, 0px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="assets/img/tenor.gif" alt="" class="clickhere" id="clickhere">
+    <!-- <button class="" id="myBtn" onclick="openCloseForm()">Click Here</button>    -->
+    <img src="assets/img/arrow.png" alt="" id="myBtn" onclick="openCloseForm()">
+    <div class="chat-popup" id="myForm">
+        <form action="" class="form-container">
+            <h2 class="text-center" style="font-family: 'Metal Mania', cursive;color: rgb(83, 83, 83);">Useful Links
+            </h2>
+
+
+
+            <button type="button" class="btn">Home</button>
+            <button type="button" class="btn">Our Services</button>
+            <button type="button" class="btn">Contact Us</button>
+            <a href="#" class="linkedin"
+                style="background-color: rgb(150, 150, 150);padding: 10px;border-radius: 40px;margin-left:40%;margin-right: 60%;margin-top: 5px;"><i
+                    class="fa fa-linkedin"></i></a>
+
+        </form>
+    </div>
+    <script>
+        // var pos = document.getElementById("myForm").className;
+
+        var i;
+        function openCloseForm() {
+            if (i == 1) {
+
+                document.getElementById("myForm").className = "chat-popup1";
+                // document.getElementById("myForm").style.display = "none";
+                // document.getElementById("myForm").style.display = "none";
+
+            }
+            else {
+
+                // document.getElementById("myForm").className = "chat-popup";
+                document.getElementById("myForm").style.display = "block";
+                i = 1;
+
+            }
+            // document.getElementById("myForm").style.display = "none";
+
+        }
+        function changePopupDisplay() {
+            document.getElementById('clickhere').style.display = "block";
+        }
+        setTimeout(changePopupDisplay, 4000, "");
+
+    </script>
+
+</body>
+
+</html>
