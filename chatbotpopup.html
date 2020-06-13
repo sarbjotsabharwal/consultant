@@ -14,7 +14,7 @@
 
         /* Button used to open the chat form - fixed at the bottom of the page */
         .open-button {
-            background-color: #white;
+            background-color: white;
             color: black;
             padding: 16px 20px;
             border: none;
@@ -190,7 +190,7 @@
             position: fixed;
             right: 30px;
             bottom: 60px;
-            width: 100px;
+            width: 70px;
             border: 2px solid black;
             border-radius: 10px;
             z-index: 8;
@@ -214,23 +214,22 @@
 
             to {
                 /* display: block; */
-                transform: translate(-10px, 0px);
+                transform: translate(-30px, 0px);
             }
         }
     </style>
+
 </head>
 
 <body>
-    <img src="assets/img/tenor.gif" alt="" class="clickhere" id="clickhere">
+    <img src="assets/img/arrowdown.jpg" alt="" class="clickhere" id="clickhere">
     <!-- <button class="" id="myBtn" onclick="openCloseForm()">Click Here</button>    -->
+
     <img src="assets/img/arrow.png" alt="" id="myBtn" onclick="openCloseForm()">
     <div class="chat-popup" id="myForm">
         <form action="" class="form-container">
             <h2 class="text-center" style="font-family: 'Metal Mania', cursive;color: rgb(83, 83, 83);">Useful Links
             </h2>
-
-
-
             <button type="button" class="btn">Home</button>
             <button type="button" class="btn">Our Services</button>
             <button type="button" class="btn">Contact Us</button>
@@ -243,29 +242,55 @@
     <script>
         // var pos = document.getElementById("myForm").className;
 
+        function OpenForm() {
+            // document.getElementById("myForm").className = "chat-popup";
+            // var new1 = <img src="assets/img/cross.png" alt="" id="myBtn" onclick="CloseForm()"></img>;
+            // document.getElementById("myForm").style.display = "block";
+            // document.getElementById("myBtn").innerHTML = new1;
+
+        }
+
+        // var pos = document.getElementById("myForm").className;
+
+
+
         var i;
+
         function openCloseForm() {
+
             if (i == 1) {
 
                 document.getElementById("myForm").className = "chat-popup1";
+
                 // document.getElementById("myForm").style.display = "none";
+
                 // document.getElementById("myForm").style.display = "none";
 
             }
+
             else {
 
                 // document.getElementById("myForm").className = "chat-popup";
+
                 document.getElementById("myForm").style.display = "block";
+
                 i = 1;
 
             }
+
             // document.getElementById("myForm").style.display = "none";
 
         }
+
         function changePopupDisplay() {
+
             document.getElementById('clickhere').style.display = "block";
+
         }
+
         setTimeout(changePopupDisplay, 4000, "");
+
+
 
     </script>
 

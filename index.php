@@ -38,58 +38,12 @@
 
 include('chatbotpopup.html');
 ?>
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container-fluid">
+<!-- header import -->
+<?php 
 
-      <div id="logo" class="pull-left">
-        <!-- <h1><a href="#intro" class="scrollto">BizPage</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.php"><img src="assets/img/logo.jpg" alt="" style="border-radius:20px; opacity:90%;"></a>
-      </div>
+include('header.html');
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <!-- <li class="menu-active"><a href="#intro">Home</a></li> -->
-          <li><a href="#discover">Discover Charthill</a>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Business Alliance</a></li>
-              <li><a href="#">Social Impact</a></li>
-
-            </ul>
-          </li>
-          <li><a href="#allservices">Services</a>
-            <ul>
-              <li><a href="#">Licensing</a></li>
-              <li><a href="#">Franchising</a></li>
-              <li><a href="#">IPO Advisory</a></li>
-              <li><a href="#">Business Migration Services</a></li>
-              <li><a href="#">Sales & Marketing</a></li>
-            </ul>
-
-          </li>
-          <li><a href="#portfolio">Elitepool Cover</a></li>
-          <li><a href="#team">Our Team</a>
-            <ul>
-              <li><a href="#">Solar Bubble Covers</a></li>
-              <li><a href="#">Roller Systems</a></li>
-              <li><a href="#">Security & Debris Covers</a></li>
-              <li><a href="#">Fully Automatic Covers</a></li>
-              <li><a href="#">Commercial Range</a></li>
-              <li><a href="#">Thermal Shield</a></li>
-            </ul>
-          </li>
-          <li class="menu-has-children"><a href="">Business Opportunities</a>
-            <ul>
-              <li><a href="#">Invest with Us</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- End Header -->
+?>
 
   <!-- ======= Intro Section ======= -->
   <section id="intro">
@@ -107,7 +61,7 @@ include('chatbotpopup.html');
                 <h2>Discover Charthill Consulting</h2>
                 <p>Learn how Charthill Consultant can help you to with amazing business opportunities. Let's make a
                   difference together.</p>
-                  <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a>
+                  <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
                   <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -120,7 +74,7 @@ include('chatbotpopup.html');
                 <h2>Right People Right Investments</h2>
                 <p>We offer a list of Licensing, Franchising, Business Development, Marketing & Sales services help our
                   clients to build global brands and businesses. </p>
-                  <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a>
+                  <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -210,10 +164,6 @@ include('chatbotpopup.html');
     </div>
   </div>
   <!--card section-->
-
-
-
-
 
 <!-- footer start -->
 
