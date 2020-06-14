@@ -1747,11 +1747,11 @@ background-color: rgb(47, 44, 63);
   padding: 150px;
 }
 #heading h1{
-  font-size: 150px;
+  font-size: 80px;
 
 }
 
-.main-container::before {
+#heading::before {
   content: "";
   background: url('../img/serviceback1.jpg') no-repeat center center/cover;
   position: absolute;
@@ -1759,8 +1759,11 @@ background-color: rgb(47, 44, 63);
   /* left:0; */
   width: 100%;
   height: 100%;
+
   opacity: 0.4;
-  /* z-index: -1; */
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 #businessalliance{
 background-color: rgb(231, 102, 79);
@@ -1787,12 +1790,6 @@ opacity: 1;
   /* z-index: -1; */
 }
 
-.cardcontainer {
-  background: black;
-  /* background-image: url('../img/servicesback.jpg'); */
-  padding-bottom: 20px;
-}
-
 .cardcontainer h1 {
   color: white;
   padding: 30px;
@@ -1807,4 +1804,9 @@ opacity: 1;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   /* margin-top: 1rem; */
+}
+
+#ba1:hover{
+  /* display: none; */
+  
 }
