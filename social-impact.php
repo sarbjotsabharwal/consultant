@@ -128,9 +128,10 @@
                                 <div class="card text-center" style="width: 70vw;top:5vh;">
                                     <div class="card-header" style="padding: 0;">
                                         <img src="assets/img/SocialImpact/solar-cell.jpg" alt=""
-                                            style="border-radius:15px;width: 100%;height: 350px;">
+                                            style="border-top-right-radius:15px;border-top-right-radius:15px;width: 100%;height: 350px;">
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" style="background: linear-gradient(to right, #00c6ff, #0072ff);border-bottom-left-radius: 25px;border-bottom-right-radius:25px;color: white;
+                                    ">
                                         <h5 class="card-title" style="font-family: 'Baloo Chettan 2', cursive;">Social Impact</h5>
                                         <h7 style="text-align: justify;"> Charthill desires to be the torch bearer of
                                             promoting the use of renewable energy sources, thereby helping to sustain
@@ -142,9 +143,9 @@
                                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                                         </h7>
                                     </div>
-                                    <div class="card-footer text-muted">
-                                        <!-- 2 days ago -->
-                                    </div>
+                                    <!-- <div class="card-footer text-muted">
+                                        2 days ago
+                                    </div> -->
                                 </div>
                                 <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
                                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
@@ -163,7 +164,7 @@
                                         <img src="assets/img/SocialImpact/wind-mill.jpg" alt=""
                                             style="border-radius:15px;width: 100%;height: 350px;">
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" style="  background: linear-gradient(to right, #ffb75e, #ed8f03);;color:rgb(255, 255, 255);border-bottom-left-radius:25px;border-bottom-right-radius: 25px;">
                                         <h5 class="card-title" style="font-family: 'Baloo Chettan 2', cursive;">Social Impact</h5>
                                         <h7 style="text-align: justify;"> In the past three decades, research and
                                             development in green energy has exploded, yielding hundreds of promising new
@@ -175,9 +176,9 @@
                                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                                         </h7>
                                     </div>
-                                    <div class="card-footer text-muted">
-                                        <!-- 2 days ago -->
-                                    </div>
+                                    <!-- <div class="card-footer text-muted">
+                                        2 days ago
+                                    </div> -->
                                 </div>
                                 <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
                                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
@@ -217,7 +218,10 @@
     <!-- End Intro Section -->
 
     <!--card section-->
-    <div class="cardcontainer1" id="allcards1">
+    <div class="cardcontainer1" id="allcards1" style="background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ">
 
         <div class="card bg-light mb-3" style="" id="ba1">
             <div class="card-header" style="padding:10px;">
@@ -225,9 +229,12 @@
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
                 <h5 class="card-title">ELITE POOL COVERS </h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background: #00b09b;
+            border-radius: 25px;
+            background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+            background: linear-gradient(to right, #96c93d, #00b09b);">
                 <p class="card-text"
-                    style="text-align: justify;height: auto;width:50%;margin: 10px;display: inline-block;">
+                    style="text-align: justify;height: auto;width:50%;margin: 10px;display: inline-block;color: white;">
                     ELITE POOL COVER specializes in the design, development, fabrication, and supply of triple cell
                     solar blanket. Elite pool cover got specialty in innovative technologies and products .Ultra New
                     Award Winning Triple Cell® Solar Pool Blanket – a world first
@@ -245,7 +252,7 @@
 
                 </p>
                 <img src="assets/img/SocialImpact/poolcover.jpg" alt=""
-                    style="display:inline-block;float: right;width:40%;border-radius: 20px;">
+                    style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;">
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -257,14 +264,18 @@
                             style="width: 100%;margin: 0;border-radius: 30px;"> -->
                 <h5 class="card-title">ELITE TRIPLE CELL® World Leading Technology </h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background: #fc4a1a;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f7b733, #fc4a1a);border-radius: 25px; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+            ">
                 <img src="assets/img/SocialImpact/triplecell.jpg" alt=""
-                    style="display:inline-block;float: left;width:40%;border-radius: 20px;margin: 10px;display: inline-block;">
-                <section style="text-align: justify;height: auto;width:56%;margin: 10px;float: right;display: inline">
+                    style="display:inline-block;float: left;width:40%;border-radius: 20px;margin: 10px;display: inline-block;border: solid white 5px;">
+                <section style="text-align: justify;height: auto;width:56%;margin: 10px;float: right;display: inline;color: white;">
 
                     <i style="font-size: 15px;">Performance – large purpose designed solar cells provide greater heat
                         generation and insulation designed and manufactured in Australia, proven in the world’s harshest
-                        conditions easier to operate, easier to wind, easier on the eye 610 Micron</i>
+                        conditions easier to operate, easier to wind, easier on the eye 610 Mic  ron</i>
                     <ul style="display: flex;flex-wrap:wrap;" class="listoption">
 
                         <li>
@@ -313,8 +324,11 @@
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
                 <h5 class="card-title">SOLAR EDWARD</h5>
             </div>
-            <div class="card-body" style="text-align: justify; font-size: 15px;">
-                <section style="text-align: justify;height: auto;width:55%;margin: 10px;display: inline-block;">
+            <div class="card-body" style="text-align: justify; font-size: 15px;background: #7F00FF;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #E100FF, #7F00FF);border-radius: 25px;color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            ">
+                <section style="text-align: justify;height: auto;width:55%;margin: 10px;display: inline-block;color: white;">
                     Solar Edward knows very well that how quickly technology can change, our goal is to keep up with the
                     latest trends and advances in all technological breakthrough that is why solar Edward does not shy
                     away from any challenge, Edward solar has managed to align ourselves with some great organizations
@@ -353,7 +367,7 @@
                     </ul>
                 </section>
                 <img src="assets/img/SocialImpact/solaredwards.jpg" alt=""
-                    style="display:inline-block;float: right;width:40%;border-radius: 20px;">
+                    style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;;">
                 Solar Edwards Adelaide’s aim is to make solar energy understandable and accessible to everyone. We
                 are committed to helping save our environment. Solar Edwards Adelaide is proud to give customer
                 service the way it should be, with professional, prompt and personalized service
