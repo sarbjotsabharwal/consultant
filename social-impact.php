@@ -352,7 +352,7 @@
 
                     </ul>
                 </section>
-                <img src="assets/img/SocialImpact/poolcover.jpg" alt=""
+                <img src="assets/img/SocialImpact/solaredwards.jpg" alt=""
                     style="display:inline-block;float: right;width:40%;border-radius: 20px;">
                 Solar Edwards Adelaide’s aim is to make solar energy understandable and accessible to everyone. We
                 are committed to helping save our environment. Solar Edwards Adelaide is proud to give customer
