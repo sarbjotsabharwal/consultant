@@ -29,7 +29,7 @@
     <style>
         div.card {
             width: 85vw;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0px 0px 12px 3px rgba(0,0, 0, .6), 0 0px 10px 0 rgba(255, 255, 255, .5);
             text-align: center;
             max-width: 85vw;
 
@@ -98,6 +98,11 @@
             margin: 0;
             width: 100%;
             border-radius: 10px;
+        }
+
+        .card-body img{
+            box-shadow: 0 0 7px 7px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
         }
     </style>
 </head>
@@ -221,7 +226,7 @@
     <div class="cardcontainer1" id="allcards1" style="background: #4e54c8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ">
+   ">
 
         <div class="card bg-light mb-3" style="" id="ba1">
             <div class="card-header" style="padding:10px;">
@@ -232,7 +237,7 @@
             <div class="card-body" style="background: #00b09b;
             border-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
-            background: linear-gradient(to right, #96c93d, #00b09b);">
+            background: linear-gradient(to right, #96c93d, #00b09b);opacity: 1;">
                 <p class="card-text"
                     style="text-align: justify;height: auto;width:50%;margin: 10px;display: inline-block;color: white;">
                     ELITE POOL COVER specializes in the design, development, fabrication, and supply of triple cell
@@ -326,7 +331,7 @@
             </div>
             <div class="card-body" style="text-align: justify; font-size: 15px;background: #7F00FF;  
             background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #E100FF, #7F00FF);border-radius: 25px;color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, #96c93d, #00b09b);;border-radius: 25px;color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             ">
                 <section style="text-align: justify;height: auto;width:55%;margin: 10px;display: inline-block;color: white;">
                     Solar Edward knows very well that how quickly technology can change, our goal is to keep up with the
