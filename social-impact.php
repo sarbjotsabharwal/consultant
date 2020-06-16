@@ -324,7 +324,7 @@
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
                 <h5 class="card-title">SOLAR EDWARD</h5>
             </div>
-            <div class="card-body" style="text-align: justify; font-size: 15px;background: #7F00FF;  /* fallback for old browsers */
+            <div class="card-body" style="text-align: justify; font-size: 15px;background: #7F00FF;  
             background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #E100FF, #7F00FF);border-radius: 25px;color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             ">
