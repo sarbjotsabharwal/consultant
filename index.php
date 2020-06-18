@@ -111,7 +111,7 @@ include('header.html');
             <p class="card-text">like the game of chess board, successful licensing requires the right strategy and
               tactics. The world of consumer product licensing is to many a giant hidden industry worth over several
               billion dollars in sales.</p>
-            <a href="#" class="btn btn-primary card-button">Read More</a>
+            <a href="licensing.php" class="btn btn-primary card-button">Read More</a>
           </div>
         </div>
         <div class="card">
