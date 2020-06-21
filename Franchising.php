@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Business Alliance</title>
+    <title>Franchising</title>
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -413,29 +413,46 @@
             <p style="color: white;text-align: center;width: 90%; display:block;margin: auto;font-size: 20px;">
                 <b>Following the completion and development of your Franchise System we will provide ongoing training,
                     guidance and support:-</b></p>
-            <div style="display: flex;flex-wrap: wrap; margin-left: 25px;margin-left: 25%;">
-                <ul style="color: white;text-align: justify;">
-                    <b><i>DEVELOP & BUILD THE MANUALS</i></b>
-                    <li>Franchise Operations Manual</li>
-                    <li>Procedures Manual</li>
-                    <li>Health & Safety Manual</li>
-                    <li>Human Resources Manual</li>
-                    <li>Document Storage Manual</li>
+            <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+                <div class="card text-white bg-secondary mb-3" style="max-width: 400px;">
+                    <div class="card-header">
+                        <h5 class="card-title">DEVELOP & BUILD THE MANUALS</h5>
+                    </div>
 
-                </ul>
+                    <div class="card-body text-dark">
+
+
+                        <ul style="color: white;text-align: justify; ">
+                            <b><i></i></b>
+                            <li style="font-size: 15px;">Franchise Operations Manual</li>
+                            <li style="font-size: 15px;">Procedures Manual</li>
+                            <li style="font-size: 15px;">Health & Safety Manual</li>
+                            <li style="font-size: 15px;">Human Resources Manual</li>
+                            <li style="font-size: 15px;">Document Storage Manual</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card text-white bg-success mb-3" style="max-width: 400px;">
+                    <div class="card-header">
+                        <h5 class="card-title">LEGAL DOCUMENTATION</h5>
+                    </div>
+                    <div class="card-body text-dark">
+                        <ul style="color: white;text-align: justify; ">
+                            <li style="font-size: 15px;"> Franchise Agreement</li>
+                            <li style="font-size: 15px;"> Disclosure Document</li>
+                            <li style="font-size: 15px;"> Confidentiality Agreement</li>
+                        </ul>
+                    </div>
+                </div>
                 <ul style="color: white;text-align: justify;;">
-                    <b><i>LEGAL DOCUMENTATION</i></b>
-                    <li> Franchise Agreement</li>
-                    <li> Disclosure Document</li>
-                    <li> Confidentiality Agreement</li>
+                    <b><i></i></b>
 
                 </ul>
             </div>
 
 
         </div>
-
-
 
         <h1
             style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
