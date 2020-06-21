@@ -111,8 +111,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('assets/img/franchising/franchisingback.jpg') no-repeat center center/cover;
-            opacity: .4;
+            background: url('assets/img/ipo/ipoback1.jpg') no-repeat center center/cover;
+            opacity: .5;
         }
 
         .stickyback {
@@ -131,16 +131,18 @@
             border-top-right-radius: 25px;
         }
 
-        .liststyle-items{
+        .liststyle-items {
 
             list-style-type: square;
         }
-        .liststyle-items li{
+
+        .liststyle-items li {
             padding: 10px;
             margin: 10px;
-            list-style-type: square;border-radius: 10px;
+            list-style-type: square;
+            border-radius: 10px;
         }
-        
+
         .liststyle-items li:nth-child(even) {
             background-color: rgba(173, 173, 173, 0.7);
 
@@ -148,11 +150,25 @@
 
         .liststyle-items li:nth-child(odd) {
             /* display: block; */
-           
-            
+
+
             background-color: rgba(121, 121, 121, 0.7);
 
         }
+
+        /* #card-body-1, #card-body-2, #card-body-3 {
+            display: none;
+        }
+
+        #show-card-1:hover + #card-body-1 {
+            display: block;
+        }
+        #show-card-2:hover + #card-body-2 {
+            display: block;
+        }
+        #show-card-3:hover + #card-body-3 {
+            display: block;
+        } */
     </style>
 </head>
 
@@ -241,25 +257,22 @@
 
         <div style="display: flex;flex-wrap: wrap; justify-content: center;">
             <!-- card 1 -->
-            <div class="card text-white bg-secondary mb-3" style="max-width: 400px;">
-                <div class="card-header">
-                    <h5 class="card-title" style="font-size:40px;font-weight: normal;">Planning for an IPO </h5>
+            <div class="card text-black bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
+                <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;border-radius: 25px;">
+                    <img src="assets/img/ipo/ipoback.jpg" style="height: 250px;" alt="">
+                    <h5 class="card-title" style="color:;font-size:40px;font-weight: normal;">Planning for an IPO </h5>
                 </div>
 
-                <div class="card-body text-dark">
+                <div class="card-body text-dark" id="card-body-1">
 
 
-                    <ul style="color: white;text-align: justify; font-size: 15px;">
-                        <b><i></i></b>
+                    <ul style="color: ;text-align: justify; font-size: 15px;">
+
                         <li>Assessing IPO readiness</li>
                         <li>Developing an IPO Road map</li>
-
                         <li>Pre-IPO workshops</li>
-
                         <li>Assisting in developing accounting policies</li>
-
                         <li>Facilitation of non-US exchange listings</li>
-
                         <li>Assistance with US GAAP to IFRS conversions</li>
 
                     </ul>
@@ -267,12 +280,13 @@
             </div>
             <!-- card 1 end -->
             <!-- card 2  -->
-            <div class="card text-white bg-success mb-3" style="max-width: 400px;">
-                <div class="card-header">
+            <div class="card text-white bg-success mb-3" style="max-width: 400px;border-radius: 25px;">
+                <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
+                    <img src="assets/img/ipo/ipoexecution1.jpg" style="height: 250px;" alt="">
                     <h5 class="card-title" style="font-size:40px;font-weight: normal;">Executing an IPO
                     </h5>
                 </div>
-                <div class="card-body text-dark">
+                <div class="card-body text-dark" id="card-body-2">
                     <ul style="color: white;text-align: justify;font-size: 15px; ">
                         <li>Technical accounting and audit support</li>
 
@@ -292,16 +306,14 @@
             </div>
             <!-- card 2 end -->
             <!-- card 3 -->
-            <div class="card text-white bg-secondary mb-3" style="max-width: 350px;">
-                <div class="card-header">
+            <div class="card text-dark bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
+                <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
+                    <img src="assets/img/ipo/post.jpg" style="height: 250px;" alt="">
                     <h5 class="card-title" style="font-size:40px;font-weight: normal;">Post-IPO
                     </h5>
                 </div>
-
-                <div class="card-body text-dark">
-
-
-                    <ul style="color: white;text-align: justify; font-size: 15px;">
+                <div class="card-body text-dark" id="card-body-3">
+                    <ul style="color: ;text-align: justify; font-size: 15px;">
                         <b><i></i></b>
                         <li> Assisting with external reporting</li>
 
@@ -328,8 +340,8 @@
                     of investor base</li>
                 <li>Liquidity for investors is enhanced since securities can be traded through a public market.</li>
                 <li>Publicly traded securities are attractive for certain other purposes (as transaction currency or
-                
-                executive and employee compensation, for example)</li>
+
+                    executive and employee compensation, for example)</li>
                 <li>Credibility and visibility with the public is enhanced, as is the corporate image</li>
                 <li>Lower cost of capital relative to debt financing</li>
 

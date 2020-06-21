@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -149,11 +147,9 @@
 
 
     <!-- section start -->
-    <h1
-        style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
+    <h1 style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
         Franchising</h1><br><br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         Charthill – BUSINESS FRANCHISING SERVICES</h1><br>
     <div class="heading"></div>
 
@@ -169,8 +165,7 @@
             their educational, career and entrepreneurial backgrounds. In addition to the 35 years of our experience,
             this will give you an idea of the calibre of information you’ll be receiving when you take advantage of our
             services. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer2()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer2()">
                 Watch Video
             </button>
         </p>
@@ -180,8 +175,7 @@
 
     <!-- section start -->
     <br> <br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
         Need Help With Your Invention Or product Idea?</h1><br>
     <div class="heading"></div>
 
@@ -211,8 +205,7 @@
             With the right strategies and agent working for you, the opportunities for your invention are endless. We at
             Charthill Consultants will seek out these opportunities and even risk our own time and financial resources
             to make it happen. We are just looking for good inventions to work with. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer1()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer1()">
                 Watch Video
             </button>
         </p>
@@ -223,8 +216,7 @@
     <!--card section-->
     <br>
     <br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px">
         FRANCHISING AND ITS BENEFITS
     </h1><br>
     <div class="cardcontainer1" id="allcards1" style="">
@@ -404,8 +396,7 @@
         </div>
 
         <div class="seprator" style="color: white;font-weight: bold;">---------------------------</div>
-        <h1
-            style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
             Charthill Consultants assist you to set up the Process of Franchising</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -454,8 +445,7 @@
 
         </div>
 
-        <h1
-            style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
             IMPLEMENTATION & FRANCHISOR SUPPORT & TRAINING</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -474,8 +464,7 @@
                 <li>Compliance management & conflict resolution</li>
                 <li>Ongoing training and support as required</li><br>
             </ul>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
                 Watch Video
             </button>
 
