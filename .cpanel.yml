@@ -1,0 +1,6 @@
+---
+deployement:
+  task:
+    - export DEPLOYPATH=/home/chart607/public_html/newwebsite/
+    - /bin/cp * $DEPLOYPATH
+ 
