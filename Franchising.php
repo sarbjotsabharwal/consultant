@@ -151,7 +151,7 @@
     <!-- section start -->
     <h1
         style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
-        Frachising</h1><br><br>
+        Franchising</h1><br><br>
     <h1
         style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         Charthill – BUSINESS FRANCHISING SERVICES</h1><br>
