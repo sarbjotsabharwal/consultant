@@ -177,7 +177,7 @@
         IPO ADVISORY<br>
     </h1><br><br>
     <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(216, 15, 132, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        style="display:block;margin:auto;color: white;background-color: rgba(163, 90, 7, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         IPO Advisory Services<br>
         <span style="font-size: 25px;">for Australia, New-Zealand, Canada and United States</span>
     </h1><br>
