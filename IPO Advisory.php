@@ -190,7 +190,7 @@
     <!-- section start -->
     <h1
         style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-family: 'Baloo Chettan 2', cursive;">
-        IPO ADVISORY<br>
+        IPO Advisory<br>
     </h1><br><br>
     <h1
         style="display:block;margin:auto;color: white;background-color: rgba(163, 90, 7, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
@@ -221,6 +221,7 @@
     </div>
     <!-- section end -->
 
+    
 
     <!-- section start -->
     <br> <br>

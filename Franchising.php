@@ -184,12 +184,12 @@
         <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;">
 
             If you are an inventor with a patent, we can help you make it very profitable.
-            <br>
+      
 
             Charthill consultants has 35 years of experience in Licensing small to big businesses.
             Simply put, we find companies who will retail and distribute your invention and make your business more
             profitable.
-            <br>
+          
 
             A startling fact is that only 2-3% of all patented inventions ever make more money for the inventor than
             they invested into it. Why? Most commonly we have found that many inventors simply do not understand many of
@@ -201,7 +201,7 @@
             We at Charthill consultants will bridge this gap and become a critical team member in the licensing of our
             clients’ inventions. We attend trade shows throughout the world and make face-to-face presentations.
 
-            <br>
+      
             With the right strategies and agent working for you, the opportunities for your invention are endless. We at
             Charthill Consultants will seek out these opportunities and even risk our own time and financial resources
             to make it happen. We are just looking for good inventions to work with. <br> <br>
