@@ -58,8 +58,8 @@ include('header.html');
             <div class="carousel-background"><img src="assets/img/intro-carousel/1.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Discover Charthill Consulting</h2>
-                <p>Learn how Charthill Consultant can help you to with amazing business opportunities. Let's make a
+                <h2>Discover Charthill Consultants</h2>
+                <p>Learn how Charthill Consultants can help you to with amazing business opportunities. Let's make a
                   difference together.</p>
                   <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
                   <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->

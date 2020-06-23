@@ -172,6 +172,52 @@
         #show-card-3:hover + #card-body-3 {
             display: block;
         } */
+        .container2 {
+            /* width: 100px;
+            height: 100px; */
+            background: rgba(241, 241, 241, 0.2);
+            /* background: rgba(121, 248, 148, 0.2); */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container-box {
+            width: 40vw;
+            /* height: vh; */
+            /* background: rgb(3, 167, 44); */
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            margin: 20px;
+            border-radius: 25px;
+            text-align: center;
+            color: white;
+        }
+
+        .container-box p {
+            text-align: justify;
+        }
+
+        .container-box h3 {
+            font-family: 'Metal Mania', cursive;
+            font-size: 50px;
+        }
+
+        .container-box {
+            /* background: url('assets/img/sales and marketing/content-3679757_960_720.webp') no-repeat center center/cover; */
+        }
+
+        #container-box-1::before {
+            content: "";
+            background: url('assets/img/sales and marketing/content-3679757_960_720.webp');
+            opacity: 0.5;
+            /* top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0; */
+            position: relative;
+            z-index: -1;
+        }
     </style>
 </head>
 
@@ -216,6 +262,67 @@
     </div>
     <!-- section end -->
     <br><br>
+    <!-- section start -->
+
+    <div class="container2">
+        <div class="container-box" id="container-box-1">
+            <h3>SEO</h3>
+            <p>
+                SEO is one of the most effective digital marketing strategies. Search engine optimization works to
+                improve your website’s ranking in search engine ranking pages, so that your site earns more traffic.
+                With increased traffic, companies experienced increase in sales and revenue.
+            </p>
+        </div>
+        <div class="container-box">
+            <h3>PPC</h3>
+            <p>
+                Pay per click advertising is another extremely common digital marketing strategy. It is a cost effective
+                strategy that allows your business to target ideal customers based on keywords they search, demographic
+                information, and more.
+            </p>
+        </div>
+        <div class="container-box">
+            <h3>SOCIAL MEDIA MARKETING
+            </h3>
+            <p>
+                Social media channels like Facebook, Twitter, Instagram, and LinkedIn allow your business to reach more
+                customers and boost brand awareness.Sharing your company’s content on social media is a great way to
+                increase site traffic and ultimately conversions.
+            </p>
+        </div>
+        <div class="container-box">
+            <h3>Email marketing
+            </h3>
+            <p>
+                Email marketing can also help you increase brand awareness and site traffic — and it’s a great lead
+                nurturing strategy. Top digital marketing companies offer this service because of its extremely low cost
+                and high return on investment (ROI).
+            </p>
+        </div>
+        <div class="container-box">
+            <h3>Content Marketing
+            </h3>
+            <p>
+                Content marketing allows you to create informative, beneficial content based on your target keywords in
+                order to rank at the top of search results.
+            </p>
+        </div>
+        <div class="container-box">
+            <h3> Geo Fencing </h3>
+            <p>
+                Geo fence technology combines effective mobile advertising with advanced location based technology to
+                reach consumers at the right time: when they are already in your neighborhood. Geo fence creates a
+                virtual boundary around a location that uses GPS to identify nearby smartphones and trigger an action,
+                like showing your advertisement. This technology tracks clicks, site visits, calls and emails that come
+                from your advertisements.
+            </p>
+        </div>
+    </div>
+
+    <!-- section end -->
+
+
+    <br><br>
 
     <div class="container"
         style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
@@ -241,7 +348,7 @@
         </div>
     </div>
 
- <br>
+    <br>
     <?php
 
     include('footer.html');
