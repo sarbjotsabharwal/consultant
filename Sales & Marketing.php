@@ -183,10 +183,12 @@
         }
 
         .container-box {
-            width: 40vw;
+            display: flex;
+            flex-wrap: wrap;
+            /* width: 40vw; */
             /* height: vh; */
             /* background: rgb(3, 167, 44); */
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(1, 0, 20, 0.5);
             padding: 30px;
             margin: 20px;
             border-radius: 25px;
@@ -196,27 +198,28 @@
 
         .container-box p {
             text-align: justify;
+            width: 500px;
+            padding: 20px;
+            margin-right: 20px;
         }
 
-        .container-box h3 {
+        .container-box p span {
             font-family: 'Metal Mania', cursive;
             font-size: 50px;
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
-        .container-box {
-            /* background: url('assets/img/sales and marketing/content-3679757_960_720.webp') no-repeat center center/cover; */
-        }
+        .container-box img {
+            /* float: right; */
+            /* position: relative; */
+            /* height:100%;
+            width: 100%; */
+            width: 450px;
+            border-radius: 25px;
+            opacity: .9;
 
-        #container-box-1::before {
-            content: "";
-            background: url('assets/img/sales and marketing/content-3679757_960_720.webp');
-            opacity: 0.5;
-            /* top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0; */
-            position: relative;
-            z-index: -1;
         }
     </style>
 </head>
@@ -266,50 +269,53 @@
 
     <div class="container2">
         <div class="container-box" id="container-box-1">
-            <h3>SEO</h3>
             <p>
+                <span>SEO</span>
                 SEO is one of the most effective digital marketing strategies. Search engine optimization works to
                 improve your website’s ranking in search engine ranking pages, so that your site earns more traffic.
                 With increased traffic, companies experienced increase in sales and revenue.
             </p>
+            <img src="assets/img/sales and marketing/content-3679757_960_720.webp" alt="">
         </div>
         <div class="container-box">
-            <h3>PPC</h3>
+            <img src="assets/img/sales and marketing/Pay-per-Click.png" alt="">
             <p>
+                <span>PPC</span>
                 Pay per click advertising is another extremely common digital marketing strategy. It is a cost effective
                 strategy that allows your business to target ideal customers based on keywords they search, demographic
                 information, and more.
             </p>
         </div>
         <div class="container-box">
-            <h3>SOCIAL MEDIA MARKETING
-            </h3>
             <p>
+                <span>SOCIAL MEDIA MARKETING</span>
                 Social media channels like Facebook, Twitter, Instagram, and LinkedIn allow your business to reach more
                 customers and boost brand awareness.Sharing your company’s content on social media is a great way to
                 increase site traffic and ultimately conversions.
             </p>
+            <img src="assets/img/sales and marketing/socialmedia.jpg" alt="">
         </div>
         <div class="container-box">
-            <h3>Email marketing
-            </h3>
+            <img src="assets/img/sales and marketing/email-4800274_960_720.webp" alt="">
             <p>
+                <span>Email marketing</span>
                 Email marketing can also help you increase brand awareness and site traffic — and it’s a great lead
                 nurturing strategy. Top digital marketing companies offer this service because of its extremely low cost
                 and high return on investment (ROI).
             </p>
         </div>
         <div class="container-box">
-            <h3>Content Marketing
-            </h3>
             <p>
+                <span>Content Marketing</span>
                 Content marketing allows you to create informative, beneficial content based on your target keywords in
                 order to rank at the top of search results.
             </p>
+            <img src="assets/img/sales and marketing/content-3679757_960_720.webp" alt="">
         </div>
         <div class="container-box">
-            <h3> Geo Fencing </h3>
+            <img src="assets/img/sales and marketing/Geo-Fence-Location-Targeting.jpg" alt="">
             <p>
+                <span> Geo Fencing </span>
                 Geo fence technology combines effective mobile advertising with advanced location based technology to
                 reach consumers at the right time: when they are already in your neighborhood. Geo fence creates a
                 virtual boundary around a location that uses GPS to identify nearby smartphones and trigger an action,
@@ -325,7 +331,7 @@
     <br><br>
 
     <div class="container"
-        style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+        style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
         <h5 class="card-title" style="font-weight: normal;font-size: 40px;">SALES DEVELOPMENT SERVICES</h5>
         <p style="text-align: center;">Our research shows that sales training can boost product sales by up to
             20%.During our work with the top-performing sales organizations in the world, Charthill has identified and
