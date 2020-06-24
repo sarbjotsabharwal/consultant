@@ -221,7 +221,8 @@
     <!-- section end -->
     <br><br>
 
-    <div class="container" style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+    <div class="container"
+        style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
         <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
             THE FOLLOWING SERVICES</h5>
         <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
@@ -251,14 +252,84 @@
             <!-- <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
                 THE FOLLOWING SERVICES</h5> -->
         </div>
-        <div class="card-body" style="display: flex;flex-wrap:wrap;">
-            <p style="font-size: 15px;">It is a permanent
-                visa for high-caliber business owners or part-owners who want to do business in Australia. The
-                132 visa is a state nominated Australian provisional business visa which is valid for four years. It is
-                a
-                pathway to permanent residency.</p>
+        <div class="card-body"
+            style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
+            <p style="font-size: 15px;padding-left: 40px;padding-right: 40px;"><b>It is a permanent
+                    visa for high-caliber business owners or part-owners who want to do business in Australia. The
+                    132 visa is a state nominated Australian provisional business visa which is valid for four years. It
+                    is
+                    a pathway to permanent residency.</b></p>
 
+            <!-- card section -->
+            <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+                <!-- card 1 -->
+                <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
+                    <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
+                        <img src="assets/img/business migration/property develop.png" style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
+                        <h5 class="card-title" style="font-size:40px;font-weight: normal;">Property Development
+                        </h5>
+                    </div>
 
+                    <div class="card-body text-dark id=" card-body-1"
+                        style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;padding-right: 50px;padding-left: 50px;">
+
+                        If your proposed business activity relates to property development, you must meet the following
+                        additional requirements:<br>
+                        <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
+                            <li>
+
+                                Have relevant qualifications and experience (e.g. architecture, engineering,
+                                construction
+                                management). Relevant experience may substitute a qualification.
+                            </li>
+                            <li>
+                                Business management
+                                You must demonstrate how you will undertake senior level day-to-day and overall
+                                strategic
+                                management of the business.
+
+                            </li>
+                            <li>
+                                Capital investment
+
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- card 1 end -->
+
+                <!-- card 2  -->
+                <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
+                    <div class="card-header" style="margin: 0;padding: 0;">
+
+                        <img src="assets/img/business migration/checklist-3693113_1920.jpg" style="height: 350px;box-shadow: none;" alt="">
+                        <h5 class="card-title" style="font-size:40px;font-weight: normal;">You Must Have
+                        </h5>
+                    </div>
+                    <div class="card-body text-dark" id="card-body-2"
+                        style="border-radius:25px;padding-right: 50px;padding-left: 50px;">
+                        <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
+                            <li>
+
+                                (A) A net value of at least AUD1.5 million (lawfully acquired)
+                            </li>
+                            <li>
+                                (B) An annual business turnover of at least AUD3 million for at least 2 of the 4 fiscal
+                                years
+                                immediately before you are invited to apply
+                            </li>
+                            <li>
+                                (c) A total net assets of at least AUD $400,000 as the ownership interest in one or more
+                                qualifying businesses for least 2 of the 4 fiscal years immediately before you are
+                                invited to
+                                apply
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- card 2 end -->
+            </div>
+            <!-- card section end -->
 
 
         </div>
@@ -266,80 +337,6 @@
     <!-- section end -->
 
 
-    <div style="display: flex;flex-wrap: wrap; justify-content: center;">
-        <!-- card 1 -->
-        <div class="card text-black bg-light mb-3" style="max-width: 450px;border-radius: 25px;">
-            <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
-                <!-- <img src="assets/img/ipo/ipoback.jpg" style="height: 250px;" alt=""> -->
-                <h5 class="card-title" style="color:;font-size:40px;font-weight: normal;">Property Development
-                </h5>
-            </div>
-
-            <div class="card-body text-dark id=" card-body-1"
-                style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;background: rgb(216, 216, 216);">
-
-                If your proposed business activity relates to property development, you must meet the following
-                additional requirements:<br>
-                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
-                    <li>
-
-                        Have relevant qualifications and experience (e.g. architecture, engineering, construction
-                        management). Relevant experience may substitute a qualification.
-                    </li>
-                    <li>
-                        Business management
-                        You must demonstrate how you will undertake senior level day-to-day and overall strategic
-                        management of the business.
-
-                    </li>
-                    <li>
-                        Capital investment
-
-                    </li>
-                </ol>
-
-                <!-- <ul style="color: ;text-align: justify; font-size: 15px;">
-
-                        <li>Assessing IPO readiness</li>
-                        <li>Developing an IPO Road map</li>
-                        <li>Pre-IPO workshops</li>
-                        <li>Assisting in developing accounting policies</li>
-                        <li>Facilitation of non-US exchange listings</li>
-                        <li>Assistance with US GAAP to IFRS conversions</li>
-
-                    </ul> -->
-            </div>
-        </div>
-        <!-- card 1 end -->
-
-        <!-- card 2  -->
-        <div class="card text-black bg-light mb-3" style="max-width: 450px;border-radius: 25px;">
-            <div class="card-header" style="margin: 0;padding: 0;">
-                <!-- <img src="assets/img/ipo/ipoexecution1.jpg" style="height: 250px;" alt=""> -->
-                <h5 class="card-title" style="font-size:40px;font-weight: normal;">You Must Have
-                </h5>
-            </div>
-            <div class="card-body text-dark" id="card-body-2" style="border-radius:25px">
-                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
-                    <li>
-
-                        (A) A net value of at least AUD1.5 million (lawfully acquired)
-                    </li>
-                    <li>
-                        (B) An annual business turnover of at least AUD3 million for at least 2 of the 4 fiscal years
-                        immediately before you are invited to apply
-                    </li>
-                    <li>
-                        (c) A total net assets of at least AUD $400,000 as the ownership interest in one or more
-                        qualifying businesses for least 2 of the 4 fiscal years immediately before you are invited to
-                        apply
-                    </li>
-                </ol>
-            </div>
-        </div>
-        <!-- card 2 end -->
-    </div>
-    <!-- card section end -->
     <?php
 
     include('footer.html');
