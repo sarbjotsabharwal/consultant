@@ -31,6 +31,7 @@
 </head>
 
 <body>
+  
  <?php 
  include('homecover.html');
  ?>
