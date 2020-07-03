@@ -113,7 +113,7 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/1.jpg" alt="">
+          <img src="assets/img/our team/stan1.jpg" alt="">
           <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
         </div>
         <div class="cardtext">
@@ -147,33 +147,28 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/1.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
+          <img src="assets/img/our team/prabhdeep singh.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">PRABHJEET SINGH (PJ)</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align: justify;">
-            Stanley Cobbold is the Executive Director at Charthill Consultants <br>
-            Independent Financial Services Professiona <br>
-            Rancho Santa Fe, California
+            Perth, Western Australia
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> He is a Successful investor,
-            entrepreneur,
-            advisor, and
-            business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
-            passionate entrepreneurs build great companies. Specializing in all aspects of private and public companies,
-            Franchising, Licensing Technology and Intellectual Properties. Decisive, adaptable and proven to deliver
-            results, a passionate communicator with ability to relate to people and create trust and loyalty. <br>
-            <b>Specialties:</b>
-            <ul>
-              <li>Deal origination</li>
-              <li>Capital raising strategic and structuring advice</li>
-              <li> Commercial business structuring and restructuring</li>
-              <li>Managing corporate strategy</li>
-              <li> Coordinating project implementation</li>
-              <li> Negotiation</li>
-              <li> Analytical and conceptual advice</li>
-              <li> Developing and building partnerships and networks</li>
-            </ul>
+          <div class="card-text" style="overflow: scroll; height:370px;width: auto;">
+            Prabhjeet Singh is the Director at Charthill Consultants, lead the team across Australia, New Zealand, UK
+            and North America by helping companies solve their most complex and challenging business problems, market
+            and distribute products, license and franchise companies and products globally.
+            <br><br>
+            Prabhjeet Singh has vast experience in Health and Business world. He has worked in Government sector(Fitness
+            Director at Fiona Stanley Hospital), private sector(Director of PW Australia Pty Ltd) and International Non
+            Profit Organization ( Community Liaison officer at Amnesty International)
+            He is passionate about one question above all others. How best to build flourishing organizations and
+            workplace relationships based on trust. He firmly believes the human connection is the most potent force we
+            have for unlocking the full capacities we all have.
+            <br><br>
+            It’s also why he believes so strongly in the power of continuous learning. And this has brought him back to
+            education many times over the years. He is currently completing bachelor of Law and looking to specialize in
+            Intellectual property.
           </div>
         </div>
       </div>
@@ -181,33 +176,19 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/1.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
+          <img src="assets/img/our team/tylor.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">TYLOR BALDWIN</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align: justify;">
-            Stanley Cobbold is the Executive Director at Charthill Consultants <br>
-            Independent Financial Services Professiona <br>
-            Rancho Santa Fe, California
+            Business woman, television host, broadcast journalist, health & beauty expert, media/product development
+            consultant
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> He is a Successful investor,
-            entrepreneur,
-            advisor, and
-            business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
-            passionate entrepreneurs build great companies. Specializing in all aspects of private and public companies,
-            Franchising, Licensing Technology and Intellectual Properties. Decisive, adaptable and proven to deliver
-            results, a passionate communicator with ability to relate to people and create trust and loyalty. <br>
-            <b>Specialties:</b>
-            <ul>
-              <li>Deal origination</li>
-              <li>Capital raising strategic and structuring advice</li>
-              <li> Commercial business structuring and restructuring</li>
-              <li>Managing corporate strategy</li>
-              <li> Coordinating project implementation</li>
-              <li> Negotiation</li>
-              <li> Analytical and conceptual advice</li>
-              <li> Developing and building partnerships and networks</li>
-            </ul>
+          <div class="card-text" style="overflow: scroll; height:300px;width: auto;">
+            In the years 1995-2008, she worked in a variety of roles – spokesperson, anchor, producer –– for Fox Sports
+            Net, CBS/TNN, KCBS-TV “Sports Central”, KTLA-TV 5 Los Angeles, KFMB-TV San Diego, Eyemark Entertainment,
+            STAR 100.7 FM and CBS Newspath
+
           </div>
         </div>
       </div>
@@ -215,33 +196,41 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/1.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
+          <img src="assets/img/our team/brian.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">BRIAN SMITH</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align: justify;">
-            Stanley Cobbold is the Executive Director at Charthill Consultants <br>
-            Independent Financial Services Professiona <br>
-            Rancho Santa Fe, California
+            UGG Founder Brian Smith has become one of the most sought after speakers and business leaders in the
+            country.
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> He is a Successful investor,
-            entrepreneur,
-            advisor, and
-            business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
-            passionate entrepreneurs build great companies. Specializing in all aspects of private and public companies,
-            Franchising, Licensing Technology and Intellectual Properties. Decisive, adaptable and proven to deliver
-            results, a passionate communicator with ability to relate to people and create trust and loyalty. <br>
-            <b>Specialties:</b>
-            <ul>
-              <li>Deal origination</li>
-              <li>Capital raising strategic and structuring advice</li>
-              <li> Commercial business structuring and restructuring</li>
-              <li>Managing corporate strategy</li>
-              <li> Coordinating project implementation</li>
-              <li> Negotiation</li>
-              <li> Analytical and conceptual advice</li>
-              <li> Developing and building partnerships and networks</li>
-            </ul>
+          <div class="card-text" style="overflow: scroll; height:300px;width: auto;">
+            Team building, company culture, growth challenges, are all presented through a lens of vast experience,
+            combined with a vision of a spiritual approach towards the future of business today.
+            <br><br>
+            His inspirational talks and media appearances on his breakthrough business strategies are widely attended by
+            business people of all ages from a diverse array of market sectors.
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
+      <div class="card-body">
+        <div class="">
+          <img src="assets/img/our team/beatrice.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">BEATRICE RINGS</h4>
+        </div>
+        <div class="cardtext">
+          <p style="font-weight:bold;text-align: justify;">
+            Worked as graphic designer in San Diego, California. She studied psychology. [1999]
+            Beatrice Ring is a writer and music video director in Los Angeles, CA.
+          </p>
+          <div class="card-text" style="overflow: scroll; height:300px;width: auto;">
+            Beatrice Ring started her career as a model and ventured into the showbiz industry.
+            She is one of the popular actresses in the world of cinema.
+            She is best known for her appearance on Zombi 3.
           </div>
         </div>
       </div>
@@ -249,67 +238,24 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/1.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
+          <img src="assets/img/our team/brian.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">LUKE MAINGARD</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align: justify;">
-            Stanley Cobbold is the Executive Director at Charthill Consultants <br>
-            Independent Financial Services Professiona <br>
-            Rancho Santa Fe, California
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto tenetur, sed magnam nemo rerum
+            quia sequi quos aut ducimus! Provident atque doloribus doloremque.
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> He is a Successful investor,
-            entrepreneur,
-            advisor, and
-            business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
-            passionate entrepreneurs build great companies. Specializing in all aspects of private and public companies,
-            Franchising, Licensing Technology and Intellectual Properties. Decisive, adaptable and proven to deliver
-            results, a passionate communicator with ability to relate to people and create trust and loyalty. <br>
-            <b>Specialties:</b>
-            <ul>
-              <li>Deal origination</li>
-              <li>Capital raising strategic and structuring advice</li>
-              <li> Commercial business structuring and restructuring</li>
-              <li>Managing corporate strategy</li>
-              <li> Coordinating project implementation</li>
-              <li> Negotiation</li>
-              <li> Analytical and conceptual advice</li>
-              <li> Developing and building partnerships and networks</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
-      <div class="card-body">
-        <div class="">
-          <img src="assets/img/our team/1.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
-        </div>
-        <div class="cardtext">
-          <p style="font-weight:bold;text-align: justify;">
-            Stanley Cobbold is the Executive Director at Charthill Consultants <br>
-            Independent Financial Services Professiona <br>
-            Rancho Santa Fe, California
-          </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> He is a Successful investor,
-            entrepreneur,
-            advisor, and
-            business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
-            passionate entrepreneurs build great companies. Specializing in all aspects of private and public companies,
-            Franchising, Licensing Technology and Intellectual Properties. Decisive, adaptable and proven to deliver
-            results, a passionate communicator with ability to relate to people and create trust and loyalty. <br>
-            <b>Specialties:</b>
-            <ul>
-              <li>Deal origination</li>
-              <li>Capital raising strategic and structuring advice</li>
-              <li> Commercial business structuring and restructuring</li>
-              <li>Managing corporate strategy</li>
-              <li> Coordinating project implementation</li>
-              <li> Negotiation</li>
-              <li> Analytical and conceptual advice</li>
-              <li> Developing and building partnerships and networks</li>
-            </ul>
+          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Velit obcaecati ducimus veniam quis quaerat, amet ipsum sint neque deleniti
+            non temporibus ratione suscipit ad rerum vel laboriosam reiciendis optio excepturi illo iste repudiandae
+            voluptas, repellendus delectus! Voluptatum quod aliquam accusamus eveniet qui magnam natus quia eaque
+            reprehenderit! Non, eos illo.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut libero vitae repudiandae facilis, consequatur
+            id temporibus magni culpa! Voluptate dolore asperiores, beatae quaerat modi nostrum in accusamus. Odit fugit
+            blanditiis tempore qui maxime? Ut nam deserunt suscipit architecto totam saepe nulla, nisi aspernatur
+            ratione magnam, optio qui voluptatibus ipsam modi.
           </div>
         </div>
       </div>
