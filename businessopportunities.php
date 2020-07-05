@@ -24,7 +24,8 @@
         rel="stylesheet">
     <style>
         div.card {
-            width: 40vw;
+            width: 85%;
+            height: 85vh;
             /* box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.6), 0 0px 10px 0 rgba(253, 253, 253, 0.5); */
             box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, .6), 0 0px 10px 0 rgba(255, 255, 255, .5);
             text-align: center;
@@ -156,17 +157,33 @@
     <h1
         style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 80px;font-family: 'Baloo Chettan 2', cursive;">
         Business Opportunities</h1><br>
-    <h4 style="color: white;font-style: italic;text-align: center;width: 80%;display: block;margin:auto;">Grow with us! <br> with our fantastic Business
+    <h4 style="color: white;font-style: italic;text-align: center;width: 80%;display: block;margin:auto;">Grow with us!
+        <br> with our fantastic Business
         Opportunities. To join us or for more information regarding this, hit the 'read more' button given below. </h4>
-    <br>
-    <!-- Button trigger modal -->
-    <div style="display: block;width: 100px;margin:auto;">
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-            onclick="OpenPdf()" style="">
-            Read More
-        </button>
+    <!--card section-->
+    <div class="cardcontainer1" id="allcards1" style="">
+
+        <div class="card bg-light mb-3" style="border:1px black solid;border-radius: 25px;" id="ba1">
+  
+            <div class="card-body" style="background: #00b09b;
+            border-radius: 25px;
+            background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+            background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
+                <h5 class="card-title">Current Investment Opportunity
+                    <a href="business opportunities.pdf" style="float: right;font-family: normal;" class="btn btn-success">Download</a>
+                </h5> 
+                <object id="pdfframe" data="business opportunities.pdf" type="application/pdf" width="100%" height="90%">
+                    <p>Problem in loading pdf, <a href="">Click here!</a></p>
+                </object>
+                <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
+                        Singapore as well. </p> -->
+            </div>
+        </div>
     </div>
+    <!-- card section end -->
+
+
     <br><br>
     <h1
         style="display:block;margin:auto;color: white;background-color: rgba(3, 189, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
