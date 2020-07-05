@@ -25,7 +25,7 @@
     <style>
         div.card {
             width: 85%;
-            height: 85vh;
+            height: auto;
             /* box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.6), 0 0px 10px 0 rgba(253, 253, 253, 0.5); */
             box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, .6), 0 0px 10px 0 rgba(255, 255, 255, .5);
             text-align: center;
@@ -165,21 +165,34 @@
     <div class="cardcontainer1" id="allcards1" style="">
 
         <div class="card bg-light mb-3" style="border:1px black solid;border-radius: 25px;" id="ba1">
-  
-            <div class="card-body" style="background: #00b09b;
-            border-radius: 25px;
-            background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
-            background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
-                <h5 class="card-title">Current Investment Opportunity
-                    <a href="business opportunities.pdf" style="float: right;font-family: normal;" class="btn btn-success">Download</a>
-                </h5> 
-                <object id="pdfframe" data="business opportunities.pdf" type="application/pdf" width="100%" height="90%">
+
+            <div class="card-body" style=" background: linear-gradient(to right, #d8f3a9, #9ef8ee);
+            border-radius: 25px;">
+                <!-- <h5 class="card-title">Current Investment Opportunity
+                  
+                </h5> -->
+                <div class="card-body">
+                    <img src="assets/img/Elite Pool Covers Australia-1.png" alt="" style="width: 100%;">
+
+                    <a href="Investment-opportunity-For-North-america.pdf"
+                        style="float: right;font-family: normal;position: relative;bottom: 60px;right: 30px;"
+                        class="btn btn-success">Download</a>
+
+                </div>
+                <!-- <object id="pdfframe" data="business opportunities.pdf" type="application/pdf" width="100%" height="90%">
                     <p>Problem in loading pdf, <a href="">Click here!</a></p>
-                </object>
+                </object> -->
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
         </div>
+
+        <!-- <div class="card bg-light mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+
+            </div>
+        </div> -->
     </div>
     <!-- card section end -->
 
