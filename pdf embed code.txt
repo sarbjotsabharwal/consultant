@@ -1,0 +1,3 @@
+<object data="Investment-opportunity-For-North-america.pdf" type="application/pdf" width="50%" height="50%">
+  <p>Alternative text - include a link <a href="Investment-opportunity-For-North-america.pdf">to the PDF!</a></p>
+</object>
