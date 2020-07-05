@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Business Alliance</title>
+    <title>Business Opportunities</title>
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
