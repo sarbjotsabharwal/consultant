@@ -10,8 +10,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- V CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,20 +30,73 @@
 </head>
 
 <body>
-  
- <?php 
- include('homecover.html');
- ?>
-<?php 
 
-include('chatbotpopup.html');
-?>
-<!-- header import -->
-<?php 
+  <?php
+  include('homecover.html');
+  ?>
+  <?php
 
-include('header.html');
+  include('chatbotpopup.html');
+  ?>
+  <!-- header import -->
+ <!-- ======= Header ======= -->
+ <header id="header">
+    <div class="container-fluid">
 
-?>
+      <div id="logo" class="pull-left">
+        <!-- <h1><a href="#intro" class="scrollto">BizPage</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.php"><img src="assets/img/logo.jpg" alt="" style="border-radius:20px; opacity:90%;"></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <!-- <li class="menu-active"><a href="#intro">Home</a></li> -->
+          <li class="menu-has-children"><a href="#discover">Discover Charthill</a>
+            <ul>
+              <li><a href="aboutus.php">About Us</a></li>
+              <li><a href="businessalliance.php">Our Business Alliance</a></li>
+              <li><a href="social-impact.php">Social Impact</a></li>
+
+            </ul>
+          </li>
+          <li  class="menu-has-children"><a href="#allservices">Services</a>
+            <ul>
+              <li><a href="licensing.php">Licensing</a></li>
+              <li><a href="Franchising.php">Franchising</a></li>
+              <li><a href="IPO Advisory.php">IPO Advisory</a></li>
+              <li><a href="Business migration services.php">Business Migration Services</a></li>
+              <li><a href="Sales & Marketing.php">Sales & Marketing</a></li>
+            </ul>
+
+          </li>
+          <li  class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
+            <ul>
+              <li  class="menu-has-children"><a href="#">Solar Bubble Covers</a>
+                <ul>
+                  <li><a href="triplecellsolar.php">Triple Cell Solar Blankets</a></li>
+                  <li><a href="#">Super Bubble Solar Blankets</a></li>
+                </ul>
+              </li>
+              <li class="menu-has-children"><a href="#">Roller Systems</a></li>
+              <li class="menu-has-children"><a href="#">Security & Debris Covers</a></li>
+              <li class="menu-has-children"><a href="#">Fully Automatic Covers</a></li>
+              <li><a href="#">Commercial Range</a></li>
+              <li><a href="#">Thermal Shield</a></li>
+            </ul>
+          </li>
+          <li><a href="our_team.php">Our Team</a>
+          </li>
+          <li class="menu-has-children"><a href="businessopportunities.php">Business Opportunities</a>
+            <ul>
+              <li><a href="businessopportunities.php">Invest with Us</a></li>
+            </ul>
+          </li>
+          <li><a href="contactus.php">Contact Us</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- End Header -->
 
   <!-- ======= Intro Section ======= -->
   <section id="intro">
@@ -62,8 +114,8 @@ include('header.html');
                 <h2>Discover Charthill Consultants</h2>
                 <p>Learn how Charthill Consultants can help you to with amazing business opportunities. Let's make a
                   difference together.</p>
-                  <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
-                  <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+                <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
+                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
           </div>
@@ -75,7 +127,7 @@ include('header.html');
                 <h2>Right People Right Investments</h2>
                 <p>We offer a list of Licensing, Franchising, Business Development, Marketing & Sales services help our
                   clients to build global brands and businesses. </p>
-                  <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
+                <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -166,15 +218,15 @@ include('header.html');
   </div>
   <!--card section-->
 
-<!-- footer start -->
+  <!-- footer start -->
 
-<?php 
+  <?php
 
-include('footer.html');
+  include('footer.html');
 
-?>
+  ?>
 
-<!-- footer end -->
+  <!-- footer end -->
 
 
   <!-- Vendor JS Files -->
@@ -195,6 +247,7 @@ include('footer.html');
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+ 
 </body>
 
 </html>

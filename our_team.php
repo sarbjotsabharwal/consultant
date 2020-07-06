@@ -89,11 +89,64 @@
   // include('homecover.html');
   ?>
 
-  <?php
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid">
 
-  include('header.html');
+      <div id="logo" class="pull-left">
+        <!-- <h1><a href="#intro" class="scrollto">BizPage</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.php"><img src="assets/img/logo.jpg" alt="" style="border-radius:20px; opacity:90%;"></a>
+      </div>
 
-  ?>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <!-- <li class="menu-active"><a href="#intro">Home</a></li> -->
+          <li class="menu-has-children"><a href="#discover">Discover Charthill</a>
+            <ul>
+              <li><a href="aboutus.php">About Us</a></li>
+              <li><a href="businessalliance.php">Our Business Alliance</a></li>
+              <li><a href="social-impact.php">Social Impact</a></li>
+
+            </ul>
+          </li>
+          <li  class="menu-has-children"><a href="#allservices">Services</a>
+            <ul>
+              <li><a href="licensing.php">Licensing</a></li>
+              <li><a href="Franchising.php">Franchising</a></li>
+              <li><a href="IPO Advisory.php">IPO Advisory</a></li>
+              <li><a href="Business migration services.php">Business Migration Services</a></li>
+              <li><a href="Sales & Marketing.php">Sales & Marketing</a></li>
+            </ul>
+
+          </li>
+          <li  class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
+            <ul>
+              <li  class="menu-has-children"><a href="#">Solar Bubble Covers</a>
+                <ul>
+                  <li><a href="triplecellsolar.php">Triple Cell Solar Blankets</a></li>
+                  <li><a href="#">Super Bubble Solar Blankets</a></li>
+                </ul>
+              </li>
+              <li class="menu-has-children"><a href="#">Roller Systems</a></li>
+              <li class="menu-has-children"><a href="#">Security & Debris Covers</a></li>
+              <li class="menu-has-children"><a href="#">Fully Automatic Covers</a></li>
+              <li><a href="#">Commercial Range</a></li>
+              <li><a href="#">Thermal Shield</a></li>
+            </ul>
+          </li>
+          <li><a href="our_team.php">Our Team</a>
+          </li>
+          <li class="menu-has-children"><a href="businessopportunities.php">Business Opportunities</a>
+            <ul>
+              <li><a href="businessopportunities.php">Invest with Us</a></li>
+            </ul>
+          </li>
+          <li><a href="contactus.php">Contact Us</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- End Header -->
 
   <!-- sticky background -->
   <div class="stickyback">
