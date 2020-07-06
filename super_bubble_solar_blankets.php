@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +19,11 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -314,6 +317,22 @@
             font-size: 35px;
             color: white;
         }
+
+        .pool-blanket {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #fff8e6;
+            /* margin: 20px; */
+            /* border-radius: 25px; */
+        }
+
+        .pool-blanket .content {
+            width: 300px;
+            padding: 20px;
+            text-align: justify;
+
+        }
     </style>
 </head>
 
@@ -349,82 +368,97 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
-        </div>
+
         <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-            <li>While the sun is trying to heat your pool, the wind sets up convection currents that steal the same heat at an alarming rate.</li>
+            <li>While the sun is trying to heat your pool, the wind sets up convection currents that steal the same heat
+                at an alarming rate.</li>
 
-            <li>Every square centimetre of your pool’s surface gives up heat to the wind by evaporation. The stronger the wind, the greater the heat loss.</li>
+            <li>Every square centimetre of your pool’s surface gives up heat to the wind by evaporation. The stronger
+                the wind, the greater the heat loss.</li>
 
-            <li>Evaporation alone accounts for 60% of the heat loss from your pool. Another 30% of the loss radiates into the air from the water surface and 10% goes into the ground.</li>
+            <li>Evaporation alone accounts for 60% of the heat loss from your pool. Another 30% of the loss radiates
+                into the air from the water surface and 10% goes into the ground.</li>
 
         </ul>
-        <img src="assets/img/elitepool/triple cell/TripleCell_Explanation-b.png" alt="" style="width: 250px;height: 250px;">
-        <img src="assets/img/elitepool/triple cell/TripleCell_Comparison-300x145-1.jpg" style="width: 400px;height: 250px;border-radius: 10px;margin-left: 30px;margin-right: 30px;border: 2px solid white;" alt="">
-
+        <div style="width: 50%;padding: 10px;margin-right: 50px;">
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
+                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+        </div>
     </div>
     <br>
 
+
     <div class="header1" style="">
-        <i> Don’t buy old technology! <br>
-            Insist on the Ultra New Elite Triple Cell® Solar Pool Blanket</i>
-    </div>
-    <div class="container2" id="elitepool" style="margin-bottom: 25px;">
-
-
-        <img src="assets/img/elitepool/triple cell/TripleCell_HeatedFree_FromTheSun.jpg" alt="" style="border-radius: 10px;width: 50%;border: 1px solid white;height: 350px;">
-        <ul style="width: 40%;padding: 20px;text-align: justify;margin-left: 20px;">
-
-            <h3>Elite Triple Cell® World Leading Technology</h3><br>
-            <li>Performance – large purpose designed solar cells provide greater heat generation and insulation</li>
-            <li>Designed and manufactured in Australia, proven in the world’s harshest conditions</li>
-            <li>Easier to operate, easier to wind, easier on the eye</li>
-            <li>610 Micron*</li>
-
-
-
-        </ul>
-
+        <i> What will an Elite Pool Blanket do for me?</i>
     </div>
 
-    <!-- section end -->
-    <br><br>
-    <div class="container" style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
-        <h5 class="card-title" style="font-weight: normal;font-size: 40px;">The Ultra New Triple Cell® Solar Pool
-            Blanket Makes Others Obsolete</h5>
-
-        <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
-
-            <h5 style="font-style: italic;text-align: center;width: 80%;margin-bottom: 30px;">Elite Triple Cell® has
-                evolved over a ‘25 year’ span and it has now become a reality… thanks to Elite’s vision and foresight in
-                the continuous development and delivery of the world’s best performing pool cover available today.</h5>
-
-            <ul class="list-items">
-                <li>Elite Triple Cell® is the first purposed designed and manufactured pool blanket… It breaks away from
-                    the
-                    traditional ‘bubble wrap’ style and its problems. Elite Triple Cell® is a world’s first’ and it’s
-                    only
-                    available from Elite!</li>
-                <li>The Elite Triple Cell® is a solar cell that acts as a collector of energy. This energy is
-                    transformed to
-                    heat the water better.</li>
-                <li>Elite Triple Cell® provides better all-round insulating performance due to its greater still “air
-                    zone”.
-                    Its unique cell design also offers more protection from chlorine attack and harmful UV rays.</li>
-                <li>Elite Triple Cell® is thicker… UP TO 60% thicker ON THE BASE The manufacturing process of Triple
-                    Cell®
-                    ensures a more uniform thickness at the side, top and base of the cell… Unlike bubble, where the
-                    thickness can be inconsistent with less life expectancy. Elite Triple Cell® will have a long happy
-                    life.</li>
-                <li>Elite Triple Cell® lays flatter on the pool surface and rolls up easier over header courses plus
-                    automatic cleaners work better.</li>
-                <li>Elite Saltsafe® & Chlorsafe® technology is incorporated in the ultra-new Elite Triple Cell® Solar
-                    Thermal Pool Blanket. A Longer Life & Better Performance</li>
-
-            </ul>
+    <div class="pool-blanket">
+        <div class="content">
+            <img src="assets/img/elitepool/superbubble/Solar-Heating-Free-300x156-1.jpg" alt="">
+            <hr>
+            <p style="">Elite Super Bubble Blankets are proven to be the best heating blankets available*, so you will
+                swim in
+                warmer water for a lot longer.</p>
+        </div>
+        <div class="content">
+            <img src="assets/img/elitepool/superbubble/2-Saves-Precious-Water-300x156-1.jpg" alt="">
+            <hr>
+            <p style="">An Elite Super Bubble Blanket will keep the water in, keep the heat in and keep the chemicals in
+                your pool, saving you money.</p>
+        </div>
+        <div class="content">
+            <img src="assets/img/elitepool/superbubble/3-Keeps-Pool-Cleaner-300x156-1.jpg" alt="">
+            <hr>
+            <p style="">You will spend more time enjoying your pool and less time cleaning it.</p>
         </div>
     </div>
+
+    <br><br>
+
+
+    <div class="text-container"
+        style="background: rgb(51, 51, 51,.5);width: 90%;margin: auto;color: white;text-align: center;border-radius: 20px;">
+        <br>
+        <h2>What makes Elite Blanket range better than others? </h2>
+        <h5 style="font-style: italic;">*NOT ALL BLANKETS ARE CREATED EQUAL*</h5>
+        <br>
+        <h4 style="background: rgb(0, 0, 0,.6);border-radius: 20px;padding: 15px;">The Five Facts about round bubble
+            blankets</h4>
+
+        <p style="padding:30px;color: white;font-size: 20px;text-align: justify;"> <b>“Ten years ago Elite set out to
+                improve on All aspects of the ‘run of the mill round bubble blankets’ and
+                succeeded by developing the Elite Super Bubble Blanket that is proven to out-perform all Solar type of
+                round
+                bubble blankets on the world market.*”</b>
+        </p>
+        <ol style="text-align: justify;margin: 30px;margin-top: 0;" type="1">
+            <li>There are a number of ”run of the mill” round bubble type blankets on the market. Most of them perform
+                the
+                same as each other i.e. heat the same/as they are the same pale colours.</li>
+            <li>These “run of the mill” blankets keep the heat in your pool the same, as they all have similar small
+                bubble
+                size, i.e. the same “ok” insulating properties and they will last about the same as each other i.e., as
+                they
+                are the same thickness i.e., 500, 400, 300 micron etc.</li>
+
+            <li>Elite Super Bubble Ultra Heat Deep Colour Blankets are proven to heat better than standard pool blankets
+                i.e., darker colours heat better than lighter colours giving you a warmer pool and a longer swimming
+                season*</li>
+            <li>Elite’s Super Bubble Blanket is the best insulating round bubble blanket available due to its superb
+                insulating larger higher bubble size. This gives you a longer swimming season, plus, if your pool is
+                heated
+                you get great energy savings.</li>
+            <li>Elite Super Bubble Salt Safe/Chlorine Safe 550 Micron Blanket will out-last other round bubble blankets
+                due
+                to its thickness and bubble design.</li>
+        </ol>
+        So ask for a sample of what you are getting quoted on and you be the judge!
+<br>
+        * PROVEN RESULTS (Independent scale tank tests and comparative guarded hot plate tests to Australian Standard
+        AS4859-1.)
+        <br><br>
+    </div>
+
 
     <br>
     <?php
@@ -433,9 +467,15 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 
 </html>
