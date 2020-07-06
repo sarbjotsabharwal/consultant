@@ -339,32 +339,61 @@
     <br>
     <!-- <a href="#elitepool"><img src="assets/img/elitepool/down.gif" alt="" style="width: 150px;border: solid 2px white;border-radius: 100px;display: block;margin: auto;"></a> -->
     <!-- section end -->
-   
+
 
 
     <div class="header1" style="">
         <i> Here’s how it works!</i>
     </div>
-    <div class="side-sticky">
 
-    </div>
+    <!-- <div class="side-sticky">
+
+    </div> -->
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;">
-            <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-                <li>Elite Triple Cell® is = to 3 standard round bubbles. The more contact with the water = better heating,
-                    better insulation and the pool stays warmer for longer…that’s Elite Triple Cell®</li>
-                <li>With Traditional Bubble, performance is reduced due to the shaped “dead zone” between the bubbles not
-                    being in contact with the water</li>
-                <li>Elite is proud to lead the world in pool blanket technology, made in Australia and exported to the world
-                </li>
-    
-            </ul>
-
-
-        <div  style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+        <div style="width: 50%;padding: 10px;margin-right: 50px;">
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
+                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
         </div>
+        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+            <li>Elite Triple Cell® is = to 3 standard round bubbles. The more contact with the water = better heating,
+                better insulation and the pool stays warmer for longer…that’s Elite Triple Cell®</li>
+            <li>With Traditional Bubble, performance is reduced due to the shaped “dead zone” between the bubbles not
+                being in contact with the water</li>
+            <li>Elite is proud to lead the world in pool blanket technology, made in Australia and exported to the world
+            </li>
+
+        </ul>
+        <img src="assets/img/elitepool/triple cell/TripleCell_Explanation-b.png" alt=""
+            style="width: 250px;height: 250px;">
+        <img src="assets/img/elitepool/triple cell/TripleCell_Comparison-300x145-1.jpg"
+            style="width: 400px;height: 250px;border-radius: 10px;margin-left: 30px;margin-right: 30px;border: 2px solid white;"
+            alt="">
+
+    </div>
+    <br>
+
+    <div class="header1" style="">
+        <i> Don’t buy old technology! <br>
+            Insist on the Ultra New Elite Triple Cell® Solar Pool Blanket</i>
+    </div>
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;">
+
+
+        <img src="assets/img/elitepool/triple cell/TripleCell_HeatedFree_FromTheSun.jpg" alt=""
+            style="border-radius: 10px;width: 50%;border: 1px solid white;height: 350px;">
+        <ul style="width: 40%;padding: 20px;text-align: justify;margin-left: 20px;">
+
+            <h3>Elite Triple Cell® World Leading Technology</h3><br>
+            <li>Performance – large purpose designed solar cells provide greater heat generation and insulation</li>
+            <li>Designed and manufactured in Australia, proven in the world’s harshest conditions</li>
+            <li>Easier to operate, easier to wind, easier on the eye</li>
+            <li>610 Micron*</li>
+
+
+
+        </ul>
 
     </div>
 
@@ -372,28 +401,37 @@
     <br><br>
     <div class="container"
         style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
-        <h5 class="card-title" style="font-weight: normal;font-size: 40px;">Pool Cover Types</h5>
+        <h5 class="card-title" style="font-weight: normal;font-size: 40px;">The Ultra New Triple Cell® Solar Pool
+            Blanket Makes Others Obsolete</h5>
 
         <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
-            <ul class="list-items">
-                <li><a href="#">Triple Cell Solar Blankets</a></li>
-                <li><a href="#">Super Bubble Solar Blankets</a></li>
-                <li><a href="#">Elite Easy Rollers</a></li>
-                <li><a href="#"> Hideaway In-ground Rollers</a></li>
 
-            </ul>
-            <ul class="list-items">
-                <li><a href="#">Semi-Automatic Roller Systems</a></li>
-                <li><a href="#">Bench Seat Roller Systems</a></li>
-                <li><a href="#"> Elite Pool Protector</a></li>
-                <li><a href="#"> Debris & Security Mesh Covers</a></li>
+            <h5 style="font-style: italic;text-align: center;width: 80%;margin-bottom: 30px;">Elite Triple Cell® has
+                evolved over a ‘25 year’ span and it has now become a reality… thanks to Elite’s vision and foresight in
+                the continuous development and delivery of the world’s best performing pool cover available today.</h5>
 
-            </ul>
             <ul class="list-items">
-                <li><a href="#"> Automatic Slat Covers</a></li>
-                <li><a href="#"> Automatic Flexible Covers</a></li>
-                <li><a href="#"> Commercial Range</a></li>
-                <li><a href="#"> Thermal Shield</a></li>
+                <li>Elite Triple Cell® is the first purposed designed and manufactured pool blanket… It breaks away from
+                    the
+                    traditional ‘bubble wrap’ style and its problems. Elite Triple Cell® is a world’s first’ and it’s
+                    only
+                    available from Elite!</li>
+                <li>The Elite Triple Cell® is a solar cell that acts as a collector of energy. This energy is
+                    transformed to
+                    heat the water better.</li>
+                <li>Elite Triple Cell® provides better all-round insulating performance due to its greater still “air
+                    zone”.
+                    Its unique cell design also offers more protection from chlorine attack and harmful UV rays.</li>
+                <li>Elite Triple Cell® is thicker… UP TO 60% thicker ON THE BASE The manufacturing process of Triple
+                    Cell®
+                    ensures a more uniform thickness at the side, top and base of the cell… Unlike bubble, where the
+                    thickness can be inconsistent with less life expectancy. Elite Triple Cell® will have a long happy
+                    life.</li>
+                <li>Elite Triple Cell® lays flatter on the pool surface and rolls up easier over header courses plus
+                    automatic cleaners work better.</li>
+                <li>Elite Saltsafe® & Chlorsafe® technology is incorporated in the ultra-new Elite Triple Cell® Solar
+                    Thermal Pool Blanket. A Longer Life & Better Performance</li>
+
             </ul>
         </div>
     </div>
