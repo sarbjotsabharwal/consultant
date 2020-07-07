@@ -85,7 +85,7 @@
 <body>
 
   <?php
-  // include('our_team_cover.html');
+  include('our_team_cover.html');
   // include('homecover.html');
   ?>
 
