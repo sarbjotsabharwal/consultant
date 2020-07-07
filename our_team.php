@@ -42,7 +42,7 @@
 
     .card-body div img {
       border: 2px solid black;
-      width: 100%;
+      width: 80%;
       border-radius: 140px;
     }
 
@@ -85,7 +85,7 @@
 <body>
 
   <?php
-  include('our_team_cover.html');
+  // include('our_team_cover.html');
   // include('homecover.html');
   ?>
 
@@ -110,7 +110,7 @@
 
             </ul>
           </li>
-          <li  class="menu-has-children"><a href="#allservices">Services</a>
+          <li class="menu-has-children"><a href="#allservices">Services</a>
             <ul>
               <li><a href="licensing.php">Licensing</a></li>
               <li><a href="Franchising.php">Franchising</a></li>
@@ -120,9 +120,9 @@
             </ul>
 
           </li>
-          <li  class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
+          <li class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
             <ul>
-              <li  class="menu-has-children"><a href="#">Solar Bubble Covers</a>
+              <li class="menu-has-children"><a href="#">Solar Bubble Covers</a>
                 <ul>
                   <li><a href="triplecellsolar.php">Triple Cell Solar Blankets</a></li>
                   <li><a href="#">Super Bubble Solar Blankets</a></li>
@@ -156,26 +156,28 @@
 
   <h1
     style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 100px;text-align: center;font-size: 60px;font-family: 'Baloo Chettan 2', cursive;">
-    OUR TEAM</h1>
+    DIRECTORS</h1>
 
-  <br>
 
-  <!--card section-->
+
+  <!-- first card section -->
+
   <div class="team-cards" style="">
 
-    <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
-      <div class="card-body">
-        <div class="">
-          <img src="assets/img/our team/stan1.jpg" alt="">
+    <div class="card bg-light"
+      style="width:90%; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);font-size:15px;height: auto;">
+      <div class="card-body" style="height: auto;">
+        <div class="" style="width:350px;">
+          <img src="assets/img/our team/stan1.jpg" alt="" style="margin-left:20px;">
           <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
         </div>
-        <div class="cardtext">
+        <div class="cardtext" style="width: 800px;height:auto">
           <p style="font-weight:bold;text-align: justify;">
             Stanley Cobbold is the Executive Director at Charthill Consultants <br>
             Independent Financial Services Professiona <br>
             Rancho Santa Fe, California
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> He is a Successful investor,
+          <div class="card-text" style="height:auto;width: auto;"> He is a Successful investor,
             entrepreneur,
             advisor, and
             business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
@@ -197,18 +199,20 @@
         </div>
       </div>
     </div>
-    <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
-      <div class="card-body">
-        <div class="">
-          <img src="assets/img/our team/prabhdeep singh.jpg" alt="">
+    <div class="card bg-light"
+      style="width:90%; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);font-size:15px;height: auto;">
+      <div class="card-body" style="height: auto;">
+        <div class="" style="width:350px;">
+          <img src="assets/img/our team/prabhdeep singh.jpg" alt="" style="margin-left:20px;">
           <h4 class="card-title" style="padding-top:10px">PRABHJEET SINGH (PJ)</h4>
         </div>
-        <div class="cardtext">
+        <div class="cardtext" style="width: 800px;height:auto">
           <p style="font-weight:bold;text-align: justify;">
+            Prabhjeet Singh is the Director at Charthill Consultants, <br>
             Perth, Western Australia
           </p>
-          <div class="card-text" style="overflow: scroll; height:370px;width: auto;">
-            Prabhjeet Singh is the Director at Charthill Consultants, lead the team across Australia, New Zealand, UK
+          <div class="card-text" style="height:auto;width: auto;">
+            lead the team across Australia, New Zealand, UK
             and North America by helping companies solve their most complex and challenging business problems, market
             and distribute products, license and franchise companies and products globally.
             <br><br>
@@ -226,6 +230,19 @@
         </div>
       </div>
     </div>
+  </div>
+  <!-- first card end -->
+
+  <h1
+    style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 30px;text-align: center;font-size: 60px;font-family: 'Baloo Chettan 2', cursive;">
+    BOARD OF ADVISORS
+  </h1>
+
+
+  <!--card section-->
+  <div class="team-cards" style="">
+
+
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
@@ -272,7 +289,7 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/beatrice.jpg" alt="">
+          <img src="assets/img/our team/beatricenew.jpg" alt="">
           <h4 class="card-title" style="padding-top:10px">BEATRICE RINGS</h4>
         </div>
         <div class="cardtext">
@@ -291,24 +308,25 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/brian.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">LUKE MAINGARD</h4>
+          <img src="assets/img/our team/luc.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">LUC MAINGARD</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align: justify;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto tenetur, sed magnam nemo rerum
-            quia sequi quos aut ducimus! Provident atque doloribus doloremque.
+            Luc Maingard is Proprietor at LM
+            Agency and Consulting Perth, Australia. He studied bacheor's of business/commerce at KwaZulu-Natal
+            university.
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;"> Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Velit obcaecati ducimus veniam quis quaerat, amet ipsum sint neque deleniti
-            non temporibus ratione suscipit ad rerum vel laboriosam reiciendis optio excepturi illo iste repudiandae
-            voluptas, repellendus delectus! Voluptatum quod aliquam accusamus eveniet qui magnam natus quia eaque
-            reprehenderit! Non, eos illo.
+          <div class="card-text" style="height:300px;width: auto;"> He was director at Graf Plastics Australia
+            (Oct 2013 – Sep 2016) , Garantia Australia Jan 2010 – Sep 2016 perth,Australia and Omni Manufacturing (1999
+            –
+            Oct 2013) in Perth, Australia
+            <br>
+
+            <br>
+            He was State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1999
             <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut libero vitae repudiandae facilis, consequatur
-            id temporibus magni culpa! Voluptate dolore asperiores, beatae quaerat modi nostrum in accusamus. Odit fugit
-            blanditiis tempore qui maxime? Ut nam deserunt suscipit architecto totam saepe nulla, nisi aspernatur
-            ratione magnam, optio qui voluptatibus ipsam modi.
+            State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1992 years 5 months in Perth, Australia
           </div>
         </div>
       </div>
