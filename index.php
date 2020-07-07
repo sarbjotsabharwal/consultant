@@ -75,7 +75,7 @@
               <li  class="menu-has-children"><a href="#">Solar Bubble Covers</a>
                 <ul>
                   <li><a href="triplecellsolar.php">Triple Cell Solar Blankets</a></li>
-                  <li><a href="#">Super Bubble Solar Blankets</a></li>
+                  <li><a href="super_bubble_solar_blankets.php">Super Bubble Solar Blankets</a></li>
                 </ul>
               </li>
               <li class="menu-has-children"><a href="#">Roller Systems</a></li>
