@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -138,6 +140,9 @@
     <?php
     include('videopopup.html');
     ?>
+    <?php
+    include('pdfviewer.html');
+    ?>
     <!-- sticky background -->
     <div class="stickyback">
 
@@ -147,9 +152,11 @@
 
 
     <!-- section start -->
-    <h1 style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
+    <h1
+        style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
         Franchising</h1><br><br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+    <h1
+        style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         Charthill – BUSINESS FRANCHISING SERVICES</h1><br>
     <div class="heading"></div>
 
@@ -165,7 +172,8 @@
             their educational, career and entrepreneurial backgrounds. In addition to the 35 years of our experience,
             this will give you an idea of the calibre of information you’ll be receiving when you take advantage of our
             services. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer2()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                onclick="OpenPlayer2()">
                 Watch Video
             </button>
         </p>
@@ -175,48 +183,31 @@
 
     <!-- section start -->
     <br> <br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
-        Need Help With Your Invention Or product Idea?</h1><br>
+    <h1
+        style="display:block;margin:auto;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
+        How to Franchise Your Business Simply</h1><br>
     <div class="heading"></div>
 
     <div class="content">
         <!-- <h1 style="color:white;">LICENSING</h1> -->
         <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;">
-
-            If you are an inventor with a patent, we can help you make it very profitable.
-      
-
-            Charthill consultants has 35 years of experience in Licensing small to big businesses.
-            Simply put, we find companies who will retail and distribute your invention and make your business more
-            profitable.
-          
-
-            A startling fact is that only 2-3% of all patented inventions ever make more money for the inventor than
-            they invested into it. Why? Most commonly we have found that many inventors simply do not understand many of
-            the business principles that govern such transactions. Moreover, although they are brilliant in various
-            aspects of engineering and the conception of their ideas, they do not know these important decision makers
-            or how to present their inventions effectively.
-
+            It‘s more than just systems: a franchise without a system is like a car without wheels – it’s just not going
+            anywhere.
             <br>
-            We at Charthill consultants will bridge this gap and become a critical team member in the licensing of our
-            clients’ inventions. We attend trade shows throughout the world and make face-to-face presentations.
+            Whether you are just starting up, you currently have 50 franchisees or are somewhere in between, if you are
+            to franchise successfully, you need a clear simple and well-documented system just as any well-run business
+            does.
+            <br> <br>
 
-      
-            With the right strategies and agent working for you, the opportunities for your invention are endless. We at
-            Charthill Consultants will seek out these opportunities and even risk our own time and financial resources
-            to make it happen. We are just looking for good inventions to work with. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer1()">
-                Watch Video
-            </button>
         </p>
     </div>
     <!-- section end -->
 
-
     <!--card section-->
     <br>
     <br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px">
+    <h1
+        style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px">
         FRANCHISING AND ITS BENEFITS
     </h1><br>
     <div class="cardcontainer1" id="allcards1" style="">
@@ -225,40 +216,45 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/franchising/grow.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/franchising/Elite6-Business-Networking-380.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
-                <h5 class="card-title">EXPAND WITHOUT CAPITAL </h5>
+                <h5 class="card-title">BUILDING TWO BUSINESS STRUCTURES </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    Allows you to grow and expand your business without the need for significant capital outlay. The
-                    franchisee provides all the capital required to open and operate a unit. So, whether you want a
-                    couple of extra business units or 20++ your costs remain relatively the same.
+                    You are in fact building at least two very different but linked business structures, one for you as
+                    franchisor and one for your partners in business, your franchisees.
+              
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
+                        <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">
+                            Read More
+                        </button>
             </div>
         </div>
         <div class="card bg-light mb-3" style="border:1px black solid;border-radius: 25px;" id="">
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/franchising/motivate.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/franchising/support.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
-                <h5 class="card-title">MOTIVATED PEOPLE GROWING YOUR BRAND</h5>
+                <h5 class="card-title">FRANCHISOR SUPPORT</h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    Unlike employing staff, who may or may not be passionate about your business and will ultimately
-                    leave, franchisees are invested in the success of the brand which is often referred to in
-                    franchising as ‘skin in the game’. Long-term commitment improved operational function are just some
-                    of the advantages.
+                    So yes, one of your core roles as the franchisor is to look after your franchisees. And this will
+                    involve different skills with different franchisees as they grow in your partnership.
+                
 
                 </p>
+                <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf1()">
+                    Read More
+                </button>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -273,13 +269,16 @@
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
-                <h5 class="card-title">SPEED OF GROWTH </h5>
+                <h5 class="card-title">THE MARKET SAYS YES </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    Opening or starting a single service unit is expensive and takes time. Franchising allows companies
-                    to compete with much larger businesses so they can penetrate a particular market or territory much
-                    faster than an independent business operator.
+                    Looking after your brand and marketing is also a central responsibility for any franchisor.
+                    Marketing in a franchise, as with any business, involves far more than just advertising.
+                  
 
                 </p>
+                <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf2()">
+                    Read More
+                </button>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -288,61 +287,22 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/franchising/lesstaff.png" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/franchising/two sides.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
-                <h5 class="card-title">REDUCED OVERHEADS </h5>
+                <h5 class="card-title">TWO SIDES OF THE SAME BUSINESS </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    Franchising allows franchisors to function effectively with a much smaller staff. Because
-                    franchisees will assume many of the responsibilities otherwise shouldered by head office,
-                    franchisors can leverage these efforts to reduce overall staffing.
-
+                    So yes, big or small, the secret is to realise you are building two completely different business
+                    structures from your current business and you will be doing business in a completely different way
+                    in the future.
+                  
                 </p>
-                <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
-                        Singapore as well. </p> -->
-            </div>
-        </div>
-        <div class="card bg-light mb-3" style="border:1px black solid;border-radius: 25px;" id="">
-            <div class="card-header border-radius-top" style="padding: 0;">
-                <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/franchising/increaseProfit.jpg" alt="" style="width:100%;height: 300px;">
-            </div>
-            <div class="card-body" style="background: #00b09b;
-            border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
-            background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
-            background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
-                <h5 class="card-title">INCREASED PROFITABILITY </h5>
-                <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    The staffing leverage and ease of supervision allows franchised organisations to run in a highly
-                    profitable manner. Since franchisors can depend on their franchisees to cover all set up and running
-                    cost of the business unit, the franchisor’s organisation is run much leaner so the net result is
-                    that a franchise organisation can be more profitable.
-
-                </p>
-                <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
-                        Singapore as well. </p> -->
-            </div>
-        </div>
-        <div class="card bg-light mb-3" style="border:1px black solid;border-radius: 25px;" id="">
-            <div class="card-header border-radius-top" style="padding: 0;">
-                <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/franchising/scalable.png" alt="" style="width:100%;height: 300px;">
-            </div>
-            <div class="card-body" style="background: #00b09b;
-            border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
-            background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
-            background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
-                <h5 class="card-title">FULLY SCALABLE MODEL </h5>
-                <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    A franchise model will work for 2 or 200+ franchise units and allows you to grow at the speed you’re
-                    comfortable with.
-
-                </p>
+                <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf3()">
+                    Read More
+                </button>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -357,13 +317,17 @@
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
-                <h5 class="card-title">ENTRY INTO ADDITIONAL MARKETS </h5>
+                <h5 class="card-title">EXPANSION WITH CHOICE</h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    Once the Franchise model is established it is often relatively simple to add additional services
-                    that operate in similar industries and markets. This enables the franchisor to achieve organic
-                    growth with little capital outlay.
+                    How big do you need your franchise group to be? Do you have a simple business method which will suit
+                    the largest number of potential franchisees or does the complexity in your business restrict the
+                    market? How skilled do you need your franchisees to be?
+           
 
                 </p>
+                <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf4()">
+                    Read More
+                </button>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -372,31 +336,37 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/franchising/risk.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/franchising/money makes.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
-                <h5 class="card-title">REDUCED RISK </h5>
+                <h5 class="card-title">MONEY MAKES THE WORLD GO AROUND </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    By its very nature, franchising also reduces risk for the franchisor. Unless you choose to structure
-                    it differently, the franchisee has all the responsibility for the investment in the franchise
-                    operation, paying for any plant and equipment, purchasing inventory, hiring employees, and taking
-                    responsibility for any working capital needed to establish the business.
-
-                    The combination of these factors provides you with substantially reduced risk. Franchisors can grow
-                    to hundreds or even thousands of units with limited investment and without spending any of their own
-                    capital on unit expansion.
-
+                    So, right at the beginning, as you design your franchised business, you need to work out the money.
+                <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
+                    <li>How much does each franchise outlet need to earn to be profitable enough to support you and
+                        them?</li>
+                    <li>How much does your product need to cost and sell for?</li>
+               
+                </ul>
                 </p>
+                <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf5()">
+                    Read More
+                </button>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
         </div>
+       
+
+  
+   
 
         <div class="seprator" style="color: white;font-weight: bold;">---------------------------</div>
-        <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        <h1
+            style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
             Charthill Consultants assist you to set up the Process of Franchising</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -436,16 +406,14 @@
                         </ul>
                     </div>
                 </div>
-                <ul style="color: white;text-align: justify;;">
-                    <b><i></i></b>
-
-                </ul>
+          
             </div>
 
 
         </div>
 
-        <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        <h1
+            style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
             IMPLEMENTATION & FRANCHISOR SUPPORT & TRAINING</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -464,7 +432,8 @@
                 <li>Compliance management & conflict resolution</li>
                 <li>Ongoing training and support as required</li><br>
             </ul>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
                 Watch Video
             </button>
 

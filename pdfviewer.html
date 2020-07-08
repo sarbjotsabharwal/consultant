@@ -40,32 +40,28 @@
 
 
     <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPdf()">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">
         Launch demo modal
-    </button> -->
+    </button>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
         aria-hidden="true">
         <div class="modal-dialog" role="document" style="max-width: 90vw; ">
-            <div class="modal-content" style="height: 95vh;">
+            <div class="modal-content" style="height: auto;width: 500px;display: block;margin: auto;">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"></h5><a id="downloadbtn" type="button" class="btn btn-secondary" style="display: block;margin: auto;" href="">View in Fullscreen</a>
+                    <h5 class="modal-title" id="exampleModalLabel1"></h5>
+                    <!-- <a id="downloadbtn" type="button" class="btn btn-secondary" style="display: block;margin: auto;" href="">View in Fullscreen</a> -->
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
 
                 </div>
-                <div class="modal-body" style="">
+                <div class="modal-body" id="modal-body1">
 
-                    <object id="pdfframe" data="" type="application/pdf" width="100%"
-                        height="100%">
-                        <p>Problem in loading pdf,  <a href="">Click here!</a></p>
-                    </object>
 
-                    <!-- <iframe id="videoframe" width="100%" height="100%" src="" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe> -->
+              
+                  
 
                 </div>
                 <!-- <div class="modal-footer">
@@ -90,11 +86,119 @@
 <script>
 
     function OpenPdf() {
-        let a = document.getElementById('pdfframe');
-        a.setAttribute('data', 'business opportunities.pdf');
-        let c = document.getElementById('downloadbtn');
-        c.setAttribute('href', 'business opportunities.pdf');
-        let b = document.getElementById('exampleModalLabel').innerHTML = "Business Opportunites";
+        let a = document.getElementById('modal-body1');
+   
+        a.innerHTML = `<p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    You are in fact building at least two very different but linked business structures, one for you as
+                    franchisor and one for your partners in business, your franchisees.
+                    <br>
+                    Your franchisees will take responsibility for dealing with your clients or customers, and they bring
+                    in the money. Your franchisees will be doing much of the technical work your business now
+                    concentrates on.
+                    <br>
+                    You, as the franchisor, and leader of the franchise group, need to make sure everything is working
+                    and that you provide the right support to give your franchisees the best chance of success.
+                </p>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "BUILDING TWO BUSINESS STRUCTURES";
+    }
+    function OpenPdf1() {
+        let a = document.getElementById('modal-body1');
+   
+        a.innerHTML = `           <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    So yes, one of your core roles as the franchisor is to look after your franchisees. And this will
+                    involve different skills with different franchisees as they grow in your partnership.
+                    <br>
+                    In the early days, you will be inducting them into the franchise, teaching most of them exactly how
+                    you want them to do business:
+                <ul style="text-align: justify;font-size: 15px;">
+
+                    <li> How to make up the burger to meet your customers' expectations.</li>
+
+                    <li> How to interact with your customers.</li>
+
+                    <li> How to make your business look and feel.</li>
+
+                    <li> You will also be teaching many of them the basics of business — all about accounts,
+                        advertising, converting leads to sales.</li>
+                </ul>
+
+                </p>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "FRANCHISOR SUPPORT";
+    }
+    function OpenPdf2() {
+        let a = document.getElementById('modal-body1');
+   
+        a.innerHTML = `         <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    Looking after your brand and marketing is also a central responsibility for any franchisor.
+                    Marketing in a franchise, as with any business, involves far more than just advertising.
+                    <br>
+                    First, and most importantly, you need to understand the market that loves your product. Make sure
+                    you have a product which has a sustainable tribe of raving fans. And then work out how big you want
+                    the franchise group to be. Marry the two and make sure your product is presented to your tribe in a
+                    way which will satisfy their every desire.
+                    <br>
+                    And remember, it is the characteristics of this tribe of raving fans which will provide the details
+                    for you to work out your franchisee territories, which in turn feed into your fee structures. Great
+                    fee structures and profit will ultimately determine whether you have happy franchisees or not.
+
+                </p>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "THE MARKET SAYS YES";
+    }
+    function OpenPdf3() {
+        let a = document.getElementById('modal-body1');
+   
+        a.innerHTML = `      <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    So yes, big or small, the secret is to realise you are building two completely different business
+                    structures from your current business and you will be doing business in a completely different way
+                    in the future.
+                    <br>
+                    To tease out how you will organise these two sides of the business, so they work together, I have
+                    found I need to look at every aspect of your business; not just marketing and support, but also how
+                    the money works for both sides of the franchise in the long term, who is going to do what exactly,
+                    how product is going to be supplied. The list of questions is endless.
+
+
+
+                </p>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "TWO SIDES OF THE SAME BUSINESS";
+    }
+    function OpenPdf4() {
+        let a = document.getElementById('modal-body1');
+   
+        a.innerHTML = `    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    How big do you need your franchise group to be? Do you have a simple business method which will suit
+                    the largest number of potential franchisees or does the complexity in your business restrict the
+                    market? How skilled do you need your franchisees to be?
+                    <br>
+                    I have discovered that people who choose to grow their businesses through franchising are
+                    entrepreneurs. They are always looking for something new, and so most who come to me have businesses
+                    with many layers.
+                    <br>
+                    Her story is not unusual. The thing is, these simple franchises appeal to a much wider range of
+                    people in the franchisee market, so you get more applicants giving you more choice, so you can
+                    select the best franchisees available, making it easier to expand the group.
+
+
+                </p>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "EXPANSION WITH CHOICE";
+    }
+    function OpenPdf5() {
+        let a = document.getElementById('modal-body1');
+   
+        a.innerHTML = `   <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    So, right at the beginning, as you design your franchised business, you need to work out the money.
+                <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
+                    <li>How much does each franchise outlet need to earn to be profitable enough to support you and
+                        them?</li>
+                    <li>How much does your product need to cost and sell for?</li>
+                    <li>How many items do your franchisees need to sell each month?</li>
+                    <li>Who are the people with the money and love of your product, and what are their characteristics?
+                    </li>
+                    <li>Where do they live and what are their habits?</li>
+                    <li>What is the fee structure which will support your group as it begins and as it matures?</li>
+                </ul>
+                </p>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "MONEY MAKES THE WORLD GO AROUND";
     }
 
 </script>
