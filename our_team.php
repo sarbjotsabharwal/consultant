@@ -174,7 +174,7 @@
         <div class="cardtext" style="width: 800px;height:auto">
           <p style="font-weight:bold;text-align: justify;">
             Stanley Cobbold is the Executive Director at Charthill Consultants <br>
-            Independent Financial Services Professiona <br>
+            Independent Financial Services Professional <br>
             Rancho Santa Fe, California
           </p>
           <div class="card-text" style="height:auto;width: auto;"> He is a Successful investor,
@@ -247,7 +247,7 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/tylor.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">TYLOR BALDWIN</h4>
+          <h4 class="card-title" style="padding-top:10px">TAYLOR BALDWIN</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align: justify;">
