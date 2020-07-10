@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
+        body {}
 
         * {
             box-sizing: border-box;
@@ -242,6 +240,11 @@
         /* button .btn{
             border-radius: 20px;
         } */
+
+        body {
+
+            font-family: "Montserrat", sans-serif;
+        }
     </style>
 
 </head>
@@ -253,11 +256,12 @@
     <span id="buttonchange"><img src="assets/img/arrow.png" alt="" id="myBtn" onclick="OpenForm()"></span>
     <div class="chat-popup" id="myForm">
         <form action="" class="form-container" style="border-radius: 25px;">
-            <h2 class="text-center"
-                style="font-family: 'Metal Mania', cursive;color: rgb(255, 255, 255);text-align: center;">Useful Links
+            <h2 class="text-center" style="color: rgb(255, 255, 255);text-align: center;">Useful Links
             </h2>
-            <button type="button" class="btn" style="background: linear-gradient(to right, #f12711, #f5af19);">Home</button>
-            <button type="button" class="btn" style="  background: linear-gradient(to right, #4e54c8, #8f94fb);">Our Services</button>
+            <button type="button" class="btn"
+                style="background: linear-gradient(to right, #f12711, #f5af19);">Home</button>
+            <button type="button" class="btn" style="  background: linear-gradient(to right, #4e54c8, #8f94fb);">Our
+                Services</button>
             <button type="button" class="btn" style="      background: linear-gradient(to right, #2193b0, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             ">Contact Us</button>
 
@@ -306,7 +310,7 @@
 
 
 
-    
+
         function changePopupDisplay() {
 
             document.getElementById('clickhere').style.display = "block";

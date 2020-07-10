@@ -204,7 +204,7 @@
         }
 
         .container-box p span {
-            font-family: 'Metal Mania', cursive;
+         
             font-size: 50px;
             display: block;
             text-align: center;
@@ -221,10 +221,14 @@
             opacity: .9;
 
         }
+        .container-box p span{
+            color: rgb(1, 196, 1);
+            font-weight: bold;
+        }
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -241,7 +245,7 @@
 
     <!-- section start -->
     <h1
-        style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-family: 'Baloo Chettan 2', cursive;">
+        style="color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-weight:bold;padding:10px">
         SALES & MARKETING<br>
     </h1><br><br>
     <h1

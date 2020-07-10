@@ -78,11 +78,16 @@
       padding-left: 20px;
       padding-right: 20px;
     }
+
+    .card-title{
+      color: rgb(1, 168, 1);
+           
+    }
   </style>
 
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
 
   <?php
   include('our_team_cover.html');
@@ -155,7 +160,8 @@
   <!-- sticky background end -->
 
   <h1
-    style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 100px;text-align: center;font-size: 60px;font-family: 'Baloo Chettan 2', cursive;">
+    style=" color: rgb(1, 196, 1);
+    background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 100px;text-align: center;font-size: 60px;font-weight: bold;padding:10px">
     DIRECTORS</h1>
 
 
@@ -234,7 +240,8 @@
   <!-- first card end -->
 
   <h1
-    style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 30px;text-align: center;font-size: 60px;font-family: 'Baloo Chettan 2', cursive;">
+    style="color: rgb(1, 196, 1);
+    background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 100px;text-align: center;font-size: 60px;font-weight: bold;padding:10px">
     BOARD OF ADVISORS
   </h1>
 

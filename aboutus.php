@@ -9,9 +9,7 @@
   <!-- <link href="assets/img/favicon.png" rel="icon"> -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-    rel="stylesheet">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,17 +19,25 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
 
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    body {
 
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .span-green {
+      color: rgb(7, 206, 7);
+    }
+  </style>
 </head>
 
 <body>
 
-  <?php 
+  <?php
   include('header.html');
   ?>
 
@@ -48,15 +54,14 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/1.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2  class="newfont">Discover Charthill</h2>
+                <h2 class="" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
                 <h4 style="color: white;">INNOVATIVE MIND & QUICK SOLUTIONS</h4 style="color: white;">
                 <p>We at Charthill deliver integrated and quick solutions, which complement our capabilities with the
                   ecosystem of the world’s top innovators to gain better, faster and more successful results for the
                   customers’ entire satisfaction and convenience. We are committed to providing high-quality services
                   and products. We meet the mutually agreed-to requirements the first time and strive for continuous
                   improvement of our work processes.</p>
-                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us <span
-                      class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></button></a>
+                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></button></a>
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -66,7 +71,7 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="newfont">Discover Charthill</h2>
+                <h2 class="newfont"  style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
                 <h4 style="color: rgb(255, 255, 255);">UNIQUE WORKCULTURE</h4 style="color: white;">
 
                 <p>We take our hands on, collaborative approach to all our engagements and focus on developing solutions
@@ -86,8 +91,8 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="newfont">Discover Charthill</h2>
-                <h4 style="color: white;">MARKET RESEARCH</h4 style="color: white;">
+                <h2 class="newfont"  style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
+                <h4 style="color: white;">BUSINESS STRATEGY</h4 style="color: white;">
 
 
                 <p>We lay emphasis on developing a business strategy through examining current marketing plans,
@@ -107,14 +112,14 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/4.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="newfont">Discover Charthill</h2>
+                <h2 class="newfont"  style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
                 <h4 style="color: white;">ROBUST BUSINESS PLANNING</h4 style="color: white;">
 
 
                 <p>Providing a robust business plan and securing funding if necessary, Charthill takes a pragmatic approach & independent look at business structures, financial performance and marketing activity and providing appropriate solutions to improve the performance and efficiency of the entire programming of the business plan. </p>
                 <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us</button></a>
 
-              
+
                 <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"></span> -->
                 <!-- <a href="aboutus.php"><button type="button" class="glyphicon glyphicon-circle-arrow-down">More About Us</button></a> -->
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
@@ -140,57 +145,57 @@
   <!-- End Intro Section -->
 
   <!-- a brief on us section start -->
-  
+
   <div class="about-us" style="text-align: justify;">
     <h1 style="text-align: center;" id="aboutusection">A brief on Us</h1>
     <p class="about-intro" style="text-align: center;"><i>Individual commitment to a group effort–that is what makes a team work, a company work, a
-      society work, a
-      civilization work.
-      Vince Lombardi</i></p><br>
-      <br>
-      <!-- <h3  style="text-align: center;"><b>Welcome to Charthill Consultants!</b></h3><br> -->
-      
-      <p style="text-align: center;">Client satisfaction: Our watchword for sustainable growth</p>
-      
-      <p>Charthill Consultants is committed to delivering the highest level of client satisfaction in the consulting
-        market. At Charthill Consultants we try our utmost to provide our clients the best hidden opportunities they may
-        never have thought about and heard about. To support and achieve this goal, the firm has implemented a quality
-        policy that is systematically applied to all its assignments.
-      </p>
-      <p>We try to meet our clients expectations at all times. We continually assess our performance, legislative
-        requirements, the evolving needs of our business & client base, and adapt and improve our processes/performance
-        accordingly to ensure we continue to deliver a service that meets or exceeds the needs and expectations of our
-        clients and stakeholders. Consistent with this policy, we establish quality objectives aimed at enhancing customer
-        satisfaction and improving the effectiveness of our quality management system. We also aim at delivering insights
-        with impact for our clients using whole unbiased, fact based rigorous approach to maintain business continuity and
-        a strong financial condition to protect our client’s long-term interests.
-      </p>
-      <p>Our core structure is domain led and committed to help provide clients a single window to market specific
-        solutions. We recognize one of the most challenging issues to date is providing technology based cutting-edge
-        solutions that meet business needs and requirements, and we are uncompromising in our dedication to this integral
-        element in all our business activities. We pride ourselves in our commitment to our employees, and our
-        longstanding client and partner relationships built through many years of outstanding quality and integrity. We
-        have made significant development in digital platform, technologically advanced products, product& services
-        licensing, business development services, sales distribution and franchising. Based on our client’s needs with the
-        highest of ethical standards and pure dedication to excellence in all operational aspects, we aspire to exceed our
-        customers ‘expectations.
-      </p>
-      <p>Looking to the future, we will continue to develop our already advanced enterprises and keep driving.
-      </p>
+        society work, a
+        civilization work.
+        Vince Lombardi</i></p><br>
+    <br>
+    <!-- <h3  style="text-align: center;"><b>Welcome to Charthill Consultants!</b></h3><br> -->
+
+    <p style="text-align: center;">Client satisfaction: Our watchword for sustainable growth</p>
+
+    <p>Charthill Consultants is committed to delivering the highest level of client satisfaction in the consulting
+      market. At Charthill Consultants we try our utmost to provide our clients the best hidden opportunities they may
+      never have thought about and heard about. To support and achieve this goal, the firm has implemented a quality
+      policy that is systematically applied to all its assignments.
+    </p>
+    <p>We try to meet our clients expectations at all times. We continually assess our performance, legislative
+      requirements, the evolving needs of our business & client base, and adapt and improve our processes/performance
+      accordingly to ensure we continue to deliver a service that meets or exceeds the needs and expectations of our
+      clients and stakeholders. Consistent with this policy, we establish quality objectives aimed at enhancing customer
+      satisfaction and improving the effectiveness of our quality management system. We also aim at delivering insights
+      with impact for our clients using whole unbiased, fact based rigorous approach to maintain business continuity and
+      a strong financial condition to protect our client’s long-term interests.
+    </p>
+    <p>Our core structure is domain led and committed to help provide clients a single window to market specific
+      solutions. We recognize one of the most challenging issues to date is providing technology based cutting-edge
+      solutions that meet business needs and requirements, and we are uncompromising in our dedication to this integral
+      element in all our business activities. We pride ourselves in our commitment to our employees, and our
+      longstanding client and partner relationships built through many years of outstanding quality and integrity. We
+      have made significant development in digital platform, technologically advanced products, product& services
+      licensing, business development services, sales distribution and franchising. Based on our client’s needs with the
+      highest of ethical standards and pure dedication to excellence in all operational aspects, we aspire to exceed our
+      customers ‘expectations.
+    </p>
+    <p>Looking to the future, we will continue to develop our already advanced enterprises and keep driving.
+    </p>
     </p>
   </div>
   <!-- a brief on us section end -->
-  
+
   <!-- card section start -->
   <div class="card-container-aboutus" id="">
     <div id="servicebox">
-      <h1 align="center" style="padding-top: 1rem;color: white;">Our Strengths</h1>
-      
+      <h1 align="center" style="padding-top: 1rem; color: rgb(7, 206, 7);font-weight: bold;">Our Strengths</h1>
+
       <div class="cardcollection">
         <div class="card" style="width: 22rem;">
           <img class="card-img-top" src="assets/img/aboutuscards/1.jpg" alt="Card image cap">
           <div class="card-body">
-            
+
             <h4 class="text-center">Customer Commitment</h4>
             <p class="card-text">We develop relationships that make a positive difference in our customers’ lives.</p>
           </div>
@@ -208,7 +213,7 @@
         <div class="card" style="width: 22rem;">
           <img class="card-img-top" src="assets/img/aboutuscards/3.jpg" alt="Card image cap">
           <div class="card-body">
-            <h4 class="text-center">RESPECT FOR PEOPLE</h4>
+            <h4 class="text-center">Respect For People</h4>
             <p class="card-text text-center">We value our people, encourage their development and reward their
               performance.</p>
           </div>

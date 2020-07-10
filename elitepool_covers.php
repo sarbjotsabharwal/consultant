@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -207,7 +204,7 @@
         }
 
         .container-box p span {
-            font-family: 'Metal Mania', cursive;
+
             font-size: 50px;
             display: block;
             text-align: center;
@@ -226,8 +223,9 @@
         }
 
         #heading1 {
-            color: white;
-            background-color: rgba(2, 0, 102, 0.2);
+            color: rgb(1, 196, 1);
+            background-color: rgba(0, 0, 0, 0.39);
+
             z-index: 5;
             width: 100%;
             height: auto;
@@ -235,7 +233,8 @@
             margin-top: 150px;
             text-align: center;
             font-size: 70px;
-            font-family: 'Baloo Chettan 2', cursive;
+            font-weight: bold;
+
         }
 
         marquee {
@@ -243,9 +242,11 @@
             margin: 0;
             color: white;
         }
-        .carousel-item{
+
+        .carousel-item {
             width: 550px;
         }
+
         .carousel-item img {
             width: 550px;
             height: 480px;
@@ -301,10 +302,15 @@
         .list-items li:hover {
             animation-name: covertypehover;
         }
+
+        body {
+
+            font-family: "Montserrat", sans-serif;
+        }
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -317,7 +323,7 @@
     </div>
     <!-- sticky background end -->
     <br><br>
-   
+
     <h1 id="heading1">Elitepool Covers<br></h1>
     <marquee>Request A Quote, Call Right Now @ [+61] 447 188 144</marquee>
     <br><br>
@@ -330,7 +336,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;">
         <div class="container-box" id="container-box-1">
-           
+
 
             <!-- carousel section start -->
 
@@ -342,8 +348,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100"
-                            src="assets/img/elitepool/triple cell/Solar-Blanket-12-Triple-cell.jpg" alt="First slide">
+                        <img class="d-block w-100" src="assets/img/elitepool/triple cell/Solar-Blanket-12-Triple-cell.jpg" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h6>Since 1989 Elite Pool Covers have designed and manufactured an extensive range of high
                                 quality affordable manual, <i>semi-automatic and fully-automatic pool cover systems</i>
@@ -355,8 +360,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/img/elitepool/triple cell/2-Solar-Blankets-1.jpg"
-                            alt="First slide">
+                        <img class="d-block w-100" src="assets/img/elitepool/triple cell/2-Solar-Blankets-1.jpg" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h6>Elite Pool Covers has been providing the best possible Pool Cover Systems to customers
                                 all over Australia, and the world. Our customer base includes <i>Melbourne Sydney Perth
@@ -366,9 +370,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100"
-                            src="assets/img/elitepool/triple cell/4-Hideaway-System-90-degree-drive-15.jpg"
-                            alt="First slide">
+                        <img class="d-block w-100" src="assets/img/elitepool/triple cell/4-Hideaway-System-90-degree-drive-15.jpg" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h6>Elite covers Australia’s top commercial swimming pools because their quality is second
                                 to none. The exact same quality fabrics that are used on commercial pools and for export
@@ -388,8 +390,8 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-                
-                <h1>Elite Pool Covers, Uniquely Built For You</h1>
+
+                <h2 style=" color: rgb(1, 196, 1) ;font-weight:bold;margin-top:10px">Elite Pool Covers, Uniquely Built For You</h2>
             </div>
 
             <!-- carousel section end -->
@@ -409,8 +411,7 @@
 
     <!-- section end -->
     <br><br>
-    <div class="container"
-        style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+    <div class="container" style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
         <h5 class="card-title" style="font-weight: normal;font-size: 40px;">Pool Cover Types</h5>
 
         <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
@@ -444,15 +445,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>

@@ -104,6 +104,8 @@
             box-shadow: 0 0 7px 7px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
         }
+     
+
     </style>
 </head>
 
@@ -137,7 +139,7 @@
                                     </div>
                                     <div class="card-body" style="background: linear-gradient(to right, #00c6ff, #0072ff);border-bottom-left-radius: 25px;border-bottom-right-radius:25px;color: white;
                                     ">
-                                        <h5 class="card-title" style="font-family: 'Baloo Chettan 2', cursive;">Social Impact</h5>
+                                        <h5 class="card-title" style="">Social Impact</h5>
                                         <h7 style="text-align: justify;"> Charthill desires to be the torch bearer of
                                             promoting the use of renewable energy sources, thereby helping to sustain
                                             the environment. Efficient, prompt, and timely action defines the way for
@@ -170,7 +172,7 @@
                                             style="border-radius:15px;width: 100%;height: 350px;">
                                     </div>
                                     <div class="card-body" style="  background: linear-gradient(to right, #ffb75e, #ed8f03);;color:rgb(255, 255, 255);border-bottom-left-radius:25px;border-bottom-right-radius: 25px;">
-                                        <h5 class="card-title" style="font-family: 'Baloo Chettan 2', cursive;">Social Impact</h5>
+                                        <h5 class="card-title" style=" ">Social Impact</h5>
                                         <h7 style="text-align: justify;"> In the past three decades, research and
                                             development in green energy has exploded, yielding hundreds of promising new
                                             technologies that can reduce our dependence on coal, oil, and natural gas.

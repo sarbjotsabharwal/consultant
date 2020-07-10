@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -169,10 +167,15 @@
         #show-card-3:hover + #card-body-3 {
             display: block;
         } */
+
+
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
     </style>
 </head>
 
-<body>
+<body style="  font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -188,12 +191,10 @@
 
 
     <!-- section start -->
-    <h1
-        style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-family: 'Baloo Chettan 2', cursive;">
+    <h1 style="color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 80px;font-weight: bold;">
         IPO Advisory<br>
     </h1><br><br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(163, 90, 7, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(163, 90, 7, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         IPO Advisory Services<br>
         <span style="font-size: 25px;">for Australia, New-Zealand, Canada and United States</span>
     </h1><br>
@@ -213,20 +214,18 @@
             <br>
             Additionally, we work side-by-side with our clients throughout the entire IPO execution, providing
             independent capital markets advice. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer4()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer4()">
                 Watch Video
             </button>
         </p>
     </div>
     <!-- section end -->
 
-    
+
 
     <!-- section start -->
     <br> <br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(136, 177, 26, 0.5);z-index: 5;width: 40%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(136, 177, 26, 0.5);z-index: 5;width: 40%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
         IPO execution
     </h1><br>
     <div class="heading"></div>
@@ -239,8 +238,7 @@
             months prior to listing and the six months after. Throughout your IPO journey, our team of experienced
             professionals can help guide you through the IPO process and in navigating the reporting obligations that
             follow listing. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer5()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer5()">
                 Watch Video
             </button>
         </p>
@@ -261,7 +259,7 @@
             <div class="card text-black bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
                 <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;border-radius: 25px;">
                     <img src="assets/img/ipo/ipoback.jpg" style="height: 250px;" alt="">
-                    <h5 class="card-title" style="color:;font-size:40px;font-weight: normal;">Planning for an IPO </h5>
+                    <h5 class="card-title" style="color:;font-size:35px;font-weight: normal;color: rgb(1, 196, 1)">Planning for an IPO </h5>
                 </div>
 
                 <div class="card-body text-dark" id="card-body-1">
@@ -284,7 +282,7 @@
             <div class="card text-white bg-success mb-3" style="max-width: 400px;border-radius: 25px;">
                 <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
                     <img src="assets/img/ipo/ipoexecution1.jpg" style="height: 250px;" alt="">
-                    <h5 class="card-title" style="font-size:40px;font-weight: normal;">Executing an IPO
+                    <h5 class="card-title" style="font-size:35px;font-weight: normal;">Executing an IPO
                     </h5>
                 </div>
                 <div class="card-body text-dark" id="card-body-2">
@@ -310,7 +308,7 @@
             <div class="card text-dark bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
                 <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
                     <img src="assets/img/ipo/post.jpg" style="height: 250px;" alt="">
-                    <h5 class="card-title" style="font-size:40px;font-weight: normal;">Post-IPO
+                    <h5 class="card-title" style="font-size:35px;font-weight: normal;color: rgb(1, 196, 1)">Post-IPO
                     </h5>
                 </div>
                 <div class="card-body text-dark" id="card-body-3">

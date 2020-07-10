@@ -209,7 +209,7 @@
         }
 
         .container-box p span {
-            font-family: 'Metal Mania', cursive;
+           
             font-size: 50px;
             display: block;
             text-align: center;
@@ -228,8 +228,9 @@
         }
 
         #heading1 {
-            color: white;
-            background-color: rgba(2, 0, 102, 0.2);
+            color: rgb(1, 196, 1);
+            background-color: rgba(0, 0, 0, 0.39);
+            font-weight: bold;
             z-index: 5;
             width: 100%;
             height: auto;
@@ -237,7 +238,7 @@
             margin-top: 60px;
             text-align: center;
             font-size: 50px;
-            font-family: 'Baloo Chettan 2', cursive;
+           
         }
 
         marquee {
@@ -320,7 +321,7 @@
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -385,7 +386,7 @@
             style="border-radius: 10px;width: 50%;border: 1px solid white;height: 350px;">
         <ul style="width: 40%;padding: 20px;text-align: justify;margin-left: 20px;">
 
-            <h3>Elite Triple Cell® World Leading Technology</h3><br>
+            <h3 style="color: rgb(1, 196, 1);font-weight:bold">Elite Triple Cell® World Leading Technology</h3><br>
             <li>Performance – large purpose designed solar cells provide greater heat generation and insulation</li>
             <li>Designed and manufactured in Australia, proven in the world’s harshest conditions</li>
             <li>Easier to operate, easier to wind, easier on the eye</li>

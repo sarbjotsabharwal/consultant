@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -128,10 +130,19 @@
             border-top-left-radius: 25px;
             border-top-right-radius: 25px;
         }
+
+
+        body {
+            font-family: "Montserrat", "sans-serif";
+        }
+
+        .card-title {
+            color: rgb(2, 168, 2)
+        }
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -148,9 +159,11 @@
     <!-- sticky background end -->
 
     <!-- section start -->
-    <h1 style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
+    <h1
+        style=" color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 80px;font-weight: bold;">
         Licensing Services</h1><br><br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(89, 255, 98, 0.5);z-index: 5;width: 30%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+    <h1
+        style="display:block;margin:auto;color: white;background-color: rgba(206, 206, 206, 0.5);z-index: 5;width: 30%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         Licensing</h1><br>
     <div class="heading"></div>
 
@@ -158,12 +171,14 @@
         <!-- <h1 style="color:white;">LICENSING</h1> -->
         <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;">
 
-            Licensing is defnined as business format where a company authorizes another company to access its intellectual property rights.
+            Licensing is defnined as business format where a company authorizes another company to access its
+            intellectual property rights.
             <br>
             If you are an inventor charthill can help you obtain a patent, trademark and copyright.
             <br>
             We seek out opportunity and risk our own time to work with. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                onclick="OpenPlayer()">
                 Watch Video
             </button>
         </p>
@@ -174,7 +189,8 @@
     <!--card section-->
     <br>
     <br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px">
+    <h1
+        style="display:block;margin:auto;color:white;background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
         BENEFITS OF LICENSING
     </h1><br>
     <div class="cardcontainer1" id="allcards1" style="">
@@ -191,7 +207,9 @@
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
                 <h5 class="card-title">How a licensing aggrement works? </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    In a typical licensing agreement, the licensor grants the licensee the right to sell goods, apply a brand name or trademark, or use patented technology owned by the licensor, in exchange for payments to the licensor paid by the licensee for use of such right.
+                    In a typical licensing agreement, the licensor grants the licensee the right to sell goods, apply a
+                    brand name or trademark, or use patented technology owned by the licensor, in exchange for payments
+                    to the licensor paid by the licensee for use of such right.
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -210,7 +228,9 @@
             background: linear-gradient(to right, #ffdbcd, #ffa1a1);opacity: 1;">
                 <h5 class="card-title">What is the cost of licensing?</h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    The licensee pays a upfront fee or no fee depending on the negotiation for the license and a negotiated percentage of turnovers on the branded, or other licensed products. That ongoing percentage can be negotiated between both parties.
+                    The licensee pays a upfront fee or no fee depending on the negotiation for the license and a
+                    negotiated percentage of turnovers on the branded, or other licensed products. That ongoing
+                    percentage can be negotiated between both parties.
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -229,7 +249,8 @@
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
                 <h5 class="card-title">Can licensee run his business as per his will? </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    The licensee runs their own business their way, simply making use of the brand or other intellectual property to attract clients and customers.
+                    The licensee runs their own business their way, simply making use of the brand or other intellectual
+                    property to attract clients and customers.
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -248,7 +269,9 @@
             background: linear-gradient(to right, #ffdbcd, #ffa1a1);opacity: 1;">
                 <h5 class="card-title">Any geographical limits needed between two licensees? </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    There is no geographic exclusivity for doing business, as with a real estate franchise, but the license agreement may include a geographical limit on how close another licensee may display the same logo.
+                    There is no geographic exclusivity for doing business, as with a real estate franchise, but the
+                    license agreement may include a geographical limit on how close another licensee may display the
+                    same logo.
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and

@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -172,10 +170,18 @@
         #show-card-3:hover + #card-body-3 {
             display: block;
         } */
+        body {
+
+            font-family: "Montserrat", sans-serif;
+        }
+        .card-title{
+            color: rgb(1, 196, 1);
+            font-weight: bold;
+        }
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -191,12 +197,10 @@
 
 
     <!-- section start -->
-    <h1
-        style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-family: 'Baloo Chettan 2', cursive;">
+    <h1 style="color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-weight:bold;padding:15px">
         Business Migration Services<br>
     </h1><br><br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(4, 85, 161, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(4, 85, 161, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         BUSINESS MIGRATION SERVICES<br>
         <!-- <span style="font-size: 25px;">for Australia, New-Zealand, Canada and United States</span> -->
     </h1><br>
@@ -212,8 +216,7 @@
             <br>
             Thanks to the presence of massive natural resources and consistent economical development, Australia is the
             amazing place for aspiring BUSINESSMEN & INVESTORS. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer6()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer6()">
                 Watch Video
             </button>
         </p>
@@ -221,9 +224,8 @@
     <!-- section end -->
     <br><br>
 
-    <div class="container"
-        style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
-        <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
+    <div class="container" style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+        <h5 class="card-title" style="font-weight: normal;font-size: 30px;color:white">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
             THE FOLLOWING SERVICES</h5>
         <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
 
@@ -252,8 +254,7 @@
             <!-- <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
                 THE FOLLOWING SERVICES</h5> -->
         </div>
-        <div class="card-body"
-            style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
+        <div class="card-body" style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
             <p style="font-size: 15px;padding-left: 40px;padding-right: 40px;"><b>It is a permanent
                     visa for high-caliber business owners or part-owners who want to do business in Australia. The
                     132 visa is a state nominated Australian provisional business visa which is valid for four years. It
@@ -266,12 +267,11 @@
                 <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
                     <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
                         <img src="assets/img/business migration/property develop.png" style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
-                        <h5 class="card-title" style="font-size:40px;font-weight: normal;">Property Development
+                        <h5 class="card-title" style="font-size:40px;">Property Development
                         </h5>
                     </div>
 
-                    <div class="card-body text-dark id=" card-body-1"
-                        style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;padding-right: 50px;padding-left: 50px;">
+                    <div class="card-body text-dark id=" card-body-1" style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;padding-right: 50px;padding-left: 50px;">
 
                         If your proposed business activity relates to property development, you must meet the following
                         additional requirements:<br>
@@ -303,11 +303,10 @@
                     <div class="card-header" style="margin: 0;padding: 0;">
 
                         <img src="assets/img/business migration/checklist-3693113_1920.jpg" style="height: 350px;box-shadow: none;" alt="">
-                        <h5 class="card-title" style="font-size:40px;font-weight: normal;">You Must Have
+                        <h5 class="card-title" style="font-size:40px;">You Must Have
                         </h5>
                     </div>
-                    <div class="card-body text-dark" id="card-body-2"
-                        style="border-radius:25px;padding-right: 50px;padding-left: 50px;">
+                    <div class="card-body text-dark" id="card-body-2" style="border-radius:25px;padding-right: 50px;padding-left: 50px;">
                         <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
                             <li>
 

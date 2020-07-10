@@ -209,7 +209,7 @@
         }
 
         .container-box p span {
-            font-family: 'Metal Mania', cursive;
+         
             font-size: 50px;
             display: block;
             text-align: center;
@@ -228,8 +228,8 @@
         }
 
         #heading1 {
-            color: white;
-            background-color: rgba(2, 0, 102, 0.2);
+            color: rgb(1, 196, 1);
+            background-color: rgba(0, 0, 0, 0.39);
             z-index: 5;
             width: 100%;
             height: auto;
@@ -237,7 +237,8 @@
             margin-top: 60px;
             text-align: center;
             font-size: 50px;
-            font-family: 'Baloo Chettan 2', cursive;
+            font-weight: bold;
+           
         }
 
         marquee {
@@ -336,7 +337,7 @@
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>

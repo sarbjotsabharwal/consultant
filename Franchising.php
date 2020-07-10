@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -130,10 +128,19 @@
             border-top-left-radius: 25px;
             border-top-right-radius: 25px;
         }
+
+        body {
+
+            font-family: "Montserrat", sans-serif;
+        }
+        .card-title{
+            color: rgb(3, 158, 3)
+        }
+
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -152,11 +159,9 @@
 
 
     <!-- section start -->
-    <h1
-        style="color: white;background-color: rgba(0, 0, 0, 0.2);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-family: 'Baloo Chettan 2', cursive;">
+    <h1 style=" color: rgb(2, 168, 2);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-weight: bold;">
         Franchising</h1><br><br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
         Charthill – BUSINESS FRANCHISING SERVICES</h1><br>
     <div class="heading"></div>
 
@@ -172,8 +177,7 @@
             their educational, career and entrepreneurial backgrounds. In addition to the 35 years of our experience,
             this will give you an idea of the calibre of information you’ll be receiving when you take advantage of our
             services. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer2()">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer2()">
                 Watch Video
             </button>
         </p>
@@ -183,8 +187,7 @@
 
     <!-- section start -->
     <br> <br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
         How to Franchise Your Business Simply</h1><br>
     <div class="heading"></div>
 
@@ -206,8 +209,7 @@
     <!--card section-->
     <br>
     <br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px">
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(0, 0, 0, 0.3);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
         FRANCHISING AND ITS BENEFITS
     </h1><br>
     <div class="cardcontainer1" id="allcards1" style="">
@@ -226,13 +228,13 @@
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     You are in fact building at least two very different but linked business structures, one for you as
                     franchisor and one for your partners in business, your franchisees.
-              
+
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
-                        <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">
-                            Read More
-                        </button>
+                <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">
+                    Read More
+                </button>
             </div>
         </div>
         <div class="card bg-light mb-3" style="border:1px black solid;border-radius: 25px;" id="">
@@ -249,7 +251,7 @@
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     So yes, one of your core roles as the franchisor is to look after your franchisees. And this will
                     involve different skills with different franchisees as they grow in your partnership.
-                
+
 
                 </p>
                 <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf1()">
@@ -273,7 +275,7 @@
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     Looking after your brand and marketing is also a central responsibility for any franchisor.
                     Marketing in a franchise, as with any business, involves far more than just advertising.
-                  
+
 
                 </p>
                 <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf2()">
@@ -298,7 +300,7 @@
                     So yes, big or small, the secret is to realise you are building two completely different business
                     structures from your current business and you will be doing business in a completely different way
                     in the future.
-                  
+
                 </p>
                 <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf3()">
                     Read More
@@ -322,7 +324,7 @@
                     How big do you need your franchise group to be? Do you have a simple business method which will suit
                     the largest number of potential franchisees or does the complexity in your business restrict the
                     market? How skilled do you need your franchisees to be?
-           
+
 
                 </p>
                 <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf4()">
@@ -345,12 +347,12 @@
                 <h5 class="card-title">MONEY MAKES THE WORLD GO AROUND </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     So, right at the beginning, as you design your franchised business, you need to work out the money.
-                <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
-                    <li>How much does each franchise outlet need to earn to be profitable enough to support you and
-                        them?</li>
-                    <li>How much does your product need to cost and sell for?</li>
-               
-                </ul>
+                    <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
+                        <li>How much does each franchise outlet need to earn to be profitable enough to support you and
+                            them?</li>
+                        <li>How much does your product need to cost and sell for?</li>
+
+                    </ul>
                 </p>
                 <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf5()">
                     Read More
@@ -359,14 +361,13 @@
                         Singapore as well. </p> -->
             </div>
         </div>
-       
 
-  
-   
+
+
+
 
         <div class="seprator" style="color: white;font-weight: bold;">---------------------------</div>
-        <h1
-            style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
             Charthill Consultants assist you to set up the Process of Franchising</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -377,7 +378,7 @@
             <div style="display: flex;flex-wrap: wrap; justify-content: center;">
                 <div class="card text-white bg-secondary mb-3" style="max-width: 400px;">
                     <div class="card-header">
-                        <h5 class="card-title">DEVELOP & BUILD THE MANUALS</h5>
+                        <h5 class="card-title" style="color: white;">DEVELOP & BUILD THE MANUALS</h5>
                     </div>
 
                     <div class="card-body text-dark">
@@ -396,7 +397,7 @@
                 </div>
                 <div class="card text-white bg-success mb-3" style="max-width: 400px;">
                     <div class="card-header">
-                        <h5 class="card-title">LEGAL DOCUMENTATION</h5>
+                        <h5 class="card-title" style="color: white;">LEGAL DOCUMENTATION</h5>
                     </div>
                     <div class="card-body text-dark">
                         <ul style="color: white;text-align: justify; ">
@@ -406,14 +407,13 @@
                         </ul>
                     </div>
                 </div>
-          
+
             </div>
 
 
         </div>
 
-        <h1
-            style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+        <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
             IMPLEMENTATION & FRANCHISOR SUPPORT & TRAINING</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -432,8 +432,7 @@
                 <li>Compliance management & conflict resolution</li>
                 <li>Ongoing training and support as required</li><br>
             </ul>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
                 Watch Video
             </button>
 

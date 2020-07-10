@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
 
 
     <!-- Main CSS File -->
@@ -68,11 +66,20 @@
             font-weight: bold;
 
         }
-        #heading img{
+
+        #heading img {
             width: 250px;
             border-radius: 100px;
             background-color: white;
             z-index: 5;
+        }
+
+        body {
+           
+            font-family: "Montserrat", sans-serif;
+        }
+        .card-title{
+            color: rgb(1, 196, 1);
         }
     </style>
 </head>
@@ -83,11 +90,11 @@
     ?>
     <div class="main-container">
         <div id="heading">
-            <h1>Our Business Alliance</h1><br>
-            <?php 
+            <h1 style="color: rgb(1, 196, 1);font-weight: bold;">Our Business Alliance</h1><br>
+            <?php
             include('logoslider.html');
             ?>
-           <!-- <a href="#allcards1"><img src="assets/img/downarrow2.gif" alt=""></a> -->
+            <!-- <a href="#allcards1"><img src="assets/img/downarrow2.gif" alt=""></a> -->
         </div>
     </div>
     <!--card section-->
@@ -96,8 +103,7 @@
 
         <div class="card bg-light mb-3" style="" id="ba1">
             <div class="card-header" style="padding:0;">
-                <img src="assets/img/businessalliance/jenny.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;">
+                <img src="assets/img/businessalliance/jenny.png" alt="" style="width: 100%;margin: 0;border-radius: 30px;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">JENNY CRAIG, INC.</h5>
@@ -112,15 +118,14 @@
                     expanded rapidly after entering the U.S., opening 46 locations by 1987 as well as 114 in foreign
                     countries. In 1991, the company underwent an IPO, generating $73.5 million in funding.
 
-                    </p>
-                    <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and Singapore as well. </p>
+                </p>
+                <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and Singapore as well. </p>
             </div>
         </div>
 
         <div class="card bg-light mb-3" style="" id="">
             <div class="card-header" style="padding:0;">
-                <img src="assets/img/businessalliance/epa.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;">
+                <img src="assets/img/businessalliance/epa.png" alt="" style="width: 100%;margin: 0;border-radius: 30px;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">ERA (Expense Reduction Analysis)</h5>
@@ -149,8 +154,7 @@
 
         <div class="card bg-light mb-3" style="" id="">
             <div class="card-header" style="padding:0;">
-                <img src="assets/img/businessalliance/spacecube.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;">
+                <img src="assets/img/businessalliance/spacecube.png" alt="" style="width: 100%;margin: 0;border-radius: 30px;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">SPACECUBE</h5>
@@ -169,40 +173,38 @@
         </div>
         <div class="card bg-light mb-3" style="" id="ba1">
             <div class="card-header" style="padding:0;">
-                <img src="assets/img/businessalliance/cla.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;">
+                <img src="assets/img/businessalliance/cla.png" alt="" style="width: 100%;margin: 0;border-radius: 30px;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">CLA SOCKETS</h5>
                 <p class="card-text" style="text-align: justify;height: auto">An Australian owned company established in 1999, on the Northern Beaches of Sydney, CLA socket is a leading provider of innovative, high-quality energy saving lamps, trendy lighting fixtures and related products to all commercial, industrial, residential and utility markets. Since its inception, CLA has continuously evolved to keep abreast of the current technology, especially in LED lighting, so that we can offer the Australian market the latest in national and international lighting trends.
 
-                    </p>
-                    <p style="text-align: center;font-size: 15px;">CLA SOCKET was licensed by Charthill consultants</p>
+                </p>
+                <p style="text-align: center;font-size: 15px;">CLA SOCKET was licensed by Charthill consultants</p>
             </div>
         </div>
         <div class="card bg-light mb-3" style="" id="ba1">
             <div class="card-header" style="padding:0;">
-                <img src="assets/img/businessalliance/solar.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;">
+                <img src="assets/img/businessalliance/solar.png" alt="" style="width: 100%;margin: 0;border-radius: 30px;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">SOLAR EDWARD</h5>
                 <p class="card-text" style="text-align: justify;height: auto">Edwards Solar Plus is a local company with a vast knowledge of both solar grid connected and standalone systems within the renewable energy industry.
 
                     We pride ourselves on the highest standard of workmanship and professional approach to make your experience with us as easy as possible.
-                    
-                    We expanded our service from our sister company Edwards Electrical which opened its doors in 2008 with the aim to provide a friendly, straight forward service with no hidden surprises. Over the last few years we have gained a big following from our esteemed customers
-                    
-                  
 
-                    </p><p></p>
-                    <p style="text-align: center;font-size: 15px;">  Licensed by Charthill consultants in Australia.</p>
+                    We expanded our service from our sister company Edwards Electrical which opened its doors in 2008 with the aim to provide a friendly, straight forward service with no hidden surprises. Over the last few years we have gained a big following from our esteemed customers
+
+
+
+                </p>
+                <p></p>
+                <p style="text-align: center;font-size: 15px;"> Licensed by Charthill consultants in Australia.</p>
             </div>
         </div>
         <div class="card bg-light mb-3" style="" id="ba1">
             <div class="card-header" style="padding:0;">
-                <img src="assets/img/businessalliance/gymboree.png" alt=""
-                    style="width: 100%;margin: 0;border-radius: 30px;">
+                <img src="assets/img/businessalliance/gymboree.png" alt="" style="width: 100%;margin: 0;border-radius: 30px;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">GYMBOREE PLAY & MUSIC</h5>
@@ -216,8 +218,8 @@
     <!-- card section end -->
 
     <!-- footer -->
-    <?php 
-        include('footer.html');
+    <?php
+    include('footer.html');
     ?>
     <!-- footer end -->
 </body>
