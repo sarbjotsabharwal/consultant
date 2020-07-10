@@ -265,7 +265,7 @@
                 <div class="card-body text-dark" id="card-body-1">
 
 
-                    <ul style="color: ;text-align: justify; font-size: 15px;">
+                    <ul style="text-align: justify; font-size: 15px;">
 
                         <li>Assessing IPO readiness</li>
                         <li>Developing an IPO Road map</li>
@@ -312,7 +312,7 @@
                     </h5>
                 </div>
                 <div class="card-body text-dark" id="card-body-3">
-                    <ul style="color: ;text-align: justify; font-size: 15px;">
+                    <ul style="text-align: justify; font-size: 15px;">
                         <b><i></i></b>
                         <li> Assisting with external reporting</li>
 

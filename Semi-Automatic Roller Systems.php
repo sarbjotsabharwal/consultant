@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hideaway In-ground Rollers</title>
+    <title>Semi-Automatic Roller Systems</title>
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -192,6 +192,15 @@
             padding: 20px;
         }
 
+        .container-box {
+            /* display: flex;
+            flex-wrap: wrap; */
+            /* width: 40vw; */
+            /* height: vh; */
+            /* background: rgb(3, 167, 44); */
+
+        }
+
         .container-box p {
             text-align: justify;
             width: 500px;
@@ -335,19 +344,6 @@
         body {
             font-family: "Montserrat", sans-serif;
         }
-
-
-
-        .evehi {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: rgb(206, 206, 206);
-        }
-
-        .evehi img {
-            width: 300px;
-        }
     </style>
 </head>
 
@@ -365,69 +361,66 @@
     <!-- sticky background end -->
     <br><br>
 
-    <h1 id="heading1">Hideaway In-ground Rollers<br></h1>
+    <h1 id="heading1">Semi-Automatic Roller Systems<br></h1>
 
-    <br><br>
-    <div class="header1" style="margin-top:20px">
-        <i> Multi Award Winning Hideaway® Rollers</i>
-    </div>
+    <br>
+
+
+
 
     <!-- <div class="side-sticky">
         
     </div> -->
 
     <!-- section start -->
+
+
+
+    <div class="header1" style="margin-top:20px">
+        <i> Energy Saving Semi-Automatic Pool Cover Systems</i>
+    </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-            Out-of-sight and out-of-mind, that’s the Elite Hideaway® difference.When not in use your <strong>Elite Solar
-                Pool Blanket</strong> is stored away. It’s easy to operate with a single person able to remove or
-            replace the <strong> Solar Blanket</strong> in no time at all.
-            <br><br>
-            The other unique benefit is this range can be installed to new and most existing pools of almost any shape
-            and size. <strong>Your pool blanket and roller are hidden away underneath the aluminium lid.</strong>
+        <p style="width: 90%;">Elite Semi-Automatic Pool Covers offer you a remote controlled system for your Elite Super Bubble or Thermal
+        Shield Blanket. Systems can be designed to suit most shapes and sizes.</p>
+        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
+            <ol style="text-align: justify;margin-top: 20px;width: 400px;margin-right:20px;" type="1.">
+                <li><strong>Removing the blanket</strong></li>
+                Just click the remote and the roller will automatically roll the cover off and stop when it reaches the
+                end.
+
+                <li><strong>Covering the pool</strong></li>
+                Simply click the remote and guide the blanket out on to the pool with the Elite ‘pull cord’. The roller
+                will automatically stop when the pool is completely covered. It couldn’t be easier!
+
+                <li><strong>Mounting</strong></li>
+                The Elite Auto Roller can be mounted on a wall or set into the Elite Hideaway which is neatly hidden
+                below the ground out of sight. The Elite Auto Roller can be also hidden behind a water feature and made
+                to come out of an ‘envelope slot’, for that extra wow factor and aesthetic value.
 
 
 
-        </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+           </ol><br>
+            <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-2.jpg" alt=""
+                style="width: 500px;margin:20px;border: 2px solid white;">
         </div>
-        <ul style="text-align: justify;width: 95%;">
+        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
+            <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-1.jpg" alt=""
+                style="width: 500px;margin:20px;border: 2px solid white;">
+            <ul style="text-align: justify;margin-top: 20px;width: 400px;margin:10px">
 
-            <li>Lid is made of marine grade anodized aluminium</li>
-            <li> One person operation</li>
-            <li> Blanket is stored away, out-of-sight when not in use (this extends the pool blanket life)</li>
-            <li>Saves time and money</li>
-            <li>Adds value to your home, a must for any new or renovated pool!</li>
-            <li> Manual (handle) or automatic remote control option</li>
-            <br>
+                <li>Fits most pool shapes</li>
+                <li>Fully Mobile – can be wheeled out of sight</li>
+                <li>Low Voltage – for your safety</li>
+                <li>Totally enclosed motor system – nice and neat</li>
+                <li>All Aluminium & stainless steel construction – built to last, a great investment.</li>
+               <li> Remote control option</li>
+               <li> Great for retirement villages</li>
+                <li>Hydrotherapy pools</li>
+            </ul><br>
 
-        </ul>
-
-        <p style="width: 90%;">
-            The Elite Hideaway® Pool Cover not only is aesthetically pleasing but it saves time, money and our most
-            precious resource, water.
-            <br>
-            Ever since 1989 Elite Pool Covers have been creating a wide range of automatic and manual pool cover systems
-            for pool owners who embrace innovation, safety and security, while also having a keen eye for design and
-            style.
-            <br>
-            Elite quality simply cannot be found in other pool cover systems… insist on Elite Pool Covers!
-            <br>
-            View our Hideaway Rollers Image Gallery below! Ask about our DIY Hideaway kit sets,that will SAVE your
-            hundreds $$
-        </p>
+        </div>
     </div>
-
-    <div class="evehi">
-        <img src="assets/img/elitepool/hide/evehi/logo-smart-approved-watermark.png" alt="">
-        <img src="assets/img/elitepool/hide/evehi/logo-liwa.png" alt="">
-        <img src="assets/img/elitepool/hide/evehi/logo-pascaa.png" alt="">
-        <img src="assets/img/elitepool/hide/evehi/logo-smart-approved-watermark.png" alt="">
-    </div>
-    <br><br>
 
     <?php
 

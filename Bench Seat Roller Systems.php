@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hideaway In-ground Rollers</title>
+    <title>Bench Seat Roller Systems</title>
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -192,6 +192,15 @@
             padding: 20px;
         }
 
+        .container-box {
+            /* display: flex;
+            flex-wrap: wrap; */
+            /* width: 40vw; */
+            /* height: vh; */
+            /* background: rgb(3, 167, 44); */
+
+        }
+
         .container-box p {
             text-align: justify;
             width: 500px;
@@ -336,17 +345,28 @@
             font-family: "Montserrat", sans-serif;
         }
 
-
-
-        .evehi {
+        .picture-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            background-color: rgb(206, 206, 206);
         }
 
-        .evehi img {
-            width: 300px;
+        .picture-container img {
+            width: 400px;
+            margin: 20px;
+            border: solid 2px white;
+        }
+        .picture-container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .picture-container2 img {
+            width: 45%;
+            margin: 20px;
+            border: solid 2px white;
+            border-radius: 20px;
         }
     </style>
 </head>
@@ -365,69 +385,73 @@
     <!-- sticky background end -->
     <br><br>
 
-    <h1 id="heading1">Hideaway In-ground Rollers<br></h1>
+    <h1 id="heading1">Bench Seat Roller Systems<br></h1>
 
-    <br><br>
-    <div class="header1" style="margin-top:20px">
-        <i> Multi Award Winning Hideaway® Rollers</i>
-    </div>
+    <br>
+
+
+
 
     <!-- <div class="side-sticky">
         
     </div> -->
 
     <!-- section start -->
+
+
+
+    <div class="header1" style="margin-top:20px">
+        <i> Elite Bench Seat Systems</i>
+    </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-            Out-of-sight and out-of-mind, that’s the Elite Hideaway® difference.When not in use your <strong>Elite Solar
-                Pool Blanket</strong> is stored away. It’s easy to operate with a single person able to remove or
-            replace the <strong> Solar Blanket</strong> in no time at all.
-            <br><br>
-            The other unique benefit is this range can be installed to new and most existing pools of almost any shape
-            and size. <strong>Your pool blanket and roller are hidden away underneath the aluminium lid.</strong>
+        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
+            <img src="assets/img/elitepool/bench seat/2-cover-on-roller-small.jpg"" alt="" style=" width:
+                90%;margin:20px;border: 2px solid white;">
+            <ol style="text-align: justify;margin-top: 20px;width: 93%;margin-right:30px;" type="1.">
+                <h2>Elite Pool Blanket Storage Seats</h2>
+                Store your Elite solar blanket in this neat roller seat system. Plus have a great place to sit, lie and
+                place your towel while taking a dip in your warm pool.
+                <br><br>
+                <h2>Easy to Use</h2>
+                The easy wind wheel / handle makes winding your pool blanket into the Seat / Roller Combo a breeze.
+                Remote control motorized option is available.
+                To recover your pool simply pull out the solar blanket with Elites exclusive detachable “Pull cord
+                system”.
+                <br><br>
+                <h2>Premium Quality</h2>
+                The Elite Poolside Seat & Roller Combo incorporates Elite’s top of the range Platinum roller system
+                within the engineered, CAD designed seating structure.
+                <br>
+                As with all Elite’s products, our Seat/ Roller combo is made in Australia for Australia’s harsh
+                conditions from the best marine grade anodised aluminium, stainless steel and HDPE for longevity.
+
+                Upgrades to existing rollers available. DIY installation or we can install for you.
 
 
-
-        </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+            </ol><br>
+            <div class="picture-container">
+                <img src="assets/img/elitepool/bench seat/bench seat.jpg" alt="">
+                <img src="assets/img/elitepool/bench seat/4-sitting-on-bench-small.jpg" alt="">
+                <img src="assets/img/elitepool/bench seat/5-winding-cover-off-pool-small.jpg" alt="">
+                <img src="assets/img/elitepool/bench seat/6-cover-on-pool-small.jpg" alt="">
+            </div>
         </div>
-        <ul style="text-align: justify;width: 95%;">
 
-            <li>Lid is made of marine grade anodized aluminium</li>
-            <li> One person operation</li>
-            <li> Blanket is stored away, out-of-sight when not in use (this extends the pool blanket life)</li>
-            <li>Saves time and money</li>
-            <li>Adds value to your home, a must for any new or renovated pool!</li>
-            <li> Manual (handle) or automatic remote control option</li>
-            <br>
-
-        </ul>
-
-        <p style="width: 90%;">
-            The Elite Hideaway® Pool Cover not only is aesthetically pleasing but it saves time, money and our most
-            precious resource, water.
-            <br>
-            Ever since 1989 Elite Pool Covers have been creating a wide range of automatic and manual pool cover systems
-            for pool owners who embrace innovation, safety and security, while also having a keen eye for design and
-            style.
-            <br>
-            Elite quality simply cannot be found in other pool cover systems… insist on Elite Pool Covers!
-            <br>
-            View our Hideaway Rollers Image Gallery below! Ask about our DIY Hideaway kit sets,that will SAVE your
-            hundreds $$
-        </p>
+    </div>
+    <br>    <br>   
+    <div class="header1" style="margin-top:20px">
+        <i> Customized Bench Seats Available</i>
     </div>
 
-    <div class="evehi">
-        <img src="assets/img/elitepool/hide/evehi/logo-smart-approved-watermark.png" alt="">
-        <img src="assets/img/elitepool/hide/evehi/logo-liwa.png" alt="">
-        <img src="assets/img/elitepool/hide/evehi/logo-pascaa.png" alt="">
-        <img src="assets/img/elitepool/hide/evehi/logo-smart-approved-watermark.png" alt="">
+    
+    <div class="picture-container2">
+        <img src="assets/img/elitepool/bench seat/bench seat.jpg" alt="">
+        <img src="assets/img/elitepool/bench seat/4-sitting-on-bench-small.jpg" alt="">
+        <img src="assets/img/elitepool/bench seat/5-winding-cover-off-pool-small.jpg" alt="">
+        <img src="assets/img/elitepool/bench seat/6-cover-on-pool-small.jpg" alt="">
     </div>
-    <br><br>
+
 
     <?php
 
