@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +19,11 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -225,8 +228,8 @@
         }
 
         #heading1 {
-            color: white;
-            background-color: rgba(2, 0, 102, 0.2);
+            color: rgb(1, 196, 1);
+            background-color: rgba(0, 0, 0, 0.39);
             z-index: 5;
             width: 100%;
             height: auto;
@@ -234,6 +237,7 @@
             margin-top: 60px;
             text-align: center;
             font-size: 50px;
+            font-weight: bold;
 
         }
 
@@ -312,7 +316,13 @@
         .header1 {
             text-align: center;
             font-size: 35px;
-            color: white;
+          font-weight: bold;
+            color: rgb(1, 196, 1);
+            background-color: white;
+            width: 80%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
         }
 
         .pool-blanket {
@@ -337,7 +347,7 @@
     </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
     <?php
     include('header.html');
     ?>
@@ -351,124 +361,173 @@
     <!-- sticky background end -->
     <br><br>
 
-    <h1 id="heading1">Super Bubble Solar Blankets<br></h1>
-    <marquee>Elite Exclusive Super Bubble Solar Blankets</marquee>
-    <br>
+    <h1 id="heading1">Elite Easy Rollers<br></h1>
+    <marquee>Elite Quality all Aluminium Roller Systems</marquee>
+    <br> <br>
     <!-- <a href="#elitepool"><img src="assets/img/elitepool/down.gif" alt="" style="width: 150px;border: solid 2px white;border-radius: 100px;display: block;margin: auto;"></a> -->
     <!-- section end -->
 
-
+    <p style="color: white;text-align:center;width: 70%;display: block;margin:auto;">Elite’s wide range of roller
+        systems are the only all aluminium rollers on the market. They are built to last
+        with no plastic to break down in Australia’s harsh UV environment.
+        <br> <strong>That’s real value for money!</strong> <br> (No plastic to break down in the Sun)
+    </p>
 
     <div class="header1" style="margin-top:20px">
-        <i> How does your pool lose heat?</i>
+        <i> Elite Elegance Easy Roller™</i>
     </div>
 
     <!-- <div class="side-sticky">
-
+        
     </div> -->
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
         <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-            <li>While the sun is trying to heat your pool, the wind sets up convection currents that steal the same heat
-                at an alarming rate.</li>
-
-            <li>Every square centimetre of your pool’s surface gives up heat to the wind by evaporation. The stronger
-                the wind, the greater the heat loss.</li>
-
-            <li>Evaporation alone accounts for 60% of the heat loss from your pool. Another 30% of the loss radiates
-                into the air from the water surface and 10% goes into the ground.</li>
+            <li> The Mercedes of pool blanket rollers has been designed by a specialist design studio to offer the owner
+                the most ascetically pleasing, easiest to operate pool roller on the world market with its radiused
+                edges and form it will look great in any back yard.</li>
+            <li> The Elegance Easy roller has a built-in drop pin braking system that will maintain the position of the
+                roller when winding the pool blanket off the pool. The drop pin can be slid into the mobile position
+                when the roller needs to be wheeled away from the pool.</li>
 
         </ul>
         <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+            <a href="" onclick="OpenPlayer9()" data-toggle="modal" data-target="#exampleModal"><img
+                    src="assets/img/elitepool/easy roller/easy roller.png" alt="" style="border-radius: 10px;"></a>
         </div>
-    </div>
-    <br>
+        <ul>
+            <li style="text-align: justify;">The Elegance Easy roller frames can be power coated to your choice of
+                colour to better match your pool area.
+                Available fully mobile or stationary “use and remove”</li>
+        </ul>
+        <div class="">
+            <img src="assets/img/elitepool/easy roller/1-Elite-Elegance-Roller-Info-Sheet.jpg" alt=""
+                style="width: 90%;">
 
-
-    <div class="header1" style="">
-        <i> What will an Elite Pool Blanket do for me?</i>
-    </div>
-
-    <div class="pool-blanket">
-        <div class="content">
-            <img src="assets/img/elitepool/superbubble/Solar-Heating-Free-300x156-1.jpg" alt="">
-            <hr>
-            <p style="">Elite Super Bubble Blankets are proven to be the best heating blankets available*, so you will
-                swim in
-                warmer water for a lot longer.</p>
-        </div>
-        <div class="content">
-            <img src="assets/img/elitepool/superbubble/2-Saves-Precious-Water-300x156-1.jpg" alt="">
-            <hr>
-            <p style="">An Elite Super Bubble Blanket will keep the water in, keep the heat in and keep the chemicals in
-                your pool, saving you money.</p>
-        </div>
-        <div class="content">
-            <img src="assets/img/elitepool/superbubble/3-Keeps-Pool-Cleaner-300x156-1.jpg" alt="">
-            <hr>
-            <p style="">You will spend more time enjoying your pool and less time cleaning it.</p>
+            <ul style="text-align: justify;margin-top: 20px;">
+                <li>Available fully mobile or stationary “use and remove”</li>
+                <li>The solar blanketis totally detachable from the roller</li>
+                <li>A large easy wind wheel/handle combo winding system</li>
+                <li>Comes with a heavy duty easy fit reflective cover to protect your solar blanket when wound up on the
+                    roller in the sun</li>
+                <li>The only roller with its own pull cord system, just walk to the other end of the pool and pull the
+                    cord</li>
+                <li>Has nylon and stainless steel 360° rotating heavy duty castors for ease of use</li>
+                <li><strong>12 year warranty</strong></li>
+            </ul>
         </div>
     </div>
 
-    <br><br>
 
+    <div class="header1" style="margin-top:20px">
+        <i> Elite Platinum Easy Roller™</i>
+    </div>
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-    <div class="text-container" style="background: rgb(51, 51, 51,.5);width: 90%;margin: auto;color: white;text-align: center;border-radius: 20px;">
-        <br>
-        <h2>What makes Elite Blanket range better than others? </h2>
-        <h5 style="font-style: italic;">*NOT ALL BLANKETS ARE CREATED EQUAL*</h5>
-        <br>
-        <h4 style="background: rgb(0, 0, 0,.6);border-radius: 20px;padding: 15px;">The Five Facts about round bubble
-            blankets</h4>
+        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
+            <img src="assets/img/elitepool/easy roller/2-Elite-Platinum-Roller-1.jpg" alt="" style="width: 500px;">
 
-        <p style="padding:30px;color: white;font-size: 20px;text-align: justify;"> <b>“Ten years ago Elite set out to
-                improve on All aspects of the ‘run of the mill round bubble blankets’ and
-                succeeded by developing the Elite Super Bubble Blanket that is proven to out-perform all Solar type of
-                round
-                bubble blankets on the world market.*”</b>
-        </p>
-        <ol style="text-align: justify;margin: 30px;margin-top: 0;" type="1">
-            <li>There are a number of ”run of the mill” round bubble type blankets on the market. Most of them perform
-                the
-                same as each other i.e. heat the same/as they are the same pale colours.</li>
-            <li>These “run of the mill” blankets keep the heat in your pool the same, as they all have similar small
-                bubble
-                size, i.e. the same “ok” insulating properties and they will last about the same as each other i.e., as
-                they
-                are the same thickness i.e., 500, 400, 300 micron etc.</li>
-
-            <li>Elite Super Bubble Ultra Heat Deep Colour Blankets are proven to heat better than standard pool blankets
-                i.e., darker colours heat better than lighter colours giving you a warmer pool and a longer swimming
-                season*</li>
-            <li>Elite’s Super Bubble Blanket is the best insulating round bubble blanket available due to its superb
-                insulating larger higher bubble size. This gives you a longer swimming season, plus, if your pool is
-                heated
-                you get great energy savings.</li>
-            <li>Elite Super Bubble Salt Safe/Chlorine Safe 550 Micron Blanket will out-last other round bubble blankets
-                due
-                to its thickness and bubble design.</li>
-        </ol>
-        So ask for a sample of what you are getting quoted on and you be the judge!
-        <br>
-        * PROVEN RESULTS (Independent scale tank tests and comparative guarded hot plate tests to Australian Standard
-        AS4859-1.)
-        <br><br>
+            <ul style="text-align: justify;margin-top: 20px;width: 400px;">
+                <li>Available fully mobile or stationary “use and remove”</li>
+                <li>The solar blanketis totally detachable from the roller</li>
+                <li>A large easy wind wheel/handle combo winding system</li>
+                <li>Comes with a heavy duty easy fit reflective cover to protect your solar blanket when wound up on the
+                    roller in the sun</li>
+                <li>The only roller with its own pull cord system, just walk to the other end of the pool and pull the
+                    cord</li>
+                <li>Has nylon and stainless steel 360° rotating heavy duty castors for ease of use</li>
+                <li><strong>12 year warranty</strong></li>
+            </ul>
+        </div>
     </div>
 
 
-    <br>
+    <div class="header1" style="margin-top:20px">
+        <i> Elite Deluxe Mobile Easy Roller™</i>
+    </div>
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
+
+        <div class="" style="">
+            <img src="assets/img/elitepool/easy roller/Elite-Deluxe-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
+
+            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
+                <li> Elite Deluxe Fully Mobile Easy Roller., “use and remove”</li>
+                <li> Has nylon and stainless steel 360° rotating heavy duty castors for ease of use</li>
+                <li> Computer cut 5mm anodised frame for longevity</li>
+                <li> The Deluxe anodised handle make winding up blanket a breeze</li>
+                <li> Elite’s exclusive drop pin system. (stops the roller moving when in use and locates the roller in
+                    the
+                    exact spot for easy, one person operation)</li>
+                <li> Over cover clips onto framework cut outs to hold the over cover perfectly, to protect your
+                    investment</li>
+                <li> Comes with either a detachable or cord fitting system</li>
+                <li> The only roller with its own pull cord system, just walk to the other end of the pool and pull the
+                    cord.</li>
+                <li><strong>8 year warranty</strong></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="header1" style="margin-top:20px">
+        <i> Elite Deluxe Mobile Easy Roller™</i>
+    </div>
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
+
+        <div class="" style="">
+            <img src="assets/img/elitepool/easy roller/Elite-Standard-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
+
+            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
+                <li>All aluminium construction Anodized tube</li>
+                <li> Comes complete with white reflective over cover</li>
+                <li>5mm aluminium frame construction</li>
+                <li>“The best value budget roller on the market, you compare the quality”</li>
+
+                <li><strong>6 year warranty</strong></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header1" style="margin-top:20px">
+        <i>Elite Pool Cord System™</i>
+    </div>
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
+
+        <div class="" style="">
+            <img src="assets/img/elitepool/easy roller/Elite-Pool-Cord-System-Info-Sheet.jpg" alt=""
+                style="width: 90%;">
+
+            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
+                <li>One person can easily pull the cover onto the pool from the opposite end to the roller system.</li>
+                <li>Elites exclusive detachable roller to blanket system, allows the blanket to remain on the pool while the
+                Elite roller can be moved away from the pool. Great for winter and when entertaining around the pool.</li>
+                <li>The pool blanket is connected to the roller with Elites Exclusive blanket clamping system minimizing the</li>
+                chances of tears in the blanket.
+                <li>The best fitting system on the market</li>
+        
+            </ul>
+        </div>
+    </div>
+
+
+
     <?php
 
     include('footer.html');
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 
 </html>

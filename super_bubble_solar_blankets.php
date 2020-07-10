@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -209,7 +206,7 @@
         }
 
         .container-box p span {
-         
+
             font-size: 50px;
             display: block;
             text-align: center;
@@ -238,7 +235,7 @@
             text-align: center;
             font-size: 50px;
             font-weight: bold;
-           
+
         }
 
         marquee {
@@ -382,8 +379,7 @@
 
         </ul>
         <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
         </div>
     </div>
     <br>
@@ -417,8 +413,7 @@
     <br><br>
 
 
-    <div class="text-container"
-        style="background: rgb(51, 51, 51,.5);width: 90%;margin: auto;color: white;text-align: center;border-radius: 20px;">
+    <div class="text-container" style="background: rgb(51, 51, 51,.5);width: 90%;margin: auto;color: white;text-align: center;border-radius: 20px;">
         <br>
         <h2>What makes Elite Blanket range better than others? </h2>
         <h5 style="font-style: italic;">*NOT ALL BLANKETS ARE CREATED EQUAL*</h5>
@@ -454,7 +449,7 @@
                 to its thickness and bubble design.</li>
         </ol>
         So ask for a sample of what you are getting quoted on and you be the judge!
-<br>
+        <br>
         * PROVEN RESULTS (Independent scale tank tests and comparative guarded hot plate tests to Australian Standard
         AS4859-1.)
         <br><br>
@@ -468,15 +463,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>

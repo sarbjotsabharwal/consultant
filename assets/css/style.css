@@ -357,6 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
+  z-index: 1000;
 }
 
 .sf-arrows ul .sf-with-ul:after {
@@ -514,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav ul .menu-has-children i {
   position: absolute;
   right: 0;
-  z-index: 99;
+  z-index: 10000;
   padding: 15px;
   cursor: pointer;
   color: #fff;
