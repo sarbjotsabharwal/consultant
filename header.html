@@ -10,7 +10,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- bootstrap css -->
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,8 +23,202 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
- 
+<style>
+/* Nav Meu Container */
+
+#nav-menu-container {
+  float: right;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  #nav-menu-container {
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav-menu-container {
+    display: none;
+  }
+}
+
+/* Nav Meu Styling */
+
+.nav-menu a {
+  padding: 0 8px 10px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.nav-menu li:hover>a, .nav-menu>.menu-active>a {
+  color: #18d26e;
+}
+
+.nav-menu>li {
+  margin-left: 10px;
+}
+
+.nav-menu ul {
+  margin: 4px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+
+.nav-menu ul li a {
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  display: block;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.nav-menu ul li:hover>a {
+  color: #18d26e;
+}
+
+.nav-menu ul ul {
+  margin: 0;
+}
+
+/* Mobile Nav Toggle */
+
+#mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 20px 20px 0 0;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+/* Mobile Nav Styling */
+
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.8);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s;
+}
+
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mobile-nav ul li {
+  position: relative;
+}
+
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#mobile-nav ul li a:hover {
+  color: #18d26e;
+}
+
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+#mobile-nav ul li.menu-active a {
+  color: #18d26e;
+}
+
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 10000;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #18d26e;
+}
+
+#mobile-nav ul .menu-has-children li a {
+  text-transform: none;
+}
+
+#mobile-nav ul .menu-item-active {
+  color: #18d26e;
+}
+
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+/* Mobile Nav body classes */
+
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fff;
+}
 </style>
+  
 </head>
 
 <body style="font-family:  Montserrat, sans-serif;">
@@ -51,7 +245,7 @@
 
             </ul>
           </li>
-          <li  class="menu-has-children"><a href="#allservices">Services</a>
+          <li class="menu-has-children"><a href="#allservices">Services</a>
             <ul>
               <li><a href="licensing.php">Licensing</a></li>
               <li><a href="Franchising.php">Franchising</a></li>
@@ -61,26 +255,26 @@
             </ul>
 
           </li>
-          <li  class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
+          <li class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
             <ul>
-              <li  class="menu-has-children"><a href="#">Solar Bubble Covers</a>
+              <li class="menu-has-children"><a href="#">Solar Bubble Covers</a>
                 <ul>
                   <li><a href="triplecellsolar.php">Triple Cell Solar Blankets</a></li>
                   <li><a href="super_bubble_solar_blankets.php">Super Bubble Solar Blankets</a></li>
                 </ul>
               </li>
               <li class="menu-has-children"><a href="#">Roller Systems</a>
-              <ul>
-                <li><a href="Elite Easy Rollers.php"> Easy Rollers</a></li>
-                <li><a href="Hideaway In-ground Rollers.php"> Hideway In-Ground Roller</a></li>
-                <li><a href="Semi-Automatic Roller Systems.php"> Semi-Automatic Roller Systems</a></li>
-                <li><a href="Bench Seat Roller Systems.php"> Bench Seat Roller Systems</a></li>
-              </ul>
+                <ul>
+                  <li><a href="Elite Easy Rollers.php"> Easy Rollers</a></li>
+                  <li><a href="Hideaway In-ground Rollers.php"> Hideway In-Ground Roller</a></li>
+                  <li><a href="Semi-Automatic Roller Systems.php"> Semi-Automatic Roller Systems</a></li>
+                  <li><a href="Bench Seat Roller Systems.php"> Bench Seat Roller Systems</a></li>
+                </ul>
               </li>
-              <!-- <li class="menu-has-children"><a href="Elite Easy Rollers.php">Security & Debris Covers</a></li>
-              <li class="menu-has-children"><a href="">Fully Automatic Covers</a></li>
-              <li><a href="#">Commercial Range</a></li>
-              <li><a href="#">Thermal Shield</a></li> -->
+              <!-- <li class="menu-has-children"><a href="Elite Easy Rollers.php">Security & Debris Covers</a></li> -->
+              <!-- <li class="menu-has-children"><a href="">Fully Automatic Covers</a></li> -->
+              <!-- <li><a href="#">Commercial Range</a></li> -->
+              <li><a href="Thermal Shield.php">Thermal Shield</a></li>
             </ul>
           </li>
           <li><a href="our_team.php">Our Team</a>
@@ -115,7 +309,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 
-  
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -135,19 +329,19 @@
       $('body').append('<div id="mobile-body-overly"></div>');
       $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
 
-      $(document).on('click', '.menu-has-children i', function(e) {
+      $(document).on('click', '.menu-has-children i', function (e) {
         $(this).next().toggleClass('menu-item-active');
         $(this).nextAll('ul').eq(0).slideToggle();
         $(this).toggleClass("fa-chevron-up fa-chevron-down");
       });
 
-      $(document).on('click', '#mobile-nav-toggle', function(e) {
+      $(document).on('click', '#mobile-nav-toggle', function (e) {
         $('body').toggleClass('mobile-nav-active');
         $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
         $('#mobile-body-overly').toggle();
       });
 
-      $(document).click(function(e) {
+      $(document).click(function (e) {
         var container = $("#mobile-nav, #mobile-nav-toggle");
         if (!container.is(e.target) && container.has(e.target).length === 0) {
           if ($('body').hasClass('mobile-nav-active')) {
@@ -162,7 +356,7 @@
     }
 
     // Header scroll class
-    $(window).scroll(function() {
+    $(window).scroll(function () {
       if ($(this).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
       } else {
@@ -175,7 +369,7 @@
     }
 
     // Smooth scroll for the menu and links with .scrollto classes
-    $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+    $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
         if (target.length) {
@@ -213,10 +407,10 @@
     var main_nav = $('.nav-menu, #mobile-nav');
     var main_nav_height = $('#header').outerHeight();
 
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
       var cur_pos = $(this).scrollTop();
 
-      nav_sections.each(function() {
+      nav_sections.each(function () {
         var top = $(this).offset().top - main_nav_height,
           bottom = top + $(this).outerHeight();
 

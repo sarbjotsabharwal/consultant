@@ -181,7 +181,7 @@ If you are an inventor charthill can help you obtain a patent, trademark and cop
 
 <!-- section start -->
 <div class="ourclientscarousel" style="background: rgb(211, 211, 211);color: black;">
-  <h1 style="text-align: center;padding:40px;font-weight: bold;" class="span-green">Our Sucess Clients</h1>
+  <h1 style="text-align: center;padding:40px;font-weight: bold;" class="span-green">Our Success Stories</h1>
   <?php
   include('logoslider.html');
   ?>

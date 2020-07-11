@@ -235,7 +235,7 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/beatricenew.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">Mr. BEATRICE RING</h4>
+          <h4 class="card-title" style="padding-top:10px">Ms. BEATRICE RING</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align:left;">

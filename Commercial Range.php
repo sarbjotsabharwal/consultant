@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Easy Rollers</title>
+    <title>Commercial Range</title>
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +19,11 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -43,7 +46,6 @@
             flex-wrap: wrap;
             padding: 20px;
             justify-content: center;
-
 
         }
 
@@ -341,6 +343,19 @@
         body {
             font-family: "Montserrat", sans-serif;
         }
+
+        .picture-container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .item img {
+            width: 250px;
+            margin: 20px;
+            border: solid 2px white;
+            border-radius: 20px;
+        }
     </style>
 </head>
 
@@ -358,20 +373,23 @@
     <!-- sticky background end -->
     <br><br>
 
-    <h1 id="heading1">Elite Easy Rollers<br></h1>
-    <marquee>Elite Quality all Aluminium Roller Systems</marquee>
-    <br> <br>
-    <!-- <a href="#elitepool"><img src="assets/img/elitepool/down.gif" alt="" style="width: 150px;border: solid 2px white;border-radius: 100px;display: block;margin: auto;"></a> -->
-    <!-- section end -->
+    <h1 id="heading1">Commercial Range<br></h1>
 
-    <p style="color: white;text-align:center;width: 70%;display: block;margin:auto;">Elite’s wide range of roller
-        systems are the only all aluminium rollers on the market. They are built to last
-        with no plastic to break down in Australia’s harsh UV environment.
-        <br> <strong>That’s real value for money!</strong> <br> (No plastic to break down in the Sun)
-    </p>
+    <br>
+
+
+
+
+    <!-- <div class="side-sticky">
+        
+    </div> -->
+
+    <!-- section start -->
+
+
 
     <div class="header1" style="margin-top:20px">
-        <i> Elite Elegance Easy Roller™</i>
+        <i> Elite Commercial Pool Covers Proven since 1989</i>
     </div>
 
     <!-- <div class="side-sticky">
@@ -380,147 +398,141 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
+        <p>
+            Since 1989, Elite Pool Covers have pioneered the development, design & manufacture of a range of world’s
+            leading custom commercial pool cover systems that can be seen on many pools throughout Australia & Overseas.
+        </p>
 
         <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-            <li> The Mercedes of pool blanket rollers has been designed by a specialist design studio to offer the owner
-                the most ascetically pleasing, easiest to operate pool roller on the world market with its radiused
-                edges and form it will look great in any back yard.</li>
-            <li> The Elegance Easy roller has a built-in drop pin braking system that will maintain the position of the
-                roller when winding the pool blanket off the pool. The drop pin can be slid into the mobile position
-                when the roller needs to be wheeled away from the pool.</li>
+            <h3 style="text-align:left">Money saving, Water Saving & Energy saving</h3>
+            Elite Pool Covers is an innovator in providing value for money solutions to pool operators.
+
+            <br> <br>
+            <h3 style="text-align:left"> What’s best option for my Commercial Centre?</h3>
+            It is the highest R rating that you can afford. R values mean lower heat and water loss meaning cost savings
+            every day. Please note, an R value is the resistance between the outside temperature and the water
+            temperature trying to equalise.
 
         </ul>
         <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer9()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/easy roller/easy roller.png" alt="" style="border-radius: 10px;"></a>
+            <a href="" onclick="OpenPlayer10()" data-toggle="modal" data-target="#exampleModal"><img
+                    src="assets/img/elitepool/commercial range/commerical range.png" alt="" style="border-radius: 10px;"></a>
         </div>
+
+    </div>
+
+
+
+    <div class="header1" style="margin-top:20px">
+        <i>R Value: Elite Commercial Pool Cover Fabrics out perform all others</i>
+    </div>
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px;text-align:justify">
+
         <ul>
-            <li style="text-align: justify;">The Elegance Easy roller frames can be power coated to your choice of
-                colour to better match your pool area.
-                Available fully mobile or stationary “use and remove”</li>
+
+            <li> Elite’s 5mm Thermal Shield Blankets have the highest R value on the market, giving you the best return
+                on investment by saving the maximum energy, in turn saving you thousands of dollars.</li>
+            <br>
+            <li> Elite’s 4mm and 5mm thermal blankets use exclusive Airlon closed cell foam cores, which prevent up to 3
+                times less water from being absorbed into the blanket.</li>
+            <br>
+            <li> Water absorption can make blankets heavy to handle, easier to tear and retain heat less effectively,
+                giving you a poorer return over time.</li>
+            <br>
+            <li> Although Airlon foam is more expensive than standard foam, over time the return is ten-fold which means
+                greater value for money.</li>
+            <br>
+            <li> Note: Elite’s Thermal Shield fabric has been tested to Australian and New Zealand Stands AS/NZ 4859.1
+                to obtain a true R value. Some companies have simply “calculated” the possible R value using formula
+                best suited to the outcome they wish to produce.</li>
+            <br>
+            <li> For your own peace of mind, insist on documented proof of testing AS/NZ 4859.1 to protect your
+                investment dollars. The thermal insulating blanket has been designed specifically for heat retention and
+                is best used when the ambient air temperature has dropped below the pool water temperature, e.g.
+                overnight, as this material is opaque, thus producing no solar gain.</li>
         </ul>
-        <div class="">
-            <img src="assets/img/elitepool/easy roller/1-Elite-Elegance-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
 
-            <ul style="text-align: justify;margin-top: 20px;">
-                <li>Available fully mobile or stationary “use and remove”</li>
-                <li>The solar blanket is totally detachable from the roller</li>
-                <li>A large easy wind wheel/handle combo winding system</li>
-                <li>Comes with a heavy duty easy fit reflective cover to protect your solar blanket when wound up on the
-                    roller in the sun</li>
-                <li>The only roller with its own pull cord system, just walk to the other end of the pool and pull the
-                    cord</li>
-                <li>Has nylon and stainless steel 360° rotating heavy duty castors for ease of use</li>
-                <li><strong>12 year warranty</strong></li>
-            </ul>
-        </div>
     </div>
 
 
     <div class="header1" style="margin-top:20px">
-        <i> Elite Platinum Easy Roller™</i>
+        <i>Options for storing Commercial blankets</i>
     </div>
-    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
+    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px;text-align:justify">
+        <h2>Bench Seating</h2>
+        <ul>
 
-        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <img src="assets/img/elitepool/easy roller/2-Elite-Platinum-Roller-1.jpg" alt="" style="width: 500px;">
+            <li> Why take up valuable pool deck space with pool rollers, when you can store your water and energy saving
+                pool blankets in an Elite blanket storage bench seat. </li>
+            <br>
+            <li>Choose from our large range of easy to use benches or we can customize a bench seat solution just for
+                your centre. Elite blanket storage benches can be operated manually, remote control motorized or via
+                Elites “Blanket Buddy” and “Easy off” blanket winding equipment. </li>
+            <br>
+            <li>Elite Benches can be mobile or stationary plus can be clad with your choice of coverings, automatic,
+                hydraulic, blanket buddy or manual.</li>
+        </ul>
 
-            <ul style="text-align: justify;margin-top: 20px;width: 400px;">
-                <li>Available fully mobile or stationary “use and remove”</li>
-                <li>The solar blanket is totally detachable from the roller so you can simply wheel the Easy roller back from the pool edge or out of sight.</li>
-                <li>Featuring extra tall marine grade anodized aluminium frames for strength, reliability and longevity and a large easy wind wheel/handle combo winding system.</li>
-                <li> Comes with a heavy duty easy fit reflective cover to protect your solar blanket when wound up on the roller in the sun.</li>
-                <li>Over cover clips onto framework cut outs to hold the over cover perfectly, to protect your investment</li>
+    </div>
 
-            </ul>
-            <div style="width: 85%;text-align:justify;margin-top:10px">
 
-                <li>Elite’s exclusive drop pin system. (stops the roller moving when in use and locates the roller in the exact spot for easy, one person operation)</li>
-                <li> The only roller with its own pull cord system, just walk to the other end of the pool and pull the cord
-                <li> Has nylon and stainless steel 360° rotating heavy duty castors for ease of use.</li>
-           
-                <li><strong>10 year warranty</strong></li>
-            </div>
+
+    <div class="picture-container2">
+        <div class="item">
+
+            <a href="assets/img/elitepool/commercial range/New folder/bench-seating-nsw-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/bench-seating-nsw-300x225.jpg" alt=""></a>
         </div>
-    </div>
-
-
-    <div class="header1" style="margin-top:20px">
-        <i> Elite Deluxe Mobile Easy Roller™</i>
-    </div>
-    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-
-        <div class="" style="">
-            <img src="assets/img/elitepool/easy roller/Elite-Deluxe-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
-
-            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
-                <li> Elite Deluxe Fully Mobile Easy Roller., “use and remove”</li>
-                <li> Has nylon and stainless steel 360° rotating heavy duty castors for ease of use</li>
-                <li> Computer cut 5mm anodised frame for longevity</li>
-                <li> The Deluxe anodised handle make winding up blanket a breeze</li>
-                <li> Elite’s exclusive drop pin system. (stops the roller moving when in use and locates the roller in
-                    the
-                    exact spot for easy, one person operation)</li>
-                <li> Over cover clips onto framework cut outs to hold the over cover perfectly, to protect your
-                    investment</li>
-                <li> Comes with either a detachable or cord fitting system</li>
-                <li> The only roller with its own pull cord system, just walk to the other end of the pool and pull the
-                    cord.</li>
-                <li><strong>8 year warranty</strong></li>
-            </ul>
+        <div class="item">
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-1-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-1-300x225.jpg" alt=""></a>
         </div>
-    </div>
-
-
-
-    <div class="header1" style="margin-top:20px">
-        <i> Elite Deluxe Mobile Easy Roller™</i>
-    </div>
-    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-
-        <div class="" style="">
-            <img src="assets/img/elitepool/easy roller/Elite-Standard-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
-
-            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
-                <li>All aluminium construction Anodized tube</li>
-                <li> Comes complete with white reflective over cover</li>
-                <li>5mm aluminium frame construction</li>
-                <li>“The best value budget roller on the market, you compare the quality”</li>
-
-                <li><strong>6 year warranty</strong></li>
-            </ul>
+        <div class="item">
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-300x225.jpg" alt=""></a>
         </div>
-    </div>
-    <div class="header1" style="margin-top:20px">
-        <i>Elite Pool Cord System™</i>
-    </div>
-    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
+        <div class="item">
 
-        <div class="" style="">
-            <img src="assets/img/elitepool/easy roller/Elite-Pool-Cord-System-Info-Sheet.jpg" alt="" style="width: 90%;">
-
-            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
-                <li>One person can easily pull the cover onto the pool from the opposite end to the roller system.</li>
-                <li>Elites exclusive detachable roller to blanket system, allows the blanket to remain on the pool while the
-                    Elite roller can be moved away from the pool. Great for winter and when entertaining around the pool.</li>
-                <li>The pool blanket is connected to the roller with Elites Exclusive blanket clamping system minimizing the</li>
-                chances of tears in the blanket.
-                <li>The best fitting system on the market</li>
-
-            </ul>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-1-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-1-300x225.jpg" alt=""></a>
         </div>
+        <div class="item">
+
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-300x225.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-joondalup-leisure-centre-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-joondalup-leisure-centre-300x225.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-melville-aquatic-centre-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-melville-aquatic-centre-300x225.jpg" alt=""></a>
+        </div>
+        <div class="item">
+
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-perth-childrens-hospital-300x225.jpg" target="_blank"><img
+                    src="assets/img/elitepool/commercial range/New folder/commercial-perth-childrens-hospital-300x225.jpg" alt=""></a>
+        </div>
+
+
     </div>
-
-
-
+    <br><br>
     <?php
 
     include('footer.html');
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 
 </html>
