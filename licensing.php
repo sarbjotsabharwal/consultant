@@ -247,10 +247,9 @@
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
-                <h5 class="card-title">Can licensee run his business as per his will? </h5>
+                <h5 class="card-title">How does licensee run the business? </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    The licensee runs their own business their way, simply making use of the brand or other intellectual
-                    property to attract clients and customers.
+                The licensee runs the business by making use of the brand or other intellectual properties to attract clients and customer by following the terms and conditions.
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -267,7 +266,7 @@
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ffdbcd, #ffa1a1);opacity: 1;">
-                <h5 class="card-title">Any geographical limits needed between two licensees? </h5>
+                <h5 class="card-title">Exclusivity of development areas and territory </h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     There is no geographic exclusivity for doing business, as with a real estate franchise, but the
                     license agreement may include a geographical limit on how close another licensee may display the
@@ -288,9 +287,9 @@
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
-                <h5 class="card-title">Licensing laws and policies? </h5>
+                <h5 class="card-title">Licensing legislations and policies? </h5>
                 <p class="card-text" style="text-align: center;padding: 10px;color: black;height: auto;">
-                    Licensees are controlled by less stringent business legislation.
+                A licensing agreement is a legal contract between two parties, known as the licensor and the licensee. The licensor grants licensee the right to produce and sell goods, apply a brand name or trademark, or use patented technology owned by the licensor. Licensees are controlled by less stringent business legislation. However, Licensor and Licensee must consult with their legal team before coming to an arrangement. 
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and

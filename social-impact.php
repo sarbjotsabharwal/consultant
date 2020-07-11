@@ -280,9 +280,9 @@
                     style="display:inline-block;float: left;width:40%;border-radius: 20px;margin: 10px;display: inline-block;border: solid white 5px;">
                 <section style="text-align: justify;height: auto;width:56%;margin: 10px;float: right;display: inline;color: white;">
 
-                    <i style="font-size: 15px;">Performance – large purpose designed solar cells provide greater heat
+                    <p style="font-size: 15px;">Performance – large purpose designed solar cells provide greater heat
                         generation and insulation designed and manufactured in Australia, proven in the world’s harshest
-                        conditions easier to operate, easier to wind, easier on the eye 610 Mic  ron</i>
+                        conditions easier to operate, easier to wind, easier on the eye 610 Mic  ron</p>
                     <ul style="display: flex;flex-wrap:wrap;" class="listoption">
 
                         <li>

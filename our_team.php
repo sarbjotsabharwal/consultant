@@ -10,8 +10,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- V CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,8 +20,7 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -79,9 +77,9 @@
       padding-right: 20px;
     }
 
-    .card-title{
+    .card-title {
       color: rgb(1, 168, 1);
-           
+
     }
   </style>
 
@@ -91,67 +89,10 @@
 
   <?php
   include('our_team_cover.html');
-  // include('homecover.html');
+  include('header.html');
   ?>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container-fluid">
 
-      <div id="logo" class="pull-left">
-        <!-- <h1><a href="#intro" class="scrollto">BizPage</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.php"><img src="assets/img/logo.jpg" alt="" style="border-radius:20px; opacity:90%;"></a>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <!-- <li class="menu-active"><a href="#intro">Home</a></li> -->
-          <li class="menu-has-children"><a href="#discover">Discover Charthill</a>
-            <ul>
-              <li><a href="aboutus.php">About Us</a></li>
-              <li><a href="businessalliance.php">Our Business Alliance</a></li>
-              <li><a href="social-impact.php">Social Impact</a></li>
-
-            </ul>
-          </li>
-          <li class="menu-has-children"><a href="#allservices">Services</a>
-            <ul>
-              <li><a href="licensing.php">Licensing</a></li>
-              <li><a href="Franchising.php">Franchising</a></li>
-              <li><a href="IPO Advisory.php">IPO Advisory</a></li>
-              <li><a href="Business migration services.php">Business Migration Services</a></li>
-              <li><a href="Sales & Marketing.php">Sales & Marketing</a></li>
-            </ul>
-
-          </li>
-          <li class="menu-has-children"><a href="elitepool_covers.php">Elitepool Cover</a>
-            <ul>
-              <li class="menu-has-children"><a href="#">Solar Bubble Covers</a>
-                <ul>
-                  <li><a href="triplecellsolar.php">Triple Cell Solar Blankets</a></li>
-                  <li><a href="#">Super Bubble Solar Blankets</a></li>
-                </ul>
-              </li>
-              <li class="menu-has-children"><a href="#">Roller Systems</a></li>
-              <li class="menu-has-children"><a href="#">Security & Debris Covers</a></li>
-              <li class="menu-has-children"><a href="#">Fully Automatic Covers</a></li>
-              <li><a href="#">Commercial Range</a></li>
-              <li><a href="#">Thermal Shield</a></li>
-            </ul>
-          </li>
-          <li><a href="our_team.php">Our Team</a>
-          </li>
-          <li class="menu-has-children"><a href="businessopportunities.php">Business Opportunities</a>
-            <ul>
-              <li><a href="businessopportunities.php">Invest with Us</a></li>
-            </ul>
-          </li>
-          <li><a href="contactus.php">Contact Us</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- End Header -->
 
   <!-- sticky background -->
   <div class="stickyback">
@@ -159,8 +100,7 @@
   </div>
   <!-- sticky background end -->
 
-  <h1
-    style=" color: rgb(1, 196, 1);
+  <h1 style=" color: rgb(1, 196, 1);
     background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 100px;text-align: center;font-size: 60px;font-weight: bold;padding:10px">
     DIRECTORS</h1>
 
@@ -170,20 +110,19 @@
 
   <div class="team-cards" style="">
 
-    <div class="card bg-light"
-      style="width:90%; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);font-size:15px;height: auto;">
+    <div class="card bg-light" style="width:90%; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);font-size:15px;height: auto;">
       <div class="card-body" style="height: auto;">
         <div class="" style="width:350px;">
           <img src="assets/img/our team/stan1.jpg" alt="" style="margin-left:20px;">
-          <h4 class="card-title" style="padding-top:10px">STANLEY COBBOLD</h4>
+          <h4 class="card-title" style="padding-top:10px">Mr. STANLEY COBBOLD</h4>
         </div>
         <div class="cardtext" style="width: 800px;height:auto">
-          <p style="font-weight:bold;text-align: justify;">
+          <p style="font-weight:bold;">
             Stanley Cobbold is the Executive Director at Charthill Consultants <br>
             Independent Financial Services Professional <br>
             Rancho Santa Fe, California
           </p>
-          <div class="card-text" style="height:auto;width: auto;"> He is a Successful investor,
+          <div class="card-text" style="height:auto;width: auto;"> Stanley Cobbold is a successful investor,
             entrepreneur,
             advisor, and
             business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
@@ -205,23 +144,18 @@
         </div>
       </div>
     </div>
-    <div class="card bg-light"
-      style="width:90%; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);font-size:15px;height: auto;">
+    <div class="card bg-light" style="width:90%; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);font-size:15px;height: auto;">
       <div class="card-body" style="height: auto;">
         <div class="" style="width:350px;">
           <img src="assets/img/our team/prabhdeep singh.jpg" alt="" style="margin-left:20px;">
-          <h4 class="card-title" style="padding-top:10px">PRABHJEET SINGH (PJ)</h4>
+          <h4 class="card-title" style="padding-top:10px">Mr. PRABHJEET SINGH (PJ)</h4>
         </div>
         <div class="cardtext" style="width: 800px;height:auto">
-          <p style="font-weight:bold;text-align: justify;">
+          <p style="font-weight:bold;">
             Prabhjeet Singh is the Director at Charthill Consultants, <br>
             Perth, Western Australia
           </p>
           <div class="card-text" style="height:auto;width: auto;">
-            lead the team across Australia, New Zealand, UK
-            and North America by helping companies solve their most complex and challenging business problems, market
-            and distribute products, license and franchise companies and products globally.
-            <br><br>
             Prabhjeet Singh has vast experience in Health and Business world. He has worked in Government sector(Fitness
             Director at Fiona Stanley Hospital), private sector(Director of PW Australia Pty Ltd) and International Non
             Profit Organization ( Community Liaison officer at Amnesty International)
@@ -229,9 +163,14 @@
             workplace relationships based on trust. He firmly believes the human connection is the most potent force we
             have for unlocking the full capacities we all have.
             <br><br>
-            It’s also why he believes so strongly in the power of continuous learning. And this has brought him back to
-            education many times over the years. He is currently completing bachelor of Law and looking to specialize in
-            Intellectual property.
+
+            He leads the charthill consultants across Australia, New Zealand, UK
+            and North America by helping companies solve their most complex and challenging business problems, market
+            and distribute products, license and franchise companies and products globally.
+            <br><br>
+
+
+
           </div>
         </div>
       </div>
@@ -239,8 +178,7 @@
   </div>
   <!-- first card end -->
 
-  <h1
-    style="color: rgb(1, 196, 1);
+  <h1 style="color: rgb(1, 196, 1);
     background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 100px;text-align: center;font-size: 60px;font-weight: bold;padding:10px">
     BOARD OF ADVISORS
   </h1>
@@ -254,14 +192,14 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/tylor.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">TAYLOR BALDWIN</h4>
+          <h4 class="card-title" style="padding-top:10px">Ms. TAYLOR BALDWIN</h4>
         </div>
         <div class="cardtext">
-          <p style="font-weight:bold;text-align: justify;">
+          <p style="font-weight:bold;text-align:left;">
             Business woman, television host, broadcast journalist, health & beauty expert, media/product development
             consultant
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;">
+          <div class="card-text" style=" height:300px;width: auto;">
             In the years 1995-2008, she worked in a variety of roles – spokesperson, anchor, producer –– for Fox Sports
             Net, CBS/TNN, KCBS-TV “Sports Central”, KTLA-TV 5 Los Angeles, KFMB-TV San Diego, Eyemark Entertainment,
             STAR 100.7 FM and CBS Newspath
@@ -274,14 +212,14 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/brian.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">BRIAN SMITH</h4>
+          <h4 class="card-title" style="padding-top:10px">Mr. BRIAN SMITH</h4>
         </div>
         <div class="cardtext">
-          <p style="font-weight:bold;text-align: justify;">
+          <p style="font-weight:bold;text-align:left;">
             UGG Founder Brian Smith has become one of the most sought after speakers and business leaders in the
             country.
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;">
+          <div class="card-text" style=" height:300px;width: auto;">
             Team building, company culture, growth challenges, are all presented through a lens of vast experience,
             combined with a vision of a spiritual approach towards the future of business today.
             <br><br>
@@ -297,14 +235,14 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/beatricenew.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">BEATRICE RINGS</h4>
+          <h4 class="card-title" style="padding-top:10px">Mr. BEATRICE RING</h4>
         </div>
         <div class="cardtext">
-          <p style="font-weight:bold;text-align: justify;">
+          <p style="font-weight:bold;text-align:left;">
             Worked as graphic designer in San Diego, California. She studied psychology. [1999]
             Beatrice Ring is a writer and music video director in Los Angeles, CA.
           </p>
-          <div class="card-text" style="overflow: scroll; height:300px;width: auto;">
+          <div class="card-text" style=" height:300px;width: auto;">
             Beatrice Ring started her career as a model and ventured into the showbiz industry.
             She is one of the popular actresses in the world of cinema.
             She is best known for her appearance on Zombi 3.
@@ -316,10 +254,10 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/luc.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">LUC MAINGARD</h4>
+          <h4 class="card-title" style="padding-top:10px">Mr. LUC MAINGARD</h4>
         </div>
         <div class="cardtext">
-          <p style="font-weight:bold;text-align: justify;">
+          <p style="font-weight:bold;text-align:left;">
             Luc Maingard is Proprietor at LM
             Agency and Consulting Perth, Australia. He studied bacheor's of business/commerce at KwaZulu-Natal
             university.

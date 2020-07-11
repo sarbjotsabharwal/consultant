@@ -155,17 +155,16 @@ include('header.html');
 </div>
 <div class="top-cards">
   <div class="card-item" style="background: rgb(37, 155, 37);">
-    <h1 style="font-weight: bold;color:white;padding: 20px;margin-top: 40px;margin-left: 40px;">Franchising</h1>
-    <p style="color:white;padding-left: 20px;margin-left: 40px;margin-right: 100px;">It‘s more than just systems: a
-      franchise without a system is like a car without wheels – it’s just not going anywhere.</p>
+    <h1 style="font-weight: bold;color:white;padding: 5px;margin-top: 20px;margin-left: 40px;">Franchising</h1>
+    <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;">Franchising is a business format, where one party (the franchiser) grants another party (the franchisee) the right to use its trademark or trade-name as well as certain business systems and processes  to produce and market a good or service according to certain specifications. </p>
     <a href="Franchising.php"><button type="button" class="btn btn-light" style="margin-left: 60px;"><span>Read More</span></button></a>
   </div>
 
 
   <div class="card-item" style="background: rgb(214, 214, 214);color: rgb(56, 56, 56);">
-    <h1 style="font-weight: bold;;padding: 20px;margin-top: 40px;margin-left: 40px;">Licensing</h1>
-    <p style="padding-left: 20px;margin-left: 40px;margin-right: 100px;">If you are an inventor, Charthill can help
-      you obtain a patent, trademark and copyright.
+    <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;">Licensing</h1>
+    <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;">Licensing is defnined as business format where a company authorizes another company to access its intellectual property rights.
+If you are an inventor charthill can help you obtain a patent, trademark and copyright.We seek out opportunity and risk our own time to work with.
     </p>
     <a href="licensing.php"><button type="button" class="btn btn-success" style="margin-left: 60px;"><span>Read More</span></button></a>
   </div>
@@ -182,7 +181,7 @@ include('header.html');
 
 <!-- section start -->
 <div class="ourclientscarousel" style="background: rgb(211, 211, 211);color: black;">
-  <h1 style="text-align: center;padding:40px;font-weight: bold;" class="span-green">Our Satisfied Clients</h1>
+  <h1 style="text-align: center;padding:40px;font-weight: bold;" class="span-green">Our Sucess Clients</h1>
   <?php
   include('logoslider.html');
   ?>
