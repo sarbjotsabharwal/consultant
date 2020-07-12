@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            scroll-behavior: smooth;
+        }
+
+        #myBtn1 {
+            display: none;
+            position: fixed;
+            bottom: 10px;
+            /* margin-left: 47%; */
+            width: 85px;
+            /* margin: auto; */
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            /* background-color: red; */
+            color: white;
+            cursor: pointer;
+            /* padding: 15px; */
+            border-radius: 10px;
+            border: 3px solid white;
+
+            animation: scrollbtn;
+            animation-timing-function: ease-in-out;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes scrollbtn {
+            0% {
+                bottom: 10px;
+                /* width: 85px; */
+            }
+
+            50% {
+                bottom: 20px;
+                /* width: 90px; */
+            }
+
+            100% {
+                bottom: 10px;
+                /* width: 85px; */
+            }
+        }
+
+        #myBtn1:hover {
+            /* border: 5px solid green; */
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display:flex;justify-content:center;width: 100%;">
+        <a href=""></a><img src="assets/img/go to top.png" alt="" id="myBtn1" onclick="topFunction()">
+    </div>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+  
+
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn1");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>

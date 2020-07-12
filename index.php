@@ -130,7 +130,6 @@
 
       font-family: "Montserrat", sans-serif;
     }
-
   </style>
 </head>
 
@@ -156,15 +155,15 @@ include('header.html');
 <div class="top-cards">
   <div class="card-item" style="background: rgb(37, 155, 37);">
     <h1 style="font-weight: bold;color:white;padding: 5px;margin-top: 20px;margin-left: 40px;">Franchising</h1>
-    <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;">Franchising is a business format, where one party (the franchiser) grants another party (the franchisee) the right to use its trademark or trade-name as well as certain business systems and processes  to produce and market a good or service according to certain specifications. </p>
+    <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Franchising is a business format, where one party (the franchiser) grants another party (the franchisee) the right to use its trademark or trade-name as well as certain business systems and processes to produce and market a good or service according to certain specifications. </p>
     <a href="Franchising.php"><button type="button" class="btn btn-light" style="margin-left: 60px;"><span>Read More</span></button></a>
   </div>
 
 
   <div class="card-item" style="background: rgb(214, 214, 214);color: rgb(56, 56, 56);">
     <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;">Licensing</h1>
-    <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;">Licensing is defnined as business format where a company authorizes another company to access its intellectual property rights.
-If you are an inventor charthill can help you obtain a patent, trademark and copyright.We seek out opportunity and risk our own time to work with.
+    <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is defnined as business format where a company authorizes another company to access its intellectual property rights.
+      If you are an inventor charthill can help you obtain a patent, trademark and copyright.We seek out opportunity and risk our own time to work with.
     </p>
     <a href="licensing.php"><button type="button" class="btn btn-success" style="margin-left: 60px;"><span>Read More</span></button></a>
   </div>
@@ -199,7 +198,7 @@ If you are an inventor charthill can help you obtain a patent, trademark and cop
 
 <div class="map-section" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
   <div class="item">
-    <h2 style="margin-top: 30px;text-align: center;font-weight: bold;" >Charthill in Unites States</h2>
+    <h2 style="margin-top: 30px;text-align: center;font-weight: bold;">Charthill in Unites States</h2>
     <h4 style="text-align: center;">500 North Rainbow Blvd,<br>
       Suite 300, LAS VEGAS<br>
       Nevada, 89107<br>
@@ -209,7 +208,7 @@ If you are an inventor charthill can help you obtain a patent, trademark and cop
   </div>
 
   <div class="item">
-    <h2 style="margin-top: 30px;text-align: center;font-weight: bold;" >Charthill in Australia</h2>
+    <h2 style="margin-top: 30px;text-align: center;font-weight: bold;">Charthill in Australia</h2>
     <h4 style="text-align: center;">
       22/16 Kings Park Road,<br>
       West Perth, WA 6005<br>
