@@ -192,7 +192,7 @@
       <div class="card-body">
         <div class="">
           <img src="assets/img/our team/tylor.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">Ms. TAYLOR BALDWIN</h4>
+          <h4 class="card-title" style="padding-top: 10px; font-size: 23px;">Ms. TAYLOR BALDWIN</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align:left;">
