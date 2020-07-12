@@ -310,15 +310,15 @@
                         <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
                             <li>
 
-                                (A) A net value of at least AUD1.5 million (lawfully acquired)
+                                A net value of at least AUD1.5 million (lawfully acquired)
                             </li>
                             <li>
-                                (B) An annual business turnover of at least AUD3 million for at least 2 of the 4 fiscal
+                                An annual business turnover of at least AUD3 million for at least 2 of the 4 fiscal
                                 years
                                 immediately before you are invited to apply
                             </li>
                             <li>
-                                (c) A total net assets of at least AUD $400,000 as the ownership interest in one or more
+                               A total net assets of at least AUD $400,000 as the ownership interest in one or more
                                 qualifying businesses for least 2 of the 4 fiscal years immediately before you are
                                 invited to
                                 apply
