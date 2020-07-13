@@ -32,15 +32,22 @@
     .span-green {
       color: rgb(7, 206, 7);
     }
+
+    .modal-content {
+      width: 95%;
+    }
   </style>
 </head>
 
-<body>
+<body style="font-family: Montserrat, sans-serif;">
 
   <?php
   include('header.html');
   ?>
+  <?php
 
+    include('pdfviewer.html');
+  ?>
   <!-- ======= Intro Section ======= -->
   <section id="intro">
     <div class="intro-container">
@@ -61,7 +68,8 @@
                   customers’ entire satisfaction and convenience. We are committed to providing high-quality services
                   and products. We meet the mutually agreed-to requirements the first time and strive for continuous
                   improvement of our work processes.</p>
-                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></button></a>
+                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us <span
+                      class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></button></a>
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
               </div>
             </div>
@@ -71,7 +79,7 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="newfont"  style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
+                <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
                 <h4 style="color: rgb(255, 255, 255);">UNIQUE WORKCULTURE</h4 style="color: white;">
 
                 <p>We take our hands on, collaborative approach to all our engagements and focus on developing solutions
@@ -91,7 +99,7 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="newfont"  style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
+                <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
                 <h4 style="color: white;">BUSINESS STRATEGY</h4 style="color: white;">
 
 
@@ -112,11 +120,14 @@
             <div class="carousel-background"><img src="assets/img/aboutusslidder/4.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="newfont"  style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
+                <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
                 <h4 style="color: white;">ROBUST BUSINESS PLANNING</h4 style="color: white;">
 
 
-                <p>Providing a robust business plan and securing funding if necessary, Charthill takes a pragmatic approach & independent look at business structures, financial performance and marketing activity and providing appropriate solutions to improve the performance and efficiency of the entire programming of the business plan. </p>
+                <p>Providing a robust business plan and securing funding if necessary, Charthill takes a pragmatic
+                  approach & independent look at business structures, financial performance and marketing activity and
+                  providing appropriate solutions to improve the performance and efficiency of the entire programming of
+                  the business plan. </p>
                 <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us</button></a>
 
 
@@ -148,7 +159,8 @@
 
   <div class="about-us" style="text-align: justify;">
     <h1 style="text-align: center;" id="aboutusection">A brief on Us</h1>
-    <p class="about-intro" style="text-align: center;"><i>Individual commitment to a group effort–that is what makes a team work, a company work, a
+    <p class="about-intro" style="text-align: center;"><i>Individual commitment to a group effort–that is what makes a
+        team work, a company work, a
         society work, a
         civilization work.
         Vince Lombardi</i></p><br>
@@ -162,26 +174,13 @@
       never have thought about and heard about. To support and achieve this goal, the firm has implemented a quality
       policy that is systematically applied to all its assignments.
     </p>
-    <p>We try to meet our clients expectations at all times. We continually assess our performance, legislative
-      requirements, the evolving needs of our business & client base, and adapt and improve our processes/performance
-      accordingly to ensure we continue to deliver a service that meets or exceeds the needs and expectations of our
-      clients and stakeholders. Consistent with this policy, we establish quality objectives aimed at enhancing customer
-      satisfaction and improving the effectiveness of our quality management system. We also aim at delivering insights
-      with impact for our clients using whole unbiased, fact based rigorous approach to maintain business continuity and
-      a strong financial condition to protect our client’s long-term interests.
-    </p>
-    <p>Our core structure is domain led and committed to help provide clients a single window to market specific
-      solutions. We recognize one of the most challenging issues to date is providing technology based cutting-edge
-      solutions that meet business needs and requirements, and we are uncompromising in our dedication to this integral
-      element in all our business activities. We pride ourselves in our commitment to our employees, and our
-      longstanding client and partner relationships built through many years of outstanding quality and integrity. We
-      have made significant development in digital platform, technologically advanced products, product& services
-      licensing, business development services, sales distribution and franchising. Based on our client’s needs with the
-      highest of ethical standards and pure dedication to excellence in all operational aspects, we aspire to exceed our
-      customers ‘expectations.
-    </p>
-    <p>Looking to the future, we will continue to develop our already advanced enterprises and keep driving.
-    </p>
+    <!-- Button trigger modal -->
+    <div class="" style="width: 100px;display:block;margin:auto;">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
+        onclick="OpenPdf6()">
+        Read More
+      </button>
+    </div>
     </p>
   </div>
   <!-- a brief on us section end -->

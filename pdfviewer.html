@@ -48,7 +48,7 @@
     <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
         aria-hidden="true">
         <div class="modal-dialog" role="document" style="max-width: 90vw; ">
-            <div class="modal-content" style="height: auto;width: 500px;display: block;margin: auto;">
+            <div class="modal-content" style="height: auto;width: 500px;display: block;margin: auto;" id="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel1"></h5>
                     <!-- <a id="downloadbtn" type="button" class="btn btn-secondary" style="display: block;margin: auto;" href="">View in Fullscreen</a> -->
@@ -60,8 +60,8 @@
                 <div class="modal-body" id="modal-body1">
 
 
-              
-                  
+
+
 
                 </div>
                 <!-- <div class="modal-footer">
@@ -87,7 +87,7 @@
 
     function OpenPdf() {
         let a = document.getElementById('modal-body1');
-   
+
         a.innerHTML = `<p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     You are in fact building at least two very different but linked business structures, one for you as
                     franchisor and one for your partners in business, your franchisees.
@@ -103,7 +103,7 @@
     }
     function OpenPdf1() {
         let a = document.getElementById('modal-body1');
-   
+
         a.innerHTML = `           <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     So yes, one of your core roles as the franchisor is to look after your franchisees. And this will
                     involve different skills with different franchisees as they grow in your partnership.
@@ -127,7 +127,7 @@
     }
     function OpenPdf2() {
         let a = document.getElementById('modal-body1');
-   
+
         a.innerHTML = `         <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     Looking after your brand and marketing is also a central responsibility for any franchisor.
                     Marketing in a franchise, as with any business, involves far more than just advertising.
@@ -146,7 +146,7 @@
     }
     function OpenPdf3() {
         let a = document.getElementById('modal-body1');
-   
+
         a.innerHTML = `      <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     So yes, big or small, the secret is to realise you are building two completely different business
                     structures from your current business and you will be doing business in a completely different way
@@ -164,7 +164,7 @@
     }
     function OpenPdf4() {
         let a = document.getElementById('modal-body1');
-   
+
         a.innerHTML = `    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     How big do you need your franchise group to be? Do you have a simple business method which will suit
                     the largest number of potential franchisees or does the complexity in your business restrict the
@@ -184,7 +184,7 @@
     }
     function OpenPdf5() {
         let a = document.getElementById('modal-body1');
-   
+
         a.innerHTML = `   <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                     So, right at the beginning, as you design your franchised business, you need to work out the money.
                 <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
@@ -199,6 +199,54 @@
                 </ul>
                 </p>`;
         let b = document.getElementById('exampleModalLabel1').innerHTML = "MONEY MAKES THE WORLD GO AROUND";
+    }
+    function OpenPdf6() {
+
+        let content = document.getElementById('modal-content');
+        content.setAttribute("style","height: auto;width: 95%;display: block;margin: auto;");
+
+        let a = document.getElementById('modal-body1');
+
+        a.innerHTML = `   <div class="" style="text-align: justify;background-color: rgb(243, 238, 231);padding:20px">
+    <h1 style="text-align: center;" id="aboutusection">A brief on Us</h1>
+    <p class="about-intro" style="text-align: center;"><i>Individual commitment to a group effort–that is what makes a
+        team work, a company work, a
+        society work, a
+        civilization work.
+        Vince Lombardi</i></p><br>
+    <br>
+    <!-- <h3  style="text-align: center;"><b>Welcome to Charthill Consultants!</b></h3><br> -->
+
+    <p style="text-align: center;">Client satisfaction: Our watchword for sustainable growth</p>
+
+    <p>Charthill Consultants is committed to delivering the highest level of client satisfaction in the consulting
+      market. At Charthill Consultants we try our utmost to provide our clients the best hidden opportunities they may
+      never have thought about and heard about. To support and achieve this goal, the firm has implemented a quality
+      policy that is systematically applied to all its assignments.
+    </p>
+    <p>We try to meet our clients expectations at all times. We continually assess our performance, legislative
+      requirements, the evolving needs of our business & client base, and adapt and improve our processes/performance
+      accordingly to ensure we continue to deliver a service that meets or exceeds the needs and expectations of our
+      clients and stakeholders. Consistent with this policy, we establish quality objectives aimed at enhancing customer
+      satisfaction and improving the effectiveness of our quality management system. We also aim at delivering insights
+      with impact for our clients using whole unbiased, fact based rigorous approach to maintain business continuity and
+      a strong financial condition to protect our client’s long-term interests.
+    </p>
+    <p>Our core structure is domain led and committed to help provide clients a single window to market specific
+      solutions. We recognize one of the most challenging issues to date is providing technology based cutting-edge
+      solutions that meet business needs and requirements, and we are uncompromising in our dedication to this integral
+      element in all our business activities. We pride ourselves in our commitment to our employees, and our
+      longstanding client and partner relationships built through many years of outstanding quality and integrity. We
+      have made significant development in digital platform, technologically advanced products, product& services
+      licensing, business development services, sales distribution and franchising. Based on our client’s needs with the
+      highest of ethical standards and pure dedication to excellence in all operational aspects, we aspire to exceed our
+      customers ‘expectations.
+    </p>
+    <p>Looking to the future, we will continue to develop our already advanced enterprises and keep driving.
+    </p>
+    </p>
+  </div>`;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "About Us";
     }
 
 </script>
