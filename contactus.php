@@ -189,15 +189,12 @@
     ?>
     <?php
     include('videopopup.html');
+    include('social_media.html');
     ?>
     <!-- sticky background -->
     <div class="stickyback">
 
-    </div>
-
-
-    <?php 
-    include('social media.html');
+        
     ?>
     <!-- sticky background end -->
     <br><br><br><br>
