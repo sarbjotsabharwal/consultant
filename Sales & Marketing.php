@@ -258,8 +258,8 @@
     <div class="content">
         <!-- <h1 style="color:white;">LICENSING</h1> -->
         <p style="color: white;text-align: center;width: 85%; display:block;margin: auto;">
-            Charthill Consultants is an all all-encompassing resource for distinct clients including brands, businesses,
-            new developments, hospitality, and leading names in real estate. Our services are tailored to every client’s
+            Charthill Consultants is an all-encompassing resource for distinct clients including brands, businesses,
+            new developments, hospitality and leading names in real estate. Our services are tailored to every client’s
             specific needs. <br> <br>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
                 onclick="OpenPlayer7()">
@@ -287,13 +287,13 @@
                 <span>PPC</span>
                 Pay per click advertising is another extremely common digital marketing strategy. It is a cost effective
                 strategy that allows your business to target ideal customers based on keywords they search, demographic
-                information, and more.
+                information and more.
             </p>
         </div>
         <div class="container-box">
             <p>
                 <span>SOCIAL MEDIA MARKETING</span>
-                Social media channels like Facebook, Twitter, Instagram, and LinkedIn allow your business to reach more
+                Social media channels like Facebook, Twitter, Instagram and LinkedIn allow your business to reach more
                 customers and boost brand awareness.Sharing your company’s content on social media is a great way to
                 increase site traffic and ultimately conversions.
             </p>

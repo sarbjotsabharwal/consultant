@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,16 +19,15 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
 
-        <!-- Main CSS File -->
+    <!-- Main CSS File -->
     <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
 
     <style>
         div.card {
             width: 85vw;
-            box-shadow: 0px 0px 12px 3px rgba(0,0, 0, .6), 0 0px 10px 0 rgba(255, 255, 255, .5);
+            box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, .6), 0 0px 10px 0 rgba(255, 255, 255, .5);
             text-align: center;
             max-width: 85vw;
 
@@ -100,12 +98,10 @@
             border-radius: 10px;
         }
 
-        .card-body img{
+        .card-body img {
             box-shadow: 0 0 7px 7px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
         }
-     
-
     </style>
 </head>
 
@@ -125,8 +121,7 @@
 
 
                     <div class="carousel-item active">
-                        <div class="carousel-background"><img src="assets/img/social-impact_back2.jpg"
-                                style="width: 100%;" alt=""></div>
+                        <div class="carousel-background"><img src="assets/img/social-impact_back2.jpg" style="width: 100%;" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <!-- <h2>Discover Charthill Consulting</h2>
@@ -134,8 +129,7 @@
                                     difference together.</p> -->
                                 <div class="card text-center" style="width: 70vw;top:5vh;">
                                     <div class="card-header" style="padding: 0;">
-                                        <img src="assets/img/SocialImpact/solar-cell.jpg" alt=""
-                                            style="border-top-right-radius:15px;border-top-right-radius:15px;width: 100%;height: 350px;">
+                                        <img src="assets/img/SocialImpact/solar-cell.jpg" alt="" style="border-top-right-radius:15px;border-top-right-radius:15px;width: 100%;height: 350px;">
                                     </div>
                                     <div class="card-body" style="background: linear-gradient(to right, #00c6ff, #0072ff);border-bottom-left-radius: 25px;border-bottom-right-radius:25px;color: white;
                                     ">
@@ -168,8 +162,7 @@
                                     difference together.</p> -->
                                 <div class="card text-center" style="width: 70vw;top:5vh;">
                                     <div class="card-header" style="padding: 0;">
-                                        <img src="assets/img/SocialImpact/wind-mill.jpg" alt=""
-                                            style="border-radius:15px;width: 100%;height: 350px;">
+                                        <img src="assets/img/SocialImpact/wind-mill.jpg" alt="" style="border-radius:15px;width: 100%;height: 350px;">
                                     </div>
                                     <div class="card-body" style="  background: linear-gradient(to right, #ffb75e, #ed8f03);;color:rgb(255, 255, 255);border-bottom-left-radius:25px;border-bottom-right-radius: 25px;">
                                         <h5 class="card-title" style=" ">Social Impact</h5>
@@ -240,14 +233,13 @@
             border-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #96c93d, #00b09b);opacity: 1;">
-                <p class="card-text"
-                    style="text-align: justify;height: auto;width:50%;margin: 10px;display: inline-block;color: white;">
+                <p class="card-text" style="text-align: justify;height: auto;width:50%;margin: 10px;display: inline-block;color: white;">
                     ELITE POOL COVER specializes in the design, development, fabrication, and supply of triple cell
                     solar blanket. Elite pool cover got specialty in innovative technologies and products .Ultra New
-                    Award Winning Triple Cell® Solar Pool Blanket – a world first
-
+                    Award Winning Triple Cell® Solar Pool Blanket – a world's first
+                    <br><br>
                     Here’s how it works!
-
+                    <br>
                     Elite Triple Cell® is equal to 3 standard round bubbles. The more contact with the water means
                     better heating, better insulation and the pool stays warmer for longer that’s Elite Triple Cell®
 
@@ -258,8 +250,7 @@
                     world
 
                 </p>
-                <img src="assets/img/SocialImpact/poolcover.jpg" alt=""
-                    style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;">
+                <img src="assets/img/SocialImpact/poolcover.jpg" alt="" style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;">
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -276,13 +267,12 @@
             background: linear-gradient(to right, #f7b733, #fc4a1a);border-radius: 25px; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             
             ">
-                <img src="assets/img/SocialImpact/triplecell.jpg" alt=""
-                    style="display:inline-block;float: left;width:40%;border-radius: 20px;margin: 10px;display: inline-block;border: solid white 5px;">
+                <img src="assets/img/SocialImpact/triplecell.jpg" alt="" style="display:inline-block;float: left;width:40%;border-radius: 20px;margin: 10px;display: inline-block;border: solid white 5px;">
                 <section style="text-align: justify;height: auto;width:56%;margin: 10px;float: right;display: inline;color: white;">
 
                     <p style="font-size: 15px;">Performance – large purpose designed solar cells provide greater heat
                         generation and insulation designed and manufactured in Australia, proven in the world’s harshest
-                        conditions easier to operate, easier to wind, easier on the eye 610 Mic  ron</p>
+                        conditions easier to operate, easier to wind, easier on the eye 610 micron</p>
                     <ul style="display: flex;flex-wrap:wrap;" class="listoption">
 
                         <li>
@@ -356,7 +346,7 @@
                             </p>
                         </li>
                         <li>
-                            <center><b>Reduces your electricity bills</b></center><br>
+                            <center><b>Reduced Green House Gases</b></center><br>
                             <p>According to a research approximately 1KG of C02 emissions are produced for every unit
                                 (kw/hr) of electricity that you use from a conventional power station. The solar power
                                 system can eliminate these gases.
@@ -373,8 +363,7 @@
 
                     </ul>
                 </section>
-                <img src="assets/img/SocialImpact/solaredwards.jpg" alt=""
-                    style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;;">
+                <img src="assets/img/SocialImpact/solaredwards.jpg" alt="" style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;;">
                 Solar Edwards Adelaide’s aim is to make solar energy understandable and accessible to everyone. We
                 are committed to helping save our environment. Solar Edwards Adelaide is proud to give customer
                 service the way it should be, with professional, prompt and personalized service

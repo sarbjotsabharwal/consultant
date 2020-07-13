@@ -212,7 +212,7 @@
             IPO to develop their corporate message and to introduce them to potential banking partners, sell-side
             research analysts and institutional investors.
             <br>
-            Additionally, we work side-by-side with our clients throughout the entire IPO execution, providing
+            Additionally, we work side-by-side with our clients throughout the entire IPO execution by providing
             independent capital markets advice. <br> <br>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer4()">
                 Watch Video
@@ -289,9 +289,9 @@
                     <ul style="color: white;text-align: justify;font-size: 15px; ">
                         <li>Technical accounting and audit support</li>
 
-                        <li>Helping to prepare financial statements and pro forma financial information, including
-                            quarterly</li>
-                        financials
+                        <li>Helping to prepare financial statements and pro forma financial information including
+                            quarterly financials</li>
+                        
 
                         <li>Drafting disclosures</li>
 
@@ -316,7 +316,7 @@
                         <b><i></i></b>
                         <li> Assisting with external reporting</li>
 
-                        <li> Providingon-call accounting services</li>
+                        <li> Providing on-call accounting services</li>
 
                         <li> Providing insights into the implications of new accounting standards</li>
 

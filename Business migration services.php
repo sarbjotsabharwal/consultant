@@ -174,7 +174,8 @@
 
             font-family: "Montserrat", sans-serif;
         }
-        .card-title{
+
+        .card-title {
             color: rgb(1, 196, 1);
             font-weight: bold;
         }
@@ -255,6 +256,9 @@
                 THE FOLLOWING SERVICES</h5> -->
         </div>
         <div class="card-body" style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
+            <h5 class="card-title" style="font-size:40px;width:100%;margin:auto">Australia Business Visa (sub class 132)
+    
+            </h5>
             <p style="font-size: 15px;padding-left: 40px;padding-right: 40px;"><b>It is a permanent
                     visa for high-caliber business owners or part-owners who want to do business in Australia. The
                     132 visa is a state nominated Australian provisional business visa which is valid for four years. It
@@ -318,7 +322,7 @@
                                 immediately before you are invited to apply
                             </li>
                             <li>
-                               A total net assets of at least AUD $400,000 as the ownership interest in one or more
+                                A total net assets of at least AUD $400,000 as the ownership interest in one or more
                                 qualifying businesses for least 2 of the 4 fiscal years immediately before you are
                                 invited to
                                 apply

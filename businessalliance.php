@@ -126,8 +126,8 @@
             <div class="card-body">
                 <h5 class="card-title">JENNY CRAIG, INC.</h5>
                 <p class="card-text" style="text-align: justify;height: auto">Jenny Craig, Inc., often known simply as
-                    Jenny Craig, is an American weight loss, weight management, and nutrition company. The company has
-                    more than 700 weight management centers in Australia, the United States, Canada, and New Zealand.
+                    Jenny Craig, is an American weight loss, weight management and nutrition company. The company has
+                    more than 700 weight management centers in Australia, the United States, Canada and New Zealand.
                     Jenny Craig program combines individual weight management counseling with a menu of frozen meals and
                     other foods, which are distributed through its centers or shipped directly to clients.
 
@@ -180,10 +180,10 @@
             <div class="card-body">
                 <h5 class="card-title">SPACECUBE</h5>
                 <p class="card-text" style="text-align: justify;height: auto">SPACECUBE provides architects, designers
-                    and creators, a highly resolved solution for any temporary or transitional infrastructure projects
+                    and creators a highly resolved solution for any temporary or transitional infrastructure projects
                     or developments. Designed, engineered and manufactured in Australia since 2012, whether it’s for
                     events, advertising, retail or commercial applications there is growing demand for premium,
-                    temporary infrastructure solutions that can meet increased expectations from clients, and adapt to
+                    temporary infrastructure solutions that can meet increased expectations from clients and adapt to
                     various environment and uses. Our methods are transparent and we fully explain them to you in
                     layman’s terms so that you can be a part of the process. After all, it’s your business. You should
                     be in control.
@@ -305,7 +305,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">PLAYFUL PARENTING CHILD EDUCATION</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Play between a parent and child up to the age of three years can be, quite literally, life changing for both parties. A long-lasting bond between parent and child can be established through playful interactions, laying the foundation for a positive and healthy relationship that can grow throughout childhood.
+                <p class="card-text" style="text-align: justify;height: auto">Play between a parent and child up to the age of three years can be quite literally life changing for both parties. A long-lasting bond between parent and child can be established through playful interactions, laying the foundation for a positive and healthy relationship that can grow throughout childhood.
 
             </div>
         </div>

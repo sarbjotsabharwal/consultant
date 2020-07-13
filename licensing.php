@@ -171,7 +171,7 @@
         <!-- <h1 style="color:white;">LICENSING</h1> -->
         <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;">
 
-            Licensing is defnined as business format where a company authorizes another company to access its
+            Licensing is defined as business format where a company authorizes another company to access its
             intellectual property rights.
             <br>
             If you are an inventor charthill can help you obtain a patent, trademark and copyright.
@@ -289,7 +289,7 @@
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
                 <h5 class="card-title">Licensing legislations and policies? </h5>
                 <p class="card-text" style="text-align: center;padding: 10px;color: black;height: auto;">
-                A licensing agreement is a legal contract between two parties, known as the licensor and the licensee. The licensor grants licensee the right to produce and sell goods, apply a brand name or trademark, or use patented technology owned by the licensor. Licensees are controlled by less stringent business legislation. However, Licensor and Licensee must consult with their legal team before coming to an arrangement. 
+                A licensing agreement is a legal contract between two parties known as the licensor and the licensee. The licensor grants licensee the right to produce and sell goods, apply a brand name or trademark or use patented technology owned by the licensor. Licensees are controlled by less stringent business legislation. However, Licensor and Licensee must consult with their legal team before coming to an arrangement. 
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and

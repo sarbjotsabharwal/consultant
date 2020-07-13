@@ -263,7 +263,7 @@
             university.
           </p>
           <div class="card-text" style="height:300px;width: auto;"> He was director at Graf Plastics Australia
-            (Oct 2013 – Sep 2016) , Garantia Australia Jan 2010 – Sep 2016 perth,Australia and Omni Manufacturing (1999
+            (Oct 2013 – Sep 2016), Garantia Australia (Jan 2010 – Sep 2016) perth, Australia and Omni Manufacturing (1999
             –
             Oct 2013) in Perth, Australia
             <br>
@@ -271,7 +271,7 @@
             <br>
             He was State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1999
             <br><br>
-            State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1992 years 5 months in Perth, Australia
+            State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1992 in Perth, Australia
           </div>
         </div>
       </div>

@@ -109,7 +109,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('assets/img/franchising/franchisingback.jpg') no-repeat center center/cover;
+            background: url('assets/img/franchising/back.webp') no-repeat center center/cover;
             opacity: .4;
         }
 
@@ -133,10 +133,10 @@
 
             font-family: "Montserrat", sans-serif;
         }
-        .card-title{
+
+        .card-title {
             color: rgb(3, 158, 3)
         }
-
     </style>
 </head>
 
@@ -197,7 +197,7 @@
             It‘s more than just systems: a franchise without a system is like a car without wheels – it’s just not going
             anywhere.
             <br>
-            Whether you are just starting up, you currently have 50 franchisees or are somewhere in between, if you are
+            Whether you are just starting up, you currently have 50 franchisees or are somewhere in between, if you want
             to franchise successfully, you need a clear simple and well-documented system just as any well-run business
             does.
             <br> <br>
@@ -324,7 +324,6 @@
                     How big do you need your franchise group to be? Do you have a simple business method which will suit
                     the largest number of potential franchisees or does the complexity in your business restrict the
                     market? How skilled do you need your franchisees to be?
-
 
                 </p>
                 <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf4()">
