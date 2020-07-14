@@ -187,10 +187,7 @@
     <?php
     include('header.html');
     ?>
-    <?php
-    // include('videopopup.html');
-    include('social_media.html');
-    ?>
+ 
     <!-- sticky background -->
     <div class="stickyback">
     </div>
@@ -325,7 +322,10 @@
     </div>
 
 
-
+    <?php
+    // include('videopopup.html');
+    include('social_media.html');
+    ?>
 
 
     <?php
