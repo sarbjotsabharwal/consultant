@@ -188,12 +188,12 @@
     include('header.html');
     ?>
     <?php
-    include('videopopup.html');
+    // include('videopopup.html');
     include('social_media.html');
     ?>
     <!-- sticky background -->
     <div class="stickyback">
-
+    </div>
         
     ?>
     <!-- sticky background end -->

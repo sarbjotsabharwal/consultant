@@ -176,7 +176,9 @@
             <br>
             If you are an inventor charthill can help you obtain a patent, trademark and copyright.
             <br>
-            We seek out opportunity and risk our own time to work with. <br> <br>
+            We seek out opportunity and risk our own time to work with. 
+            Charthill can license your products and services globally. 
+             <br><br>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
                 onclick="OpenPlayer()">
                 Watch Video
