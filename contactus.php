@@ -324,7 +324,7 @@
 
     <?php
     // include('videopopup.html');
-    include('social_media.html');
+    include('Social_Media.html');
     ?>
 
 
