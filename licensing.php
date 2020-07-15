@@ -164,7 +164,7 @@
         Licensing Services</h1><br><br>
     <h1
         style="display:block;margin:auto;color: white;background-color: rgba(206, 206, 206, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-      Commercial Elements of a Licencing
+      Commercial Elements of a Licensing  
 </h1><br>
     <div class="heading"></div>
 
