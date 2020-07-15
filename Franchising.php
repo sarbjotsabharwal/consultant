@@ -156,8 +156,6 @@
     </div>
     <!-- sticky background end -->
 
-
-
     <!-- section start -->
     <h1 style=" color: rgb(2, 168, 2);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 100px;font-weight: bold;">
         Franchising</h1><br><br>
@@ -413,7 +411,7 @@
         </div>
 
         <h1 style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(228, 213, 13, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-            IMPLEMENTATION & FRANCHISOR SUPPORT & TRAINING</h1><br>
+            IMPLEMENTATION, FRANCHISOR SUPPORT & TRAINING</h1><br>
         <div class="heading"></div>
         <div class="content">
             <!-- <h1 style="color:white;">LICENSING</h1> -->

@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +21,8 @@
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/social_media_icons.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -187,11 +189,11 @@
     <?php
     include('header.html');
     ?>
- 
+
     <!-- sticky background -->
     <div class="stickyback">
     </div>
-        
+
     ?>
     <!-- sticky background end -->
     <br><br><br><br>
@@ -204,7 +206,8 @@
 
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" style="background: rgb(0, 0, 0,.5);width:100%;border-radius: 20px;color: white;padding:30px;text-align: center;">
+                    <div class="carousel-item active"
+                        style="background: rgb(0, 0, 0,.5);width:100%;border-radius: 20px;color: white;padding:30px;text-align: center;">
                         <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <h1 style="font-style:italic;text-decoration: underline;color: rgb(1, 196, 1);font-weight:bold">
                             United States Head Office</h1>
@@ -214,7 +217,8 @@
                             Nevada, 89107 <br>
                             UNITED STATES</h4><br>
                     </div>
-                    <div class="carousel-item" style="background: rgb(0, 0, 0,.5);width:100%;border-radius: 20px;color: white;padding:30px;text-align: center;">
+                    <div class="carousel-item"
+                        style="background: rgb(0, 0, 0,.5);width:100%;border-radius: 20px;color: white;padding:30px;text-align: center;">
                         <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <h1 style="font-style:italic;text-decoration: underline;color: rgb(1, 196, 1);font-weight:bold">
                             Australian Head office</h1>
@@ -239,7 +243,8 @@
             </div>
         </div>
         <div class="card-container" style="">
-            <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
+            <div class="card bg-light"
+                style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
                 <div class="card-body">
                     <div class="">
                         <img src="assets/img/our team/stan1.jpg" alt="">
@@ -249,23 +254,28 @@
                     <div class="cardtext">
 
                         <br><br>
-                        <p style="font-weight:bold;text-align: justify;">
-                            Position: Executive Director of Charthill Consultants <br><br>
-                            Contact: (+61) 439 971 455 <br><br>
-                            Email:stanley@charthillconsultants.com <br><br>
-                            <div class="social_media_container" style="display: block;width:100%;margin:auto;">
-                                <a href="https://au.linkedin.com/in/stanley-cobbold-ab023a187" class="fa fa-linkedin" target="_blank"></a>
-                                <!-- <a href="" class="fa fa-facebook"   target="_blank"></a>
+                        <p style="font-weight:bold;text-align: center;">
+                            Position: <br> Executive Director of Charthill Consultants <br><br>
+                            Contact: <br> (+61) 439 971 455 <br><br>
+                            Email:<br>stanley@charthillconsultants.com <br><br>
+                        <div class="social_media_container" style="display: block;width:100%;margin:auto;">
+                            <a href="https://au.linkedin.com/in/stanley-cobbold-ab023a187" class="fa fa-linkedin"
+                                target="_blank"></a>
+                            <!-- <a href="" class="fa fa-facebook"   target="_blank"></a>
                             <a href="" class="fa fa-twitter"  target="_blank"></a> -->
-                            </div>
-                            <br><br>
+                        </div>
+                        <br><br>
 
                         </p>
                     </div>
-                    <iframe style="border: 2px solid black;border-radius: 10px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.052532977523!2d-115.241574!3d36.178081000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c052109413d1%3A0x139155b48b4c91d1!2s500%20N%20Rainbow%20Blvd%20%23300%2C%20Las%20Vegas%2C%20NV%2089107%2C%20USA!5e0!3m2!1sen!2sin!4v1593977332095!5m2!1sen!2sin" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe style="border: 2px solid black;border-radius: 10px;"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.052532977523!2d-115.241574!3d36.178081000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c052109413d1%3A0x139155b48b4c91d1!2s500%20N%20Rainbow%20Blvd%20%23300%2C%20Las%20Vegas%2C%20NV%2089107%2C%20USA!5e0!3m2!1sen!2sin!4v1593977332095!5m2!1sen!2sin"
+                        width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
-            <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
+            <div class="card bg-light"
+                style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
                 <div class="card-body">
                     <div class="">
                         <img src="assets/img/our team/prabhdeep singh.jpg" alt="">
@@ -274,19 +284,22 @@
                     </div>
                     <div class="cardtext">
                         <br><br>
-                        <p style="font-weight:bold;text-align: justify;">
-                            Position: Director of Charthill Consultants <br><br>
-                            Contact: (+61) 447 188 144 <br><br>
-                            Email:prabhjeet@charthillconsultants.com
-                            <div class="social_media_container" style="display: block;width:100%;margin:auto;">
-                                <!-- <a href="#" class="fa fa-linkedin" target="_blank"></a> -->
-                                <!-- <a href="https://www.facebook.com/CharthillConsultants/" class="fa fa-facebook" target="_blank"></a>
+                        <p style="font-weight:bold;text-align: center;">
+                            Position: <br>Director of Charthill Consultants <br><br>
+                            Contact: <br>(+61) 447 188 144 <br><br>
+                            Email:<br>prabhjeet@charthillconsultants.com
+                        <div class="social_media_container" style="display: block;width:100%;margin:auto;">
+                            <!-- <a href="#" class="fa fa-linkedin" target="_blank"></a> -->
+                            <!-- <a href="https://www.facebook.com/CharthillConsultants/" class="fa fa-facebook" target="_blank"></a>
                                 <a href="https://twitter.com/CharthillC" class="fa fa-twitter" target="_blank"></a> -->
-                            </div>
+                        </div>
                         </p>
 
                     </div>
-                    <iframe style="border: 2px solid black;border-radius: 10px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6770.618946885443!2d115.84073000000001!3d-31.952500000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a52f6483c0dd%3A0xd248f06db79b70a7!2s22%2F16%20Kings%20Park%20Rd%2C%20West%20Perth%20WA%206005%2C%20Australia!5e0!3m2!1sen!2sin!4v1593978167320!5m2!1sen!2sin" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe style="border: 2px solid black;border-radius: 10px;"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6770.618946885443!2d115.84073000000001!3d-31.952500000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a52f6483c0dd%3A0xd248f06db79b70a7!2s22%2F16%20Kings%20Park%20Rd%2C%20West%20Perth%20WA%206005%2C%20Australia!5e0!3m2!1sen!2sin!4v1593978167320!5m2!1sen!2sin"
+                        width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
 
@@ -298,23 +311,25 @@
                 <form style="padding:30px">
                     <h3 style="text-align: center;color: rgb(1, 196, 1);font-weight:bold">Write to Us</h3>
                     <div class="foZrm-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name" required>
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput2">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required>
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput3">Subject</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Enter subject" required>
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Your Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your message here" rows="4" required></textarea>
+                        <label for="body">Your Message</label>
+                        <textarea class="form-control" id="body" placeholder="Write your message here" rows="4"
+                            required></textarea>
                     </div>
 
-                    <input type="submit" value="Submit" class="btn btn-success" style="margin-left: 30%;width: 40%;">
+                    <input type="button" value="Submit" onclick="sendEmail()" class="btn btn-success"
+                        style="margin-left: 30%;width: 40%;">
                 </form>
             </div>
 
@@ -361,6 +376,50 @@
     }
 
     // var pos = document.getElementById("myForm").className;
+
+</script>
+
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script type="text/javascript">
+    function sendEmail() {
+        var name = $("#name");
+        var email = $("#email");
+        var subject = $("#subject");
+        var body = $("#body");
+
+        if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+            $.ajax({
+                url: 'sendEmail.php',
+                method: 'POST',
+                dataType: 'json',
+                data: {
+                    name: name.val(),
+                    email: email.val(),
+                    subject: subject.val(),
+                    body: body.val()
+                }, success: function (response) {
+                    if (response.status == "success")
+                        alert('Email Has Been Sent!');
+                    else {
+                        alert('Please Try Again!');
+                        console.log(response);
+                    }
+                }
+            });
+        }
+    }
+
+    function isNotEmpty(caller) {
+        if (caller.val() == "") {
+            caller.css('border', '1px solid red');
+            return false;
+        } else
+            caller.css('border', '');
+
+        return true;
+    }
 </script>
 
 </html>

@@ -83,11 +83,10 @@
                 <h4 style="color: rgb(255, 255, 255);">UNIQUE WORKCULTURE</h4 style="color: white;">
 
                 <p>We take our hands on, collaborative approach to all our engagements and focus on developing solutions
-                  alongside our clients. it all leads to strategic client partnership that focus on long-term healthy
+                  alongside our clients. It all leads to strategic client partnership that focus on long-term healthy
                   relations between our clients and us and lead to success of whole work culture that is considered to
                   be the back bone of every progressive firm. We hold our Core Values close to our hearts. They are the
-                  foundation of who we are and how we conduct ourselves. They play out in all of our interactions with
-                  customers, our workplaces and with our other important stakeholders. They guide us and act as our
+                  foundation of who we are and how we conduct ourselves. They guide us and act as our
                   moral compass. </p>
                 <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us</button></a>
                 <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
@@ -103,8 +102,8 @@
                 <h4 style="color: white;">BUSINESS STRATEGY</h4 style="color: white;">
 
 
-                <p>We lay emphasis on developing a business strategy through examining current marketing plans,
-                  providing unique valuable and intelligent market research, to meet our expectations, we have a wide
+                <p>We lay emphasis on developing a business strategy through examining current marketing plans by
+                  providing the unique, valuable and intelligent market research. To meet our expectations, we have a wide
                   range of market research techniques to use. The world of Internet marketing changes in the blink of an
                   eye. There are always new traffic methods, changes to search engine algorithms, and cutting edge
                   technology and trends. Yesterday’s methods no longer get results. We stay current on these changing
@@ -116,28 +115,7 @@
             </div>
           </div>
 
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/4.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
-                <h4 style="color: white;">ROBUST BUSINESS PLANNING</h4 style="color: white;">
-
-
-                <p>Providing a robust business plan and securing funding if necessary, Charthill takes a pragmatic
-                  approach & independent look at business structures, financial performance and marketing activity and
-                  providing appropriate solutions to improve the performance and efficiency of the entire programming of
-                  the business plan. </p>
-                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us</button></a>
-
-
-                <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"></span> -->
-                <!-- <a href="aboutus.php"><button type="button" class="glyphicon glyphicon-circle-arrow-down">More About Us</button></a> -->
-                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
-              </div>
-            </div>
-          </div>
-
+       
         </div>
 
         <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
@@ -169,7 +147,7 @@
 
     <p style="text-align: center;">Client satisfaction: Our watchword for sustainable growth</p>
 
-    <p>Charthill Consultants is committed to delivering the highest level of client satisfaction in the consulting
+    <p>Charthill Consultants are committed to delivering the highest level of client satisfaction in the consulting
       market. At Charthill Consultants we try our utmost to provide our clients the best hidden opportunities they may
       never have thought about and heard about. To support and achieve this goal, the firm has implemented a quality
       policy that is systematically applied to all its assignments.

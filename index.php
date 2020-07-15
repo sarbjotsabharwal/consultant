@@ -155,15 +155,14 @@ include('header.html');
 <div class="top-cards">
   <div class="card-item" style="background: rgb(37, 155, 37);">
     <h1 style="font-weight: bold;color:white;padding: 5px;margin-top: 20px;margin-left: 40px;">Franchising</h1>
-    <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Franchising is a business format, where one party (the franchiser) grants another party (the franchisee) the right to use its trademark or trade-name as well as certain business systems and processes to produce and market a good or service according to certain specifications. </p>
+    <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Franchising is a business format, where one party (the franchiser) grants another party (the franchisee) the right to use its trademark or trade-name as well as certain business systems and processes to produce and market the goods or services according to certain specifications. </p>
     <a href="Franchising.php"><button type="button" class="btn btn-light" style="margin-left: 60px;"><span>Read More</span></button></a>
   </div>
 
 
   <div class="card-item" style="background: rgb(214, 214, 214);color: rgb(56, 56, 56);">
     <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;">Licensing</h1>
-    <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is defnined as business format where a company authorizes another company to access its intellectual property rights.
-      If you are an inventor charthill can help you obtain a patent, trademark and copyright.We seek out opportunity and risk our own time to work with.
+    <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is a business format, wherein a company authorizes another company by issuing a license to access its intellectual property rights, i.e. manufacturing process, brand name, copyright, trademark, patent, technology, trade secret, etc. for adequate consideration and under specified conditions.
     </p>
     <a href="licensing.php"><button type="button" class="btn btn-success" style="margin-left: 60px;"><span>Read More</span></button></a>
   </div>

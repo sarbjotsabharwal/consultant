@@ -163,21 +163,23 @@
         style=" color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 80px;font-weight: bold;">
         Licensing Services</h1><br><br>
     <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(206, 206, 206, 0.5);z-index: 5;width: 30%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-        Licensing</h1><br>
+        style="display:block;margin:auto;color: white;background-color: rgba(206, 206, 206, 0.5);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
+      Commercial Elements of a Licencing
+</h1><br>
     <div class="heading"></div>
 
     <div class="content">
         <!-- <h1 style="color:white;">LICENSING</h1> -->
         <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;">
 
-            Licensing is defined as business format where a company authorizes another company to access its
-            intellectual property rights.
-            <br>
-            If you are an inventor charthill can help you obtain a patent, trademark and copyright.
-            <br>
-            We seek out opportunity and risk our own time to work with. 
-            Charthill can license your products and services globally. 
+        Charthill Consulting is an innovative group of specialists dedicated to licensing our client's inventions.  Our one goal is that our clients and their inventions achieve success.  This is because we have a vested interest in them of our time and resources and only get paid when they do. And maybe even more importantly to some, that they get the pleasure of contributing to society and seeing their invention on the shelves of their local stores as well as being successful globally.   To do this we employ all of our talents and connections to tailor a plan specifically for our client's inventions. <br><br>
+<strong>CONFIDENTIAL</strong><br>
+Your invention submission is protected by our Nondisclosure Agreement, so you can be reassured that your disclosure is 100% confidential. <br><br>
+<strong>ACCESS TO MARKET</strong><br>
+Our license team consistently attends major industry trade shows in an effort to remain connected with important decision makers.  
+Our constant mission is to commercialize new products.  We undertake this quest with a focus on representing inventors and product developers with professionalism, integrity and transparency.
+Our approach is to utilize the most effective and innovative solutions to achieve results for our clients.  We enthusiastically approach every new project with a spirit of entrepreneurship, sense of urgency and an excitement about the search for innovation.
+
              <br><br>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
                 onclick="OpenPlayer()">
@@ -193,7 +195,7 @@
     <br>
     <h1
         style="display:block;margin:auto;color:white;background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
-        BENEFITS OF LICENSING
+        COMMERCIAL ELEMENTS OF A LICENCING
     </h1><br>
     <div class="cardcontainer1" id="allcards1" style="">
 
@@ -268,11 +270,9 @@
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ffdbcd, #ffa1a1);opacity: 1;">
-                <h5 class="card-title">Exclusivity of development areas and territory </h5>
+                <h5 class="card-title">Geographical Exclusivity</h5>
                 <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
-                    There is no geographic exclusivity for doing business, as with a real estate franchise, but the
-                    license agreement may include a geographical limit on how close another licensee may display the
-                    same logo.
+                Geographical exclusivity  is the practice where the owner of the rights to a product or service grants to a licensee the exclusive right to develop and/or commercialize the product in a specific country or territory only.
 
                 </p>
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
