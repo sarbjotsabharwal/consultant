@@ -279,10 +279,10 @@
                 improve your website’s ranking in search engine ranking pages, so that your site earns more traffic.
                 With increased traffic, companies experienced increase in sales and revenue.
             </p>
-            <img src="assets/img/sales and marketing/content-3679757_960_720.webp" alt="">
+            <img src="assets/img/sales and marketing/new/SEO.jpg" alt="">
         </div>
         <div class="container-box">
-            <img src="assets/img/sales and marketing/Pay-per-Click.png" alt="">
+            <img src="assets/img/sales and marketing/new/pay per click.jpg" alt="">
             <p>
                 <span>PPC</span>
                 Pay per click advertising is another extremely common digital marketing strategy. It is a cost effective
@@ -297,10 +297,10 @@
                 customers and boost brand awareness.Sharing your company’s content on social media is a great way to
                 increase site traffic and ultimately conversions.
             </p>
-            <img src="assets/img/sales and marketing/socialmedia.jpg" alt="">
+            <img src="assets/img/sales and marketing/new/digital marketing.jpg" alt="">
         </div>
         <div class="container-box">
-            <img src="assets/img/sales and marketing/email-4800274_960_720.webp" alt="">
+            <img src="assets/img/sales and marketing/new/email.jpg" alt="">
             <p>
                 <span>Email marketing</span>
                 Email marketing can also help you increase brand awareness and site traffic — and it’s a great lead
@@ -314,10 +314,10 @@
                 Content marketing allows you to create informative, beneficial content based on your target keywords in
                 order to rank at the top of search results.
             </p>
-            <img src="assets/img/sales and marketing/content-3679757_960_720.webp" alt="">
+            <img src="assets/img/sales and marketing/new/content marketing.jpg" alt="">
         </div>
         <div class="container-box">
-            <img src="assets/img/sales and marketing/Geo-Fence-Location-Targeting.jpg" alt="">
+            <img src="assets/img/sales and marketing/new/fencing.jpg" alt="">
             <p>
                 <span> Geo Fencing </span>
                 Geo fence technology combines effective mobile advertising with advanced location based technology to

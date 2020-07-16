@@ -195,7 +195,7 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/licensing/licensing work.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/licensing/new/agreement.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
@@ -216,7 +216,7 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/licensing/cost.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/licensing/new/cost.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
@@ -237,7 +237,7 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/licensing/own business.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/licensing/new/freedom.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
@@ -256,7 +256,7 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/licensing/geographical.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/licensing/new/geography.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
@@ -275,7 +275,7 @@
             <div class="card-header border-radius-top" style="padding: 0;">
                 <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                <img src="assets/img/licensing/law.jpg" alt="" style="width:100%;height: 300px;">
+                <img src="assets/img/licensing/new/law.jpg" alt="" style="width:100%;height: 300px;">
             </div>
             <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;

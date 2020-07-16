@@ -270,7 +270,7 @@
                 <!-- card 1 -->
                 <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
                     <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
-                        <img src="assets/img/business migration/property develop.png" style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
+                        <img src="assets/img/business migration/new/development.jpg" style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
                         <h5 class="card-title" style="font-size:40px;">Property Development
                         </h5>
                     </div>
@@ -306,7 +306,7 @@
                 <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
                     <div class="card-header" style="margin: 0;padding: 0;">
 
-                        <img src="assets/img/business migration/checklist-3693113_1920.jpg" style="height: 350px;box-shadow: none;" alt="">
+                        <img src="assets/img/business migration/new/checklist.jpg" style="height: 350px;box-shadow: none;" alt="">
                         <h5 class="card-title" style="font-size:40px;">You Must Have
                         </h5>
                     </div>

@@ -36,6 +36,9 @@
     .modal-content {
       width: 95%;
     }
+    .card img{
+      height: 229px;
+    }
   </style>
 </head>
 
@@ -170,7 +173,7 @@
 
       <div class="cardcollection">
         <div class="card" style="width: 22rem;">
-          <img class="card-img-top" src="assets/img/aboutuscards/1.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/aboutuscards/Customer_Commit.jpg" alt="Card image cap">
           <div class="card-body">
 
             <h4 class="text-center">Customer Commitment</h4>
@@ -179,7 +182,7 @@
         </div>
 
         <div class="card" style="width: 22rem;">
-          <img class="card-img-top" src="assets/img/aboutuscards/2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/aboutuscards/teamwork.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="text-center">Teamwork</h4>
             <p class="card-text text-center">We work together, across boundaries, to meet the needs of our customers and
@@ -188,7 +191,7 @@
         </div>
 
         <div class="card" style="width: 22rem;">
-          <img class="card-img-top" src="assets/img/aboutuscards/3.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/aboutuscards/respect.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="text-center">Respect For People</h4>
             <p class="card-text text-center">We value our people, encourage their development and reward their
@@ -197,7 +200,7 @@
         </div>
 
         <div class="card" style="width: 22rem;">
-          <img class="card-img-top" src="assets/img/aboutuscards/4.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/aboutuscards/win.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="text-center">A Will to Win</h4>
             <p class="card-text text-center">We exhibit a strong will to win in the marketplace and in every aspect of
