@@ -42,7 +42,7 @@
       position: absolute;
       left: 0;
       top: 0;
-      background: url('assets/img/back.jpg') no-repeat center center /cover;
+      background: url('assets/img/home_back.jpg') no-repeat center center /cover;
       z-index: -1;
       opacity: .5;
     }
