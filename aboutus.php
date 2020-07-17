@@ -61,7 +61,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/1.jpg" alt=""></div>
+            <div class="carousel-background"><img src="assets/img/aboutusslidder/innovative.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
@@ -79,7 +79,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/2.jpg" alt=""></div>
+            <div class="carousel-background"><img src="assets/img/aboutusslidder/uniquework.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
@@ -98,7 +98,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/3.jpg" alt=""></div>
+            <div class="carousel-background"><img src="assets/img/aboutusslidder/strategy.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
