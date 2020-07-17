@@ -109,7 +109,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('assets/img/ipo/ipoback1.jpg') no-repeat center center/cover;
+            background: url('assets/img/ipo/ipo\ advisory.jpg') no-repeat center center/cover;
             opacity: .5;
         }
 

@@ -111,7 +111,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('assets/img/sales and marketing/background.jpg') no-repeat center center/cover;
+            background: url('assets/img/sales and marketing/sales\ and\ marketing.jpg') no-repeat center center /cover;
             opacity: .5;
         }
 

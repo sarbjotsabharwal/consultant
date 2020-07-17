@@ -1756,7 +1756,7 @@ width: 100%;
 
 .main-container::before {
   content: "";
-  background: url('../img/serviceback1.jpg') no-repeat center center/cover;
+  background: url('../img/businessalliance/alliance.jpg') no-repeat center center/cover;
   position: absolute;
   /* bottom: 0; */
   /* left:0; */

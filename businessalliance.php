@@ -107,11 +107,12 @@
     <div class="main-container">
         <div id="heading">
             <br><br><br><br><br><br><br>
-            <h1 style="color: rgb(1, 196, 1);font-weight: bold;">Our Business Alliance</h1><br><br><br><br>
+            <h1 style="color: rgb(1, 196, 1);font-weight: bold;"></h1><br><br><br><br>
             <?php
             include('logoslider.html');
             ?>
             <!-- <a href="#allcards1"><img src="assets/img/downarrow2.gif" alt=""></a> -->
+            <h1 style="color: rgb(1, 196, 1);font-weight: bold;"></h1><br><br><br><br>
         </div>
     </div>
     <!--card section-->
