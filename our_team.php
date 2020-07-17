@@ -242,7 +242,7 @@
             Worked as graphic designer in San Diego, California. She studied psychology. [1999]
             Beatrice Ring is a writer and music video director in Los Angeles, CA.
           </p>
-          <div class="card-text" style=" height:300px;width: auto;">
+          <div class="card-text" style=" height:200px;width: auto;">
             Beatrice Ring started her career as a model and ventured into the showbiz industry.
             She is one of the popular actresses in the world of cinema.
             She is best known for her appearance on Zombi 3.
@@ -253,25 +253,17 @@
     <div class="card bg-light" style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
       <div class="card-body">
         <div class="">
-          <img src="assets/img/our team/luc.jpg" alt="">
-          <h4 class="card-title" style="padding-top:10px">Mr. LUC MAINGARD</h4>
+          <img src="assets/img/our team/barry.jpg" alt="">
+          <h4 class="card-title" style="padding-top:10px">Mr. JASON BARRY</h4>
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align:left;">
-            Luc Maingard is Proprietor at LM
-            Agency and Consulting Perth, Australia. He studied bacheor's of business/commerce at KwaZulu-Natal
-            university.
-          </p>
-          <div class="card-text" style="height:300px;width: auto;"> He was director at Graf Plastics Australia
-            (Oct 2013 – Sep 2016), Garantia Australia (Jan 2010 – Sep 2016) perth, Australia and Omni Manufacturing (1999
-            –
-            Oct 2013) in Perth, Australia
-            <br>
+          With over $4 Billion in sales, Jason Barry has developed a global reputation as the top luxury real estate agent for San Diego’s luxury marketplace. Due to his expertise in the luxury real estate market and his integrity, loyalty and professionalism, Jason has been sought out by the most successful business leaders.
 
-            <br>
-            He was State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1999
-            <br><br>
-            State Manager at Croplands Equipment Pty Ltd from Apr 1997 to Aug 1992 in Perth, Australia
+
+          </p>
+          <div class="card-text" style="height:200px;width: auto;"> Jason has facilitated some of the most expensive homes to have sold in San Diego’s luxury communities: Rancho Santa Fe, La Jolla, Del Mar, Solana Beach, Carlsbad, Downtown San Diego and Point Loma. 
+        
           </div>
         </div>
       </div>
