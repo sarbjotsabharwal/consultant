@@ -165,7 +165,7 @@
 
     <div class="content">
         <!-- <h1 style="color:white;">LICENSING</h1> -->
-        <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;">
+        <p style="color: white;text-align: center;width: 80%; display:block;margin: auto;background: rgb(0, 0, 0,.4);padding: 40px;border-radius: 10px;">
 
             Since 1985 we have been assisting successful businesses just like yours who are looking to roll out a
             profitable franchise model. The franchisor journey can be fraught with hidden pitfalls to the uninitiated,

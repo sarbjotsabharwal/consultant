@@ -160,7 +160,7 @@ include('header.html');
   </div>
 
 
-  <div class="card-item" style="background: rgb(214, 214, 214);color: rgb(56, 56, 56);">
+  <div class="card-item" style="background: rgb(0, 18, 177);color: white">
     <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;">Licensing</h1>
     <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is a business format, wherein a company authorizes another company by issuing a license to access its intellectual property rights, i.e. manufacturing process, brand name, copyright, trademark, patent, technology, trade secret, etc. for adequate consideration and under specified conditions.
     </p>
