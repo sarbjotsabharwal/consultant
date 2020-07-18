@@ -36,13 +36,63 @@
     .modal-content {
       width: 95%;
     }
-    .card img{
+
+    .card img {
       height: 229px;
+    }
+
+    .carousel-content {
+      position: relative;
+      bottom: 20px;
+    }
+
+
+    .top-container1::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('assets/img/aboutusslidder/innovative.jpg') no-repeat center center /cover;
+      z-index: -1;
+      opacity: .5;
+    }
+
+
+    .top-container1 h1 {
+      font-size: 80px;
+      margin-top: 110px;
+      margin-left: 100px;
+      margin-right: 450px;
+      margin-bottom: 140px;
+      font-weight: bold;
+
+    }
+
+    .span-green {
+      color: rgb(7, 206, 7);
+
+    }
+
+    .top-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: white;
+    }
+
+    .card-item {
+      top: -70px;
+      position: relative;
+      width: 900px;
+      height: 350px;
+      /* background: red; */
     }
   </style>
 </head>
 
-<body style="font-family: Montserrat, sans-serif;">
+<body style="font-family: Montserrat, sans-serif;background-color: black;">
 
   <?php
   include('header.html');
@@ -51,90 +101,82 @@
 
     include('pdfviewer.html');
   ?>
-  <!-- ======= Intro Section ======= -->
-  <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
-
+  <div class="top-container1">
+    <h1>
+      <br>
+      <br>
+      <span class="span-green"><strong>Discover Charthill</strong></span>
+      <br>
+      <br>
+    </h1>
+  </div>
+  <div class="top-cards">
+    <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/innovative.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
-                <h4 style="color: white;">INNOVATIVE MIND & QUICK SOLUTIONS</h4 style="color: white;">
-                <p>We at Charthill deliver integrated and quick solutions, which complement our capabilities with the
-                  ecosystem of the world’s top innovators to gain better, faster and more successful results for the
-                  customers’ entire satisfaction and convenience. We are committed to providing high-quality services
-                  and products. We meet the mutually agreed-to requirements the first time and strive for continuous
-                  improvement of our work processes.</p>
-                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us <span
-                      class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></button></a>
-                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
-              </div>
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+              <h3>
+                INNOVATIVE MIND & QUICK SOLUTIONS
+              </h3><br>
+
+              <p>We at Charthill deliver integrated and quick solutions, which complement our capabilities with the
+                ecosystem of the world’s top innovators to gain better, faster and more successful results for the
+                customers’ entire satisfaction and convenience. We are committed to providing high-quality services
+                and products. We meet the mutually agreed-to requirements the first time and strive for continuous
+                improvement of our work processes.</p>
             </div>
+
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/uniquework.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
-                <h4 style="color: rgb(255, 255, 255);">UNIQUE WORKCULTURE</h4 style="color: white;">
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+              <h3>
+                UNIQUE WORKCULTURE
+              </h3><br>
 
-                <p>We take our hands on, collaborative approach to all our engagements and focus on developing solutions
-                  alongside our clients. It all leads to strategic client partnership that focus on long-term healthy
-                  relations between our clients and us and lead to success of whole work culture that is considered to
-                  be the back bone of every progressive firm. We hold our Core Values close to our hearts. They are the
-                  foundation of who we are and how we conduct ourselves. They guide us and act as our
-                  moral compass. </p>
-                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us</button></a>
-                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
-              </div>
+              <p>We take our hands on, collaborative approach to all our engagements and focus on developing solutions
+                alongside our clients. It all leads to strategic client partnership that focus on long-term healthy
+                relations between our clients and us and lead to success of whole work culture that is considered to
+                be the back bone of every progressive firm. We hold our Core Values close to our hearts. They are the
+                foundation of who we are and how we conduct ourselves. They guide us and act as our
+                moral compass.</p>
             </div>
-          </div>
 
+          </div>
           <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/img/aboutusslidder/strategy.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="newfont" style=" color: rgb(7, 206, 7);">Discover Charthill</h2>
-                <h4 style="color: white;">BUSINESS STRATEGY</h4 style="color: white;">
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+              <h3>
+                BUSINESS STRATEGY
+              </h3><br>
 
-
-                <p>We lay emphasis on developing a business strategy through examining current marketing plans by
-                  providing the unique, valuable and intelligent market research. To meet our expectations, we have a wide
-                  range of market research techniques to use. The world of Internet marketing changes in the blink of an
-                  eye. There are always new traffic methods, changes to search engine algorithms, and cutting edge
-                  technology and trends. Yesterday’s methods no longer get results. We stay current on these changing
-                  trends online, so that you get the return on investments.
-                </p>
-                <a href="#aboutusection"><button type="button" class="btn btn-outline-light">More About Us</button></a>
-                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
-              </div>
+              <p>We lay emphasis on developing a business strategy through examining current marketing plans by
+                providing the unique, valuable and intelligent market research. To meet our expectations, we have a
+                wide
+                range of market research techniques to use. The world of Internet marketing changes in the blink of an
+                eye. There are always new traffic methods, changes to search engine algorithms, and cutting edge
+                technology and trends. Yesterday’s methods no longer get results. We stay current on these changing
+                trends online, so that you get the return on investments.</p>
             </div>
-          </div>
 
-       
+          </div>
         </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-
       </div>
     </div>
-  </section>
-  <!-- End Intro Section -->
+
+  </div>
+
+
 
   <!-- a brief on us section start -->
 

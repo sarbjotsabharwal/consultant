@@ -150,7 +150,7 @@ include('header.html');
     Start Your <span class="span-green">Franchising</span> & <span class="span-green">Licensing</span> <br> Journey with Us
   </h1>
 
-</div>
+
 </div>
 <div class="top-cards">
   <div class="card-item" style="background: rgb(37, 155, 37);">
