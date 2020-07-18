@@ -54,7 +54,7 @@
       position: absolute;
       left: 0;
       top: 0;
-      background: url('assets/img/aboutusslidder/innovative.jpg') no-repeat center center /cover;
+      background: url('assets/img/aboutusback.jpg') no-repeat center center /cover;
       z-index: -1;
       opacity: .5;
     }
@@ -62,11 +62,8 @@
 
     .top-container1 h1 {
       font-size: 80px;
-      margin-top: 110px;
-      margin-left: 100px;
-      margin-right: 450px;
-      margin-bottom: 140px;
-      font-weight: bold;
+      margin-top: 251px;
+      text-align: center;
 
     }
 
@@ -182,7 +179,7 @@
 
   <div class="about-us" style="text-align: justify;">
     <h1 style="text-align: center;" id="aboutusection">A brief on Us</h1>
-    <p class="about-intro" style="text-align: center;"><i>Individual commitment to a group effort–that is what makes a
+    <p class="about-intro" style="text-align: center;font-weight: bold;margin-top: 20px;"><i>Individual commitment to a group effort–that is what makes a
         team work, a company work, a
         society work, a
         civilization work.

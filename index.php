@@ -42,7 +42,7 @@
       position: absolute;
       left: 0;
       top: 0;
-      background: url('assets/img/back.webp') no-repeat center center /cover;
+      background: url('assets/img/homepageback.jpg') no-repeat center center /cover;
       z-index: -1;
       opacity: .5;
     }
@@ -136,9 +136,6 @@
 
 <?php
 include('homecover.html');
-?>
-<?php
-include('chatbotpopup.html');
 ?>
 <?php
 include('header.html');
