@@ -112,7 +112,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('assets/img/contactus/formback.jpg') no-repeat center center/cover;
+            background: url('assets/img/contactus/contact\ us.jpg') no-repeat center center;
+            background-size: 100vw 100vh;
             opacity: .5;
         }
 
