@@ -145,8 +145,8 @@
         }
 
         .list-items li:nth-child(odd) {
-            background-color: rgba(0, 12, 182, 0.7);
-        
+            background-color: rgba(233, 233, 233);
+            color: black;
 
         }
 
@@ -155,7 +155,7 @@
             color: white;
 
 
-            background-color: rgba(2, 128, 19, 0.7);
+            background-color: rgba(2, 128, 19);
 
         }
 
@@ -321,7 +321,7 @@
 
     <!-- section start -->
 
-    <div class="container2" style="background:rgb(0, 18, 177);">
+    <div class="container2" style="background: rgb(173, 173, 173);">
         <div class="container-box" id="container-box-1">
             <p>
                 <span>SEO</span>
@@ -383,11 +383,11 @@
 
     <!-- section end -->
   
-    <div class="" style="background: rgb(173, 173, 173);">
+    <div class="" style="background:rgb(0, 18, 177);">
 
 
         <div class="container" style="color:white;width: 100%;padding: 15px;">
-            <h5 class="card-title" style="font-weight: normal;font-size: 40px;padding: 20px;background:rgb(37, 155, 37); width: 100%;font-weight: bold;border-radius: 20px;">SALES DEVELOPMENT SERVICES</h5>
+            <h5 class="card-title" style="font-weight: normal;font-size: 40px;padding: 20px;background: rgb(233, 233, 233); width: 100%;font-weight: bold;border-radius: 20px; color: rgb(1, 196, 1);">SALES DEVELOPMENT SERVICES</h5>
             <p style="color: white;font-size:15px;text-align: center;width: 90%;padding:20px;border-radius:10px;font-weight: bold;background: rgb(0, 0, 0,.2);display: block;margin:auto;">Our research shows that sales training can boost product sales by up to
                 20%.During our work with the top-performing sales organizations in the world, Charthill has identified
                 and
