@@ -150,7 +150,7 @@
             position: absolute;
             left: 0;
             top: 0;
-            background: url('assets/img/licensing/licensing.jpg') no-repeat center center /cover;
+            background: url('assets/img/Licensing.jpg') no-repeat center center /cover;
             z-index: -1;
             opacity: .5;
         }
@@ -243,7 +243,7 @@
                 urgency and an excitement about the search for innovation.
 
                 <br><br>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
                     onclick="OpenPlayer()">
                     Watch Video
                 </button>

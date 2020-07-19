@@ -239,13 +239,12 @@
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align:left;">
-            Worked as graphic designer in San Diego, California. She studied psychology. [1999]
-            Beatrice Ring is a writer and music video director in Los Angeles, CA.
+            Beatrice Ring born on September 23, 1965 in France is a French actress and director known for her portrayal in McMillions, a documentary series about the McDonald’s Monopoly game scam that occurred between 1989 and 2001 by ex-cop, Jerry Jacobson. The series premiered on February 3, 2020 on HBO.
           </p>
           <div class="card-text" style=" height:200px;width: auto;">
-            Beatrice Ring started her career as a model and ventured into the showbiz industry.
-            She is one of the popular actresses in the world of cinema.
-            She is best known for her appearance on Zombi 3.
+
+            She started her career as a model and ventured into the showbiz industry. Ring is also known for her appearance on Zombie 3 in 1988, Interzone in 1989 and Sicilian Connection in 1987.
+
           </div>
         </div>
       </div>
@@ -258,12 +257,12 @@
         </div>
         <div class="cardtext">
           <p style="font-weight:bold;text-align:left;">
-          With over $4 Billion in sales, Jason Barry has developed a global reputation as the top luxury real estate agent for San Diego’s luxury marketplace. Due to his expertise in the luxury real estate market and his integrity, loyalty and professionalism, Jason has been sought out by the most successful business leaders.
+            With over $4 Billion in sales, Jason Barry has developed a global reputation as the top luxury real estate agent for San Diego’s luxury marketplace. Due to his expertise in the luxury real estate market and his integrity, loyalty and professionalism, Jason has been sought out by the most successful business leaders.
 
 
           </p>
-          <div class="card-text" style="height:200px;width: auto;"> Jason has facilitated some of the most expensive homes to have sold in San Diego’s luxury communities: Rancho Santa Fe, La Jolla, Del Mar, Solana Beach, Carlsbad, Downtown San Diego and Point Loma. 
-        
+          <div class="card-text" style="height:200px;width: auto;"> Jason has facilitated some of the most expensive homes to have sold in San Diego’s luxury communities: Rancho Santa Fe, La Jolla, Del Mar, Solana Beach, Carlsbad, Downtown San Diego and Point Loma.
+
           </div>
         </div>
       </div>
