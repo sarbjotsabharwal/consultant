@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -143,17 +145,17 @@
         }
 
         .list-items li:nth-child(odd) {
-            background-color: rgba(192, 191, 191, 0.7);
-            color: black;
+            background-color: rgba(0, 12, 182, 0.7);
+
 
         }
 
         .list-items li:nth-child(even) {
             /* display: block; */
-            color: white;
 
 
-            background-color: rgba(44, 44, 44, 0.7);
+
+            background-color: rgba(2, 128, 19, 0.7);
 
         }
 
@@ -179,168 +181,240 @@
             color: rgb(1, 196, 1);
             font-weight: bold;
         }
+
+        /* main image and card-container start*/
+        .top-container1::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url('assets/img/business migration/migration.jpg') no-repeat center center /cover;
+            z-index: -1;
+            opacity: .5;
+        }
+
+
+        .top-container1 h1 {
+            font-size: 80px;
+            margin-top: 251px;
+            text-align: center;
+
+        }
+
+        .span-green {
+            color: rgb(7, 206, 7);
+
+        }
+
+        .top-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: white;
+        }
+
+        .card-item {
+            top: -70px;
+            position: relative;
+            width: 900px;
+            height: 400px;
+            /* background: red; */
+        }
+
+        /* main image and card-container end */
     </style>
 </head>
 
-<body style="font-family: Montserrat, sans-serif;">
+<body style="font-family: Montserrat, sans-serif;background:black">
     <?php
     include('header.html');
     ?>
     <?php
     include('videopopup.html');
     ?>
-    <!-- sticky background -->
-    <div class="stickyback">
-
-    </div>
-    <!-- sticky background end -->
 
 
-
-    <!-- section start -->
-    <h1 style="color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-weight:bold;padding:15px">
-        Business Migration Services<br>
-    </h1><br><br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(4, 85, 161, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-        BUSINESS MIGRATION SERVICES<br>
-        <!-- <span style="font-size: 25px;">for Australia, New-Zealand, Canada and United States</span> -->
-    </h1><br>
-    <div class="heading"></div>
-
-    <div class="content">
-        <!-- <h1 style="color:white;">LICENSING</h1> -->
-        <p style="color: white;text-align: center;width: 85%; display:block;margin: auto;">
-
-
-            “AUSTRALIA” the name creates an image of a country inhabited by progressive and healthy society, with people
-            emigrated from almost every nation.
+    <!-- main image and card-container start  -->
+    <div class="top-container1">
+        <h1>
             <br>
-            Thanks to the presence of massive natural resources and consistent economical development, Australia is the
-            amazing place for aspiring BUSINESSMEN & INVESTORS. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer6()">
-                Watch Video
-            </button>
-        </p>
+            <br>
+            <span class="span-green"><strong>Business Migration Services</strong></span>
+            <br>
+            <br>
+        </h1>
     </div>
-    <!-- section end -->
-    <br><br>
+    <div class="top-cards">
+        <div class="card-item" style="background: rgb(37, 155, 37);color: white;height: 350px;">
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+                <h3>
+                    Business Migration Services<br><br>
 
-    <div class="container" style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
-        <h5 class="card-title" style="font-weight: normal;font-size: 30px;color:white">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
-            THE FOLLOWING SERVICES</h5>
-        <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
+                </h3>
 
-            <ul class="list-items">
-                <li>Relevant market research.</li>
-                <li>Market entry strategy</li>
-                <li>Feasibility study</li>
-                <li>The role of the applicant in the business.</li>
-                <li>Distribution channel information</li>
-                <li>Marketing plan</li>
-            </ul>
-            <ul class="list-items">
-                <li>Projected cost analysis</li>
-                <li>Location research</li>
-                <li> Evidence of a joint-venture partnership (if relevant)</li>
-                <li> Evidence of any communication with potential suppliers</li>
-                <li>Competitor analysis and SWOT analysis</li>
-            </ul>
-        </div>
-    </div>
-
-    <br><br>
-    <!-- section start -->
-    <div class="card text-dark bg-light mb-3" style="width: 70vw;display:block;margin:auto;border-radius:25px">
-        <div class="card-header">
-            <!-- <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
-                THE FOLLOWING SERVICES</h5> -->
-        </div>
-        <div class="card-body" style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
-            <h5 class="card-title" style="font-size:40px;width:100%;margin:auto">Australia Business Visa (sub class 132)
-    
-            </h5>
-            <p style="font-size: 15px;padding-left: 40px;padding-right: 40px;"><b>It is a permanent
-                    visa for high-caliber business owners or part-owners who want to do business in Australia. The
-                    132 visa is a state nominated Australian provisional business visa which is valid for four years. It
-                    is
-                    a pathway to permanent residency.</b></p>
-
-            <!-- card section -->
-            <div style="display: flex;flex-wrap: wrap; justify-content: center;">
-                <!-- card 1 -->
-                <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
-                    <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
-                        <img src="assets/img/business migration/new/development.jpg" style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
-                        <h5 class="card-title" style="font-size:40px;">Property Development
-                        </h5>
-                    </div>
-
-                    <div class="card-body text-dark id=" card-body-1" style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;padding-right: 50px;padding-left: 50px;">
-
-                        If your proposed business activity relates to property development, you must meet the following
-                        additional requirements:<br>
-                        <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
-                            <li>
-
-                                Have relevant qualifications and experience (e.g. architecture, engineering,
-                                construction
-                                management). Relevant experience may substitute a qualification.
-                            </li>
-                            <li>
-                                Business management
-                                You must demonstrate how you will undertake senior level day-to-day and overall
-                                strategic
-                                management of the business.
-
-                            </li>
-                            <li>
-                                Capital investment
-
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <!-- card 1 end -->
-
-                <!-- card 2  -->
-                <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
-                    <div class="card-header" style="margin: 0;padding: 0;">
-
-                        <img src="assets/img/business migration/new/checklist.jpg" style="height: 350px;box-shadow: none;" alt="">
-                        <h5 class="card-title" style="font-size:40px;">You Must Have
-                        </h5>
-                    </div>
-                    <div class="card-body text-dark" id="card-body-2" style="border-radius:25px;padding-right: 50px;padding-left: 50px;">
-                        <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
-                            <li>
-
-                                A net value of at least AUD1.5 million (lawfully acquired)
-                            </li>
-                            <li>
-                                An annual business turnover of at least AUD3 million for at least 2 of the 4 fiscal
-                                years
-                                immediately before you are invited to apply
-                            </li>
-                            <li>
-                                A total net assets of at least AUD $400,000 as the ownership interest in one or more
-                                qualifying businesses for least 2 of the 4 fiscal years immediately before you are
-                                invited to
-                                apply
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <!-- card 2 end -->
+                <p> “AUSTRALIA” the name creates an image of a country inhabited by progressive and healthy society,
+                    with people
+                    emigrated from almost every nation.
+                    <br>
+                    Thanks to the presence of massive natural resources and consistent economical development, Australia
+                    is the
+                    amazing place for aspiring BUSINESSMEN & INVESTORS.<br><br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                        onclick="OpenPlayer6()">
+                        Watch Video
+                    </button>
+                </p>
             </div>
-            <!-- card section end -->
-
 
         </div>
+
+
     </div>
-    <!-- section end -->
+    <!-- main image and card-container end  -->
+
+    <!-- section start -->
+    <div style="background: rgb(173, 173, 173);">
+        <br><br>
+        <h5 class="card-title"
+            style="background: whitesmoke;font-weight: bold;font-size: 30px;border-radius: 10px;color:green;padding:15px">
+            CHARTHILL CONSULTANTS CAN ASSIST
+            YOU IN
+            THE FOLLOWING SERVICES</h5>
+        <div class="container"
+            style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+            <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
+
+                <ul class="list-items">
+                    <li>Relevant market research.</li>
+                    <li>Market entry strategy</li>
+                    <li>Feasibility study</li>
+                    <li>The role of the applicant in the business.</li>
+                    <li>Distribution channel information</li>
+                    <li>Marketing plan</li>
+                </ul>
+                <ul class="list-items">
+                    <li>Projected cost analysis</li>
+                    <li>Location research</li>
+                    <li> Evidence of a joint-venture partnership (if relevant)</li>
+                    <li> Evidence of any communication with potential suppliers</li>
+                    <li>Competitor analysis and SWOT analysis</li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br>
+        <!-- section start -->
+
+        <div style="background-color: rgba(0, 12, 182, 0.7);"> 
+
+<br><br>
+            <div class="card text-dark bg-light mb-3" style="width: 70vw;display:block;margin:auto;border-radius:25px">
+                <div class="card-header">
+                    <!-- <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
+                THE FOLLOWING SERVICES</h5> -->
+                </div>
+                <div class="card-body"
+                    style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
+                    <h5 class="card-title" style="font-size:40px;width:100%;margin:auto">Australia Business Visa (sub
+                        class 132)
+
+                    </h5>
+                    <p style="font-size: 15px;padding-left: 40px;padding-right: 40px;"><b>It is a permanent
+                            visa for high-caliber business owners or part-owners who want to do business in Australia.
+                            The
+                            132 visa is a state nominated Australian provisional business visa which is valid for four
+                            years. It
+                            is
+                            a pathway to permanent residency.</b></p>
+
+                    <!-- card section -->
+                    <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+                        <!-- card 1 -->
+                        <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
+                            <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
+                                <img src="assets/img/business migration/new/development.jpg"
+                                    style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
+                                <h5 class="card-title" style="font-size:40px;">Property Development
+                                </h5>
+                            </div>
+
+                            <div class="card-body text-dark id=" card-body-1"
+                                style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;padding-right: 50px;padding-left: 50px;">
+
+                                If your proposed business activity relates to property development, you must meet the
+                                following
+                                additional requirements:<br>
+                                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
+                                    <li>
+
+                                        Have relevant qualifications and experience (e.g. architecture, engineering,
+                                        construction
+                                        management). Relevant experience may substitute a qualification.
+                                    </li>
+                                    <li>
+                                        Business management
+                                        You must demonstrate how you will undertake senior level day-to-day and overall
+                                        strategic
+                                        management of the business.
+
+                                    </li>
+                                    <li>
+                                        Capital investment
+
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- card 1 end -->
+
+                        <!-- card 2  -->
+                        <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
+                            <div class="card-header" style="margin: 0;padding: 0;">
+
+                                <img src="assets/img/business migration/new/checklist.jpg"
+                                    style="height: 350px;box-shadow: none;" alt="">
+                                <h5 class="card-title" style="font-size:40px;">You Must Have
+                                </h5>
+                            </div>
+                            <div class="card-body text-dark" id="card-body-2"
+                                style="border-radius:25px;padding-right: 50px;padding-left: 50px;">
+                                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
+                                    <li>
+
+                                        A net value of at least AUD1.5 million (lawfully acquired)
+                                    </li>
+                                    <li>
+                                        An annual business turnover of at least AUD3 million for at least 2 of the 4
+                                        fiscal
+                                        years
+                                        immediately before you are invited to apply
+                                    </li>
+                                    <li>
+                                        A total net assets of at least AUD $400,000 as the ownership interest in one or
+                                        more
+                                        qualifying businesses for least 2 of the 4 fiscal years immediately before you
+                                        are
+                                        invited to
+                                        apply
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- card 2 end -->
+                    </div>
+                    <!-- card section end -->
 
 
-    <?php
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <!-- section end -->
+
+
+        <?php
 
     include('footer.html');
 
