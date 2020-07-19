@@ -145,8 +145,8 @@
         }
 
         .list-items li:nth-child(odd) {
-            background-color: rgba(192, 191, 191, 0.7);
-            color: black;
+            background-color: rgba(0, 12, 182, 0.7);
+        
 
         }
 
@@ -155,7 +155,7 @@
             color: white;
 
 
-            background-color: rgba(44, 44, 44, 0.7);
+            background-color: rgba(2, 128, 19, 0.7);
 
         }
 
@@ -204,7 +204,7 @@
         }
 
         .container-box p span {
-         
+
             font-size: 50px;
             display: block;
             text-align: center;
@@ -221,57 +221,107 @@
             opacity: .9;
 
         }
-        .container-box p span{
+
+        .container-box p span {
             color: rgb(1, 196, 1);
             font-weight: bold;
         }
+
+
+        /* main image and card-container start*/
+        .top-container1::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url('assets/img/sales and marketing/sales\ and\ marketing.jpg') no-repeat center center /cover;
+            z-index: -1;
+            opacity: .5;
+        }
+
+
+        .top-container1 h1 {
+            font-size: 80px;
+            margin-top: 251px;
+            text-align: center;
+
+        }
+
+        .span-green {
+            color: rgb(7, 206, 7);
+
+        }
+
+        .top-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: white;
+        }
+
+        .card-item {
+            top: -70px;
+            position: relative;
+            width: 900px;
+            height: 400px;
+            /* background: red; */
+        }
+        .list-items{
+            width: 500px;
+        }
+        /* main image and card-container end */
     </style>
 </head>
 
-<body style="font-family: Montserrat, sans-serif;">
+<body style="font-family: Montserrat, sans-serif;background:black">
     <?php
     include('header.html');
     ?>
     <?php
     include('videopopup.html');
     ?>
-    <!-- sticky background -->
-    <div class="stickyback">
+
+    <!-- main image and card-container start  -->
+    <div class="top-container1">
+        <h1>
+            <br>
+            <br>
+            <span class="span-green"><strong>SALES & MARKETING</strong></span>
+            <br>
+            <br>
+        </h1>
+    </div>
+    <div class="top-cards">
+        <div class="card-item" style="background: rgb(37, 155, 37);color: white;height: 300px;">
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+                <h3>
+                    Charthill – SALES & MARKETING SERVICES
+                </h3><br>
+
+                <p> Charthill Consultants is an all-encompassing resource for distinct clients including brands,
+                    businesses,
+                    new developments, hospitality and leading names in real estate. Our services are tailored to every
+                    client’s
+                    specific needs.<br><br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                        onclick="OpenPlayer7()">
+                        Watch Video
+                    </button>
+                </p>
+            </div>
+
+        </div>
 
     </div>
-    <!-- sticky background end -->
+    <!-- main image and card-container end  -->
 
 
 
     <!-- section start -->
-    <h1
-        style="color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 70px;font-weight:bold;padding:10px">
-        SALES & MARKETING<br>
-    </h1><br><br>
-    <h1
-        style="display:block;margin:auto;color: white;background-color: rgba(107, 1, 59, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-        Charthill – SALES & MARKETING SERVICES<br>
-        <!-- <span style="font-size: 25px;">for Australia, New-Zealand, Canada and United States</span> -->
-    </h1><br>
-    <div class="heading"></div>
 
-    <div class="content">
-        <!-- <h1 style="color:white;">LICENSING</h1> -->
-        <p style="color: white;text-align: center;width: 85%; display:block;margin: auto;">
-            Charthill Consultants is an all-encompassing resource for distinct clients including brands, businesses,
-            new developments, hospitality and leading names in real estate. Our services are tailored to every client’s
-            specific needs. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer7()">
-                Watch Video
-            </button>
-        </p>
-    </div>
-    <!-- section end -->
-    <br><br>
-    <!-- section start -->
-
-    <div class="container2">
+    <div class="container2" style="background:rgb(0, 18, 177);">
         <div class="container-box" id="container-box-1">
             <p>
                 <span>SEO</span>
@@ -327,31 +377,39 @@
                 from your advertisements.
             </p>
         </div>
+        
+     
     </div>
 
     <!-- section end -->
-    <br><br>
-    <div class="container"
-        style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
-        <h5 class="card-title" style="font-weight: normal;font-size: 40px;">SALES DEVELOPMENT SERVICES</h5>
-        <p style="text-align: center;">Our research shows that sales training can boost product sales by up to
-            20%.During our work with the top-performing sales organizations in the world, Charthill has identified and
-            outlined the key selling skills and behaviors that are most needed to improve sales performance and reduce
-            the duration of the sales cycle.
-            Charthill consultants deliver a premium professional service that uses unique training methodology actively
-            engaging participants in role-playing, problem-solving and brainstorming exercises.</p>
-        <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
-            <ul class="list-items">
-                <li>CHARTHILL exclusive sales Training Programs.</li>
-                <li>CHARTHILL constructive Negotiation Training Programs.</li>
-                <li>CHARTHILL Strategy Training Programs</li>
-                <li>CHARTHILL account specific training programs</li>
-            </ul>
-            <ul class="list-items">
-                <li>CHARTHILL Consultative Dialogues Training Program.</li>
-                <li>CHARTHILL Constructive Dialogues Training Program.</li>
-                <li>Sales management training.</li>
-            </ul>
+  
+    <div class="" style="background: rgb(173, 173, 173);">
+
+
+        <div class="container" style="color:white;width: 100%;padding: 15px;">
+            <h5 class="card-title" style="font-weight: normal;font-size: 40px;padding: 20px;background:rgb(37, 155, 37); width: 100%;font-weight: bold;border-radius: 20px;">SALES DEVELOPMENT SERVICES</h5>
+            <p style="color: white;font-size:15px;text-align: center;width: 90%;padding:20px;border-radius:10px;font-weight: bold;background: rgb(0, 0, 0,.2);display: block;margin:auto;">Our research shows that sales training can boost product sales by up to
+                20%.During our work with the top-performing sales organizations in the world, Charthill has identified
+                and
+                outlined the key selling skills and behaviors that are most needed to improve sales performance and
+                reduce
+                the duration of the sales cycle.
+                Charthill consultants deliver a premium professional service that uses unique training methodology
+                actively
+                engaging participants in role-playing, problem-solving and brainstorming exercises.</p>
+            <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
+                <ul class="list-items">
+                    <li>CHARTHILL exclusive sales Training Programs.</li>
+                    <li>CHARTHILL constructive Negotiation Training Programs.</li>
+                    <li>CHARTHILL Strategy Training Programs</li>
+                    <li>CHARTHILL account specific training programs</li>
+                </ul>
+                <ul class="list-items">
+                    <li>CHARTHILL Consultative Dialogues Training Program.</li>
+                    <li>CHARTHILL Constructive Dialogues Training Program.</li>
+                    <li>Sales management training.</li>
+                </ul>
+            </div>
         </div>
     </div>
 
