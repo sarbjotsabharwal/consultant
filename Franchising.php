@@ -498,7 +498,7 @@
                 <li>Compliance management & conflict resolution</li>
                 <li>Ongoing training and support as required</li><br>
             </ul>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
                 onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
                 Watch Video
             </button>

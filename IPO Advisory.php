@@ -142,15 +142,15 @@
         }
 
         .liststyle-items li:nth-child(even) {
-            background-color: rgba(173, 173, 173, 0.7);
-
+            background-color: rgba(0, 12, 182, 0.7);
+            
         }
-
+        
         .liststyle-items li:nth-child(odd) {
             /* display: block; */
+            
+            background-color: rgba(2, 128, 19, 0.7);
 
-
-            background-color: rgba(121, 121, 121, 0.7);
 
         }
 
@@ -172,181 +172,218 @@
         body {
             font-family: "Montserrat", sans-serif;
         }
+
+
+
+        /* main image and card-container start*/
+        .top-container1::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url('assets/img/ipo/ipo\ advisory.jpg') no-repeat center center /cover;
+            z-index: -1;
+            opacity: .5;
+        }
+
+
+        .top-container1 h1 {
+            font-size: 80px;
+            margin-top: 251px;
+            text-align: center;
+
+        }
+
+        .span-green {
+            color: rgb(7, 206, 7);
+
+        }
+
+        .top-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: white;
+        }
+
+        .card-item {
+            top: -70px;
+            position: relative;
+            width: 900px;
+            height: 400px;
+            /* background: red; */
+        }
+
+        /* main image and card-container end */
     </style>
 </head>
 
-<body style="  font-family: Montserrat, sans-serif;">
+<body style="  font-family: Montserrat, sans-serif;background:black">
     <?php
     include('header.html');
     ?>
     <?php
     include('videopopup.html');
     ?>
-    <!-- sticky background -->
-    <div class="stickyback">
-
-    </div>
-    <!-- sticky background end -->
 
 
-
-    <!-- section start -->
-    <h1 style="color: rgb(1, 196, 1);background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 80px;font-weight: bold;">
-        IPO Advisory<br>
-    </h1><br><br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(163, 90, 7, 0.699);z-index: 5;width: 70%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-        IPO Advisory Services<br>
-        <span style="font-size: 25px;">Australia, New-Zealand, Canada and United States</span>
-    </h1><br>
-    <div class="heading"></div>
-
-    <div class="content">
-        <!-- <h1 style="color:white;">LICENSING</h1> -->
-        <p style="color: white;text-align: center;width: 85%; display:block;margin: auto;">
-
-
-            As a private company, if you have decided to go public, our experience has shown that the most successful
-            IPOs start long before the road show kicks off.
+    <!-- main image and card-container start  -->
+    <div class="top-container1">
+        <h1>
             <br>
-            Charthill’s comprehensive IPO Advisory process centers on working with our clients in the year prior to the
-            IPO to develop their corporate message and to introduce them to potential banking partners, sell-side
-            research analysts and institutional investors.
             <br>
-            Additionally, we work side-by-side with our clients throughout the entire IPO execution by providing
-            independent capital markets advice. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer4()">
-                Watch Video
-            </button>
-        </p>
+            <span class="span-green"><strong>IPO Advisory</strong></span>
+            <br>
+            <br>
+        </h1>
     </div>
-    <!-- section end -->
+    <div class="top-cards">
+        <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+                <h3>
+                    IPO Advisory Services<br>
+                    <span style="font-size: 17px;padding:0;margin:0;">Australia, New-Zealand, Canada and United States</span>
+                </h3><br>
 
-
-
-    <!-- section start -->
-    <br> <br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(136, 177, 26, 0.5);z-index: 5;width: 40%;text-align: center;font-size: 25;border-radius: 25px;padding:10px">
-        IPO execution
-    </h1><br>
-    <div class="heading"></div>
-
-    <div class="content">
-        <!-- <h1 style="color:white;">LICENSING</h1> -->
-        <p style="color: white;text-align: center;width: 85%; display:block;margin: auto;">
-
-            We provide support before, during, and after an IPO but the critical period for many companies is the 18
-            months prior to listing and the six months after. Throughout your IPO journey, our team of experienced
-            professionals can help guide you through the IPO process and in navigating the reporting obligations that
-            follow listing. <br> <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer5()">
-                Watch Video
-            </button>
-        </p>
-    </div>
-    <!-- section end -->
-
-    <!-- ul section start -->
-    <!-- <h1
-        style="display:block;margin-top: 20px;margin-bottom: 20px;color: white;background-color: rgba(42, 212, 255, 0.5);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-        Charthill Consultants assist you to set up the Process of Franchising</h1><br> -->
-    <br>
-    <div class="heading"></div>
-    <div class="content">
-        <!-- <h1 style="color:white;">LICENSING</h1> -->
-
-        <div style="display: flex;flex-wrap: wrap; justify-content: center;">
-            <!-- card 1 -->
-            <div class="card text-black bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
-                <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;border-radius: 25px;">
-                    <img src="assets/img/ipo/ipoback.jpg" style="height: 250px;" alt="">
-                    <h5 class="card-title" style="color:;font-size:35px;font-weight: normal;color: rgb(1, 196, 1)">Planning for an IPO </h5>
-                </div>
-
-                <div class="card-body text-dark" id="card-body-1">
-
-
-                    <ul style="text-align: justify; font-size: 15px;">
-
-                        <li>Assessing IPO readiness</li>
-                        <li>Developing an IPO Road map</li>
-                        <li>Pre-IPO workshops</li>
-                        <li>Assisting in developing accounting policies</li>
-                        <li>Facilitation of non-US exchange listings</li>
-                        <li>Assistance with US GAAP to IFRS conversions</li>
-
-                    </ul>
-                </div>
+                <p> As a private company, if you have decided to go public, our experience has shown that the most successful
+                    IPOs start long before the road show kicks off.
+                    <br>
+                    Charthill’s comprehensive IPO Advisory process centers on working with our clients in the year prior to the
+                    IPO to develop their corporate message and to introduce them to potential banking partners, sell-side
+                    research analysts and institutional investors.
+                    <br>
+                    Additionally, we work side-by-side with our clients throughout the entire IPO execution by providing
+                    independent capital markets advice.<br><br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer4()">
+                        Watch Video
+                    </button>
+                </p>
             </div>
-            <!-- card 1 end -->
-            <!-- card 2  -->
-            <div class="card text-white bg-success mb-3" style="max-width: 400px;border-radius: 25px;">
-                <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
-                    <img src="assets/img/ipo/ipoexecution1.jpg" style="height: 250px;" alt="">
-                    <h5 class="card-title" style="font-size:35px;font-weight: normal;">Executing an IPO
-                    </h5>
-                </div>
-                <div class="card-body text-dark" id="card-body-2">
-                    <ul style="color: white;text-align: justify;font-size: 15px; ">
-                        <li>Technical accounting and audit support</li>
 
-                        <li>Helping to prepare financial statements and pro forma financial information including
-                            quarterly financials</li>
-                        
-
-                        <li>Drafting disclosures</li>
-
-                        <li> Helping to prepare Form S-1</li>
-
-                        <li>PMO services</li>
-
-
-                    </ul>
-                </div>
-            </div>
-            <!-- card 2 end -->
-            <!-- card 3 -->
-            <div class="card text-dark bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
-                <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
-                    <img src="assets/img/ipo/post.jpg" style="height: 250px;" alt="">
-                    <h5 class="card-title" style="font-size:35px;font-weight: normal;color: rgb(1, 196, 1)">Post-IPO
-                    </h5>
-                </div>
-                <div class="card-body text-dark" id="card-body-3">
-                    <ul style="text-align: justify; font-size: 15px;">
-                        <b><i></i></b>
-                        <li> Assisting with external reporting</li>
-
-                        <li> Providing on-call accounting services</li>
-
-                        <li> Providing insights into the implications of new accounting standards</li>
-
-                        <li> SOX services</li>
-
-                    </ul>
-                </div>
-            </div>
-            <!-- card 3 end -->
-            <!-- para -->
-            <p style="color: white;font-size:15px;text-align: center;width: 85%;">Completing an IPO will often involve
-                significant changes to corporate, capital and management structures, and once public, a company will be
-                subject to a number of rules and reporting obligations. With a host of benefits as well as costs, going
-                public have considerable benefits:
-            </p>
-            <ul style="color: white;text-align: justify;font-size: 15px;" class="liststyle-items">
-
-                <li>A value for securities can be established</li>
-                <li>Increased access to capital-raising opportunities (both public and private financings) and expansion
-                    of investor base</li>
-                <li>Liquidity for investors is enhanced since securities can be traded through a public market.</li>
-                <li>Publicly traded securities are attractive for certain other purposes (as transaction currency or
-
-                    executive and employee compensation, for example)</li>
-                <li>Credibility and visibility with the public is enhanced, as is the corporate image</li>
-                <li>Lower cost of capital relative to debt financing</li>
-
-            </ul>
-            <!-- para end -->
         </div>
+
+        <div class="card-item" style="background: rgb(0, 18, 177);color: white;height: 250px;">
+            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+                <h3>
+                    IPO execution
+                </h3><br>
+
+                <p> We provide support before, during, and after an IPO but the critical period for many companies is the 18
+                    months prior to listing and the six months after. Throughout your IPO journey, our team of experienced
+                    professionals can help guide you through the IPO process and in navigating the reporting obligations that
+                    follow listing.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- main image and card-container end  -->
+
+
+        <!-- ul section start -->
+  <div style="background: rgb(173, 173, 173);">
+        <br>
+        <div class="heading"></div>
+        <div class="content">
+            <!-- <h1 style="color:white;">LICENSING</h1> -->
+
+            <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+                <!-- card 1 -->
+                <div class="card text-black bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
+                    <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;border-radius: 25px;">
+                        <img src="assets/img/ipo/ipoback.jpg" style="height: 250px;" alt="">
+                        <h5 class="card-title" style="color:;font-size:35px;font-weight: normal;color: rgb(1, 196, 1)">Planning for an IPO </h5>
+                    </div>
+
+                    <div class="card-body text-dark" id="card-body-1">
+
+
+                        <ul style="text-align: justify; font-size: 15px;">
+
+                            <li>Assessing IPO readiness</li>
+                            <li>Developing an IPO Road map</li>
+                            <li>Pre-IPO workshops</li>
+                            <li>Assisting in developing accounting policies</li>
+                            <li>Facilitation of non-US exchange listings</li>
+                            <li>Assistance with US GAAP to IFRS conversions</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- card 1 end -->
+                <!-- card 2  -->
+                <div class="card text-white bg-success mb-3" style="max-width: 400px;border-radius: 25px;">
+                    <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
+                        <img src="assets/img/ipo/ipoexecution1.jpg" style="height: 250px;" alt="">
+                        <h5 class="card-title" style="font-size:35px;font-weight: normal;">Executing an IPO
+                        </h5>
+                    </div>
+                    <div class="card-body text-dark" id="card-body-2">
+                        <ul style="color: white;text-align: justify;font-size: 15px; ">
+                            <li>Technical accounting and audit support</li>
+
+                            <li>Helping to prepare financial statements and pro forma financial information including
+                                quarterly financials</li>
+
+
+                            <li>Drafting disclosures</li>
+
+                            <li> Helping to prepare Form S-1</li>
+
+                            <li>PMO services</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- card 2 end -->
+                <!-- card 3 -->
+                <div class="card text-dark bg-light mb-3" style="max-width: 380px;border-radius: 25px;">
+                    <div class="card-header" style="margin: 0;padding: 0;border-radius: 25px;">
+                        <img src="assets/img/ipo/post.jpg" style="height: 250px;" alt="">
+                        <h5 class="card-title" style="font-size:35px;font-weight: normal;color: rgb(1, 196, 1)">Post-IPO
+                        </h5>
+                    </div>
+                    <div class="card-body text-dark" id="card-body-3">
+                        <ul style="text-align: justify; font-size: 15px;">
+                            <b><i></i></b>
+                            <li> Assisting with external reporting</li>
+
+                            <li> Providing on-call accounting services</li>
+
+                            <li> Providing insights into the implications of new accounting standards</li>
+
+                            <li> SOX services</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- card 3 end -->
+                <!-- para -->
+                <p style="color: white;font-size:20px;text-align: center;width: 90%;padding:20px;border-radius:10px;font-weight: bold;background: rgb(0, 0, 0,.4);">Completing an IPO will often involve
+                    significant changes to corporate, capital and management structures, and once public, a company will be
+                    subject to a number of rules and reporting obligations. With a host of benefits as well as costs, going
+                    public have considerable benefits:
+                </p>
+                <ul style="color: white;text-align: justify;font-size: 15px;" class="liststyle-items">
+
+                    <li>A value for securities can be established</li>
+                    <li>Increased access to capital-raising opportunities (both public and private financings) and expansion
+                        of investor base</li>
+                    <li>Liquidity for investors is enhanced since securities can be traded through a public market.</li>
+                    <li>Publicly traded securities are attractive for certain other purposes (as transaction currency or
+
+                        executive and employee compensation, for example)</li>
+                    <li>Credibility and visibility with the public is enhanced, as is the corporate image</li>
+                    <li>Lower cost of capital relative to debt financing</li>
+
+                </ul>
+                <!-- para end -->
+            </div>
+        </div>
+
     </div>
     <!-- ul section end -->
     <!-- card section end -->
