@@ -27,6 +27,7 @@
     body {
 
       font-family: "Montserrat", sans-serif;
+     
     }
 
     .span-green {
@@ -47,6 +48,8 @@
     }
 
 
+
+    /* main image and card-container start*/
     .top-container1::before {
       content: '';
       width: 100%;
@@ -54,31 +57,31 @@
       position: absolute;
       left: 0;
       top: 0;
-      background: url('assets/img/aboutusback.jpg') no-repeat center center /cover;
+      background: url('assets/img/aboutusslidder/aboutusback.jpg') no-repeat center center /cover;
       z-index: -1;
       opacity: .5;
     }
 
-
+    
     .top-container1 h1 {
       font-size: 80px;
       margin-top: 251px;
       text-align: center;
-
+      
     }
 
     .span-green {
       color: rgb(7, 206, 7);
-
+      
     }
-
+    
     .top-cards {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       background: white;
     }
-
+    
     .card-item {
       top: -70px;
       position: relative;
@@ -86,6 +89,7 @@
       height: 350px;
       /* background: red; */
     }
+    /* main image and card-container end */
   </style>
 </head>
 

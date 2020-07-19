@@ -89,13 +89,48 @@
 
         .slider {
             height: 245px;
-            top:-100px;
-            background: rgb(168, 168, 168, 0.8);
+            top: -100px;
+            background: rgb(190, 190, 190);
         }
 
         .slide {
             margin-right: 120px;
             padding: 30px;
+        }
+
+        .main-container {
+            background: url('../img/businessalliance/alliance.jpg') no-repeat center center/cover;
+
+            width: 100%;
+            /* height: 100%; */
+        }
+
+        #heading {
+            text-align: center;
+            /* background-color: black; */
+
+            color: white;
+            /* padding: 150px; */
+        }
+
+        #heading h1 {
+            font-size: 80px;
+
+        }
+
+        .main-container::before {
+            content: "";
+            background-color: rgb(47, 44, 63);
+            position: absolute;
+            /* bottom: 0; */
+            /* left:0; */
+            width: 100%;
+            height: 91%;
+
+            opacity: 0.4;
+            top: 0;
+            left: 0;
+            z-index: 1;
         }
     </style>
 </head>
@@ -112,11 +147,12 @@
             include('logoslider.html');
             ?>
             <!-- <a href="#allcards1"><img src="assets/img/downarrow2.gif" alt=""></a> -->
-            <h1 style="color: rgb(1, 196, 1);font-weight: bold;"></h1><br><br><br><br>
+            <h1 style="color: rgb(1, 196, 1);font-weight: bold;"></h1><br><br>
         </div>
+        <h1 style="color: rgb(1, 196, 1);font-weight: bold;text-align: center;">Our Business Alliance</h1>
     </div>
     <!--card section-->
-   
+
     <div class="cardcontainer1" id="allcards1">
 
         <div class="card bg-light mb-3" style="" id="ba1">
@@ -229,8 +265,6 @@
                     with the aim to provide a friendly, straight forward service with no hidden surprises. Over the last
                     few years we have gained a big following from our esteemed customers
 
-
-
                 </p>
                 <p></p>
                 <p style="text-align: center;font-size: 15px;"> Licensed by Charthill consultants in Australia.</p>
@@ -265,7 +299,7 @@
                     solving skincare concerns worldwide ever since. Derma Shield prevents irritant contact dermatitis by
                     providing an invisible, non-greasy and non-toxic barrier that protects all skin areas.
                     <br>
-                    <p style="text-align: center;font-size: 15px;">Dermshield was licensed by Charthill consultants</p>
+                <p style="text-align: center;font-size: 15px;">Dermshield was licensed by Charthill consultants</p>
 
             </div>
         </div>
@@ -276,11 +310,14 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">UTC(UNDER WATER TECHNOLOGY)</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Underwater Technology is a scientific journal covering research on underwater technology, ocean science, and offshore engineering. It is the official journal of the Society for Underwater Technology. It was established in 1975 and is published three times a year in hard copy and electronic format.
+                <p class="card-text" style="text-align: justify;height: auto">Underwater Technology is a scientific
+                    journal covering research on underwater technology, ocean science, and offshore engineering. It is
+                    the official journal of the Society for Underwater Technology. It was established in 1975 and is
+                    published three times a year in hard copy and electronic format.
 
-                    
+
                     <br>
-                    <p style="text-align: center;font-size: 15px;">UTC was licensed by chart hill consultants</p>
+                <p style="text-align: center;font-size: 15px;">UTC was licensed by chart hill consultants</p>
 
             </div>
         </div>
@@ -291,11 +328,13 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">AIM (AUTOMATIC IRONING MACHINE)</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Automatic Ironing Machine is a design that uses an innovative framework and motorized mechanisms to effectively iron various clothes by minimizing the difficulties in the task of ironing.
+                <p class="card-text" style="text-align: justify;height: auto">Automatic Ironing Machine is a design that
+                    uses an innovative framework and motorized mechanisms to effectively iron various clothes by
+                    minimizing the difficulties in the task of ironing.
 
-                    
+
                     <br>
-                    <p style="text-align: center;font-size: 15px;">Licensed by Charthill consultants</p>
+                <p style="text-align: center;font-size: 15px;">Licensed by Charthill consultants</p>
 
             </div>
         </div>
@@ -306,7 +345,10 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">PLAYFUL PARENTING CHILD EDUCATION</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Play between a parent and child up to the age of three years can be quite literally life changing for both parties. A long-lasting bond between parent and child can be established through playful interactions, laying the foundation for a positive and healthy relationship that can grow throughout childhood.
+                <p class="card-text" style="text-align: justify;height: auto">Play between a parent and child up to the
+                    age of three years can be quite literally life changing for both parties. A long-lasting bond
+                    between parent and child can be established through playful interactions, laying the foundation for
+                    a positive and healthy relationship that can grow throughout childhood.
 
             </div>
         </div>
