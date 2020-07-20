@@ -7,9 +7,9 @@
         $subject = $_POST['subject'];
         $body = $_POST['body'];
 
-        require_once "PHPMailer/PHPMailer.php";
-        require_once "PHPMailer/SMTP.php";
-        require_once "PHPMailer/Exception.php";
+        require "PHPMailer/PHPMailer.php";
+        require "PHPMailer/SMTP.php";
+        require "PHPMailer/Exception.php";
 
         $mail = new PHPMailer();
 
@@ -19,8 +19,8 @@
         $mail->SMTPAuth = true;
         $mail->Username = "charthilllcontactus@gmail.com";
         $mail->Password = 'charthill@123';
-        $mail->Port = 465; //587
-        $mail->SMTPSecure = "ssl"; //tls
+        $mail->Port = 587; //587
+        $mail->SMTPSecure = "tls"; //tls
 
         //Email Settings
         $mail->isHTML(true);
