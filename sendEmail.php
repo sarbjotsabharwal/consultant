@@ -12,7 +12,6 @@
         require "PHPMailer/Exception.php";
 
         $mail = new PHPMailer();
-
         //SMTP Settings
         $mail->isSMTP();
         $mail->Host = "smtp.gmail.com";
