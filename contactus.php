@@ -307,7 +307,7 @@
 
         <div class="contact-form" style="color:white">
             <div class="form">
-                <form style="padding:30px" action="sendEmail.php">
+                <form style="padding:30px">
                     <h3 style="text-align: center;color: rgb(1, 196, 1);font-weight:bold">Write to Us</h3>
                     <div class="foZrm-group">
                         <label for="name">Name</label>
