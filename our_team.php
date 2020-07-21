@@ -92,6 +92,11 @@
   // include('header.html');
   include('chatbotpopup.html');
   ?>
+   <?php
+    // include('videopopup.html');
+    include('Social_Media.html');
+    ?>
+
 
   <!-- ======= Header ======= -->
   <header id="header">

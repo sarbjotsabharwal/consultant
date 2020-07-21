@@ -336,17 +336,15 @@
     </div>
 
 
-    <?php
-    // include('videopopup.html');
-    include('Social_Media.html');
-    ?>
-
-
+ 
     <?php
 
     include('footer.html');
 
     ?>
+     <?php
+  include('go to top.html');
+  ?>
 </body>
 <script>
     // var pos = document.getElementById("myForm").className;

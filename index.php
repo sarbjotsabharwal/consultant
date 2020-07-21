@@ -335,6 +335,14 @@
   include('chatbotpopup.html');
   // include('header.html');
   ?>
+     <?php
+    // include('videopopup.html');
+    include('Social_Media.html');
+    ?>
+
+<?php
+  include('go to top.html');
+  ?>
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container-fluid">
