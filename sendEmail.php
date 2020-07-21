@@ -35,7 +35,6 @@
             $status = "failed";
             $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
         }
-
         exit(json_encode(array("status" => $status, "response" => $response)));
     }
 ?>
