@@ -150,7 +150,8 @@
             position: absolute;
             left: 0;
             top: 0;
-            background: url('assets/img/Licensing.jpg') no-repeat center center /cover;
+            background: url('assets/img/blogback.jpg') no-repeat center center /cover;
+            background-size: 100vw 100vh;
             z-index: -1;
             opacity: .5;
         }
@@ -193,7 +194,9 @@
             /* max-width: 85vw; */
 
         }
-
+            .card-text{
+                text-align: justify;
+            }
     </style>
 </head>
 
@@ -202,10 +205,7 @@
     include('header.html');
     ?>
     <?php
-    include('videopopup.html');
-    ?>
-    <?php
-    include('pdfviewer.html');
+    include('blogviewer.html');
     ?>
     <!-- sticky background -->
 
@@ -214,69 +214,27 @@
         <h1>
             <br>
             <br>
-            <span class="span-green"><strong>Our Blog</strong></span>
             <br>
+            <span class="span-green"><strong>Our Blog</strong></span>
             <br>
         </h1>
     </div>
 
-    <div class="post-container"
-        style="display:flex;flex-wrap:wrap;justify-content:center;background-color: rgb(218, 218, 218);">
-        <div class="card text-center">
-            <div class="card-header">
-                <img src="assets/img/about-vision.jpg" alt="">
 
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam, amet
-                    distinctio consequatur necessitatibus hic eum quod suscipit saepe eaque praesentium non ducimus
-                    magni harum eligendi sit ipsam quis, dolorum consectetur veritatis quos ratione. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Recusandae, quos. Tempora vitae repellendus nihil.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-            <div class="card-footer text-muted">
-                by, <a href="http://sarbjotsabharwal.wordpress.com" target="_blank"> Sarbjot Sabharwal</a> (23 July
-                2020)
-            </div>
-        </div>
-        <div class="card text-center">
-            <div class="card-header">
-                <img src="assets/img/about-plan.jpg" alt="">
 
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam, amet
-                    distinctio consequatur necessitatibus hic eum quod suscipit saepe eaque praesentium non ducimus
-                    magni harum eligendi sit ipsam quis, dolorum consectetur veritatis quos ratione. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Recusandae, quos. Tempora vitae repellendus nihil.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-            <div class="card-footer text-muted">
-                by, <a href="http://sarbjotsabharwal.wordpress.com" target="_blank"> Sarbjot Sabharwal</a> (23 July
-                2020)
-            </div>
-        </div>
-    </div>
     <div class="post-container1"
         style="display:flex;flex-wrap:wrap;justify-content:center;background-color: rgb(218, 218, 218);">
         <div class="card text-center">
             <div class="card-header">
-                <img src="assets/img/about-vision.jpg" alt="">
-
+                <img src="https://assets.entrepreneur.com/content/3x2/2000/1592575012-GettyImages-8748741501.jpg?width=700&crop=2:1" alt="">
             </div>
             <div class="card-body">
-                <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam, amet
-                    distinctio consequatur necessitatibus hic eum quod suscipit saepe eaque praesentium non ducimus
-                    magni harum eligendi sit ipsam quis, dolorum consectetur veritatis quos ratione. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Recusandae, quos. Tempora vitae repellendus nihil.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <h5 class="card-title">Has Coronavirus Killed the Appeal of Franchising or Made it Stronger?</h5>
+                <p class="card-text">Since the middle of March, every individual and business across the country has drastically changed their daily habits and practices. People have self-isolated and been forced to work from home.</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
+                    onclick="OpenPdf()">Read More</a>
             </div>
-            <div class="card-footer text-muted">
-                by, <a href="http://sarbjotsabharwal.wordpress.com" target="_blank"> Sarbjot Sabharwal</a> (23 July
-                2020)
+            <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a> (23 July 2020)
             </div>
         </div>
         <div class="card text-center">
@@ -292,9 +250,7 @@
                     sit amet, consectetur adipisicing elit. Recusandae, quos. Tempora vitae repellendus nihil.</p>
                 <a href="#" class="btn btn-primary">Read More</a>
             </div>
-            <div class="card-footer text-muted">
-                by, <a href="http://sarbjotsabharwal.wordpress.com" target="_blank"> Sarbjot Sabharwal</a> (23 July
-                2020)
+            <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a> (23 July 2020)
             </div>
         </div>
     </div>

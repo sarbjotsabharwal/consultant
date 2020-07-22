@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title></title>
+    <style>
+        .player {
+            /* position: absolute;
+        top: 0; */
+            display: block;
+            width: 99vw;
+            margin: auto;
+            /* background-color: yellow; */
+            margin-top: 50px;
+            /* background-image: url('assets/img/licensing/tv.png'); */
+        }
+
+        #player {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+
+        .card-img img {
+            width: 50%;
+
+        }
+
+        div.card {
+            width: auto;
+        }
+
+        .card-text {
+            /* margin: 0; */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="player">
+      
+</div>
+<input type="button" value="" onclick="OpenPlayer()"> -->
+
+
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document" style="max-width: 90vw; ">
+            <div class="modal-content" style="height: auto;display: block;margin: auto;" id="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="card-footer text-muted" style="text-align: center;" id="author">
+
+                </div>
+                <div class="card text-center">
+                    <div class="card-header card-img">
+                        <img src="" alt="" id="post-img">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" id="exampleModalLabel1"></h5>
+                        <p class="card-text" id="modal-body1" style="text-align: justify;"> </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+        </div>
+    </div>
+    </div>
+
+</body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script>
+
+    function OpenPdf() {
+        let a = document.getElementById('modal-body1');
+
+        a.innerHTML = `
+        Since the middle of March, every individual and business across the country has drastically changed their daily habits and practices. People have self-isolated and been forced to work from home. Businesses have run the spectrum from temporarily closing to limiting service to remaining fully operational while increasing their health and safety protocols. Very little is the same now as it was just a few months ago.<br>
+
+Unfortunately, that also includes the unemployment rate, which skyrocketed in the weeks following the coronavirus outbreak. According to the U.S. Department of Labor, more than 30 million Americans filed unemployment claims from mid-March through the end of April. That figure represents approximately 18.6 percent of the nation’s labor force.<br>
+
+Under these current dire circumstances, many people may believe the outlook for business ownership is bleak.  Fortunately for many franchises, small business owners and aspiring entrepreneurs, I do not believe that is the case. Regardless of the current situation, franchise development officials are always focused on the future. Expansion takes months or years of planning, relationship building and precise execution to find the best candidates. In that respect, the business of franchise development continues as usual.<br><br>
+
+<strong>The future of franchising</strong><br>
+As a franchise coach, I am aware of only one franchisor in the United States that has temporarily discontinued new business development. All the others are continuing with plan for franchise development almost the exact same way they did previously.  The only major difference is they are not doing in-person discovery days. They have moved to virtual discovery days, virtual site selections, etc.  In some cases, these new experiences can provide a more impressive presentation or insight into the company with a highly produced video and multimedia package.<br>
+
+As franchisors continue to pursue new franchise candidates, they have made some concessions to help others as they start their business.  A lot of franchisors have offered some very attractive discounts and incentives for new franchisees.  These offers may last only a short period of time until later this year. Some companies are also being more flexible about the period of time in which a new business must open by giving an additional grace period due to the uncertainty of this current situation.<br>
+
+With so many people being furloughed or laid off and businesses losing revenue over the past two months, I think there is a general perception that this is a bad time to invest in a business.  Overall, I would actually say this is a good time to open a business. Warren Buffett very famously said,  "When people are greedy, be fearful and when people are fearful, be greedy." It is very similar psychology to the stock market when people buy when it is high and sell when it is low.  There is a lot of truth to that. <br><br>
+
+<strong>Related: 24 Top-Ranked, Affordable Franchises You Can Buy for $25,000 or Less</strong><br>
+
+People can become paralyzed by fear during uncertain times and they can miss a great opportunity. As a result of the fear people currently have, there are a lot of opportunities today that weren’t there previously. Companies now have a larger pool of potential employees, while real estate is more available now than it was several months ago.  There are a lot of opportunities in this kind of economy. By taking advantage of this now, it can position people well once the economy strengthens. <br><br>
+
+<strong>Franchising advantages</strong><br>
+People who are uncertain if this is the right time to invest in a franchise should consider some of its advantages. By nature, owning a franchise comes with less operating risk than an independent business, and that should be reassuring during this current climate. The fundamental value proposition of franchising is that it provides more security, predictability and a greater chance at success. <br><br>
+
+<strong>Related: Chick-fil-A Makes More Per Restaurant Than McDonald's, Starbucks and Subway Combined … and It's Closed on Sundays</strong><br>
+
+In an odd way, the impact of the coronavirus situation may actually push people to explore business ownership.  Whether people are furloughed from their job, fear for the long-term security of their current position or don’t want to start anew with another company, this is the time when they want to exercise greater control over their careers. People also have more available time to research these opportunities and plan for their future while isolated at home and are spending more time online than ever before.<br>
+
+Some early data from aspiring franchise owners support that theory. A buyer sentiment survey from Franchise Insights shows that the majority of aspiring franchisees believe the next three months will be a good time to start a franchise business, and that general business conditions will improve. Only 19.2 percent of the respondents indicated they would be putting plans for their small business startup search on hold as a result of COVID-19.<br>
+
+I imagine many of the people that took part in this survey began exploring their opportunities for business ownership months ago in a far different climate and continue to have the same optimistic outlook for their professional future.<br><br>
+
+<strong>Related: Want A Side Hustle? These 10 Franchises Can Be Run Part-Time</strong><br>
+
+From the franchise prospects’ perspective, very little has changed as they explore business ownership.  Our banking system is still very solid and the same financial assistance remains in place. Nothing has changed with the due diligence process, either.  It is still vitally important to research which franchise is the best fit and provides the best opportunity for success.  This includes carefully reviewing FDD’s, speaking with franchisors and franchisees within the system and building a detailed Profit & Loss (P&L) statement.<br>
+
+The last several months have been a difficult time for everyone. We know this period will come to an end and bring a return to normalcy, but we just don’t know when that will occur. The opportunity for business ownership is a silver lining to a very dark cloud that hovers over the year of 2020.<br>
+               `;
+        let b = document.getElementById('exampleModalLabel1').innerHTML = "Has Coronavirus Killed the Appeal of Franchising or Made it Stronger?";
+
+        let author = document.getElementById('author').innerHTML = `by, <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a> (23 July 2020)`;
+
+        let post_img = document.getElementById('post-img').setAttribute('src','https://assets.entrepreneur.com/content/3x2/2000/1592575012-GettyImages-8748741501.jpg?width=700&crop=2:1');
+    }
+
+
+</script>
+
+</html>
