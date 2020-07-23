@@ -10,7 +10,8 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
 
   <!-- V CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -132,9 +133,9 @@
     }
 
 
-        /* Nav Meu Container */
+    /* Nav Meu Container */
 
-        #nav-menu-container {
+    #nav-menu-container {
       float: right;
       margin: 0;
     }
@@ -326,21 +327,29 @@
     body.mobile-nav-active #mobile-nav-toggle {
       color: #fff;
     }
+
+
+    /* responsive */
+    @media (max-width: 768px) {
+    body{
+      background-color: red;
+    }
+    }
   </style>
 </head>
 
-<body style="background-color: black;">
+<body style="background-color: rgb(134, 116, 116);">
   <?php
   include('homecover.html');
   include('chatbotpopup.html');
   // include('header.html');
   ?>
-     <?php
+  <?php
     // include('videopopup.html');
     include('Social_Media.html');
     ?>
 
-<?php
+  <?php
   include('go to top.html');
   ?>
   <!-- ======= Header ======= -->
@@ -361,7 +370,7 @@
               <li><a href="aboutus.php">About Us</a></li>
               <li><a href="businessalliance.php">Our Business Alliance</a></li>
               <li><a href="social-impact.php">Social Impact</a></li>
-
+              <li><a href="blog.php">Our Blog</a></li>
             </ul>
           </li>
           <li class="menu-has-children"><a href="#allservices">Services</a>
@@ -425,7 +434,8 @@
 
   <div class="top-container1">
     <h1>
-      Start Your <span class="span-green">Franchising</span> & <span class="span-green">Licensing</span> <br> Journey with Us
+      Start Your <span class="span-green">Franchising</span> & <span class="span-green">Licensing</span> <br> Journey
+      with Us
     </h1>
 
 
@@ -433,16 +443,24 @@
   <div class="top-cards">
     <div class="card-item" style="background: rgb(37, 155, 37);">
       <h1 style="font-weight: bold;color:white;padding: 5px;margin-top: 20px;margin-left: 40px;">Franchising</h1>
-      <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Franchising is a business format, where one party (the franchiser) grants another party (the franchisee) the right to use its trademark or trade-name as well as certain business systems and processes to produce and market the goods or services according to certain specifications. </p>
-      <a href="Franchising.php"><button type="button" class="btn btn-light" style="margin-left: 60px;"><span>Read More</span></button></a>
+      <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Franchising is a
+        business format, where one party (the franchiser) grants another party (the franchisee) the right to use its
+        trademark or trade-name as well as certain business systems and processes to produce and market the goods or
+        services according to certain specifications. </p>
+      <a href="Franchising.php"><button type="button" class="btn btn-light" style="margin-left: 60px;"><span>Read
+            More</span></button></a>
     </div>
 
 
     <div class="card-item" style="background: rgb(0, 18, 177);color: white">
       <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;">Licensing</h1>
-      <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is a business format, wherein a company authorizes another company by issuing a license to access its intellectual property rights, i.e. manufacturing process, brand name, copyright, trademark, patent, technology, trade secret, etc. for adequate consideration and under specified conditions.
+      <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is a business format,
+        wherein a company authorizes another company by issuing a license to access its intellectual property rights,
+        i.e. manufacturing process, brand name, copyright, trademark, patent, technology, trade secret, etc. for
+        adequate consideration and under specified conditions.
       </p>
-      <a href="licensing.php"><button type="button" class="btn btn-success" style="margin-left: 60px;"><span>Read More</span></button></a>
+      <a href="licensing.php"><button type="button" class="btn btn-success" style="margin-left: 60px;"><span>Read
+            More</span></button></a>
     </div>
   </div>
 
@@ -462,16 +480,19 @@
   </div>
   <div class="vide-container" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(6, 124, 1);">
     <div class="video-item" style="margin:20px;border: 10px white solid;">
-      <iframe width="500px" height="400px" src="https://www.youtube.com/embed/S0y7-Y5uHlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="500px" height="400px" src="https://www.youtube.com/embed/S0y7-Y5uHlE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-item" style="margin:20px;border: 10px white solid;">
-      <iframe width="500px" height="400px" src="https://www.youtube.com/embed/KCObP7-5dwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="500px" height="400px" src="https://www.youtube.com/embed/KCObP7-5dwE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
   </div>
   <!-- sectin end -->
 
-  <div class="map-section" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
+  <div class="map-section"
+    style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
     <div class="item">
       <h2 style="margin-top: 30px;text-align: center;font-weight: bold;">Charthill in Unites States</h2>
       <h4 style="text-align: center;">500 North Rainbow Blvd,<br>

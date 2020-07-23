@@ -250,6 +250,7 @@
             </div>
             <div class="card-footer text-muted">by <a href="https://hbr.org/2020/06/when-licensing-new-tech-is-better-than-building-it-in-house" target="_blank">Solon Moreira , Thomas Maximilian Klueter and Stefano Tasselli</a> <br> (30 June 2020)
             </div>
+           
         </div>
     </div>
 

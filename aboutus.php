@@ -129,6 +129,7 @@
               <li><a href="aboutus.php">About Us</a></li>
               <li><a href="businessalliance.php">Our Business Alliance</a></li>
               <li><a href="social-impact.php">Social Impact</a></li>
+              <li><a href="blog.php">Our Blog</a></li>
 
             </ul>
           </li>
