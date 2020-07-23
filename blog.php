@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Licensing</title>
+    <title>Our Blog</title>
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -92,7 +92,7 @@
         }
 
         .card-header img {
-
+            height: 270px;
             margin: 0;
             width: 100%;
             border-top-left-radius: 25px;
@@ -234,7 +234,7 @@
                 <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
                     onclick="OpenPdf()">Read More</a>
             </div>
-            <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a> (23 July 2020)
+            <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a>(23 July 2020)
             </div>
         </div>
         <div class="card text-center">
@@ -243,14 +243,12 @@
 
             </div>
             <div class="card-body">
-                <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam, amet
-                    distinctio consequatur necessitatibus hic eum quod suscipit saepe eaque praesentium non ducimus
-                    magni harum eligendi sit ipsam quis, dolorum consectetur veritatis quos ratione. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Recusandae, quos. Tempora vitae repellendus nihil.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <h5 class="card-title">When Licensing New Tech Is Better Than Building It In-House</h5>
+                <p class="card-text">Most companies fear competition from a rival’s product innovations and the risk of falling behind their industry’s technological frontier. Firms affected by such competitive pressure usually react by trying to strengthen their R&D capabilities and close the gap between their and their rival’s technologies as quickly as possible. </p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
+                onclick="OpenPdf1()">Read More</a>
             </div>
-            <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a> (23 July 2020)
+            <div class="card-footer text-muted">by <a href="https://hbr.org/2020/06/when-licensing-new-tech-is-better-than-building-it-in-house" target="_blank">Solon Moreira , Thomas Maximilian Klueter and Stefano Tasselli</a> <br> (30 June 2020)
             </div>
         </div>
     </div>
