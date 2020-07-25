@@ -13,9 +13,9 @@
 
 
         $to = "info@charthillconsultants.com";
-        $subject = "From: Charthill - Contact Us";
+        $subject = "Charthill - Contact Us";
         $body = "This is an email from $name \n\n $subject \n\n $message";
-        $headers = "from: sarbjot sabhawral";
+        $headers = "from: Charthill - Contact Us";
 
         if(mail($to, $subject, $body, $headers)){
             $status = "success";
