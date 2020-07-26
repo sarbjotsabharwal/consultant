@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -209,7 +206,7 @@
         }
 
         .container-box p span {
-           
+
             font-size: 50px;
             display: block;
             text-align: center;
@@ -238,7 +235,7 @@
             margin-top: 60px;
             text-align: center;
             font-size: 50px;
-           
+
         }
 
         marquee {
@@ -318,6 +315,56 @@
             font-size: 35px;
             color: white;
         }
+
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            border-radius: 10px;
+            width: 50%;
+            border: 1px solid white;
+            height: 350px;
+        }
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                width: 100%;
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+        }
     </style>
 </head>
 
@@ -353,11 +400,11 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;">
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+        <div id="video-img">
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal">
+                <img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;" id="vid-img"></a>
         </div>
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" id="para">
             <li>Elite Triple Cell® is = to 3 standard round bubbles. The more contact with the water = better heating,
                 better insulation and the pool stays warmer for longer…that’s Elite Triple Cell®</li>
             <li>With Traditional Bubble, performance is reduced due to the shaped “dead zone” between the bubbles not
@@ -366,11 +413,8 @@
             </li>
 
         </ul>
-        <img src="assets/img/elitepool/triple cell/TripleCell_Explanation-b.png" alt=""
-            style="width: 250px;height: 250px;">
-        <img src="assets/img/elitepool/triple cell/TripleCell_Comparison-300x145-1.jpg"
-            style="width: 400px;height: 250px;border-radius: 10px;margin-left: 30px;margin-right: 30px;border: 2px solid white;"
-            alt="">
+        <img src="assets/img/elitepool/triple cell/TripleCell_Explanation-b.png" alt="" style="width: 250px;height: 250px;">
+        <img src="assets/img/elitepool/triple cell/TripleCell_Comparison-300x145-1.jpg" style="width: 400px;height: 250px;border-radius: 10px;margin-left: 30px;margin-right: 30px;border: 2px solid white;" alt="">
 
     </div>
     <br>
@@ -382,9 +426,8 @@
     <div class="container2" id="elitepool" style="margin-bottom: 25px;">
 
 
-        <img src="assets/img/elitepool/triple cell/TripleCell_HeatedFree_FromTheSun.jpg" alt=""
-            style="border-radius: 10px;width: 50%;border: 1px solid white;height: 350px;">
-        <ul style="width: 40%;padding: 20px;text-align: justify;margin-left: 20px;">
+        <img src="assets/img/elitepool/triple cell/TripleCell_HeatedFree_FromTheSun.jpg" alt="" style="" id="second-img">
+        <ul style="" id="ul-list">
 
             <h3 style="color: rgb(1, 196, 1);font-weight:bold">Elite Triple Cell® World Leading Technology</h3><br>
             <li>Performance – large purpose designed solar cells provide greater heat generation and insulation</li>
@@ -400,8 +443,7 @@
 
     <!-- section end -->
     <br><br>
-    <div class="container"
-        style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+    <div class="container" style="background: rgba(0, 0, 0, 0.4);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
         <h5 class="card-title" style="font-weight: normal;font-size: 40px;">The Ultra New Triple Cell® Solar Pool
             Blanket Makes Others Obsolete</h5>
 
@@ -444,15 +486,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>

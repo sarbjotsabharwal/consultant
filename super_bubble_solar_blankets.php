@@ -331,6 +331,58 @@
             text-align: justify;
 
         }
+
+
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            border-radius: 10px;
+            width: 112%;
+            border: 1px solid white;
+            height: 350px;
+        }
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                width: 120%;
+                height: auto;
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+        }
     </style>
 </head>
 
@@ -367,7 +419,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
             <li>While the sun is trying to heat your pool, the wind sets up convection currents that steal the same heat
                 at an alarming rate.</li>
 
@@ -378,8 +430,9 @@
                 into the air from the water surface and 10% goes into the ground.</li>
 
         </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+        <div style="" id="video-img">
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal">
+                <img src="assets/img/elitepool/triple cell/video.png" alt="" style="" id="second-img"></a>
         </div>
     </div>
     <br>
