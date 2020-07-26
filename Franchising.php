@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -183,6 +181,75 @@
         }
 
         /* main image and card-container end */
+
+        .two-cards {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .heading11 {
+            font-size: 35px;
+        }
+
+        #list-11 {
+            margin-left: 25%;
+            color: white;
+            margin-right: 20%;
+            text-align: justify;
+            margin-bottom: 0;
+        }
+
+        #button-2 {
+            margin-left: 45%;
+            margin-right: 55%;
+            margin-top: 0;
+        }
+
+        @media(max-width:768px) {
+            .card-item {
+                height: auto;
+                /* background: red; */
+            }
+
+            .top-container1 h1 {
+                font-size: 3rem;
+            }
+
+            .two-cards {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            div.cardcontainer1 {
+                padding: 0px;
+            }
+
+            div.card {
+                width: 100%;
+            }
+
+            .heading11 {
+                font-size: 1.5rem;
+            }
+
+            #list-11 {
+                margin-left: 0;
+                color: white;
+                margin-right: 25px;
+                text-align: justify;
+                margin-bottom: 0;
+            }
+
+            #button-2 {
+                margin-left: 8rem;
+                margin-right: 25%;
+                margin-top: 0;
+            }
+        }
     </style>
 </head>
 
@@ -210,7 +277,7 @@
     </div>
     <div class="top-cards">
         <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+            <div class="two-cards">
                 <h3>
                     Charthill – BUSINESS FRANCHISING SERVICES
                 </h3><br>
@@ -222,8 +289,7 @@
                     about their educational, career and entrepreneurial backgrounds. In addition to the 35 years of our
                     experience, this will give you an idea of the calibre of information you’ll be receiving when you
                     take advantage of our services. <br><br>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                        onclick="OpenPlayer2()">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer2()">
                         Watch Video
                     </button>
                 </p>
@@ -232,8 +298,8 @@
 
         </div>
 
-        <div class="card-item" style="background: rgb(0, 18, 177);color: white;height: 250px;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+        <div class="card-item" style="background: rgb(0, 18, 177);color: white;">
+            <div class="two-cards">
                 <h3>
                     How to Franchise Your Business Simply
                 </h3><br>
@@ -259,8 +325,7 @@
 
         <br>
         <br>
-        <h1
-            style="display:block;margin:auto;color: white;background: rgb(37, 155, 37);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
+        <h1 style="display:block;margin:auto;color: white;background: rgb(37, 155, 37);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
             FRANCHISING AND ITS BENEFITS
         </h1><br>
         <div class="cardcontainer1" id="allcards1" style="">
@@ -284,8 +349,7 @@
                     </p>
                     <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
-                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal1" onclick="OpenPdf()">
+                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">
                         Read More
                     </button>
                 </div>
@@ -308,8 +372,7 @@
 
 
                     </p>
-                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal1" onclick="OpenPdf1()">
+                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf1()">
                         Read More
                     </button>
                     <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -333,8 +396,7 @@
 
 
                     </p>
-                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal1" onclick="OpenPdf2()">
+                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf2()">
                         Read More
                     </button>
                     <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -345,8 +407,7 @@
                 <div class="card-header border-radius-top" style="padding: 0;">
                     <!-- <img src="assets/img/businessalliance/jenny.png" alt=""
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
-                    <img src="assets/img/franchising/new/two sides of the same business.jpg" alt=""
-                        style="width:100%;height: 300px;">
+                    <img src="assets/img/franchising/new/two sides of the same business.jpg" alt="" style="width:100%;height: 300px;">
                 </div>
                 <div class="card-body" style="background: #00b09b;
             border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;
@@ -361,8 +422,7 @@
                         in the future.
 
                     </p>
-                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal1" onclick="OpenPdf3()">
+                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf3()">
                         Read More
                     </button>
                     <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -387,8 +447,7 @@
                         market? How skilled do you need your franchisees to be?
 
                     </p>
-                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal1" onclick="OpenPdf4()">
+                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf4()">
                         Read More
                     </button>
                     <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -409,15 +468,14 @@
                     <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         So, right at the beginning, as you design your franchised business, you need to work out the
                         money.
-                    <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
-                        <li>How much does each franchise outlet need to earn to be profitable enough to support you and
-                            them?</li>
-                        <li>How much does your product need to cost and sell for?</li>
+                        <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
+                            <li>How much does each franchise outlet need to earn to be profitable enough to support you and
+                                them?</li>
+                            <li>How much does your product need to cost and sell for?</li>
 
-                    </ul>
+                        </ul>
                     </p>
-                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal1" onclick="OpenPdf5()">
+                    <button type="button" style="margin: 10px;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf5()">
                         Read More
                     </button>
                     <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
@@ -430,9 +488,8 @@
 
     <div class="" style="background: rgb(0, 18, 177);">
 
-<br><br>
-        <h1
-            style="display:block;margin:auto;color: white;background: rgb(37, 155, 37);z-index: 5;width: 90%;text-align: center;font-size: 35px;border-radius: 25px;padding:10px;">
+        <br><br>
+        <h1 style="display:block;margin:auto;color: white;background: rgb(37, 155, 37);z-index: 5;width: 90%;text-align: center;border-radius: 25px;padding:10px;" class="heading11">
             Charthill Consultants assist you to set up the Process of Franchising</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -478,8 +535,7 @@
 
         </div>
 
-        <h1
-            style="display:block;color: white;background-color: rgb(73, 100, 255);z-index: 5;width: 90%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;margin: auto;margin-top: 20px;margin-bottom: 20px;">
+        <h1 style="display:block;color: white;background-color: rgb(73, 100, 255);z-index: 5;width: 90%;text-align: center;border-radius: 25px;padding:10px;margin: auto;margin-top: 20px;margin-bottom: 20px;" class="heading11">
             IMPLEMENTATION, FRANCHISOR SUPPORT & TRAINING</h1><br>
         <div class="heading"></div>
         <div class="content">
@@ -487,7 +543,7 @@
             <p style="color: white;text-align: center;width: 90%; display:block;margin: auto;font-size: 20px;">
                 <b>Following the completion and development of your Franchise System we will provide ongoing training,
                     guidance and support:-</b></p>
-            <ul style="margin-left: 25%;color: white;margin-right: 20%;text-align: justify;margin-bottom: 0;">
+            <ul id="list-11">
                 <li>Launch marketing campaign guidance</li>
                 <li>Recruitment, screening and qualifying potential franchisees</li>
                 <li>The Due Diligence Process; meetings, franchisee visits, preparation of all legal documentation and
@@ -498,8 +554,7 @@
                 <li>Compliance management & conflict resolution</li>
                 <li>Ongoing training and support as required</li><br>
             </ul>
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
-                onclick="OpenPlayer3()" style="margin-left: 45%;margin-right: 55%;margin-top: 0;">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer3()" id="button-2">
                 Watch Video
             </button>
             <br><br>

@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -92,17 +90,13 @@
         }
 
         .card-header img {
-
+            height: 350px;
             margin: 0;
             width: 100%;
             border-top-left-radius: 25px;
             border-top-right-radius: 25px;
         }
 
-        .card-body img {
-            box-shadow: 0 0 7px 7px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-        }
 
         .stickyback::before {
             content: "";
@@ -219,11 +213,99 @@
             top: -70px;
             position: relative;
             width: 900px;
-            height: 400px;
+            height: 350px;
             /* background: red; */
         }
 
         /* main image and card-container end */
+
+
+        #card-body-1 {
+            font-size: 15px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        #card-body-2 {
+            border-radius: 25px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+
+        #card-1 {
+            width: 70vw;
+        }
+
+        .two-cards {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+      
+        #card-image-2 {
+            height: 350px;
+            /* box-shadow: none; */
+        }
+
+
+        @media(max-width:768px) {
+            .card-item {
+                height: auto;
+                /* background: red; */
+            }
+
+            .top-container1 h1 {
+                font-size: 3rem;
+            }
+
+            .two-cards {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            div.cardcontainer1 {
+                padding: 0px;
+            }
+
+            div.card {
+                width: 100%;
+            }
+
+            #card-1 {
+                width: 100%;
+            }
+
+            #card-body-1 {
+                font-size: 15px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+
+            #card-body-2 {
+
+                border-radius: 25px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .card-header img, #card-image-2 {
+                height: auto;
+                margin: 0;
+                width: 100%;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+
+            }
+        }
     </style>
 </head>
 
@@ -247,8 +329,8 @@
         </h1>
     </div>
     <div class="top-cards">
-        <div class="card-item" style="background: rgb(37, 155, 37);color: white;height: 350px;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+        <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
+            <div class="two-cards">
                 <h3>
                     Business Migration Services<br><br>
 
@@ -261,8 +343,7 @@
                     Thanks to the presence of massive natural resources and consistent economical development, Australia
                     is the
                     amazing place for aspiring BUSINESSMEN & INVESTORS.<br><br>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                        onclick="OpenPlayer6()">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer6()">
                         Watch Video
                     </button>
                 </p>
@@ -277,13 +358,11 @@
     <!-- section start -->
     <div style="background: rgb(173, 173, 173);">
         <br><br>
-        <h5 class="card-title"
-            style="background: whitesmoke;font-weight: bold;font-size: 30px;border-radius: 10px;color:green;padding:15px">
+        <h5 class="card-title" style="background: whitesmoke;font-weight: bold;font-size: 30px;border-radius: 10px;color:green;padding:15px">
             CHARTHILL CONSULTANTS CAN ASSIST
             YOU IN
             THE FOLLOWING SERVICES</h5>
-        <div class="container"
-            style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
+        <div class="container" style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
             <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
 
                 <ul class="list-items">
@@ -307,16 +386,15 @@
         <br><br>
         <!-- section start -->
 
-        <div style="background-color: rgba(0, 12, 182, 0.7);"> 
+        <div style="background-color: rgba(0, 12, 182, 0.7);">
 
-<br><br>
-            <div class="card text-dark bg-light mb-3" style="width: 70vw;display:block;margin:auto;border-radius:25px">
+            <br><br>
+            <div class="card text-dark bg-light mb-3" style="display:block;margin:auto;border-radius:25px" id="card-1">
                 <div class="card-header">
                     <!-- <h5 class="card-title" style="font-weight: normal;font-size: 30px;">CHARTHILL CONSULTANTS CAN ASSIST YOU IN
                 THE FOLLOWING SERVICES</h5> -->
                 </div>
-                <div class="card-body"
-                    style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
+                <div class="card-body" style="display: flex;flex-wrap:wrap;background:linear-gradient(to right bottom, rgb(206, 204, 204), rgb(252, 243, 202));border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;">
                     <h5 class="card-title" style="font-size:40px;width:100%;margin:auto">Australia Business Visa (sub
                         class 132)
 
@@ -332,16 +410,14 @@
                     <!-- card section -->
                     <div style="display: flex;flex-wrap: wrap; justify-content: center;">
                         <!-- card 1 -->
-                        <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
+                        <div class="card text-black bg-light mb-3" style="width: 90%;;border-radius: 25px;">
                             <div class="card-header" id="show-card-1" style="margin: 0;padding: 0;">
-                                <img src="assets/img/business migration/new/development.jpg"
-                                    style="height: 350px;box-shadow: none;margin: 0;padding-right: 0;" alt="">
+                                <img src="assets/img/business migration/new/development.jpg" alt="" id="card-image-2">
                                 <h5 class="card-title" style="font-size:40px;">Property Development
                                 </h5>
                             </div>
 
-                            <div class="card-body text-dark id=" card-body-1"
-                                style="font-size:15px;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;padding-right: 50px;padding-left: 50px;">
+                            <div class="card-body text-dark" id="card-body-1">
 
                                 If your proposed business activity relates to property development, you must meet the
                                 following
@@ -370,17 +446,15 @@
                         <!-- card 1 end -->
 
                         <!-- card 2  -->
-                        <div class="card text-black bg-light mb-3" style="    width: 90%;;border-radius: 25px;">
+                        <div class="card text-black bg-light mb-3" style="width: 90%;;border-radius: 25px;" id="card">
                             <div class="card-header" style="margin: 0;padding: 0;">
 
-                                <img src="assets/img/business migration/new/checklist.jpg"
-                                    style="height: 350px;box-shadow: none;" alt="">
+                                <img src="assets/img/business migration/new/checklist.jpg" alt="" class="card-image-2">
                                 <h5 class="card-title" style="font-size:40px;">You Must Have
                                 </h5>
                             </div>
-                            <div class="card-body text-dark" id="card-body-2"
-                                style="border-radius:25px;padding-right: 50px;padding-left: 50px;">
-                                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
+                            <div class="card-body text-dark" id="card-body-2" style="">
+                                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;">
                                     <li>
 
                                         A net value of at least AUD1.5 million (lawfully acquired)
@@ -416,9 +490,9 @@
 
         <?php
 
-    include('footer.html');
+        include('footer.html');
 
-    ?>
+        ?>
 </body>
 
 </html>

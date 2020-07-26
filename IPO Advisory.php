@@ -143,12 +143,12 @@
 
         .liststyle-items li:nth-child(even) {
             background-color: rgba(0, 12, 182, 0.7);
-            
+
         }
-        
+
         .liststyle-items li:nth-child(odd) {
             /* display: block; */
-            
+
             background-color: rgba(2, 128, 19, 0.7);
 
 
@@ -216,6 +216,57 @@
             /* background: red; */
         }
 
+        .two-cards {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        @media(max-width:768px) {
+            .card-item {
+                height: auto;
+                /* background: red; */
+            }
+
+            .top-container1 h1 {
+                font-size: 3rem;
+            }
+
+            .two-cards {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            div.cardcontainer1 {
+                padding: 0px;
+            }
+
+            div.card {
+                width: 100%;
+            }
+
+            .heading11 {
+                font-size: 1.5rem;
+            }
+
+            #list-11 {
+                margin-left: 0;
+                color: white;
+                margin-right: 25px;
+                text-align: justify;
+                margin-bottom: 0;
+            }
+
+            #button-2 {
+                margin-left: 8rem;
+                margin-right: 25%;
+                margin-top: 0;
+            }
+        }
+
         /* main image and card-container end */
     </style>
 </head>
@@ -241,7 +292,7 @@
     </div>
     <div class="top-cards">
         <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+            <div class="two-cards">
                 <h3>
                     IPO Advisory Services<br>
                     <span style="font-size: 17px;padding:0;margin:0;">Australia, New-Zealand, Canada and United States</span>
@@ -264,8 +315,8 @@
 
         </div>
 
-        <div class="card-item" style="background: rgb(0, 18, 177);color: white;height: 250px;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+        <div class="card-item" style="background: rgb(0, 18, 177);color: white;">
+            <div class="two-cards">
                 <h3>
                     IPO execution
                 </h3><br>
@@ -282,8 +333,8 @@
     <!-- main image and card-container end  -->
 
 
-        <!-- ul section start -->
-  <div style="background: rgb(173, 173, 173);">
+    <!-- ul section start -->
+    <div style="background: rgb(173, 173, 173);">
         <br>
         <div class="heading"></div>
         <div class="content">

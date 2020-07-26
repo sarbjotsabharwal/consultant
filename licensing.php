@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -183,7 +181,39 @@
             /* background: red; */
         }
 
-        /* main image and card-container end */
+        .two-cards {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        @media(max-width:768px) {
+            .card-item {
+                height: auto;
+                /* background: red; */
+            }
+
+            .top-container1 h1 {
+                font-size: 3rem;
+            }
+
+            .two-cards {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            div.cardcontainer1 {
+                padding: 0px;
+            }
+
+            div.card {
+                width: 100%;
+            }
+        }
+            /* main image and card-container end */
     </style>
 </head>
 
@@ -211,7 +241,7 @@
     </div>
     <div class="top-cards">
         <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+            <div class="two-cards">
                 <h3>
                     Licensing
                 </h3><br>
@@ -228,8 +258,8 @@
 
         </div>
 
-        <div class="card-item" style="background: rgb(0, 18, 177);;color: white;height: 434px;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+        <div class="card-item" style="background: rgb(0, 18, 177);;color: white;">
+            <div class="two-cards">
                 <strong>CONFIDENTIAL</strong><br>
                 Your invention submission is protected by our Nondisclosure Agreement, so you can be reassured that your
                 disclosure is 100% confidential. <br><br>
@@ -243,8 +273,7 @@
                 urgency and an excitement about the search for innovation.
 
                 <br><br>
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
-                    onclick="OpenPlayer()">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer()">
                     Watch Video
                 </button>
             </div>
@@ -256,12 +285,11 @@
 
 
     <!--card section-->
-  
+
     <div style="background: rgb(173, 173, 173);">
 
 
-        <h1
-            style="display:block;margin:auto;color:white;background: rgb(37, 155, 37);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
+        <h1 style="display:block;margin:auto;color:white;background: rgb(37, 155, 37);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
             COMMERCIAL ELEMENTS OF A LICENSING
         </h1><br>
         <div class="cardcontainer1" id="allcards1" style="">
