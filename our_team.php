@@ -81,6 +81,13 @@
       color: rgb(1, 168, 1);
 
     }
+
+    @media (max-width:768px) {
+      .card-body div {
+        height: 100%;
+        width: 100%;
+      }
+    }
   </style>
 
 </head>
@@ -92,10 +99,10 @@
   // include('header.html');
   include('chatbotpopup.html');
   ?>
-   <?php
-    // include('videopopup.html');
-    include('Social_Media.html');
-    ?>
+  <?php
+  // include('videopopup.html');
+  include('Social_Media.html');
+  ?>
 
 
   <!-- ======= Header ======= -->
