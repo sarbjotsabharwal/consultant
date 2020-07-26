@@ -25,7 +25,7 @@
         rel="stylesheet">
     <style>
         div.card {
-            width: 40vw;
+            width: 600px;
             /* box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.6), 0 0px 10px 0 rgba(253, 253, 253, 0.5); */
             box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, .6), 0 0px 10px 0 rgba(255, 255, 255, .5);
             text-align: center;
@@ -47,6 +47,10 @@
             justify-content: center;
 
 
+        }
+
+        .card-container {
+            margin-left: 7.5rem;
         }
 
         .card-header h5,
@@ -146,7 +150,7 @@
             z-index: 5;
         }
 
-        .form {}
+
 
         .cardtext div,
         .cardtext p {
@@ -180,6 +184,42 @@
         body {
 
             font-family: "Montserrat", sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            .contact-form {
+                display: block;
+                width: 100vw;
+                height: auto;
+                position: relative;
+                background-color: rgb(0, 0, 0, .7);
+                margin: auto;
+                border-radius: 40px;
+            }
+
+            div.card {
+                width: 88%;
+            }
+
+            .card-container {
+                margin-left: 0;
+            }
+
+            .contact-form {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .card-body div img {
+
+                width: 8.2rem;
+
+            }
+
+            .card-body img {
+                box-shadow: 0 0 4px 1px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
         }
     </style>
 </head>
@@ -243,68 +283,69 @@
                 </a>
             </div>
         </div>
-        <div class="card-container" style="">
-            <div class="card bg-light"
-                style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
-                <div class="card-body">
-                    <div class="">
-                        <img src="assets/img/our team/stan1.jpg" alt="">
-                        <h4 class="card-title" style="padding-top:10px;color: rgb(1, 196, 1);font-weight:bold">STANLEY
-                            COBBOLD</h4>
-                    </div>
-                    <div class="cardtext">
+    </div>
 
-                        <br><br>
-                        <p style="font-weight:bold;text-align: center;">
-                            Position: <br> Executive Director of Charthill Consultants <br><br>
-                            Contact: <br> (+61) 439 971 455 <br><br>
-                            Email:<br>stanley@charthillconsultants.com <br><br>
-                        <div class="social_media_container" style="display: block;width:100%;margin:auto;">
-                            <a href="https://au.linkedin.com/in/stanley-cobbold-ab023a187" class="fa fa-linkedin"
-                                target="_blank"></a>
-                            <!-- <a href="" class="fa fa-facebook"   target="_blank"></a>
+    <div class="card-container">
+        <div class="card bg-light" style=" border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
+            <div class="card-body">
+                <div class="">
+                    <img src="assets/img/our team/stan1.jpg" alt="">
+                    <h4 class="card-title" style="padding-top:10px;color: rgb(1, 196, 1);font-weight:bold">STANLEY
+                        COBBOLD</h4>
+                </div>
+                <div class="cardtext">
+
+                    <br><br>
+                    <p style="font-weight:bold;text-align: center;">
+                        Position: <br> Executive Director of Charthill Consultants <br><br>
+                        Contact: <br> (+61) 439 971 455 <br><br>
+                        Email:<br>stanley@charthillconsultants.com <br><br>
+                    <div class="social_media_container" style="display: block;width:100%;margin:auto;">
+                        <a href="https://au.linkedin.com/in/stanley-cobbold-ab023a187" class="fa fa-linkedin"
+                            target="_blank"></a>
+                        <!-- <a href="" class="fa fa-facebook"   target="_blank"></a>
                             <a href="" class="fa fa-twitter"  target="_blank"></a> -->
-                        </div>
-                        <br><br>
+                    </div>
+                    <br>
 
-                        </p>
-                    </div>
-                    <iframe style="border: 2px solid black;border-radius: 10px;"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.052532977523!2d-115.241574!3d36.178081000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c052109413d1%3A0x139155b48b4c91d1!2s500%20N%20Rainbow%20Blvd%20%23300%2C%20Las%20Vegas%2C%20NV%2089107%2C%20USA!5e0!3m2!1sen!2sin!4v1593977332095!5m2!1sen!2sin"
-                        width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    </p>
                 </div>
-            </div>
-            <div class="card bg-light"
-                style="width:600px; border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
-                <div class="card-body">
-                    <div class="">
-                        <img src="assets/img/our team/prabhdeep singh.jpg" alt="">
-                        <h4 class="card-title" style="padding-top:10px;color: rgb(1, 196, 1);font-weight:bold">PRABHJEET
-                            SINGH (PJ)</h4>
-                    </div>
-                    <div class="cardtext">
-                        <br><br>
-                        <p style="font-weight:bold;text-align: center;">
-                            Position: <br>Director of Charthill Consultants <br><br>
-                            Contact: <br>(+61) 447 188 144 <br><br>
-                            Email:<br>prabhjeet@charthillconsultants.com
-                        <div class="social_media_container" style="display: block;width:100%;margin:auto;">
-                            <!-- <a href="#" class="fa fa-linkedin" target="_blank"></a> -->
-                            <!-- <a href="https://www.facebook.com/CharthillConsultants/" class="fa fa-facebook" target="_blank"></a>
-                                <a href="https://twitter.com/CharthillC" class="fa fa-twitter" target="_blank"></a> -->
-                        </div>
-                        </p>
-
-                    </div>
-                    <iframe style="border: 2px solid black;border-radius: 10px;"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6770.618946885443!2d115.84073000000001!3d-31.952500000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a52f6483c0dd%3A0xd248f06db79b70a7!2s22%2F16%20Kings%20Park%20Rd%2C%20West%20Perth%20WA%206005%2C%20Australia!5e0!3m2!1sen!2sin!4v1593978167320!5m2!1sen!2sin"
-                        width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
-                </div>
+                <iframe style="border: 2px solid black;border-radius: 10px;"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.052532977523!2d-115.241574!3d36.178081000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c052109413d1%3A0x139155b48b4c91d1!2s500%20N%20Rainbow%20Blvd%20%23300%2C%20Las%20Vegas%2C%20NV%2089107%2C%20USA!5e0!3m2!1sen!2sin!4v1593977332095!5m2!1sen!2sin"
+                    width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
         </div>
+        <div class="card bg-light" style=" border-radius:30px;box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.95);">
+            <div class="card-body">
+                <div class="">
+                    <img src="assets/img/our team/prabhdeep singh.jpg" alt="">
+                    <h4 class="card-title" style="padding-top:10px;color: rgb(1, 196, 1);font-weight:bold">PRABHJEET
+                        SINGH (PJ)</h4>
+                </div>
+                <div class="cardtext">
+                    <br><br>
+                    <p style="font-weight:bold;text-align: center;">
+                        Position: <br>Director of Charthill Consultants <br><br>
+                        Contact: <br>(+61) 447 188 144 <br><br>
+                        Email:<br>prabhjeet@charthillconsultants.com
+                    <div class="social_media_container" style="display: block;width:100%;margin:auto;">
+                        <!-- <a href="#" class="fa fa-linkedin" target="_blank"></a> -->
+                        <!-- <a href="https://www.facebook.com/CharthillConsultants/" class="fa fa-facebook" target="_blank"></a>
+                                <a href="https://twitter.com/CharthillC" class="fa fa-twitter" target="_blank"></a> -->
+                    </div>
+                    </p>
 
+                </div>
+                <iframe style="border: 2px solid black;border-radius: 10px;"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6770.618946885443!2d115.84073000000001!3d-31.952500000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a52f6483c0dd%3A0xd248f06db79b70a7!2s22%2F16%20Kings%20Park%20Rd%2C%20West%20Perth%20WA%206005%2C%20Australia!5e0!3m2!1sen!2sin!4v1593978167320!5m2!1sen!2sin"
+                    width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <center>
         <div class="contact-form" style="color:white">
             <div class="form">
                 <form style="padding:30px">
@@ -328,21 +369,21 @@
                     </div>
 
                     <input type="button" value="Submit" onclick="sendEmail()" class="btn btn-success"
-                        style="margin-left: 30%;width: 40%;">
+                        style="margin-left: 10%;width: 40%;">
                 </form>
+
             </div>
 
         </div>
-    </div>
 
-
- 
+    </center>
+    <br><br><br><br>
     <?php
 
     include('footer.html');
 
     ?>
-     <?php
+    <?php
   include('go to top.html');
   ?>
 </body>
