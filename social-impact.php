@@ -102,6 +102,86 @@
             box-shadow: 0 0 7px 7px rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
         }
+
+
+        #image-1 {
+            display: inline-block;
+            float: right;
+            width: 40%;
+            border-radius: 20px;
+            border: solid white 5px;
+        }
+
+        #image-2 {
+            display: inline-block;
+            float: left;
+            width: 40%;
+            border-radius: 20px;
+            margin: 10px;
+            display: inline-block;
+            border: solid white 5px;
+        }
+
+        #image-3 {
+            display: inline-block;
+            float: right;
+            width: 40%;
+            border-radius: 20px;
+            margin: 10px;
+            display: inline-block;
+            border: solid white 5px;
+        }
+
+
+        #card-item11 {
+            text-align: justify;
+            height: auto;
+            width: 50%;
+            margin: 10px;
+            display: inline-block;
+            color: white;
+        }
+
+        #section-1 {
+            text-align: justify;
+            height: auto;
+            width: 56%;
+            margin: 10px;
+            float: right;
+            display: inline;
+            color: white;
+        }
+
+        #section-2 {
+            text-align: justify;
+            height: auto;
+            width: 55%;
+            margin: 10px;
+            display: inline-block;
+            color: white;
+        }
+
+
+        @media (max-width:768px) {
+
+            #image-1,
+            #image-2,
+            #image-3 {
+                float: none;
+                display: block;
+                width: 100%
+            }
+
+           #section-1, #section-2, #card-item11{
+               width:100%;
+           }
+
+
+            .card-header h5,
+            .card-title {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 </head>
 
@@ -173,34 +253,19 @@
                                             fuels are renewable energy sources. Also they have a much smaller impact on
                                             the environment than fossil fuels, which produce pollutants such as
                                             greenhouse gases as a by-product, contributing to climate change.
-                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
                                         </h7>
                                     </div>
-                                    <!-- <div class="card-footer text-muted">
-                                        2 days ago
-                                    </div> -->
+
                                 </div>
-                                <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
-                                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+
                             </div>
                         </div>
                     </div>
 
 
-
-
-
-
                 </div>
-                <!-- <div class="carousel-item">
-                    <div class="carousel-background"><img src="assets/img/intro-carousel/2.jpg" alt=""></div>
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                            <h2>Right People Right Investments</h2>
-                            <p>We offer a list of Licensing, Franchising, Business Development, Marketing & Sales services help our
-                                clients to build global brands and businesses. </p>
-                                <!-- <a href="aboutus.php"><button type="button" class="btn btn-outline-light">More About Us</button></a> -->
-                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+
 
                 <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
@@ -233,7 +298,7 @@
             border-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #96c93d, #00b09b);opacity: 1;">
-                <p class="card-text" style="text-align: justify;height: auto;width:50%;margin: 10px;display: inline-block;color: white;">
+                <p class="card-text" id="card-item11">
                     ELITE POOL COVER specializes in the design, development, fabrication, and supply of triple cell
                     solar blanket. Elite pool cover got specialty in innovative technologies and products .Ultra New
                     Award Winning Triple Cell® Solar Pool Blanket – a world's first
@@ -250,7 +315,7 @@
                     world
 
                 </p>
-                <img src="assets/img/SocialImpact/poolcover.jpg" alt="" style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;">
+                <img src="assets/img/SocialImpact/poolcover.jpg" alt="" id="image-1">
                 <!-- <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
                         Singapore as well. </p> -->
             </div>
@@ -267,8 +332,8 @@
             background: linear-gradient(to right, #f7b733, #fc4a1a);border-radius: 25px; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             
             ">
-                <img src="assets/img/SocialImpact/triplecell.jpg" alt="" style="display:inline-block;float: left;width:40%;border-radius: 20px;margin: 10px;display: inline-block;border: solid white 5px;">
-                <section style="text-align: justify;height: auto;width:56%;margin: 10px;float: right;display: inline;color: white;">
+                <img src="assets/img/SocialImpact/triplecell.jpg" alt="" style="" id="image-2">
+                <section id="section-1">
 
                     <p style="font-size: 15px;">Performance – large purpose designed solar cells provide greater heat
                         generation and insulation designed and manufactured in Australia, proven in the world’s harshest
@@ -325,7 +390,7 @@
             background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #96c93d, #00b09b);;border-radius: 25px;color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             ">
-                <section style="text-align: justify;height: auto;width:55%;margin: 10px;display: inline-block;color: white;">
+                <section id="section-2">
                     Solar Edward knows very well that how quickly technology can change, our goal is to keep up with the
                     latest trends and advances in all technological breakthrough that is why solar Edward does not shy
                     away from any challenge, Edward solar has managed to align ourselves with some great organizations
@@ -363,7 +428,7 @@
 
                     </ul>
                 </section>
-                <img src="assets/img/SocialImpact/solaredwards.jpg" alt="" style="display:inline-block;float: right;width:40%;border-radius: 20px;border: solid white 5px;;">
+                <img src="assets/img/SocialImpact/solaredwards.jpg" alt="" id="image-3">
                 Solar Edwards Adelaide’s aim is to make solar energy understandable and accessible to everyone. We
                 are committed to helping save our environment. Solar Edwards Adelaide is proud to give customer
                 service the way it should be, with professional, prompt and personalized service

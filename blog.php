@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 80vw;
@@ -194,9 +192,30 @@
             /* max-width: 85vw; */
 
         }
-            .card-text{
-                text-align: justify;
+
+        .card-text {
+            text-align: justify;
+        }
+
+        /* responsive */
+        @media (max-width:768px) {
+            .top-container1::before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: url('assets/img/blogback.jpg') no-repeat center center /cover;
+                /* background-size:contain; */
+                z-index: -1;
+                opacity: .5;
             }
+
+            .top-container1 h1 {
+                font-size: 3.5rem;
+            }
+        }
     </style>
 </head>
 
@@ -222,8 +241,7 @@
 
 
 
-    <div class="post-container1"
-        style="display:flex;flex-wrap:wrap;justify-content:center;background-color: rgb(218, 218, 218);">
+    <div class="post-container1" style="display:flex;flex-wrap:wrap;justify-content:center;background-color: rgb(218, 218, 218);">
         <div class="card text-center">
             <div class="card-header">
                 <img src="https://assets.entrepreneur.com/content/3x2/2000/1592575012-GettyImages-8748741501.jpg?width=700&crop=2:1" alt="">
@@ -231,8 +249,7 @@
             <div class="card-body">
                 <h5 class="card-title">Has Coronavirus Killed the Appeal of Franchising or Made it Stronger?</h5>
                 <p class="card-text">Since the middle of March, every individual and business across the country has drastically changed their daily habits and practices. People have self-isolated and been forced to work from home.</p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
-                    onclick="OpenPdf()">Read More</a>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">Read More</a>
             </div>
             <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a>(23 July 2020)
             </div>
@@ -245,12 +262,11 @@
             <div class="card-body">
                 <h5 class="card-title">When Licensing New Tech Is Better Than Building It In-House</h5>
                 <p class="card-text">Most companies fear competition from a rival’s product innovations and the risk of falling behind their industry’s technological frontier. Firms affected by such competitive pressure usually react by trying to strengthen their R&D capabilities and close the gap between their and their rival’s technologies as quickly as possible. </p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"
-                onclick="OpenPdf1()">Read More</a>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf1()">Read More</a>
             </div>
             <div class="card-footer text-muted">by <a href="https://hbr.org/2020/06/when-licensing-new-tech-is-better-than-building-it-in-house" target="_blank">Solon Moreira , Thomas Maximilian Klueter and Stefano Tasselli</a> <br> (30 June 2020)
             </div>
-           
+
         </div>
     </div>
 
