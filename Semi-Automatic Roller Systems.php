@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -344,6 +341,80 @@
         body {
             font-family: "Montserrat", sans-serif;
         }
+
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {}
+
+        #img-big {
+            width: 500px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        .sec-img {
+            width: 500px;
+            margin: 20px;
+            border: 2px solid white;
+        }
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                /* width: 120%; */
+                width: 175%;
+                height: auto;
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+
+            #img-big {
+                width: 80%;
+            }
+
+            #para2 {
+                width: 100%;
+            }
+
+            .sec-img {
+
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
@@ -382,9 +453,9 @@
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
         <p style="width: 90%;">Elite Semi-Automatic Pool Covers offer you a remote controlled system for your Elite Super Bubble or Thermal
-        Shield Blanket. Systems can be designed to suit most shapes and sizes.</p>
+            Shield Blanket. Systems can be designed to suit most shapes and sizes.</p>
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <ol style="text-align: justify;margin-top: 20px;width: 400px;margin-right:20px;" type="1.">
+            <ol style="text-align: justify;margin-top: 20px;margin-right:20px;" type="1." class="para">
                 <li><strong>Removing the blanket</strong></li>
                 Just click the remote and the roller will automatically roll the cover off and stop when it reaches the
                 end.
@@ -400,13 +471,11 @@
 
 
 
-           </ol><br>
-            <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-2.jpg" alt=""
-                style="width: 500px;margin:20px;border: 2px solid white;">
+            </ol><br>
+            <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-2.jpg" alt="" style="" class="sec-img">
         </div>
-        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-1.jpg" alt=""
-                style="width: 500px;margin:20px;border: 2px solid white;">
+        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;width:100%">
+            <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-1.jpg" alt="" style="" class="sec-img">
             <ul style="text-align: justify;margin-top: 20px;width: 400px;margin:10px">
 
                 <li>Fits most pool shapes</li>
@@ -414,8 +483,8 @@
                 <li>Low Voltage – for your safety</li>
                 <li>Totally enclosed motor system – nice and neat</li>
                 <li>All Aluminium & stainless steel construction – built to last, a great investment.</li>
-               <li> Remote control option</li>
-               <li> Great for retirement villages</li>
+                <li> Remote control option</li>
+                <li> Great for retirement villages</li>
                 <li>Hydrotherapy pools</li>
             </ul><br>
 
@@ -428,15 +497,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>

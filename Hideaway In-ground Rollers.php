@@ -380,7 +380,7 @@
 
         #sec-img {
 
-            width: 40%;
+            width: 110%;
         }
 
         @media (max-width:768px) {
