@@ -10,8 +10,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- V CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -133,207 +132,68 @@
     }
 
 
-    /* Nav Meu Container */
 
-    #nav-menu-container {
-      float: right;
-      margin: 0;
+    .video-item {
+      margin: 20px;
+      border: 10px white solid;
+      width: 30rem;
+      height: 20rem;
     }
 
-    @media (min-width: 1024px) {
-      #nav-menu-container {
-        padding-right: 60px;
-      }
+    .item img{
+     width: 400px;
+     margin-left: 100px;
     }
-
-    @media (max-width: 768px) {
-      #nav-menu-container {
-        display: none;
-      }
-    }
-
-    /* Nav Meu Styling */
-
-    .nav-menu a {
-      padding: 0 8px 10px 8px;
-      text-decoration: none;
-      display: inline-block;
-      color: #fff;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 14px;
-      text-transform: uppercase;
-      outline: none;
-    }
-
-    .nav-menu li:hover>a,
-    .nav-menu>.menu-active>a {
-      color: #18d26e;
-    }
-
-    .nav-menu>li {
-      margin-left: 10px;
-    }
-
-    .nav-menu ul {
-      margin: 4px 0 0 0;
-      padding: 10px;
-      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-      background: #fff;
-    }
-
-    .nav-menu ul li {
-      transition: 0.3s;
-    }
-
-    .nav-menu ul li a {
-      padding: 10px;
-      color: #333;
-      transition: 0.3s;
-      display: block;
-      font-size: 14px;
-      text-transform: none;
-    }
-
-    .nav-menu ul li:hover>a {
-      color: #18d26e;
-    }
-
-    .nav-menu ul ul {
-      margin: 0;
-    }
-
-
-    /* Mobile Nav Toggle */
-    #mobile-nav-toggle {
-      position: fixed;
-      right: 0;
-      top: 0;
-      z-index: 10000000;
-      margin: 20px 20px 0 0;
-      border: 0;
-      background: none;
-      font-size: 24px;
-      display: none;
-      transition: all 0.4s;
-      outline: none;
-      cursor: pointer;
-    }
-
-    #mobile-nav-toggle i {
-      color: #fff;
-    }
-
-    @media (max-width: 768px) {
-      #mobile-nav-toggle {
-        display: inline;
-      }
-    }
-
-    /* Mobile Nav Styling */
-
-    #mobile-nav {
-      position: absolute;
-      top: 0;
-      padding-top: 18px;
-      bottom: 0;
-      z-index: 1000000;
-      background: rgba(0, 0, 0, 0.8);
-      left: -260px;
-      width: 260px;
-      overflow-y: auto;
-      transition: 0.4s;
-    }
-
-    #mobile-nav ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-
-    #mobile-nav ul li {
-      position: relative;
-    }
-
-    #mobile-nav ul li a {
-      color: #fff;
-      font-size: 13px;
-      text-transform: uppercase;
-      overflow: hidden;
-      padding: 10px 22px 10px 15px;
-      position: relative;
-      text-decoration: none;
-      width: 100%;
-      display: block;
-      outline: none;
-      font-weight: 700;
-      font-family: "Montserrat", sans-serif;
-    }
-
-    #mobile-nav ul li a:hover {
-      color: #18d26e;
-    }
-
-    #mobile-nav ul li li {
-      padding-left: 30px;
-    }
-
-    #mobile-nav ul li.menu-active a {
-      color: #18d26e;
-    }
-
-    #mobile-nav ul .menu-has-children i {
-      position: absolute;
-      right: 0;
-      z-index: 10000;
-      padding: 15px;
-      cursor: pointer;
-      color: #fff;
-    }
-
-    #mobile-nav ul .menu-has-children i.fa-chevron-up {
-      color: #18d26e;
-    }
-
-    #mobile-nav ul .menu-has-children li a {
-      text-transform: none;
-    }
-
-    #mobile-nav ul .menu-item-active {
-      color: #18d26e;
-    }
-
-    #mobile-body-overly {
-      width: 100%;
-      height: 100%;
-      z-index: 997;
-      top: 0;
-      left: 0;
-      position: fixed;
-      background: rgba(0, 0, 0, 0.7);
-      display: none;
-    }
-
-    /* Mobile Nav body classes */
-
-    body.mobile-nav-active {
-      overflow: hidden;
-    }
-
-    body.mobile-nav-active #mobile-nav {
-      left: 0;
-    }
-
-    body.mobile-nav-active #mobile-nav-toggle {
-      color: #fff;
-    }
-
 
     /* responsive */
     @media (max-width: 768px) {
-    body{
-      background-color: red;
-    }
+      body {
+        background-color: red;
+
+      }
+
+      #header-text {
+        font-size: 2rem;
+      }
+
+      .top-container1 h1 {
+        font-size: 80px;
+        margin-top: 110px;
+        margin-left: 100px;
+        margin-right: 450px;
+        margin-bottom: 106px;
+        font-weight: bold;
+      }
+
+      .card-item {
+        top: -70px;
+        position: relative;
+        width: 100%;
+        height: 25rem;
+        /* background: red; */
+      }
+
+      .video-item {
+        margin: 20px;
+        border: 10px white solid;
+        width: 100%;
+        height: 20rem;
+      }
+
+      .item h2 {
+        font-size: 1.3rem;
+      }
+
+      .item h4 {
+        font-size: 1rem;
+      }
+
+      .item img {
+        width: 100%;
+        margin: 0;
+        
+      }
+
     }
   </style>
 </head>
@@ -345,9 +205,9 @@
   // include('header.html');
   ?>
   <?php
-    // include('videopopup.html');
-    include('Social_Media.html');
-    ?>
+  // include('videopopup.html');
+  include('Social_Media.html');
+  ?>
 
   <?php
   include('go to top.html');
@@ -433,7 +293,7 @@
 
 
   <div class="top-container1">
-    <h1>
+    <h1 id="header-text">
       Start Your <span class="span-green">Franchising</span> & <span class="span-green">Licensing</span> <br> Journey
       with Us
     </h1>
@@ -480,19 +340,16 @@
   </div>
   <div class="vide-container" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(6, 124, 1);">
     <div class="video-item" style="margin:20px;border: 10px white solid;">
-      <iframe width="500px" height="400px" src="https://www.youtube.com/embed/S0y7-Y5uHlE" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S0y7-Y5uHlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-item" style="margin:20px;border: 10px white solid;">
-      <iframe width="500px" height="400px" src="https://www.youtube.com/embed/KCObP7-5dwE" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KCObP7-5dwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
   </div>
   <!-- sectin end -->
 
-  <div class="map-section"
-    style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
+  <div class="map-section" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
     <div class="item">
       <h2 style="margin-top: 30px;text-align: center;font-weight: bold;">Charthill in Unites States</h2>
       <h4 style="text-align: center;">500 North Rainbow Blvd,<br>
@@ -500,7 +357,7 @@
         Nevada, 89107<br>
         UNITED STATES</h4>
       <br>
-      <img src="assets/img/america map.png" alt="" style="width: 400px;margin-right: 100px;">
+      <img src="assets/img/america map.png" alt="" >
     </div>
 
     <div class="item">
@@ -511,7 +368,7 @@
         AUSTRALIA <br>
       </h4>
       <br>
-      <img src="assets/img/australia map..png" alt="" style="width: 400px;margin-left: 100px;">
+      <img src="assets/img/australia map..png" alt="" >
 
     </div>
   </div>

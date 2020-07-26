@@ -27,7 +27,7 @@
     body {
 
       font-family: "Montserrat", sans-serif;
-     
+
     }
 
     .span-green {
@@ -62,26 +62,26 @@
       opacity: .5;
     }
 
-    
+
     .top-container1 h1 {
       font-size: 80px;
       margin-top: 251px;
       text-align: center;
-      
+
     }
 
     .span-green {
       color: rgb(7, 206, 7);
-      
+
     }
-    
+
     .top-cards {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       background: white;
     }
-    
+
     .card-item {
       top: -70px;
       position: relative;
@@ -89,6 +89,46 @@
       height: 350px;
       /* background: red; */
     }
+
+    .slider-content {
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    /* responsive */
+    @media (max-width: 768px) {
+      .top-container1 h1 {
+        font-size: 4rem;
+        margin-top: 251px;
+        text-align: center;
+      }
+
+      .slider-content {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .card-item {
+        top: -70px;
+        position: relative;
+        width: 100%;
+        height: auto;
+        /* background: red; */
+      }
+
+      .about-us {
+        background-color: rgb(243, 238, 231);
+        padding: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+    }
+
     /* main image and card-container end */
   </style>
 </head>
@@ -101,13 +141,13 @@
   ?>
   <?php
 
-    include('pdfviewer.html');
+  include('pdfviewer.html');
   ?>
-     <?php
-    // include('videopopup.html');
-    include('Social_Media.html');
-    ?>
- <?php
+  <?php
+  // include('videopopup.html');
+  include('Social_Media.html');
+  ?>
+  <?php
   include('go to top.html');
   ?>
 
@@ -204,7 +244,7 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+            <div class="slider-content">
               <h3>
                 INNOVATIVE MIND & QUICK SOLUTIONS
               </h3><br>
@@ -219,7 +259,7 @@
           </div>
 
           <div class="carousel-item">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+            <div class="slider-content">
               <h3>
                 UNIQUE WORKCULTURE
               </h3><br>
@@ -234,7 +274,7 @@
 
           </div>
           <div class="carousel-item">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+            <div class="slider-content">
               <h3>
                 BUSINESS STRATEGY
               </h3><br>
@@ -269,7 +309,8 @@
 
   <div class="about-us" style="text-align: justify;">
     <h1 style="text-align: center;" id="aboutusection">A brief on Us</h1>
-    <p class="about-intro" style="text-align: center;font-weight: bold;margin-top: 20px;"><i>Individual commitment to a group effort–that is what makes a
+    <p class="about-intro" style="text-align: center;font-weight: bold;margin-top: 20px;"><i>Individual commitment to a
+        group effort–that is what makes a
         team work, a company work, a
         society work, a
         civilization work.
