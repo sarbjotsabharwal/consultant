@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <style>
         div.card {
             width: 85%;
@@ -138,6 +140,39 @@
 
             font-family: "Montserrat", sans-serif;
         }
+
+        #heading-text {
+            font-size: 80px;
+        }
+
+        #bottom-text {
+            font-size: 25px;
+        }
+
+        #float-button {
+            float: right;
+            position: relative;
+            bottom: 60px;
+            right: 30px;
+        }
+
+        @media (max-width:768px) {
+
+            #heading-text {
+                font-size: 2.3rem;
+            }
+
+            #bottom-text {
+                font-size: 2.3rem;
+            }
+
+            #float-button {
+                float: right;
+                position: relative;
+                bottom: -10px;
+                right: 20%;
+            }
+        }
     </style>
 </head>
 
@@ -158,7 +193,8 @@
 
     <!-- section start -->
     <h1 style="color: rgb(1, 196, 1);
-    background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-size: 80px;font-weight:bold;padding:10px">
+    background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-weight:bold;padding:10px"
+        id="heading-text">
         Business Opportunities</h1><br>
     <h4 style="color: white;font-style: italic;text-align: center;width: 80%;display: block;margin:auto;">Grow with us!
         <br> with our fantastic Business
@@ -177,7 +213,8 @@
                 <div class="card-body">
                     <img src="assets/img/Elite Pool Covers Australia-1.png" alt="" style="width: 100%;">
 
-                    <a href="Investment-opportunity-For-North-america.pdf" style="float: right;position: relative;bottom: 60px;right: 30px;" class="btn btn-success">Download</a>
+                    <a href="Investment-opportunity-For-North-america.pdf" style="" class="btn btn-success"
+                        id="float-button">Download</a>
 
                 </div>
                 <!-- <object id="pdfframe" data="business opportunities.pdf" type="application/pdf" width="100%" height="90%">
@@ -199,8 +236,11 @@
 
 
     <br><br>
-    <h1 style="display:block;margin:auto;color: white;background-color: rgba(3, 189, 13, 0.5);z-index: 5;width: 80%;text-align: center;font-size: 25;border-radius: 25px;padding:10px;">
-        To avail our Business Opportunities, <a href="contactus.php" style="background: rgb(0, 0, 0,.5);color: white;border-radius: 20px;padding-left: 10px;padding-right: 10px;" id="clickbutton">Click here!</a></h1><br>
+    <h1 style="display:block;margin:auto;color: white;background-color: rgba(3, 189, 13, 0.5);z-index: 5;width: 80%;text-align: center;border-radius: 25px;padding:10px;"
+        id="bottom-text">
+        To avail our Business Opportunities, <a href="contactus.php"
+            style="background: rgb(0, 0, 0,.5);color: white;border-radius: 20px;padding-left: 10px;padding-right: 10px;"
+            id="clickbutton">Click here!</a></h1><br>
     <div class="heading"></div>
 
 
