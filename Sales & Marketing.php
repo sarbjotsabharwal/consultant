@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +19,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -265,13 +263,105 @@
             top: -70px;
             position: relative;
             width: 900px;
-            height: 400px;
+            height: 300px;
+
             /* background: red; */
         }
-        .list-items{
+
+        .list-items {
             width: 500px;
         }
+
         /* main image and card-container end */
+
+
+        .two-cards {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .heading11 {
+            font-size: 35px;
+        }
+
+        #list-11 {
+            margin-left: 25%;
+            color: white;
+            margin-right: 20%;
+            text-align: justify;
+            margin-bottom: 0;
+        }
+
+        #button-2 {
+            margin-left: 45%;
+            margin-right: 55%;
+            margin-top: 0;
+        }
+
+        @media(max-width:768px) {
+            .card-item {
+                height: auto;
+                /* background: red; */
+            }
+
+            .top-container1 h1 {
+                font-size: 3rem;
+            }
+
+            .two-cards {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            div.cardcontainer1 {
+                padding: 0px;
+            }
+
+            div.card {
+                width: 100%;
+            }
+
+            .heading11 {
+                font-size: 1.5rem;
+            }
+
+            #list-11 {
+                margin-left: 0;
+                color: white;
+                margin-right: 25px;
+                text-align: justify;
+                margin-bottom: 0;
+            }
+
+            #button-2 {
+                margin-left: 8rem;
+                margin-right: 25%;
+                margin-top: 0;
+            }
+
+
+            .container-box p span {
+                font-size: 30px;
+
+            }
+
+            .container-box p {
+                width: 100%;
+               
+            }
+
+            .container-box img {
+                /* float: right; */
+                /* position: relative; */
+                width: 100%;
+                border-radius: 25px;
+                opacity: .9;
+            }
+        }
     </style>
 </head>
 
@@ -294,8 +384,8 @@
         </h1>
     </div>
     <div class="top-cards">
-        <div class="card-item" style="background: rgb(37, 155, 37);color: white;height: 300px;">
-            <div style="padding-left: 100px;padding-right: 100px;padding-top: 50px;padding-bottom: 50px;">
+        <div class="card-item" style="background: rgb(37, 155, 37);color: white;">
+            <div class="two-cards">
                 <h3>
                     Charthill – SALES & MARKETING SERVICES
                 </h3><br>
@@ -305,8 +395,7 @@
                     new developments, hospitality and leading names in real estate. Our services are tailored to every
                     client’s
                     specific needs.<br><br>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-                        onclick="OpenPlayer7()">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer7()">
                         Watch Video
                     </button>
                 </p>
@@ -377,12 +466,12 @@
                 from your advertisements.
             </p>
         </div>
-        
-     
+
+
     </div>
 
     <!-- section end -->
-  
+
     <div class="" style="background:rgb(0, 18, 177);">
 
 
