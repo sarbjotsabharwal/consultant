@@ -341,6 +341,73 @@
         body {
             font-family: "Montserrat", sans-serif;
         }
+
+
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            border-radius: 10px;
+            width: 112%;
+            border: 1px solid white;
+            height: 350px;
+        }
+
+        #img-big {
+            width: 500px;
+        }
+
+        #para2{
+            width: 400px;
+        }
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                /* width: 120%; */
+                width: 175%;
+                height: auto;
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+
+            #img-big {
+                width: 80%;
+            }
+            #para2{
+            width: 100%;
+        }
+        }
     </style>
 </head>
 
@@ -381,7 +448,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
             <li> The Mercedes of pool blanket rollers has been designed by a specialist design studio to offer the owner
                 the most ascetically pleasing, easiest to operate pool roller on the world market with its radiused
                 edges and form it will look great in any back yard.</li>
@@ -391,7 +458,7 @@
 
         </ul>
         <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer9()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/easy roller/easy roller.png" alt="" style="border-radius: 10px;"></a>
+            <a href="" onclick="OpenPlayer9()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/easy roller/easy roller.png" alt="" style="border-radius: 10px;" id="second-img"></a>
         </div>
         <ul>
             <li style="text-align: justify;">The Elegance Easy roller frames can be power coated to your choice of
@@ -422,9 +489,9 @@
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <img src="assets/img/elitepool/easy roller/2-Elite-Platinum-Roller-1.jpg" alt="" style="width: 500px;">
+            <img src="assets/img/elitepool/easy roller/2-Elite-Platinum-Roller-1.jpg" alt="" style="" id="img-big">
 
-            <ul style="text-align: justify;margin-top: 20px;width: 400px;">
+            <ul style="text-align: justify;margin-top: 20px;" id="para2">
                 <li>Available fully mobile or stationary “use and remove”</li>
                 <li>The solar blanket is totally detachable from the roller so you can simply wheel the Easy roller back from the pool edge or out of sight.</li>
                 <li>Featuring extra tall marine grade anodized aluminium frames for strength, reliability and longevity and a large easy wind wheel/handle combo winding system.</li>
@@ -437,7 +504,7 @@
                 <li>Elite’s exclusive drop pin system. (stops the roller moving when in use and locates the roller in the exact spot for easy, one person operation)</li>
                 <li> The only roller with its own pull cord system, just walk to the other end of the pool and pull the cord
                 <li> Has nylon and stainless steel 360° rotating heavy duty castors for ease of use.</li>
-           
+
                 <li><strong>10 year warranty</strong></li>
             </div>
         </div>

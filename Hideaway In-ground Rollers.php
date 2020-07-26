@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -348,6 +345,84 @@
         .evehi img {
             width: 300px;
         }
+
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            border-radius: 10px;
+            width: 112%;
+            border: 1px solid white;
+            height: 350px;
+        }
+
+        #img-big {
+            width: 500px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        #sec-img {
+
+            width: 40%;
+        }
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                /* width: 120%; */
+                width: 175%;
+                height: auto;
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+
+            #img-big {
+                width: 80%;
+            }
+
+            #para2 {
+                width: 100%;
+            }
+
+            #sec-img {
+
+                width: 120%;
+            }
+        }
     </style>
 </head>
 
@@ -379,7 +454,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
             Out-of-sight and out-of-mind, that’s the Elite Hideaway® difference.When not in use your <strong>Elite Solar
                 Pool Blanket</strong> is stored away. It’s easy to operate with a single person able to remove or
             replace the <strong> Solar Blanket</strong> in no time at all.
@@ -390,9 +465,8 @@
 
 
         </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+        <div style="padding: 10px;margin-right: 50px;" id="video-img">
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;" id="sec-img"></a>
         </div>
         <ul style="text-align: justify;width: 95%;">
 
@@ -435,15 +509,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>
