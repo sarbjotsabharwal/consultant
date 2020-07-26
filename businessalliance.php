@@ -98,7 +98,7 @@
             padding: 30px;
         }
 
-        .main-container {
+        .main-container3 {
             background: url('../img/businessalliance/alliance.jpg') no-repeat center center/cover;
 
             width: 100%;
@@ -114,9 +114,31 @@
         }
 
         #heading h1 {
-            font-size: 80px;
+            font-size: 100px;
 
         }
+
+
+        #option{
+           display: flex;
+           font-size: 15px;
+           list-style: none;
+           text-align: justify;
+        }
+        .main-container::before {
+            content: "";
+            background: url(assets/img/businessalliance/alliance.jpg) no-repeat center center/cover;
+            position: absolute;
+            /* bottom: 0; */
+            /* left: 0; */
+            width: 100%;
+            height: 38.7rem;
+            opacity: 0.4;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
 
         .main-container::before {
             content: "";
@@ -125,12 +147,37 @@
             /* bottom: 0; */
             /* left:0; */
             width: 100%;
-            height: 91%;
+            height: ;
 
             opacity: 0.4;
             top: 0;
             left: 0;
             z-index: 1;
+        }
+
+     
+        @media (max-width: 768px) {
+            .main-container::before {
+                content: "";
+                background: url(assets/img/businessalliance/alliance.jpg) no-repeat center center/cover;
+                position: absolute;
+                /* bottom: 0; */
+                /* left: 0; */
+                width: 100%;
+                height: 41.7rem;
+                opacity: 0.4;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            .card-body h5 {
+                font-size: 1.5rem;
+            }
+            #option{
+                display: inline;
+            }
+
         }
     </style>
 </head>
@@ -192,20 +239,28 @@
                     optimizing your business costs and finding innovative solutions to meet your company’s needs. ERA’S
                     collaborative approach provides full transparency, ensuring you retain control of all key aspects of
                     the engagement. </p>
-                <ul id="option" style="display: flex;font-size: 15px;list-style: none;text-align: justify;">
+                <ul id="option" >
+
                     <li><span style="text-align: center;">Analysis</span><br>ERA prepares a report on your current
                         status quo in the selected cost categories where you think savings can be achieved</li>
+
                     <li><span style="text-align: center;">Research</span><br>ERA present you with an options report,
                         based on our expertise and long-standing experience in the supplier market</li>
+
                     <li><span style="text-align: center;">Selection & Implementation</span><br>Once the company have
                         chosen an option, ERA facilitate implementation of the savings process in your company.</li>
-                    <li><span style="text-align: center;">Monitoring</span><br>Over the next few months, ERA monitor the
-                        savings achieved in the performance reports.</li>
-                </ul>
 
-                <p style="font-size: 15px;">
-                    ERA was successfully franchised via Charthill consultants in Australia from United States.
-                </p>>
+                    <li><span style="text-align: center;">Monitoring</span><br>Over the next few months, ERA monitor
+                        the
+                        savings achieved in the performance reports.</li>
+
+                </ul>
+                <div class="">
+
+                    <p style="font-size: 15px;">
+                        ERA was successfully franchised via Charthill consultants in Australia from United States.
+                    </p>>
+                </div>
             </div>
         </div>
 
