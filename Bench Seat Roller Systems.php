@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -356,6 +353,7 @@
             margin: 20px;
             border: solid 2px white;
         }
+
         .picture-container2 {
             display: flex;
             flex-wrap: wrap;
@@ -367,6 +365,95 @@
             margin: 20px;
             border: solid 2px white;
             border-radius: 20px;
+        }
+
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {}
+
+        #img-big {
+            width: 500px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        .sec-img {
+            width: 90%;
+            margin: 20px;
+            border: 2px solid white;
+        }
+
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                /* width: 120%; */
+                width: 175%;
+                height: auto;
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+
+            #img-big {
+                width: 80%;
+            }
+
+            #para2 {
+                width: 100%;
+            }
+
+            .sec-img {
+
+                width: 100%;
+            }
+
+            .picture-container img {
+                width: 100%;
+                margin: 20px;
+                border: solid 2px white;
+            }
+
+            .picture-container2 img {
+            width: 90%;
+            margin: 20px;
+            border: solid 2px white;
+            border-radius: 20px;
+        }
+
         }
     </style>
 </head>
@@ -405,10 +492,9 @@
     </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <img src="assets/img/elitepool/bench seat/2-cover-on-roller-small.jpg"" alt="" style=" width:
-                90%;margin:20px;border: 2px solid white;">
-            <ol style="text-align: justify;margin-top: 20px;width: 93%;margin-right:30px;" type="1.">
+        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;width:100%">
+            <img src="assets/img/elitepool/bench seat/2-cover-on-roller-small.jpg"" alt="" style="" class=" sec-img">
+            <ol style=" text-align: justify;margin-top: 20px;width: 93%;margin-right:30px;" type="1.">
                 <h2>Elite Pool Blanket Storage Seats</h2>
                 Store your Elite solar blanket in this neat roller seat system. Plus have a great place to sit, lie and
                 place your towel while taking a dip in your warm pool.
@@ -430,7 +516,7 @@
 
 
             </ol><br>
-            <div class="picture-container">
+            <div class="picture-container" style="width: 100%;">
                 <img src="assets/img/elitepool/bench seat/bench seat.jpg" alt="">
                 <img src="assets/img/elitepool/bench seat/4-sitting-on-bench-small.jpg" alt="">
                 <img src="assets/img/elitepool/bench seat/5-winding-cover-off-pool-small.jpg" alt="">
@@ -439,12 +525,12 @@
         </div>
 
     </div>
-    <br>    <br>   
+    <br> <br>
     <div class="header1" style="margin-top:20px">
         <i> Customized Bench Seats Available</i>
     </div>
 
-    
+
     <div class="picture-container2">
         <img src="assets/img/elitepool/bench seat/bench seat.jpg" alt="">
         <img src="assets/img/elitepool/bench seat/4-sitting-on-bench-small.jpg" alt="">
@@ -459,15 +545,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>
