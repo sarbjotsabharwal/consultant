@@ -353,6 +353,114 @@
             border: solid 2px white;
             border-radius: 20px;
         }
+
+
+
+        /* responsive */
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            margin-right: 30px;
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-right: 10px;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #img-big {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        #sec-img {
+           border: 2px solid white;
+        }
+
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+                padding: 10px;
+                margin-right: 0px;
+            }
+
+            #vid-img {
+                width: 100%;
+            }
+
+            .para {
+                width: 100%;
+                text-align: justify;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                width: 100%;
+                padding: 10px;
+                margin-right: 0px;
+
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+
+            #img-big {
+                width: 50%;
+                padding: 10px;
+                margin-right: 8.2rem;
+            }
+
+            #para2 {
+                width: 100%;
+                
+            }
+
+            #sec-img {
+
+                width: 100%;
+           
+            }
+
+            .picture-container img {
+                width: 150%;
+                margin: 20px;
+                border: solid 2px white;
+            }
+
+            .picture-container2 img {
+                width: 90%;
+                margin: 20px;
+                border: solid 2px white;
+                border-radius: 20px;
+            }
+
+        }
     </style>
 </head>
 
@@ -399,7 +507,7 @@
             Out-of-sight and out-of-mind, that’s the Elite Hideaway® difference.When not in use your Elite Solar Pool Blanket is stored away. It’s easy to operate with a single person able to remove or replace the Solar Blanket in no time at all.
         </p>
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+        <ul style="" class="para">
             The other unique benefit is this range can be installed to new and most existing pools of almost any shape and size. Your pool blanket and roller are hidden away underneath the aluminium lid.
 
             <li> Lid is made of marine grade anodized aluminium</li>
@@ -410,8 +518,8 @@
             <li> Manual (handle) or automatic remote control option</li>
 
         </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;"></a>
+        <div style="" id="video-img">
+            <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;" id="sec-img"></a>
         </div>
         <p style="text-align: justify;">
 

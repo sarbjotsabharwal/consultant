@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -356,6 +353,110 @@
             border: solid 2px white;
             border-radius: 20px;
         }
+
+
+
+        /* responsive */
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            width: 40%;
+            text-align: justify;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #img-big {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        .sec-img {
+            width: 100%;
+            margin: 20px;
+            border: 2px solid white;
+        }
+
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+            }
+
+            #vid-img {
+                width: 125%;
+            }
+
+            .para {
+                width: 100%;
+                text-align: justify;
+            }
+
+            #ul-list {
+                width: 100%;
+            }
+
+            #second-img {
+                width: 100%;
+                padding: 10px;
+                margin-right: 0px;
+
+            }
+
+            #heading1 {
+                font-size: 35px;
+            }
+
+            #img-big {
+                width: 50%;
+                padding: 10px;
+                margin-right: 8.2rem;
+            }
+
+            #para2 {
+                width: 100%;
+            }
+
+            .sec-img {
+
+                width: 100%;
+                margin: 0;
+            }
+
+            .picture-container img {
+                width: 150%;
+                margin: 20px;
+                border: solid 2px white;
+            }
+
+            .picture-container2 img {
+                width: 90%;
+                margin: 20px;
+                border: solid 2px white;
+                border-radius: 20px;
+            }
+
+        }
     </style>
 </head>
 
@@ -403,7 +504,7 @@
             approximately 8-9 months a year cleaning and vacuuming your pool, only to enjoy 3-4 months use.
         </p>
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
+        <ul style="" class="para">
             <li>What’s even more worrying is when you have children or pets, then you’ll need an extra set of eyes in
                 the back of your head to ensure security.</li>
 
@@ -415,10 +516,8 @@
                 can be easily swept off.</li>
 
         </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer12()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/security and debris/security & debris/Security Debris Mesh.png" alt=""
-                    style="border-radius: 10px;"></a>
+        <div style="" id="second-img">
+            <a href="" onclick="OpenPlayer12()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/security and debris/security & debris/Security Debris Mesh.png" alt="" style="border-radius: 10px;" class="sec-img"></a>
         </div>
         <p style="text-align: justify;">The thick mesh also means that water evaporation and chemical usage is greatly
             reduced, saving you time and money.
@@ -434,29 +533,23 @@
         <p>The cover system is virtually invisible when removed, only leaving a hole the diameter of a pencil in the
             pool surround – that means no stubbed toes or unsightly fasteners!</p>
         <div style="display:flex;flex-wrap:wrap;justify-content:center;">
-            <div class="item"
-                style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
+            <div class="item" style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
                 <h3 style="text-align: center;">SAVES LIVES</h3>
                 <p>Save a life –The Elite Super mesh cover has the strength to support the weight of a small child or
                     pet in an emergency when installed correctly.</p>
-                <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt=""
-                    style="width: 100%;display:block; margin: auto;"><br>
+                <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt="" style="width: 100%;display:block; margin: auto;"><br>
             </div>
-            <div class="item"
-                style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
+            <div class="item" style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
                 <h3 style="text-align: center;">SAVES CLEANING</h3>
                 <p>A clean pool all year round <br>
                     What blows on just blows off – just cover and forge</p><br><br>
-                <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt=""
-                    style="width: 100%;display:block; margin: auto;"><br>
+                <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt="" style="width: 100%;display:block; margin: auto;"><br>
             </div>
-            <div class="item"
-                style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
+            <div class="item" style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
                 <h3 style="text-align: center;">SAVES MONEY</h3>
                 <p>Helps stop evaporation. Saves chemicals too! (Up to 50%) <br>
                     Saves precious water – (Up to 10,000 L/month)</p><br>
-                <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt=""
-                    style="width: 100%;display:block; margin: auto;"><br>
+                <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt="" style="width: 100%;display:block; margin: auto;"><br>
             </div>
         </div>
 
@@ -469,27 +562,19 @@
     <div class="picture-container2">
         <div class="item">
 
-            <a href="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-1-300x224.jpg"
-                target="_blank"><img
-                    src="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-1-300x224.jpg" alt=""></a>
+            <a href="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-1-300x224.jpg" target="_blank"><img src="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-1-300x224.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-2-300x225.jpg"
-                target="_blank"><img
-                    src="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-2-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-2-300x225.jpg" target="_blank"><img src="assets/img/elitepool/security and debris/security & debris/gallery/mesh-cover-custom-2-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-1-300x225.jpg"
-                target="_blank"><img
-                    src="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-1-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-1-300x225.jpg" target="_blank"><img src="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-1-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-2-300x225.jpg"
-                target="_blank"><img
-                    src="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-2-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-2-300x225.jpg" target="_blank"><img src="assets/img/elitepool/security and debris/security & debris/gallery/resdential-security-mesh-cover-2-300x225.jpg" alt=""></a>
         </div>
 
     </div>
@@ -500,15 +585,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>

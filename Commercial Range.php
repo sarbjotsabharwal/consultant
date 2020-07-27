@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -356,6 +353,90 @@
             border: solid 2px white;
             border-radius: 20px;
         }
+
+
+
+
+        /* responsive */
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            margin-right: 30px;
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-right: 10px;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #img-big {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        #sec-img {
+            border: 2px solid white;
+        }
+
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+                padding: 10px;
+                margin-right: 0px;
+            }
+
+            #vid-img {
+                width: 100%;
+            }
+
+            .para {
+                /* margin-right: 30px; */
+                width: 100%;
+                padding: 10px;
+                text-align: justify;
+                margin-right: 10px;
+            }
+
+            #sec-img {
+                width: 100%;
+            }
+
+            .picture-container img {
+                width: 150%;
+                margin: 20px;
+                border: solid 2px white;
+            }
+
+            .picture-container2 img {
+                width: 90%;
+                margin: 20px;
+                border: solid 2px white;
+                border-radius: 20px;
+            }
+
+        }
     </style>
 </head>
 
@@ -403,20 +484,19 @@
             leading custom commercial pool cover systems that can be seen on many pools throughout Australia & Overseas.
         </p>
 
-        <ul style="margin-right: 30px;width: 40%;padding: 20px;text-align: justify;margin-right: 10px;">
-            <h3 style="text-align:left">Money saving, Water Saving & Energy saving</h3>
+        <ul style="" class="para">
+            <h3 style="">Money saving, Water Saving & Energy saving</h3>
             Elite Pool Covers is an innovator in providing value for money solutions to pool operators.
 
             <br> <br>
-            <h3 style="text-align:left"> What’s best option for my Commercial Centre?</h3>
+            <h3 style=""> What’s best option for my Commercial Centre?</h3>
             It is the highest R rating that you can afford. R values mean lower heat and water loss meaning cost savings
             every day. Please note, an R value is the resistance between the outside temperature and the water
             temperature trying to equalise.
 
         </ul>
-        <div style="width: 50%;padding: 10px;margin-right: 50px;">
-            <a href="" onclick="OpenPlayer10()" data-toggle="modal" data-target="#exampleModal"><img
-                    src="assets/img/elitepool/commercial range/commerical range.png" alt="" style="border-radius: 10px;"></a>
+        <div style="" id="video-img">
+            <a href="" onclick="OpenPlayer10()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/commercial range/commerical range.png" alt="" style="border-radius: 10px;" id="sec-img"></a>
         </div>
 
     </div>
@@ -480,39 +560,31 @@
     <div class="picture-container2">
         <div class="item">
 
-            <a href="assets/img/elitepool/commercial range/New folder/bench-seating-nsw-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/bench-seating-nsw-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/bench-seating-nsw-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/bench-seating-nsw-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-1-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-1-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-1-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-1-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-bold-park-centre-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-1-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-1-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-1-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-1-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-boyup-brook-seat-blanket-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-joondalup-leisure-centre-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-joondalup-leisure-centre-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-joondalup-leisure-centre-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-joondalup-leisure-centre-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-melville-aquatic-centre-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-melville-aquatic-centre-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-melville-aquatic-centre-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-melville-aquatic-centre-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/commercial range/New folder/commercial-perth-childrens-hospital-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/commercial range/New folder/commercial-perth-childrens-hospital-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/commercial range/New folder/commercial-perth-childrens-hospital-300x225.jpg" target="_blank"><img src="assets/img/elitepool/commercial range/New folder/commercial-perth-childrens-hospital-300x225.jpg" alt=""></a>
         </div>
 
 
@@ -524,15 +596,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>

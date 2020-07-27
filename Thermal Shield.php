@@ -9,8 +9,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +18,9 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         div.card {
@@ -357,6 +354,90 @@
             border: solid 2px white;
             border-radius: 20px;
         }
+
+
+        /* responsive */
+        #video-img {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .para {
+            text-align: justify;
+            margin-top: 20px;
+            width: 500px;
+            margin-right: 20px;
+        }
+
+        #ul-list {
+            width: 40%;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+
+        #second-img {
+            width: 500px;
+            margin: 20px;
+            border: 2px solid white;
+        }
+
+        #img-big {
+            width: 50%;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        #para2 {
+            width: 400px;
+        }
+
+        #sec-img {
+            border: 2px solid white;
+            padding: 10px;
+        }
+
+
+        @media (max-width:768px) {
+            #video-img {
+                width: 100%;
+                padding: 10px;
+                margin-right: 0px;
+            }
+
+            #vid-img {
+                width: 100%;
+            }
+
+            .para {
+                /* margin-right: 30px; */
+                text-align: justify;
+                margin-top: 20px;
+                width: 100%;
+                margin-right: 20px;
+            }
+
+            #sec-img {
+                width: 100%;
+                margin: 20px;
+                border: 2px solid white;
+            }
+
+            .picture-container img {
+                width: 150%;
+                margin: 20px;
+                border: solid 2px white;
+            }
+
+            .picture-container2 img {
+                width: 90%;
+                margin: 20px;
+                border: solid 2px white;
+                border-radius: 20px;
+            }
+
+        }
     </style>
 </head>
 
@@ -398,7 +479,7 @@
             retention and prevention of water evaporation. Best used at night time when the ambient temperature is less
             than the water temperature.</p>
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <ol style="text-align: justify;margin-top: 20px;width: 400px;margin-right:20px;" type="1.">
+            <ol style="" type="1." class="para">
                 The Thermal Shield is opaque and has no solar gain. The 5mm Thermal Shield is the most thermal efficient
                 blanket on the market due to its high ‘R’ value and its exclusive ‘Air Cell’ low water absorbing foam
                 core.
@@ -412,8 +493,7 @@
 
 
             </ol><br>
-            <img src="assets/img/elitepool/thermal/Thermal-Resistance-Graph.jpg" alt=""
-                style="width: 500px;margin:20px;border: 2px solid white;">
+            <img src="assets/img/elitepool/thermal/Thermal-Resistance-Graph.jpg" alt="" style="" id="sec-img">
         </div>
         <p style="width: 85%; text-align:justify;"> <br>
             Thus, costing you more over time in labour repairs and heating costs.
@@ -427,21 +507,17 @@
     <div class="picture-container2">
         <div class="item">
 
-            <a href="assets/img/elitepool/thermal/thermal-shield-1-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/thermal/thermal-shield-1-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/thermal/thermal-shield-1-300x225.jpg" target="_blank"><img src="assets/img/elitepool/thermal/thermal-shield-1-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
-            <a href="assets/img/elitepool/thermal/thermal-shield-2-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/thermal/thermal-shield-2-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/thermal/thermal-shield-2-300x225.jpg" target="_blank"><img src="assets/img/elitepool/thermal/thermal-shield-2-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
-            <a href="assets/img/elitepool/thermal/thermal-shield-3-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/thermal/thermal-shield-3-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/thermal/thermal-shield-3-300x225.jpg" target="_blank"><img src="assets/img/elitepool/thermal/thermal-shield-3-300x225.jpg" alt=""></a>
         </div>
         <div class="item">
 
-            <a href="assets/img/elitepool/thermal/thermal-shield-4-300x225.jpg" target="_blank"><img
-                    src="assets/img/elitepool/thermal/thermal-shield-4-300x225.jpg" alt=""></a>
+            <a href="assets/img/elitepool/thermal/thermal-shield-4-300x225.jpg" target="_blank"><img src="assets/img/elitepool/thermal/thermal-shield-4-300x225.jpg" alt=""></a>
         </div>
 
 
@@ -453,15 +529,9 @@
 
     ?>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </html>
