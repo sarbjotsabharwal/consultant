@@ -416,6 +416,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -452,10 +453,10 @@
     </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <p style="width: 90%;">Elite Semi-Automatic Pool Covers offer you a remote controlled system for your Elite Super Bubble or Thermal
+        <p style="width: 90%;" class="font14">Elite Semi-Automatic Pool Covers offer you a remote controlled system for your Elite Super Bubble or Thermal
             Shield Blanket. Systems can be designed to suit most shapes and sizes.</p>
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
-            <ol style="text-align: justify;margin-top: 20px;margin-right:20px;" type="1." class="para">
+            <ol style="text-align: justify;margin-top: 20px;margin-right:20px;" type="1." class="para font14">
                 <li><strong>Removing the blanket</strong></li>
                 Just click the remote and the roller will automatically roll the cover off and stop when it reaches the
                 end.
@@ -476,7 +477,7 @@
         </div>
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;width:100%">
             <img src="assets/img/elitepool/semi-automatic/semi-automatic-roller-hoop-roller-1.jpg" alt="" style="" class="sec-img">
-            <ul style="text-align: justify;margin-top: 20px;width: 400px;margin:10px">
+            <ul style="text-align: justify;margin-top: 20px;width: 400px;margin:10px" class="font14">
 
                 <li>Fits most pool shapes</li>
                 <li>Fully Mobile – can be wheeled out of sight</li>

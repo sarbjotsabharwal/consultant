@@ -140,7 +140,7 @@
             margin: 10px;
             list-style-type: none;
             border-radius: 10px;
-            font-size: 17px;
+           
         }
 
         .list-items li:nth-child(odd) {
@@ -366,6 +366,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -404,7 +405,7 @@
             <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal">
                 <img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;" id="vid-img"></a>
         </div>
-        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" id="para">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" id="para" class="font14 font17">
             <li>Elite Triple Cell® is = to 3 standard round bubbles. The more contact with the water = better heating,
                 better insulation and the pool stays warmer for longer…that’s Elite Triple Cell®</li>
             <li>With Traditional Bubble, performance is reduced due to the shaped “dead zone” between the bubbles not
@@ -427,7 +428,7 @@
 
 
         <img src="assets/img/elitepool/triple cell/TripleCell_HeatedFree_FromTheSun.jpg" alt="" style="" id="second-img">
-        <ul style="" id="ul-list">
+        <ul style="" id="ul-list" class="font14">
 
             <h3 style="color: rgb(1, 196, 1);font-weight:bold">Elite Triple Cell® World Leading Technology</h3><br>
             <li>Performance – large purpose designed solar cells provide greater heat generation and insulation</li>
@@ -447,13 +448,13 @@
         <h5 class="card-title" style="font-weight: normal;font-size: 40px;">The Ultra New Triple Cell® Solar Pool
             Blanket Makes Others Obsolete</h5>
 
-        <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
+        <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;" class="">
 
-            <h5 style="font-style: italic;text-align: center;width: 80%;margin-bottom: 30px;">Elite Triple Cell® has
+            <h5 style="font-style: italic;text-align: center;width: 80%;margin-bottom: 30px;" class="font14">Elite Triple Cell® has
                 evolved over a ‘25 year’ span and it has now become a reality… thanks to Elite’s vision and foresight in
                 the continuous development and delivery of the world’s best performing pool cover available today.</h5>
 
-            <ul class="list-items">
+            <ul class="list-items font17 font14">
                 <li>Elite Triple Cell® is the first purposed designed and manufactured pool blanket… It breaks away from
                     the
                     traditional ‘bubble wrap’ style and its problems. Elite Triple Cell® is a world’s first’ and it’s

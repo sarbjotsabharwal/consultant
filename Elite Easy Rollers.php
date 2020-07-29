@@ -140,7 +140,7 @@
             margin: 10px;
             list-style-type: none;
             border-radius: 10px;
-            font-size: 17px;
+        
         }
 
         .list-items li:nth-child(odd) {
@@ -409,6 +409,7 @@
         }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -431,7 +432,7 @@
     <!-- <a href="#elitepool"><img src="assets/img/elitepool/down.gif" alt="" style="width: 150px;border: solid 2px white;border-radius: 100px;display: block;margin: auto;"></a> -->
     <!-- section end -->
 
-    <p style="color: white;text-align:center;width: 70%;display: block;margin:auto;">Elite’s wide range of roller
+    <p style="color: white;text-align:center;width: 70%;display: block;margin:auto;" class="font14">Elite’s wide range of roller
         systems are the only all aluminium rollers on the market. They are built to last
         with no plastic to break down in Australia’s harsh UV environment.
         <br> <strong>That’s real value for money!</strong> <br> (No plastic to break down in the Sun)
@@ -448,7 +449,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para font14">
             <li> The Mercedes of pool blanket rollers has been designed by a specialist design studio to offer the owner
                 the most ascetically pleasing, easiest to operate pool roller on the world market with its radiused
                 edges and form it will look great in any back yard.</li>
@@ -460,12 +461,12 @@
         <div style="width: 50%;padding: 10px;margin-right: 50px;">
             <a href="" onclick="OpenPlayer9()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/easy roller/easy roller.png" alt="" style="border-radius: 10px;" id="second-img"></a>
         </div>
-        <ul>
+        <ul class="font14">
             <li style="text-align: justify;">The Elegance Easy roller frames can be power coated to your choice of
                 colour to better match your pool area.
                 Available fully mobile or stationary “use and remove”</li>
         </ul>
-        <div class="">
+        <div class="font14">
             <img src="assets/img/elitepool/easy roller/1-Elite-Elegance-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
 
             <ul style="text-align: justify;margin-top: 20px;">
@@ -491,7 +492,7 @@
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
             <img src="assets/img/elitepool/easy roller/2-Elite-Platinum-Roller-1.jpg" alt="" style="" id="img-big">
 
-            <ul style="text-align: justify;margin-top: 20px;" id="para2">
+            <ul style="text-align: justify;margin-top: 20px;" id="para2" class="font14">
                 <li>Available fully mobile or stationary “use and remove”</li>
                 <li>The solar blanket is totally detachable from the roller so you can simply wheel the Easy roller back from the pool edge or out of sight.</li>
                 <li>Featuring extra tall marine grade anodized aluminium frames for strength, reliability and longevity and a large easy wind wheel/handle combo winding system.</li>
@@ -499,7 +500,7 @@
                 <li>Over cover clips onto framework cut outs to hold the over cover perfectly, to protect your investment</li>
 
             </ul>
-            <div style="width: 85%;text-align:justify;margin-top:10px">
+            <div style="width: 85%;text-align:justify;margin-top:10px" class="font14">
 
                 <li>Elite’s exclusive drop pin system. (stops the roller moving when in use and locates the roller in the exact spot for easy, one person operation)</li>
                 <li> The only roller with its own pull cord system, just walk to the other end of the pool and pull the cord
@@ -519,7 +520,7 @@
         <div class="" style="">
             <img src="assets/img/elitepool/easy roller/Elite-Deluxe-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
 
-            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
+            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;" class="font14">
                 <li> Elite Deluxe Fully Mobile Easy Roller., “use and remove”</li>
                 <li> Has nylon and stainless steel 360° rotating heavy duty castors for ease of use</li>
                 <li> Computer cut 5mm anodised frame for longevity</li>
@@ -547,7 +548,7 @@
         <div class="" style="">
             <img src="assets/img/elitepool/easy roller/Elite-Standard-Roller-Info-Sheet.jpg" alt="" style="width: 90%;">
 
-            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
+            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;" class="font14">
                 <li>All aluminium construction Anodized tube</li>
                 <li> Comes complete with white reflective over cover</li>
                 <li>5mm aluminium frame construction</li>
@@ -565,7 +566,7 @@
         <div class="" style="">
             <img src="assets/img/elitepool/easy roller/Elite-Pool-Cord-System-Info-Sheet.jpg" alt="" style="width: 90%;">
 
-            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;">
+            <ul style="text-align: justify;width: 90%;display: block;margin: auto;margin-top: 20px;" class="font14">
                 <li>One person can easily pull the cover onto the pool from the opposite end to the roller system.</li>
                 <li>Elites exclusive detachable roller to blanket system, allows the blanket to remain on the pool while the
                     Elite roller can be moved away from the pool. Great for winter and when entertaining around the pool.</li>

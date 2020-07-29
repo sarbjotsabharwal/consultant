@@ -458,6 +458,7 @@
 
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -499,12 +500,12 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-        <p>
+        <p class="font14">
             Anyone who has a pool will know how much work is involved in maintaining it. In most cases you spend
             approximately 8-9 months a year cleaning and vacuuming your pool, only to enjoy 3-4 months use.
         </p>
 
-        <ul style="" class="para">
+        <ul style="" class="para font14">
             <li>What’s even more worrying is when you have children or pets, then you’ll need an extra set of eyes in
                 the back of your head to ensure security.</li>
 
@@ -519,7 +520,7 @@
         <div style="" id="second-img">
             <a href="" onclick="OpenPlayer12()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/security and debris/security & debris/Security Debris Mesh.png" alt="" style="border-radius: 10px;" class="sec-img"></a>
         </div>
-        <p style="text-align: justify;">The thick mesh also means that water evaporation and chemical usage is greatly
+        <p style="text-align: justify;" class="font14">The thick mesh also means that water evaporation and chemical usage is greatly
             reduced, saving you time and money.
 
             The Super Mesh fabric is only available on Elite covers, please ask for a FREE sample and you compare the
@@ -530,24 +531,24 @@
         <i>By far the best Mesh Security/ Debris cover on the market.</i>
     </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px;text-align:justify">
-        <p>The cover system is virtually invisible when removed, only leaving a hole the diameter of a pencil in the
+        <p class="font14">The cover system is virtually invisible when removed, only leaving a hole the diameter of a pencil in the
             pool surround – that means no stubbed toes or unsightly fasteners!</p>
         <div style="display:flex;flex-wrap:wrap;justify-content:center;">
             <div class="item" style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
                 <h3 style="text-align: center;">SAVES LIVES</h3>
-                <p>Save a life –The Elite Super mesh cover has the strength to support the weight of a small child or
+                <p class="font14">Save a life –The Elite Super mesh cover has the strength to support the weight of a small child or
                     pet in an emergency when installed correctly.</p>
                 <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt="" style="width: 100%;display:block; margin: auto;"><br>
             </div>
             <div class="item" style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
                 <h3 style="text-align: center;">SAVES CLEANING</h3>
-                <p>A clean pool all year round <br>
+                <p class="font14">A clean pool all year round <br>
                     What blows on just blows off – just cover and forge</p><br><br>
                 <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt="" style="width: 100%;display:block; margin: auto;"><br>
             </div>
             <div class="item" style="width: 300px;margin: 20px;border: 5px solid green;padding:10px;border-radius: 20px;">
                 <h3 style="text-align: center;">SAVES MONEY</h3>
-                <p>Helps stop evaporation. Saves chemicals too! (Up to 50%) <br>
+                <p class="font14">Helps stop evaporation. Saves chemicals too! (Up to 50%) <br>
                     Saves precious water – (Up to 10,000 L/month)</p><br>
                 <img src="assets/img/elitepool/security and debris/security & debris/Mesh-Cover-Save-Lives.jpg" alt="" style="width: 100%;display:block; margin: auto;"><br>
             </div>

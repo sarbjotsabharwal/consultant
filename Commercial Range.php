@@ -439,6 +439,7 @@
         }
     </style>
 </head>
+<link rel="stylesheet" href="assets/css/fontset14.css">
 
 <body style="font-family: Montserrat, sans-serif;">
     <?php
@@ -479,12 +480,12 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-        <p>
+        <p class="font14">
             Since 1989, Elite Pool Covers have pioneered the development, design & manufacture of a range of world’s
             leading custom commercial pool cover systems that can be seen on many pools throughout Australia & Overseas.
         </p>
 
-        <ul style="" class="para">
+        <ul style="" class="para font14">
             <h3 style="">Money saving, Water Saving & Energy saving</h3>
             Elite Pool Covers is an innovator in providing value for money solutions to pool operators.
 
@@ -508,7 +509,7 @@
     </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px;text-align:justify">
 
-        <ul>
+        <ul class="font14">
 
             <li> Elite’s 5mm Thermal Shield Blankets have the highest R value on the market, giving you the best return
                 on investment by saving the maximum energy, in turn saving you thousands of dollars.</li>
@@ -538,7 +539,7 @@
     <div class="header1" style="margin-top:20px">
         <i>Options for storing Commercial blankets</i>
     </div>
-    <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px;text-align:justify">
+    <div class="container2 font14" id="elitepool" style="margin-bottom: 25px;margin-top:10px;text-align:justify">
         <h2>Bench Seating</h2>
         <ul>
 

@@ -139,7 +139,7 @@
             margin: 10px;
             list-style-type: none;
             border-radius: 10px;
-            font-size: 17px;
+         
         }
 
         .list-items li:nth-child(odd) {
@@ -363,6 +363,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;background:black">
@@ -390,7 +391,7 @@
                     Charthill – SALES & MARKETING SERVICES
                 </h3><br>
 
-                <p> Charthill Consultants is an all-encompassing resource for distinct clients including brands,
+                <p class="font14"> Charthill Consultants is an all-encompassing resource for distinct clients including brands,
                     businesses,
                     new developments, hospitality and leading names in real estate. Our services are tailored to every
                     client’s
@@ -412,7 +413,7 @@
 
     <div class="container2" style="background: rgb(173, 173, 173);">
         <div class="container-box" id="container-box-1">
-            <p>
+            <p class="font14">
                 <span>SEO</span>
                 SEO is one of the most effective digital marketing strategies. Search engine optimization works to
                 improve your website’s ranking in search engine ranking pages, so that your site earns more traffic.
@@ -422,7 +423,7 @@
         </div>
         <div class="container-box">
             <img src="assets/img/sales and marketing/new/pay per click.jpg" alt="">
-            <p>
+            <p class="font14">
                 <span>PPC</span>
                 Pay per click advertising is another extremely common digital marketing strategy. It is a cost effective
                 strategy that allows your business to target ideal customers based on keywords they search, demographic
@@ -430,7 +431,7 @@
             </p>
         </div>
         <div class="container-box">
-            <p>
+            <p class="font14">
                 <span>SOCIAL MEDIA MARKETING</span>
                 Social media channels like Facebook, Twitter, Instagram and LinkedIn allow your business to reach more
                 customers and boost brand awareness.Sharing your company’s content on social media is a great way to
@@ -440,7 +441,7 @@
         </div>
         <div class="container-box">
             <img src="assets/img/sales and marketing/new/email.jpg" alt="">
-            <p>
+            <p class="font14">
                 <span>Email marketing</span>
                 Email marketing can also help you increase brand awareness and site traffic — and it’s a great lead
                 nurturing strategy. Top digital marketing companies offer this service because of its extremely low cost
@@ -448,7 +449,7 @@
             </p>
         </div>
         <div class="container-box">
-            <p>
+            <p class="font14">
                 <span>Content Marketing</span>
                 Content marketing allows you to create informative, beneficial content based on your target keywords in
                 order to rank at the top of search results.
@@ -457,7 +458,7 @@
         </div>
         <div class="container-box">
             <img src="assets/img/sales and marketing/new/fencing.jpg" alt="">
-            <p>
+            <p class="font14">
                 <span> Geo Fencing </span>
                 Geo fence technology combines effective mobile advertising with advanced location based technology to
                 reach consumers at the right time: when they are already in your neighborhood. Geo fence creates a
@@ -477,7 +478,7 @@
 
         <div class="container" style="color:white;width: 100%;padding: 15px;">
             <h5 class="card-title" style="font-weight: normal;font-size: 40px;padding: 20px;background: rgb(233, 233, 233); width: 100%;font-weight: bold;border-radius: 20px; color: rgb(1, 196, 1);">SALES DEVELOPMENT SERVICES</h5>
-            <p style="color: white;font-size:15px;text-align: center;width: 90%;padding:20px;border-radius:10px;font-weight: bold;background: rgb(0, 0, 0,.2);display: block;margin:auto;">Our research shows that sales training can boost product sales by up to
+            <p style="color: white;text-align: center;width: 90%;padding:20px;border-radius:10px;font-weight: bold;background: rgb(0, 0, 0,.2);display: block;margin:auto;" class=" font14 font15">Our research shows that sales training can boost product sales by up to
                 20%.During our work with the top-performing sales organizations in the world, Charthill has identified
                 and
                 outlined the key selling skills and behaviors that are most needed to improve sales performance and
@@ -486,8 +487,8 @@
                 Charthill consultants deliver a premium professional service that uses unique training methodology
                 actively
                 engaging participants in role-playing, problem-solving and brainstorming exercises.</p>
-            <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
-                <ul class="list-items">
+            <div class="card-body font17 font14" style="display: flex;flex-wrap:wrap;justify-content: center;">
+                <ul class="list-items" >
                     <li>CHARTHILL exclusive sales Training Programs.</li>
                     <li>CHARTHILL constructive Negotiation Training Programs.</li>
                     <li>CHARTHILL Strategy Training Programs</li>

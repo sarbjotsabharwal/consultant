@@ -269,6 +269,7 @@
 
         /* main image and card-container end */
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="  font-family: Montserrat, sans-serif;background:black">
@@ -298,7 +299,7 @@
                     <span style="font-size: 17px;padding:0;margin:0;">Australia, New-Zealand, Canada and United States</span>
                 </h3><br>
 
-                <p> As a private company, if you have decided to go public, our experience has shown that the most successful
+                <p class="font14"> As a private company, if you have decided to go public, our experience has shown that the most successful
                     IPOs start long before the road show kicks off.
                     <br>
                     Charthill’s comprehensive IPO Advisory process centers on working with our clients in the year prior to the
@@ -321,7 +322,7 @@
                     IPO execution
                 </h3><br>
 
-                <p> We provide support before, during, and after an IPO but the critical period for many companies is the 18
+                <p class="font14"> We provide support before, during, and after an IPO but the critical period for many companies is the 18
                     months prior to listing and the six months after. Throughout your IPO journey, our team of experienced
                     professionals can help guide you through the IPO process and in navigating the reporting obligations that
                     follow listing.
@@ -351,7 +352,7 @@
                     <div class="card-body text-dark" id="card-body-1">
 
 
-                        <ul style="text-align: justify; font-size: 15px;">
+                        <ul style="text-align: justify;"  class="font14 font15">
 
                             <li>Assessing IPO readiness</li>
                             <li>Developing an IPO Road map</li>
@@ -372,7 +373,7 @@
                         </h5>
                     </div>
                     <div class="card-body text-dark" id="card-body-2">
-                        <ul style="color: white;text-align: justify;font-size: 15px; ">
+                        <ul style="color: white;text-align: justify;" class="font14 font15">
                             <li>Technical accounting and audit support</li>
 
                             <li>Helping to prepare financial statements and pro forma financial information including
@@ -398,7 +399,7 @@
                         </h5>
                     </div>
                     <div class="card-body text-dark" id="card-body-3">
-                        <ul style="text-align: justify; font-size: 15px;">
+                        <ul style="text-align: justify;"  class="font14 font15">
                             <b><i></i></b>
                             <li> Assisting with external reporting</li>
 
@@ -418,7 +419,7 @@
                     subject to a number of rules and reporting obligations. With a host of benefits as well as costs, going
                     public have considerable benefits:
                 </p>
-                <ul style="color: white;text-align: justify;font-size: 15px;" class="liststyle-items">
+                <ul style="color: white;text-align: justify;" class="liststyle-items font14 font15">
 
                     <li>A value for securities can be established</li>
                     <li>Increased access to capital-raising opportunities (both public and private financings) and expansion

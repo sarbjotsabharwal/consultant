@@ -174,6 +174,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body>
@@ -196,7 +197,7 @@
     background-color: rgba(0, 0, 0, 0.39);z-index: 5;width: 100%;height: auto;margin-top: 150px;text-align: center;font-weight:bold;padding:10px"
         id="heading-text">
         Business Opportunities</h1><br>
-    <h4 style="color: white;font-style: italic;text-align: center;width: 80%;display: block;margin:auto;">Grow with us!
+    <h4 style="color: white;font-style: italic;text-align: center;width: 80%;display: block;margin:auto;" class="font14">Grow with us!
         <br> with our fantastic Business
         Opportunities. To join us or for more information regarding this, hit the 'read more' button given below. </h4>
 

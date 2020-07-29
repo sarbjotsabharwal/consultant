@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
 
     <!-- Main CSS File -->
     <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
@@ -172,17 +174,28 @@
                 width: 100%
             }
 
-           #section-1, #section-2, #card-item11{
-               width:100%;
-           }
+            #section-1,
+            #section-2,
+            #card-item11 {
+                width: 100%;
+            }
 
 
             .card-header h5,
             .card-title {
                 font-size: 1.5rem;
             }
+
+            #intro .carousel-item {
+                width: 100%;
+                height: auto;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body>
@@ -201,7 +214,8 @@
 
 
                     <div class="carousel-item active">
-                        <div class="carousel-background"><img src="assets/img/social-impact_back2.jpg" style="width: 100%;" alt=""></div>
+                        <div class="carousel-background"><img src="assets/img/social-impact_back2.jpg"
+                                style="width: 100%;" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <!-- <h2>Discover Charthill Consulting</h2>
@@ -209,12 +223,14 @@
                                     difference together.</p> -->
                                 <div class="card text-center" style="width: 70vw;top:5vh;">
                                     <div class="card-header" style="padding: 0;">
-                                        <img src="assets/img/SocialImpact/solar-cell.jpg" alt="" style="border-top-right-radius:15px;border-top-right-radius:15px;width: 100%;height: 350px;">
+                                        <img src="assets/img/SocialImpact/solar-cell.jpg" alt=""
+                                            style="border-top-right-radius:15px;border-top-right-radius:15px;width: 100%;height: 350px;">
                                     </div>
                                     <div class="card-body" style="background: linear-gradient(to right, #00c6ff, #0072ff);border-bottom-left-radius: 25px;border-bottom-right-radius:25px;color: white;
                                     ">
                                         <h5 class="card-title" style="">Social Impact</h5>
-                                        <h7 style="text-align: justify;"> Charthill desires to be the torch bearer of
+                                        <h7 style="text-align: justify;" class="font13"> Charthill desires to be the
+                                            torch bearer of
                                             promoting the use of renewable energy sources, thereby helping to sustain
                                             the environment. Efficient, prompt, and timely action defines the way for
                                             Charthill to conduct its business and goes forward in its endeavor to
@@ -242,11 +258,14 @@
                                     difference together.</p> -->
                                 <div class="card text-center" style="width: 70vw;top:5vh;">
                                     <div class="card-header" style="padding: 0;">
-                                        <img src="assets/img/SocialImpact/wind-mill.jpg" alt="" style="border-radius:15px;width: 100%;height: 350px;">
+                                        <img src="assets/img/SocialImpact/wind-mill.jpg" alt=""
+                                            style="border-radius:15px;width: 100%;height: 350px;">
                                     </div>
-                                    <div class="card-body" style="  background: linear-gradient(to right, #ffb75e, #ed8f03);;color:rgb(255, 255, 255);border-bottom-left-radius:25px;border-bottom-right-radius: 25px;">
+                                    <div class="card-body"
+                                        style="  background: linear-gradient(to right, #ffb75e, #ed8f03);;color:rgb(255, 255, 255);border-bottom-left-radius:25px;border-bottom-right-radius: 25px;">
                                         <h5 class="card-title" style=" ">Social Impact</h5>
-                                        <h7 style="text-align: justify;"> In the past three decades, research and
+                                        <h7 style="text-align: justify;" class="font13"> In the past three decades,
+                                            research and
                                             development in green energy has exploded, yielding hundreds of promising new
                                             technologies that can reduce our dependence on coal, oil, and natural gas.
                                             But what is green energy, and what makes it a better option than fossil
@@ -298,7 +317,7 @@
             border-radius: 25px;
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #96c93d, #00b09b);opacity: 1;">
-                <p class="card-text" id="card-item11">
+                <p class="card-text font14" id="card-item11">
                     ELITE POOL COVER specializes in the design, development, fabrication, and supply of triple cell
                     solar blanket. Elite pool cover got specialty in innovative technologies and products .Ultra New
                     Award Winning Triple Cell® Solar Pool Blanket – a world's first
@@ -335,10 +354,10 @@
                 <img src="assets/img/SocialImpact/triplecell.jpg" alt="" style="" id="image-2">
                 <section id="section-1">
 
-                    <p style="font-size: 15px;">Performance – large purpose designed solar cells provide greater heat
+                    <p style="" class="font15 font14">Performance – large purpose designed solar cells provide greater heat
                         generation and insulation designed and manufactured in Australia, proven in the world’s harshest
                         conditions easier to operate, easier to wind, easier on the eye 610 micron</p>
-                    <ul style="display: flex;flex-wrap:wrap;" class="listoption">
+                    <ul style="display: flex;flex-wrap:wrap;" class="listoption font14 font15">
 
                         <li>
                             The Elite Triple Cell® is a solar cell that acts as a collector of energy. This energy is
@@ -386,11 +405,11 @@
                     style="width: 100%;margin: 0;border-radius: 30px;"> -->
                 <h5 class="card-title">SOLAR EDWARD</h5>
             </div>
-            <div class="card-body" style="text-align: justify; font-size: 15px;background: #7F00FF;  
+            <div class="card-body font14 font15" style="text-align: justify; background: #7F00FF;  
             background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #96c93d, #00b09b);;border-radius: 25px;color: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             ">
-                <section id="section-2">
+                <section id="section-2" class="font14">
                     Solar Edward knows very well that how quickly technology can change, our goal is to keep up with the
                     latest trends and advances in all technological breakthrough that is why solar Edward does not shy
                     away from any challenge, Edward solar has managed to align ourselves with some great organizations
@@ -400,7 +419,7 @@
                     installation with full backing of electrical and mechanical engineering aspects of the project.
                     <br>
 
-                    <ul style="display: flex;flex-wrap:wrap;" class="listoption">
+                    <ul style="display: flex;flex-wrap:wrap;" class="listoption font14">
                         <li>
                             <center><b>Reduces your electricity bills</b></center><br>
                             <p>The sunlight is free and surplus power your system produces, will be sold back to the

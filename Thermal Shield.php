@@ -439,6 +439,7 @@
 
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -475,10 +476,10 @@
     </div>
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <p style="width: 90%;">The Thermal Shield range offers great insulation. It has proven the best for heat
+        <p style="width: 90%;" class="font14">The Thermal Shield range offers great insulation. It has proven the best for heat
             retention and prevention of water evaporation. Best used at night time when the ambient temperature is less
             than the water temperature.</p>
-        <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;">
+        <div class="font14" style="display: flex;flex-wrap: wrap;justify-content: center;">
             <ol style="" type="1." class="para">
                 The Thermal Shield is opaque and has no solar gain. The 5mm Thermal Shield is the most thermal efficient
                 blanket on the market due to its high ‘R’ value and its exclusive ‘Air Cell’ low water absorbing foam
@@ -495,7 +496,7 @@
             </ol><br>
             <img src="assets/img/elitepool/thermal/Thermal-Resistance-Graph.jpg" alt="" style="" id="sec-img">
         </div>
-        <p style="width: 85%; text-align:justify;"> <br>
+        <p style="width: 85%; text-align:justify;" class="font14"> <br>
             Thus, costing you more over time in labour repairs and heating costs.
 
             The new exclusive easy clean deep blue outer membranes are made to last from high UV resistant, extra high

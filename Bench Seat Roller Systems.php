@@ -456,6 +456,7 @@
 
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -494,7 +495,7 @@
 
         <div class="" style="display: flex;flex-wrap: wrap;justify-content: center;width:100%">
             <img src="assets/img/elitepool/bench seat/2-cover-on-roller-small.jpg"" alt="" style="" class=" sec-img">
-            <ol style=" text-align: justify;margin-top: 20px;width: 93%;margin-right:30px;" type="1.">
+            <ol style=" text-align: justify;margin-top: 20px;width: 93%;margin-right:30px;" type="1." class="font14">
                 <h2>Elite Pool Blanket Storage Seats</h2>
                 Store your Elite solar blanket in this neat roller seat system. Plus have a great place to sit, lie and
                 place your towel while taking a dip in your warm pool.

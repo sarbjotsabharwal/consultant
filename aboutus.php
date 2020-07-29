@@ -19,7 +19,7 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-
+  <link rel="stylesheet" href="assets/css/fontset14.css">
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -97,6 +97,21 @@
       padding-bottom: 50px;
     }
 
+    .pop-card1 {
+      color: white;
+      padding-left: 20px;
+      margin-left: 30px;
+      margin-right: 80px;
+      font-size: 16px
+    }
+
+    .pop-card2 {
+      padding-left: 20px;
+      margin-left: 30px;
+      margin-right: 80px;
+      font-size: 16px
+    }
+
     /* responsive */
     @media (max-width: 768px) {
       .top-container1 h1 {
@@ -125,6 +140,14 @@
         padding: 40px;
         padding-left: 50px;
         padding-right: 50px;
+      }
+
+      .pop-card1,
+      .pop-card2 {
+        font-size: 14px
+      }
+      body{
+        font-size: 14px;
       }
 
     }
@@ -249,7 +272,7 @@
                 INNOVATIVE MIND & QUICK SOLUTIONS
               </h3><br>
 
-              <p>We at Charthill deliver integrated and quick solutions, which complement our capabilities with the
+              <p class="font14">We at Charthill deliver integrated and quick solutions, which complement our capabilities with the
                 ecosystem of the world’s top innovators to gain better, faster and more successful results for the
                 customers’ entire satisfaction and convenience. We are committed to providing high-quality services
                 and products. We meet the mutually agreed-to requirements the first time and strive for continuous
@@ -264,7 +287,7 @@
                 UNIQUE WORKCULTURE
               </h3><br>
 
-              <p>We take our hands on, collaborative approach to all our engagements and focus on developing solutions
+              <p class="font14">We take our hands on, collaborative approach to all our engagements and focus on developing solutions
                 alongside our clients. It all leads to strategic client partnership that focus on long-term healthy
                 relations between our clients and us and lead to success of whole work culture that is considered to
                 be the back bone of every progressive firm. We hold our Core Values close to our hearts. They are the
@@ -279,7 +302,7 @@
                 BUSINESS STRATEGY
               </h3><br>
 
-              <p>We lay emphasis on developing a business strategy through examining current marketing plans by
+              <p class="font14"> We lay emphasis on developing a business strategy through examining current marketing plans by
                 providing the unique, valuable and intelligent market research. To meet our expectations, we have a
                 wide
                 range of market research techniques to use. The world of Internet marketing changes in the blink of an
@@ -309,7 +332,7 @@
 
   <div class="about-us" style="text-align: justify;">
     <h1 style="text-align: center;" id="aboutusection">A brief on Us</h1>
-    <p class="about-intro" style="text-align: center;font-weight: bold;margin-top: 20px;"><i>Individual commitment to a
+    <p class="about-intro" style="text-align: center;font-weight: bold;margin-top: 20px;" ><i class="font14">Individual commitment to a
         group effort–that is what makes a
         team work, a company work, a
         society work, a
@@ -318,9 +341,9 @@
     <br>
     <!-- <h3  style="text-align: center;"><b>Welcome to Charthill Consultants!</b></h3><br> -->
 
-    <p style="text-align: center;">Client satisfaction: Our watchword for sustainable growth</p>
+    <p style="text-align: center;" class="font14">Client satisfaction: Our watchword for sustainable growth</p>
 
-    <p>Charthill Consultants are committed to delivering the highest level of client satisfaction in the consulting
+    <p class="font14">Charthill Consultants are committed to delivering the highest level of client satisfaction in the consulting
       market. At Charthill Consultants we try our utmost to provide our clients the best hidden opportunities they may
       never have thought about and heard about. To support and achieve this goal, the firm has implemented a quality
       policy that is systematically applied to all its assignments.
@@ -347,7 +370,7 @@
           <div class="card-body">
 
             <h4 class="text-center">Customer Commitment</h4>
-            <p class="card-text">We develop relationships that make a positive difference in our customers’ lives.</p>
+            <p class="card-text font14">We develop relationships that make a positive difference in our customers’ lives.</p>
           </div>
         </div>
 
@@ -355,7 +378,7 @@
           <img class="card-img-top" src="assets/img/aboutuscards/teamwork.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="text-center">Teamwork</h4>
-            <p class="card-text text-center">We work together, across boundaries, to meet the needs of our customers and
+            <p class="card-text text-center font14">We work together, across boundaries, to meet the needs of our customers and
               to help our Company win.</p>
           </div>
         </div>
@@ -364,7 +387,7 @@
           <img class="card-img-top" src="assets/img/aboutuscards/respect.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="text-center">Respect For People</h4>
-            <p class="card-text text-center">We value our people, encourage their development and reward their
+            <p class="card-text text-center font14">We value our people, encourage their development and reward their
               performance.</p>
           </div>
         </div>
@@ -373,7 +396,7 @@
           <img class="card-img-top" src="assets/img/aboutuscards/win.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="text-center">A Will to Win</h4>
-            <p class="card-text text-center">We exhibit a strong will to win in the marketplace and in every aspect of
+            <p class="card-text text-center font14">We exhibit a strong will to win in the marketplace and in every aspect of
               our business.</p>
           </div>
         </div>

@@ -448,6 +448,7 @@
 
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -490,13 +491,13 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <p>
+        <p class="font14">
 
             The Elite Pool Protector fits tight as a drum. A secure & safe way to completely cover your pool, the Elite
             Pool Protector pool cover system is ideally suited for all swimming pools up to 56m2 in size.
         </p>
 
-        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para font14">
             <li> The Elite Pool Protector is manufactured from strong long life UV resistant vinyl that comes in a range
                 of colours along with a 10 year pro rata warranty.</li>
 
@@ -509,7 +510,7 @@
         <div style="" id="img-big">
             <a href="" onclick="OpenPlayer11()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/security and debris/pool protector/elite pool protector.png" alt="" style="border-radius: 10px;" class="sec-img"></a>
         </div>
-        <p style="text-align:justify">
+        <p style="text-align:justify" class="font14">
 
             A built in roller mechanism allows for the cover to be rolled on and off your pool in less than 3 minutes,
             making the Elite Pool Protector the quickest and easiest to use security cover on the market.

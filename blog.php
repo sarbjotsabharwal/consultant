@@ -217,6 +217,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;background:black">
@@ -248,7 +249,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Has Coronavirus Killed the Appeal of Franchising or Made it Stronger?</h5>
-                <p class="card-text">Since the middle of March, every individual and business across the country has drastically changed their daily habits and practices. People have self-isolated and been forced to work from home.</p>
+                <p class="card-text font14">Since the middle of March, every individual and business across the country has drastically changed their daily habits and practices. People have self-isolated and been forced to work from home.</p>
                 <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf()">Read More</a>
             </div>
             <div class="card-footer text-muted">by <a href="https://www.entrepreneur.com/article/350233" target="_blank"> Rick Bisio</a>(23 July 2020)
@@ -261,7 +262,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">When Licensing New Tech Is Better Than Building It In-House</h5>
-                <p class="card-text">Most companies fear competition from a rival’s product innovations and the risk of falling behind their industry’s technological frontier. Firms affected by such competitive pressure usually react by trying to strengthen their R&D capabilities and close the gap between their and their rival’s technologies as quickly as possible. </p>
+                <p class="card-text font14">Most companies fear competition from a rival’s product innovations and the risk of falling behind their industry’s technological frontier. Firms affected by such competitive pressure usually react by trying to strengthen their R&D capabilities and close the gap between their and their rival’s technologies as quickly as possible. </p>
                 <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" onclick="OpenPdf1()">Read More</a>
             </div>
             <div class="card-footer text-muted">by <a href="https://hbr.org/2020/06/when-licensing-new-tech-is-better-than-building-it-in-house" target="_blank">Solon Moreira , Thomas Maximilian Klueter and Stefano Tasselli</a> <br> (30 June 2020)

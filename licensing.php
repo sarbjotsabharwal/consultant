@@ -9,7 +9,8 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Metal+Mania&display=swap"
+        rel="stylesheet">
     <style>
         div.card {
             width: 40vw;
@@ -177,7 +179,7 @@
             top: -70px;
             position: relative;
             width: 900px;
-            height: 350px;
+            height: auto;
             /* background: red; */
         }
 
@@ -213,8 +215,10 @@
                 width: 100%;
             }
         }
-            /* main image and card-container end */
+
+        /* main image and card-container end */
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;background:black">
@@ -246,7 +250,7 @@
                     Licensing
                 </h3><br>
 
-                <p> Charthill Consulting is an innovative group of specialists dedicated to licensing our client's
+                <p class="font14"> Charthill Consulting is an innovative group of specialists dedicated to licensing our client's
                     inventions. Our one goal is that our clients and their inventions achieve success. This is because
                     we have a vested interest in them of our time and resources and only get paid when they do. And
                     maybe even more importantly to some, that they get the pleasure of contributing to society and
@@ -259,7 +263,7 @@
         </div>
 
         <div class="card-item" style="background: rgb(0, 18, 177);;color: white;">
-            <div class="two-cards">
+            <div class="two-cards font14">
                 <strong>CONFIDENTIAL</strong><br>
                 Your invention submission is protected by our Nondisclosure Agreement, so you can be reassured that your
                 disclosure is 100% confidential. <br><br>
@@ -273,7 +277,8 @@
                 urgency and an excitement about the search for innovation.
 
                 <br><br>
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" onclick="OpenPlayer()">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
+                    onclick="OpenPlayer()">
                     Watch Video
                 </button>
             </div>
@@ -289,7 +294,8 @@
     <div style="background: rgb(173, 173, 173);">
 
 
-        <h1 style="display:block;margin:auto;color:white;background: rgb(37, 155, 37);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
+        <h1
+            style="display:block;margin:auto;color:white;background: rgb(37, 155, 37);z-index: 5;width: 100%;text-align: center;font-size: 25;border-radius: 25px;padding:25px;font-weight: bold;">
             COMMERCIAL ELEMENTS OF A LICENSING
         </h1><br>
         <div class="cardcontainer1" id="allcards1" style="">
@@ -305,7 +311,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
                     <h5 class="card-title">How a licensing aggrement works? </h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         In a typical licensing agreement, the licensor grants the licensee the right to sell goods,
                         apply a
                         brand name or trademark, or use patented technology owned by the licensor, in exchange for
@@ -328,7 +334,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ffdbcd, #ffa1a1);opacity: 1;">
                     <h5 class="card-title">What is the cost of licensing?</h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         The licensee pays a upfront fee or no fee depending on the negotiation for the license and a
                         negotiated percentage of turnovers on the branded, or other licensed products. That ongoing
                         percentage can be negotiated between both parties.
@@ -349,7 +355,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
                     <h5 class="card-title">How does licensee run the business? </h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         The licensee runs the business by making use of the brand or other intellectual properties to
                         attract clients and customer by following the terms and conditions.
 
@@ -369,7 +375,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ffdbcd, #ffa1a1);opacity: 1;">
                     <h5 class="card-title">Geographical Exclusivity</h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         Geographical exclusivity is the practice where the owner of the rights to a product or service
                         grants to a licensee the exclusive right to develop and/or commercialize the product in a
                         specific country or territory only.
@@ -390,7 +396,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #ecfad4, #c2faf3);opacity: 1;">
                     <h5 class="card-title">Licensing legislations and policies? </h5>
-                    <p class="card-text" style="text-align: center;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: center;padding: 10px;color: black;height: auto;">
                         A licensing agreement is a legal contract between two parties known as the licensor and the
                         licensee. The licensor grants licensee the right to produce and sell goods, apply a brand name
                         or trademark or use patented technology owned by the licensor. Licensees are controlled by less

@@ -140,7 +140,7 @@
             margin: 10px;
             list-style-type: none;
             border-radius: 10px;
-            font-size: 17px;
+           
         }
 
         .list-items li:nth-child(odd) {
@@ -424,6 +424,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -454,7 +455,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para font14">
             Out-of-sight and out-of-mind, that’s the Elite Hideaway® difference.When not in use your <strong>Elite Solar
                 Pool Blanket</strong> is stored away. It’s easy to operate with a single person able to remove or
             replace the <strong> Solar Blanket</strong> in no time at all.
@@ -468,7 +469,7 @@
         <div style="padding: 10px;margin-right: 50px;" id="video-img">
             <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;" id="sec-img"></a>
         </div>
-        <ul style="text-align: justify;width: 95%;">
+        <ul style="text-align: justify;width: 95%;" class="font14">
 
             <li>Lid is made of marine grade anodized aluminium</li>
             <li> One person operation</li>
@@ -480,7 +481,7 @@
 
         </ul>
 
-        <p style="width: 90%;">
+        <p style="width: 90%;" class="font14">
             The Elite Hideaway® Pool Cover not only is aesthetically pleasing but it saves time, money and our most
             precious resource, water.
             <br>

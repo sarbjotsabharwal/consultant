@@ -89,7 +89,7 @@
       }
     }
   </style>
-
+<link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -206,12 +206,12 @@
           <h4 class="card-title" style="padding-top:10px">Mr. STANLEY COBBOLD</h4>
         </div>
         <div class="cardtext" style="width: 800px;height:auto">
-          <p style="font-weight:bold;">
+          <p style="font-weight:bold;" class="font14">
             Stanley Cobbold is the Executive Director at Charthill Consultants <br>
             Independent Financial Services Professional <br>
             Rancho Santa Fe, California
           </p>
-          <div class="card-text" style="height:auto;width: auto;"> Stanley Cobbold is a successful investor,
+          <div class="card-text font14" style="height:auto;width: auto;"> Stanley Cobbold is a successful investor,
             entrepreneur,
             advisor, and
             business consultant, with over 35 years of experience in assisting businesses and capital markets. Helped
@@ -239,12 +239,12 @@
           <img src="assets/img/our team/prabhdeep singh.jpg" alt="" style="margin-left:20px;">
           <h4 class="card-title" style="padding-top:10px">Mr. PRABHJEET SINGH (PJ)</h4>
         </div>
-        <div class="cardtext" style="width: 800px;height:auto">
+        <div class="cardtext font14" style="width: 800px;height:auto">
           <p style="font-weight:bold;">
             Prabhjeet Singh is the Director at Charthill Consultants, <br>
             Perth, Western Australia
           </p>
-          <div class="card-text" style="height:auto;width: auto;">
+          <div class="card-text font14" style="height:auto;width: auto;">
             Prabhjeet Singh has vast experience in Health and Business world. He has worked in Government sector(Fitness
             Director at Fiona Stanley Hospital), private sector(Director of PW Australia Pty Ltd) and International Non
             Profit Organization ( Community Liaison officer at Amnesty International)
@@ -284,11 +284,11 @@
           <h4 class="card-title" style="padding-top: 10px; font-size: 23px;">Ms. TAYLOR BALDWIN</h4>
         </div>
         <div class="cardtext">
-          <p style="font-weight:bold;text-align:left;">
+          <p style="font-weight:bold;text-align:left;" class="font14">
             Business woman, television host, broadcast journalist, health & beauty expert, media/product development
             consultant
           </p>
-          <div class="card-text" style=" height:300px;width: auto;">
+          <div class="card-text font14" style=" height:300px;width: auto;">
             In the years 1995-2008, she worked in a variety of roles – spokesperson, anchor, producer –– for Fox Sports
             Net, CBS/TNN, KCBS-TV “Sports Central”, KTLA-TV 5 Los Angeles, KFMB-TV San Diego, Eyemark Entertainment,
             STAR 100.7 FM and CBS Newspath
@@ -304,11 +304,11 @@
           <h4 class="card-title" style="padding-top:10px">Mr. BRIAN SMITH</h4>
         </div>
         <div class="cardtext">
-          <p style="font-weight:bold;text-align:left;">
+          <p style="font-weight:bold;text-align:left;" class="font14">
             UGG Founder Brian Smith has become one of the most sought after speakers and business leaders in the
             country.
           </p>
-          <div class="card-text" style=" height:300px;width: auto;">
+          <div class="card-text font14" style=" height:300px;width: auto;">
             Team building, company culture, growth challenges, are all presented through a lens of vast experience,
             combined with a vision of a spiritual approach towards the future of business today.
             <br><br>
@@ -326,8 +326,8 @@
           <img src="assets/img/our team/beatricenew.jpg" alt="">
           <h4 class="card-title" style="padding-top:10px">Ms. BEATRICE RING</h4>
         </div>
-        <div class="cardtext">
-          <p style="font-weight:bold;text-align:left;">
+        <div class="cardtext font14">
+          <p style="font-weight:bold;text-align:left;" class="font14">
             Beatrice Ring born on September 23, 1965 in France is a French actress and director known for her portrayal in McMillions, a documentary series about the McDonald’s Monopoly game scam that occurred between 1989 and 2001 by ex-cop, Jerry Jacobson. The series premiered on February 3, 2020 on HBO.
           </p>
           <div class="card-text" style=" height:200px;width: auto;">
@@ -344,8 +344,8 @@
           <img src="assets/img/our team/barry.jpg" alt="">
           <h4 class="card-title" style="padding-top:10px">Mr. JASON BARRY</h4>
         </div>
-        <div class="cardtext">
-          <p style="font-weight:bold;text-align:left;">
+        <div class="cardtext font14">
+          <p style="font-weight:bold;text-align:left;" class="font14">
             With over $4 Billion in sales, Jason Barry has developed a global reputation as the top luxury real estate agent for San Diego’s luxury marketplace. Due to his expertise in the luxury real estate market and his integrity, loyalty and professionalism, Jason has been sought out by the most successful business leaders.
 
 

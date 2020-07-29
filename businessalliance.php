@@ -119,12 +119,13 @@
         }
 
 
-        #option{
-           display: flex;
-           font-size: 15px;
-           list-style: none;
-           text-align: justify;
+        #option {
+            display: flex;
+            font-size: 15px;
+            list-style: none;
+            text-align: justify;
         }
+
         .main-container::before {
             content: "";
             background: url(assets/img/businessalliance/alliance.jpg) no-repeat center center/cover;
@@ -155,7 +156,7 @@
             z-index: 1;
         }
 
-     
+
         @media (max-width: 768px) {
             .main-container::before {
                 content: "";
@@ -174,12 +175,15 @@
             .card-body h5 {
                 font-size: 1.5rem;
             }
-            #option{
+
+            #option {
                 display: inline;
             }
 
+
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body>
@@ -209,7 +213,8 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">JENNY CRAIG, INC.</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Jenny Craig, Inc., often known simply as
+                <p class="card-text class=" font14"" style="text-align: justify;height: auto">Jenny Craig, Inc., often
+                    known simply as
                     Jenny Craig, is an American weight loss, weight management and nutrition company. The company has
                     more than 700 weight management centers in Australia, the United States, Canada and New Zealand.
                     Jenny Craig program combines individual weight management counseling with a menu of frozen meals and
@@ -221,7 +226,7 @@
                     countries. In 1991, the company underwent an IPO, generating $73.5 million in funding.
 
                 </p>
-                <p style="text-align: center; font-size: 15px;">Charthill got a license from USA to Australia and
+                <p style="text-align: center; " class="font15 font14">Charthill got a license from USA to Australia and
                     Singapore as well. </p>
             </div>
         </div>
@@ -233,31 +238,36 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">ERA (Expense Reduction Analysis)</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Established in 1992 ERA is a specialized
+                <p class="card-text font14" style="text-align: justify;height: auto">Established in 1992 ERA is a
+                    specialized
                     cost and supplier management consultancy focused on delivering improved business performance to
                     clients of all sizes. It is one of the leading specialists for cost management achieved by
                     optimizing your business costs and finding innovative solutions to meet your company’s needs. ERA’S
                     collaborative approach provides full transparency, ensuring you retain control of all key aspects of
                     the engagement. </p>
-                <ul id="option" >
+                <ul id="option">
 
-                    <li><span style="text-align: center;">Analysis</span><br>ERA prepares a report on your current
+                    <li class="font14"><span style="text-align: center;">Analysis</span><br>ERA prepares a report on
+                        your current
                         status quo in the selected cost categories where you think savings can be achieved</li>
 
-                    <li><span style="text-align: center;">Research</span><br>ERA present you with an options report,
+                    <li class="font14"><span style="text-align: center;">Research</span><br>ERA present you with an
+                        options report,
                         based on our expertise and long-standing experience in the supplier market</li>
 
-                    <li><span style="text-align: center;">Selection & Implementation</span><br>Once the company have
+                    <li class="font14"><span style="text-align: center;">Selection & Implementation</span><br>Once the
+                        company have
                         chosen an option, ERA facilitate implementation of the savings process in your company.</li>
 
-                    <li><span style="text-align: center;">Monitoring</span><br>Over the next few months, ERA monitor
+                    <li class="font14"><span style="text-align: center;">Monitoring</span><br>Over the next few months,
+                        ERA monitor
                         the
                         savings achieved in the performance reports.</li>
 
                 </ul>
                 <div class="">
 
-                    <p style="font-size: 15px;">
+                    <p style="" class="font14 font15">
                         ERA was successfully franchised via Charthill consultants in Australia from United States.
                     </p>>
                 </div>
@@ -271,7 +281,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">SPACECUBE</h5>
-                <p class="card-text" style="text-align: justify;height: auto">SPACECUBE provides architects, designers
+                <p class="card-text font14" style="text-align: justify;height: auto">SPACECUBE provides architects, designers
                     and creators a highly resolved solution for any temporary or transitional infrastructure projects
                     or developments. Designed, engineered and manufactured in Australia since 2012, whether it’s for
                     events, advertising, retail or commercial applications there is growing demand for premium,
@@ -280,7 +290,7 @@
                     layman’s terms so that you can be a part of the process. After all, it’s your business. You should
                     be in control.
                     <br>
-                    <center style="font-size: 15px;">Space cube was franchised by Charthill</center>
+                    <center style="" class="font14 font15">Space cube was franchised by Charthill</center>
                 </p>
             </div>
         </div>
@@ -291,7 +301,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">CLA SOCKETS</h5>
-                <p class="card-text" style="text-align: justify;height: auto">An Australian owned company established in
+                <p class="card-text font14" style="text-align: justify;height: auto">An Australian owned company established in
                     1999, on the Northern Beaches of Sydney, CLA socket is a leading provider of innovative,
                     high-quality energy saving lamps, trendy lighting fixtures and related products to all commercial,
                     industrial, residential and utility markets. Since its inception, CLA has continuously evolved to
@@ -299,7 +309,7 @@
                     Australian market the latest in national and international lighting trends.
 
                 </p>
-                <p style="text-align: center;font-size: 15px;">CLA SOCKET was licensed by Charthill consultants</p>
+                <p style="text-align: center;" class="font14 font15">CLA SOCKET was licensed by Charthill consultants</p>
             </div>
         </div>
         <div class="card bg-light mb-3" style="" id="ba1">
@@ -309,7 +319,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">SOLAR EDWARD</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Edwards Solar Plus is a local company with
+                <p class="card-text font14" style="text-align: justify;height: auto">Edwards Solar Plus is a local company with
                     a vast knowledge of both solar grid connected and standalone systems within the renewable energy
                     industry.
 
@@ -322,7 +332,7 @@
 
                 </p>
                 <p></p>
-                <p style="text-align: center;font-size: 15px;"> Licensed by Charthill consultants in Australia.</p>
+                <p style="text-align: center;" class="font14 font15"> Licensed by Charthill consultants in Australia.</p>
             </div>
         </div>
         <div class="card bg-light mb-3" style="" id="ba1">
@@ -332,7 +342,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">GYMBOREE PLAY & MUSIC</h5>
-                <p class="card-text" style="text-align: justify;height: auto">The specially designed Gymboree Play &
+                <p class="card-text font14" style="text-align: justify;height: auto">The specially designed Gymboree Play &
                     Music classes incorporate new technology with classic learning techniques to engage young minds.
                     Choose from our wide range of early childhood classes for ages 0-5 years. It is the global leader
                     for developmental play, music and art classes for parents and children up to 5 years of age. Based
@@ -349,12 +359,12 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">DERMSHIELD</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Dermshield was first formulated in 1991.
+                <p class="card-text font14" style="text-align: justify;height: auto">Dermshield was first formulated in 1991.
                     Benchmark Skincare, previously known as Benchmark Technologies, was formed in 1994 and has been
                     solving skincare concerns worldwide ever since. Derma Shield prevents irritant contact dermatitis by
                     providing an invisible, non-greasy and non-toxic barrier that protects all skin areas.
                     <br>
-                <p style="text-align: center;font-size: 15px;">Dermshield was licensed by Charthill consultants</p>
+                <p style="text-align: center;" class="font14 font15">Dermshield was licensed by Charthill consultants</p>
 
             </div>
         </div>
@@ -365,14 +375,14 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">UTC(UNDER WATER TECHNOLOGY)</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Underwater Technology is a scientific
+                <p class="card-text font14" style="text-align: justify;height: auto">Underwater Technology is a scientific
                     journal covering research on underwater technology, ocean science, and offshore engineering. It is
                     the official journal of the Society for Underwater Technology. It was established in 1975 and is
                     published three times a year in hard copy and electronic format.
 
 
                     <br>
-                <p style="text-align: center;font-size: 15px;">UTC was licensed by chart hill consultants</p>
+                <p style="text-align: center;" class="font14 font15">UTC was licensed by chart hill consultants</p>
 
             </div>
         </div>
@@ -383,13 +393,13 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">AIM (AUTOMATIC IRONING MACHINE)</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Automatic Ironing Machine is a design that
+                <p class="card-text font14" style="text-align: justify;height: auto">Automatic Ironing Machine is a design that
                     uses an innovative framework and motorized mechanisms to effectively iron various clothes by
                     minimizing the difficulties in the task of ironing.
 
 
                     <br>
-                <p style="text-align: center;font-size: 15px;">Licensed by Charthill consultants</p>
+                <p style="text-align: center;" class="font14 font15">Licensed by Charthill consultants</p>
 
             </div>
         </div>
@@ -400,7 +410,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">PLAYFUL PARENTING CHILD EDUCATION</h5>
-                <p class="card-text" style="text-align: justify;height: auto">Play between a parent and child up to the
+                <p class="card-text font14" style="text-align: justify;height: auto">Play between a parent and child up to the
                     age of three years can be quite literally life changing for both parties. A long-lasting bond
                     between parent and child can be established through playful interactions, laying the foundation for
                     a positive and healthy relationship that can grow throughout childhood.

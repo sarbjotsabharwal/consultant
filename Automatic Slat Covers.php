@@ -462,6 +462,7 @@
 
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -503,11 +504,11 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-        <p>
+        <p class="font14">
             Out-of-sight and out-of-mind, that’s the Elite Hideaway® difference.When not in use your Elite Solar Pool Blanket is stored away. It’s easy to operate with a single person able to remove or replace the Solar Blanket in no time at all.
         </p>
 
-        <ul style="" class="para">
+        <ul style="" class="para font14">
             The other unique benefit is this range can be installed to new and most existing pools of almost any shape and size. Your pool blanket and roller are hidden away underneath the aluminium lid.
 
             <li> Lid is made of marine grade anodized aluminium</li>
@@ -521,7 +522,7 @@
         <div style="" id="video-img">
             <a href="" onclick="OpenPlayer8()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/triple cell/video.png" alt="" style="border-radius: 10px;" id="sec-img"></a>
         </div>
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="font14">
 
             The Elite Hideaway® Pool Cover not only is aesthetically pleasing but it saves time, money and our most precious resource, water.<br><br>
 

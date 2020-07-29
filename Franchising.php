@@ -251,6 +251,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;background: black;">
@@ -282,7 +283,7 @@
                     Charthill – BUSINESS FRANCHISING SERVICES
                 </h3><br>
 
-                <p> Since 1985 we have been assisting successful businesses just like yours who are looking to roll out
+                <p class="font14"> Since 1985 we have been assisting successful businesses just like yours who are looking to roll out
                     a profitable franchise model. The franchisor journey can be fraught with hidden pitfalls to the
                     uninitiated, and our wealth of experience will highlight these from our very first meeting.
                     The experience level and history of our consultants is truly remarkable. We encourage you to read
@@ -304,7 +305,7 @@
                     How to Franchise Your Business Simply
                 </h3><br>
 
-                <p> It‘s more than just systems: a franchise without a system is like a car without wheels – it’s just
+                <p class="font14"> It‘s more than just systems: a franchise without a system is like a car without wheels – it’s just
                     not going anywhere.
                     Whether you are just starting up, you currently have 50 franchisees or are somewhere in between, if
                     you want to franchise successfully, you need a clear simple and well-documented system just as any
@@ -341,7 +342,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
                     <h5 class="card-title">BUILDING TWO BUSINESS STRUCTURES </h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         You are in fact building at least two very different but linked business structures, one for you
                         as
                         franchisor and one for your partners in business, your franchisees.
@@ -365,7 +366,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
                     <h5 class="card-title">FRANCHISOR SUPPORT</h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         So yes, one of your core roles as the franchisor is to look after your franchisees. And this
                         will
                         involve different skills with different franchisees as they grow in your partnership.
@@ -390,7 +391,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
                     <h5 class="card-title">THE MARKET SAYS YES </h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         Looking after your brand and marketing is also a central responsibility for any franchisor.
                         Marketing in a franchise, as with any business, involves far more than just advertising.
 
@@ -414,7 +415,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
                     <h5 class="card-title">TWO SIDES OF THE SAME BUSINESS </h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         So yes, big or small, the secret is to realise you are building two completely different
                         business
                         structures from your current business and you will be doing business in a completely different
@@ -440,7 +441,7 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #d3d0ff, #c38fff);opacity: 1;">
                     <h5 class="card-title">EXPANSION WITH CHOICE</h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         How big do you need your franchise group to be? Do you have a simple business method which will
                         suit
                         the largest number of potential franchisees or does the complexity in your business restrict the
@@ -465,10 +466,10 @@
             background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
             background: linear-gradient(to right, #99fdb2, #eefc6f);opacity: 1;">
                     <h5 class="card-title">MONEY MAKES THE WORLD GO AROUND </h5>
-                    <p class="card-text" style="text-align: justify;padding: 10px;color: black;height: auto;">
+                    <p class="card-text font14" style="text-align: justify;padding: 10px;color: black;height: auto;">
                         So, right at the beginning, as you design your franchised business, you need to work out the
                         money.
-                        <ul style="color: rgb(0, 0, 0);text-align: justify;font-size: 15px; ">
+                        <ul style="color: rgb(0, 0, 0);text-align: justify;" class="font14 font15">
                             <li>How much does each franchise outlet need to earn to be profitable enough to support you and
                                 them?</li>
                             <li>How much does your product need to cost and sell for?</li>
@@ -540,10 +541,10 @@
         <div class="heading"></div>
         <div class="content">
             <!-- <h1 style="color:white;">LICENSING</h1> -->
-            <p style="color: white;text-align: center;width: 90%; display:block;margin: auto;font-size: 20px;">
+            <p style="color: white;text-align: center;width: 90%; display:block;margin: auto;font-size: 20px;" class="">
                 <b>Following the completion and development of your Franchise System we will provide ongoing training,
                     guidance and support:-</b></p>
-            <ul id="list-11">
+            <ul id="list-11" class="font14">
                 <li>Launch marketing campaign guidance</li>
                 <li>Recruitment, screening and qualifying potential franchisees</li>
                 <li>The Due Diligence Process; meetings, franchisee visits, preparation of all legal documentation and

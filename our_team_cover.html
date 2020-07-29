@@ -20,9 +20,9 @@
             width: 100vw;
             height: 100vh;
             background: url('assets/img/our team/ourteamcover.jpg')no-repeat center center;
-            background-clip:padding-box;
+            background-clip: padding-box;
             background-size: 100vw 100vh;
-           
+
         }
 
         @keyframes logomove {
@@ -92,7 +92,7 @@
             animation-iteration-count: 1;
             animation-delay: 5s;
             z-index: 1000;
-           
+
         }
 
         @keyframes displaydown {
@@ -106,12 +106,27 @@
                 opacity: 0;
             }
         }
+
+        @media (max-width:768px) {
+            .cover1 {
+                position: fixed;
+                top: 0;
+                left: 0;
+                margin: 0;
+                width: 100vw;
+                height: 100vh;
+                background: url('assets/img/our team/ourteamcovermobile.jpg')no-repeat center center /cover;
+              
+                background-size: 100vw 100vh;
+
+            }
+        }
     </style>
 
 </head>
 
 <body>
-    <div class="allcontainer" id="allcontainer" >
+    <div class="allcontainer" id="allcontainer">
         <div class="cover1" id="cover1">
         </div>
         <!-- <div class="team-container">
@@ -122,7 +137,7 @@
             <img src="assets/img/our team/beatricenew.jpg" alt="" class="oddimg">
             <img src="assets/img/our team/barry.jpg" alt="" class="evenimg">
         </div> -->
-      
+
     </div>
 </body>
 <script>

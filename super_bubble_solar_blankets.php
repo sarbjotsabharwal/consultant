@@ -384,6 +384,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -419,7 +420,7 @@
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
 
-        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para">
+        <ul style="margin-right: 30px;padding: 20px;text-align: justify;margin-right: 10px;" class="para font14">
             <li>While the sun is trying to heat your pool, the wind sets up convection currents that steal the same heat
                 at an alarming rate.</li>
 
@@ -442,7 +443,7 @@
         <i> What will an Elite Pool Blanket do for me?</i>
     </div>
 
-    <div class="pool-blanket">
+    <div class="pool-blanket font14">
         <div class="content">
             <img src="assets/img/elitepool/superbubble/Solar-Heating-Free-300x156-1.jpg" alt="">
             <hr>
@@ -466,7 +467,7 @@
     <br><br>
 
 
-    <div class="text-container" style="background: rgb(51, 51, 51,.5);width: 90%;margin: auto;color: white;text-align: center;border-radius: 20px;">
+    <div class="text-container font14" style="background: rgb(51, 51, 51,.5);width: 90%;margin: auto;color: white;text-align: center;border-radius: 20px;">
         <br>
         <h2>What makes Elite Blanket range better than others? </h2>
         <h5 style="font-style: italic;">*NOT ALL BLANKETS ARE CREATED EQUAL*</h5>
@@ -474,13 +475,13 @@
         <h4 style="background: rgb(0, 0, 0,.6);border-radius: 20px;padding: 15px;">The Five Facts about round bubble
             blankets</h4>
 
-        <p style="padding:30px;color: white;font-size: 20px;text-align: justify;"> <b>“Ten years ago Elite set out to
+        <p style="padding:30px;color: white;text-align: justify;" class="font14 font20"> <b>“Ten years ago Elite set out to
                 improve on All aspects of the ‘run of the mill round bubble blankets’ and
                 succeeded by developing the Elite Super Bubble Blanket that is proven to out-perform all Solar type of
                 round
                 bubble blankets on the world market.*”</b>
         </p>
-        <ol style="text-align: justify;margin: 30px;margin-top: 0;" type="1">
+        <ol style="text-align: justify;margin: 30px;margin-top: 0;" type="1" class="font14">
             <li>There are a number of ”run of the mill” round bubble type blankets on the market. Most of them perform
                 the
                 same as each other i.e. heat the same/as they are the same pale colours.</li>

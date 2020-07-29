@@ -438,6 +438,7 @@
 
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;">
@@ -479,11 +480,11 @@
 
     <!-- section start -->
     <div class="container2" id="elitepool" style="margin-bottom: 25px;margin-top:10px">
-        <p>
+        <p class="font14">
             Elite Energy Saving Fully Automatic Rigid / Slat Pool Cover Systems… Security, debris protection and style…
         </p>
 
-        <ul style="" class="para">
+        <ul style="" class="para font14">
             Elite’s range of fully automatic rigid /slat pool cover systems offer pool owners the maximum enjoyment from
             their pool with the minimum of effort.
             <br><br>
@@ -500,7 +501,7 @@
         <div style="" id="video-img">
             <a href="" onclick="OpenPlayer13()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/elitepool/automatic flexible/automatic flexible covers.png" alt="" style="border-radius: 10px;" id="sec-img"></a>
         </div>
-        <p style="text-align: justify;width:92%">The thick mesh also means that water evaporation and chemical usage is
+        <p style="text-align: justify;width:92%" class="font14">The thick mesh also means that water evaporation and chemical usage is
             greatly
             Many concealed options to choose from…
             <br><br>

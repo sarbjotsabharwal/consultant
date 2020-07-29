@@ -135,7 +135,7 @@
             margin: 10px;
             list-style-type: none;
             border-radius: 10px;
-            font-size: 17px;
+            
         }
 
         .list-items li:nth-child(odd) {
@@ -307,6 +307,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/css/fontset14.css">
 </head>
 
 <body style="font-family: Montserrat, sans-serif;background:black">
@@ -336,7 +337,7 @@
 
                 </h3>
 
-                <p> “AUSTRALIA” the name creates an image of a country inhabited by progressive and healthy society,
+                <p class="font14"> “AUSTRALIA” the name creates an image of a country inhabited by progressive and healthy society,
                     with people
                     emigrated from almost every nation.
                     <br>
@@ -365,7 +366,7 @@
         <div class="container" style="background: rgba(141, 141, 141, 0.5);color:white;width: 100vw;padding: 15px;border-radius: 20px;">
             <div class="card-body" style="display: flex;flex-wrap:wrap;justify-content: center;">
 
-                <ul class="list-items">
+                <ul class="list-items font14 font17">
                     <li>Relevant market research.</li>
                     <li>Market entry strategy</li>
                     <li>Feasibility study</li>
@@ -373,7 +374,7 @@
                     <li>Distribution channel information</li>
                     <li>Marketing plan</li>
                 </ul>
-                <ul class="list-items">
+                <ul class="list-items font14 font17">
                     <li>Projected cost analysis</li>
                     <li>Location research</li>
                     <li> Evidence of a joint-venture partnership (if relevant)</li>
@@ -399,7 +400,7 @@
                         class 132)
 
                     </h5>
-                    <p style="font-size: 15px;padding-left: 40px;padding-right: 40px;"><b>It is a permanent
+                    <p style="padding-left: 40px;padding-right: 40px;" class="font14 font15"><b>It is a permanent
                             visa for high-caliber business owners or part-owners who want to do business in Australia.
                             The
                             132 visa is a state nominated Australian provisional business visa which is valid for four
@@ -417,12 +418,12 @@
                                 </h5>
                             </div>
 
-                            <div class="card-body text-dark" id="card-body-1">
+                            <div class="card-body text-dark font14 font15" id="card-body-1">
 
                                 If your proposed business activity relates to property development, you must meet the
                                 following
                                 additional requirements:<br>
-                                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;padding: 15px;">
+                                <ol style="list-style: lower-alpha;text-align: justify;padding: 15px;" class="font14">
                                     <li>
 
                                         Have relevant qualifications and experience (e.g. architecture, engineering,
@@ -454,7 +455,7 @@
                                 </h5>
                             </div>
                             <div class="card-body text-dark" id="card-body-2" style="">
-                                <ol style="list-style: lower-alpha;text-align: justify;font-size: 15px;">
+                                <ol style="list-style: lower-alpha;text-align: justify;" class="font14 font15">
                                     <li>
 
                                         A net value of at least AUD1.5 million (lawfully acquired)

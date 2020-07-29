@@ -10,7 +10,8 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
 
   <!-- V CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -140,10 +141,27 @@
       height: 20rem;
     }
 
-    .item img{
-     width: 400px;
-     margin-left: 100px;
+    .item img {
+      width: 400px;
+      margin-left: 100px;
     }
+
+    .pop-card1 {
+      color: white;
+      padding-left: 20px;
+      margin-left: 30px;
+      margin-right: 80px;
+      font-size: 16px
+    }
+
+    .pop-card2 {
+      padding-left: 20px;
+      margin-left: 30px;
+      margin-right: 80px;
+      font-size: 16px
+    }
+
+
 
     /* responsive */
     @media (max-width: 768px) {
@@ -191,8 +209,14 @@
       .item img {
         width: 100%;
         margin: 0;
-        
+
       }
+
+      .pop-card1,
+      .pop-card2 {
+        font-size: 14px
+      }
+
 
     }
   </style>
@@ -294,7 +318,7 @@
 
   <div class="top-container1">
     <h1 id="header-text">
-      Start Your <span class="span-green">Franchising</span> & <span class="span-green">Licensing</span> <br> Journey
+      Start Your <span class="span-green">hising</span> & <span class="span-green">Licensing</span> <br> Journey
       with Us
     </h1>
 
@@ -302,8 +326,8 @@
   </div>
   <div class="top-cards">
     <div class="card-item" style="background: rgb(37, 155, 37);">
-      <h1 style="font-weight: bold;color:white;padding: 5px;margin-top: 20px;margin-left: 40px;">Franchising</h1>
-      <p style="color:white;padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Franchising is a
+      <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;color: white;">Franchising</h1>
+      <p style="" class="pop-card1">Franchising is a
         business format, where one party (the franchiser) grants another party (the franchisee) the right to use its
         trademark or trade-name as well as certain business systems and processes to produce and market the goods or
         services according to certain specifications. </p>
@@ -314,7 +338,7 @@
 
     <div class="card-item" style="background: rgb(0, 18, 177);color: white">
       <h1 style="font-weight: bold;padding: 5px;margin-top: 20px;margin-left: 40px;">Licensing</h1>
-      <p style="padding-left: 20px;margin-left: 30px;margin-right: 80px;font-size:16px">Licensing is a business format,
+      <p style="" class="pop-card2">Licensing is a business format,
         wherein a company authorizes another company by issuing a license to access its intellectual property rights,
         i.e. manufacturing process, brand name, copyright, trademark, patent, technology, trade secret, etc. for
         adequate consideration and under specified conditions.
@@ -340,16 +364,19 @@
   </div>
   <div class="vide-container" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(6, 124, 1);">
     <div class="video-item" style="margin:20px;border: 10px white solid;">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S0y7-Y5uHlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S0y7-Y5uHlE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-item" style="margin:20px;border: 10px white solid;">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KCObP7-5dwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KCObP7-5dwE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
   </div>
   <!-- sectin end -->
 
-  <div class="map-section" style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
+  <div class="map-section"
+    style="display: flex;flex-wrap:wrap;justify-content:center;background: rgb(167, 167, 167);color: white;">
     <div class="item">
       <h2 style="margin-top: 30px;text-align: center;font-weight: bold;">Charthill in Unites States</h2>
       <h4 style="text-align: center;">500 North Rainbow Blvd,<br>
@@ -357,7 +384,7 @@
         Nevada, 89107<br>
         UNITED STATES</h4>
       <br>
-      <img src="assets/img/america map.png" alt="" >
+      <img src="assets/img/america map.png" alt="">
     </div>
 
     <div class="item">
@@ -368,7 +395,7 @@
         AUSTRALIA <br>
       </h4>
       <br>
-      <img src="assets/img/australia map..png" alt="" >
+      <img src="assets/img/australia map..png" alt="">
 
     </div>
   </div>
